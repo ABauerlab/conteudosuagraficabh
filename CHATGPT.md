@@ -167,3 +167,23 @@ Não presumir que todo Reel será gravado da mesma forma. Para cada um dos dois 
 A escolha é responsabilidade estratégica do ChatGPT. React não é obrigatório e não deve ser usado só para variar. Use-o quando a referência específica realmente fortalecer o gancho, a compreensão ou a retenção. Se não houver necessidade de material externo, prefira uma execução simples e clara.
 
 Todo briefing de Reel deve conter um bloco destacado **COMO ESTE REEL SERÁ PRODUZIDO**, com: modalidade escolhida; o que João grava; se existe vídeo/imagem para inserir por cima; link e trecho exatos quando houver referência; o que Claude deve criar; e lista objetiva dos arquivos que João precisa entregar. A instrução deve permitir que João saiba imediatamente se basta gravar e enviar a fala ou se precisa gravar/reagir a algo específico.
+
+
+## REGRA PRIORITÁRIA: ORGANIZAÇÃO POR CAPTAÇÃO HUMANA E PRODUÇÃO AUTOMATIZADA
+A entrega de conteúdo deve reduzir ao mínimo o trabalho manual do João. Nunca criar dezenas de briefings soltos como entrega principal.
+
+Para cada lote semanal, criar uma pasta única em `lotes/AAAA-MM-DD_a_AAAA-MM-DD/` contendo:
+1. `CAPTACAO.md`: somente peças que exigem presença, voz, demonstração ou gravação do João. Abrir com total de vídeos/falas/demonstrações e objetos necessários. Para cada gravação, incluir ID, título, fala integral em teleprompter, modalidade, enquadramento, luz, áudio, takes, duração e nome exato do arquivo RAW. Agrupar gravações por cenário/roupa/iluminação para permitir uma única sessão. Se nenhum vídeo humano for necessário, declarar zero gravações.
+2. `PRODUCAO-CLAUDE.md`: tudo que Claude consegue criar sem captação do João: Stories gráficos, posts estáticos, carrosséis (cada slide exportado separadamente), capas, thumbnails, motion e vídeos com assets próprios/licenciados. Incluir IDs, texto final, dimensão, direção visual, arquivos finais, legendas e instruções de produção. Não solicitar gravação quando ela não for necessária.
+3. `CALENDARIO.md`: grade diária com cadência, ID, formato, responsável (JOÃO ou CLAUDE), dependência, status e data. Manter também o calendário geral da raiz atualizado com link para o lote.
+4. `REFERENCIAS/`: prancha visual do lote e referências licenciadas/originais pertinentes.
+
+Manter IDs SG sequenciais únicos para cada peça, inclusive Stories. A cadência mínima continua 2 Reels, 1 publicação de feed e 3 Stories por dia. A quantidade de captação humana não é fixa: decidir individualmente se rosto/voz/demonstração do João é realmente indispensável. Não transformar automaticamente Reels ou Stories em gravações. Priorizar artes, motion e vídeos automatizáveis quando entregarem resultado igual ou melhor.
+
+Antes de incluir item em CAPTACAO.md, decidir: a presença, voz ou demonstração do João é indispensável para a ideia? Se não, atribuir a CLAUDE. Se sim, incluir instrução completa e mastigada. Stories devem ser gráficos por padrão, salvo quando a captação humana agregar valor claro.
+
+A produção de Claude não deve esperar os vídeos brutos: executar primeiro todos os itens de PRODUCAO-CLAUDE.md. Depois que João colocar os arquivos na pasta de brutos com nome contendo o ID SG, localizar e editar somente os vídeos correspondentes.
+
+No resumo ao João, começar com: `VOCÊ PRECISA GRAVAR: X vídeos / Y falas / Z demonstrações.` Em seguida, listar a sessão de captação agrupada e os nomes dos arquivos. Separadamente, informar quantas peças Claude produz sem gravação. Entregar um único prompt de execução que oriente Claude a produzir automaticamente tudo que não depende de João e a finalizar os vídeos quando os brutos chegarem.
+
+Não apagar nem sobrescrever briefings antigos sem autorização. Se o usuário disser que apagou a pasta antiga, verificar o estado real do repositório antes de criar o lote novo. Não afirmar que arquivos foram apagados, enviados, agendados ou publicados sem confirmação da ferramenta.
