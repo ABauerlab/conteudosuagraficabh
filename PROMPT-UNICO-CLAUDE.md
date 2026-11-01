@@ -126,13 +126,14 @@ A Meta informa que os insights do Trial Reel costumam ficar disponíveis aproxim
 A documentação do Postiz descreve os campos `is_trial_reel` e `graduation_strategy` (`MANUAL` ou `SS_PERFORMANCE`), mas a presença desses campos não garante que a conta e a integração conectadas permitam promover manualmente o mesmo Reel após a janela de análise. Consulte: https://postiz.com/codex/instagram.
 
 Regras operacionais:
-1. Antes de usar Trial Reel, verificar no Postiz e na conta conectada se a publicação como Trial está realmente disponível.
-2. Se estiver disponível e for o formato definido no briefing, agendar/publicar com `is_trial_reel=true` e a estratégia indicada.
+1. O Postiz documenta suporte a `is_trial_reel=true` e `graduation_strategy=MANUAL` ou `SS_PERFORMANCE`. Antes do primeiro uso na instalação self-hosted, confirmar a versão e os campos aceitos pela integração Instagram conectada.
+2. Se disponível e previsto no briefing, publicar o Trial Reel via Postiz com `is_trial_reel=true` e `graduation_strategy=MANUAL` quando a decisão de compartilhar depois for humana.
 3. Registrar ID, horário real, status e confirmação retornada pela ferramenta.
-4. **Não deixar o Claude aguardando 24 horas nem manter a execução do lote aberta.** Após criar/agendar o Trial Reel, finalizar as demais tarefas e registrar a etapa posterior como pendente.
-5. Após a janela de métricas, a graduação manual exige uma ação posterior. Só executar quando a ferramenta oferecer a ação oficial para o mesmo Reel e as métricas tiverem sido avaliadas.
-6. Não usar `SS_PERFORMANCE` como sinônimo de um timer fixo de 24 horas. Não criar uma segunda publicação para simular a graduação.
-7. Se o recurso não estiver disponível, marcar `PENDENTE DE RECURSO TRIAL REEL`. Só usar Reel regular como alternativa se o briefing permitir explicitamente; caso contrário, deixar pendente e continuar os demais itens aptos.
+4. **Não deixar o Claude aguardando 24 horas nem manter a execução do lote aberta.** Finalizar as demais tarefas e registrar a revisão posterior.
+5. Aproximadamente 24 horas depois, consultar as métricas. Se a decisão for compartilhar com seguidores, usar no Instagram a ação nativa **Compartilhar com todos / Share with everyone** no mesmo Trial Reel. Isso mantém a mesma publicação; não criar uma cópia.
+6. Não publicar o mesmo vídeo como Reel normal no dia seguinte para depois apagar uma publicação. Isso divide os históricos e não transfere engajamento.
+7. `SS_PERFORMANCE` é graduação automática decidida pelo Instagram, não um agendamento manual para exatamente 24 horas.
+8. Se a integração não suportar Trial Reel, marcar `PENDENTE DE RECURSO TRIAL REEL` e não duplicar. Continuar os demais itens aptos.
 
 Facebook e Threads podem ser agendados/publicados normalmente após revisão, conforme o calendário. Não aplicar a regra de Trial a esses canais.
 ## 8. Caminho para o WhatsApp e atribuição
