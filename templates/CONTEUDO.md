@@ -110,3 +110,18 @@
 - **Visitas/cliques/conversas/leads/orçamentos/pedidos:**
 - **Origem/atribuição:** DIRETA / ASSISTIDA / ESTIMADA / DESCONHECIDA
 - **Aprendizado e próximo teste:**
+
+
+## CTA falado do vídeo (obrigatório quando houver fala)
+
+- **Ação principal desejada:**
+- **Frase exata do CTA falado:**
+- **Última fala do teleprompter contém o CTA?** SIM / NÃO / NÃO SE APLICA
+- **Texto de apoio na tela:**
+- **Destino/ação:** seguir / comentar / salvar / compartilhar / orçamento / outro
+
+Checklist adicional para vídeos:
+- [ ] O CTA está escrito como a última fala do teleprompter.
+- [ ] A frase soa natural e corresponde ao objetivo do conteúdo.
+- [ ] A edição preserva a fala completa e dá tempo para a ação ser compreendida.
+- [ ] O CTA visual reforça, mas não substitui, o CTA falado.
