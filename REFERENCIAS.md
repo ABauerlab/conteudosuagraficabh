@@ -1,39 +1,8 @@
-# Banco de referências audiovisuais
+# Referências | lote 04–11/11/2026
 
-Este arquivo reúne vídeos, tendências e fontes usadas como inspiração para os conteúdos da SUA GRÁFICA BH.
+Pesquisa consultada em 01/11/2026:
+- Metricool, 10 Instagram Trends Backed By Real Data in 2026, 16/06/2026: https://metricool.com/instagram-trends/ — análise ampla de formatos e ações de audiência; referência de mercado, não previsão para a conta.
+- Later, tendências de Reels atualizadas em 30/10/2026: https://later.com/blog/instagram-reels-trends/ — formatos observados recentemente, usados como inspiração sem copiar áudio ou publicação.
+- Hootsuite, Instagram Reels for business in 2026, 26/10/2026: https://blog.hootsuite.com/instagram-reels/ — boas práticas de gancho, retenção e conteúdo original.
 
-## Como registrar
-Para cada referência, preencher:
-- ID.
-- Link da publicação.
-- Link do arquivo original, se diferente.
-- Criador/perfil e plataforma.
-- Descrição do que aparece.
-- Relação com o produto ou público da gráfica.
-- Data em que foi encontrada.
-- Status de localização da origem.
-- Status de autorização/licença de uso.
-- Ideia de roteiro derivada.
-
-## Status possíveis
-- **ORIGINAL LOCALIZADO:** publicação de origem identificada.
-- **FONTE NÃO CONFIRMADA:** o vídeo foi visto, mas a publicação original ainda não foi encontrada.
-- **ALTERNATIVA:** vídeo semelhante, não é o original.
-- **USO AUTORIZADO:** autorização ou licença comprovada.
-- **USO PENDENTE:** direitos de reutilização ainda precisam ser verificados.
-
-## Referência 001 | Totem de mão / display promocional
-- **Tema:** pessoas segurando displays gigantes em formato de mão, com produtos ou mensagens.
-- **Aplicação possível:** chamar atenção para promoções, produtos e marcas de comércios.
-- **Referência compartilhada na conversa:** https://www.instagram.com/reel/De9bkqTxTP7/
-- **Status de origem:** FONTE NÃO CONFIRMADA. O link é a referência de um Reel com reação/comentário; o vídeo original isolado ainda não foi identificado.
-- **Próxima ação:** localizar a publicação original do vídeo de fundo, sem o apresentador reagindo.
-- **Uso:** não presumir autorização de reutilização.
-
-## Referência 002 | Copo e embalagem gigantes
-- **Tema:** pessoa segurando um copo vermelho com a marca Добрый e uma embalagem com a identificação MC HOUSE.
-- **Descrição:** captura de tela enviada na conversa; mostra um vídeo usado como fundo em um conteúdo de reação.
-- **Pistas textuais:** "Добрый" e "MC HOUSE".
-- **Status de origem:** FONTE NÃO CONFIRMADA. A captura não permite afirmar quem publicou primeiro.
-- **Próxima ação:** pesquisar pelos nomes escritos nos produtos, inclusive em cirílico, e fazer busca reversa por frame.
-- **Uso:** não presumir autorização de reutilização.
+Decisão: gravação original de João, ganchos úteis, carrosséis salváveis e Stories de relacionamento. Não foram citados produtos, preços ou prazos específicos porque a documentação acessível não confirma o catálogo ativo em tempo real. Nenhum vídeo de terceiros será reutilizado.
