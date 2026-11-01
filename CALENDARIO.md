@@ -18,23 +18,13 @@ Use este arquivo como visão geral de todos os formatos. O briefing completo de 
 
 Estados adicionais: PENDENTE DE CATÁLOGO, PENDENTE DE DIREITOS, PENDENTE DE ARQUIVO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE PRODUÇÃO e ERRO DE AGENDAMENTO.
 
-## Lote semanal | 02 a 08/11/2026
+## Conteúdo inicial
 
-| Data | ID | Conteúdo | Formato | Status |
+| ID | Conteúdo | Formato | Status | Observações |
 |---|---|---|---|---|
-| 02/11 | SG-008 | Qual é o seu tipo de negócio? | Stories interativos | BRIEFING PRONTO |
-| 03/11 | SG-002 | Seu cardápio está ajudando a vender? | Reel | BRIEFING PRONTO |
-| 04/11 | SG-003 | Checklist antes de imprimir panfletos | Carrossel (7 slides) | BRIEFING PRONTO |
-| 05/11 | SG-004 | O rótulo também vende a primeira impressão | Reel | BRIEFING PRONTO |
-| 06/11 | SG-005 | Sua marca pode sair por aí | Post estático | BRIEFING PRONTO |
-| 07/11 | SG-006 | A próxima compra começa na primeira visita | Carrossel (6 slides) | BRIEFING PRONTO |
-| 08/11 | SG-007 | Sua mensagem precisa aparecer no ponto de venda | Reel | BRIEFING PRONTO |
+| SG-001 | Uma ideia simples para chamar atenção no ponto de venda | Reel | BRIEFING PRONTO | Produção original com motion/mockup conceitual. CTA falado no encerramento. Não anunciar o display como produto disponível no catálogo. |
 
-## Conteúdo anterior em aberto
-
-| ID | Tema | Formato | Status | Observações |
-|---|---|---|---|---|
-| SG-001 | Totem de mão / display promocional | Comentário sobre vídeo | PESQUISANDO REFERÊNCIA | Localizar o vídeo original sem reação e confirmar direitos. Não confundir com os produtos de totem/display já existentes no catálogo. |
+Os conteúdos SG-002 a SG-008 foram removidos por serem materiais de teste e não fazem parte do calendário oficial.
 
 ## Registro de publicação e análise
 Para cada ID, preencher:
@@ -48,4 +38,4 @@ Para cada ID, preencher:
 - Aprendizado e próximo teste.
 
 ## Próximo ID disponível
-SG-009. Nunca reiniciar a numeração nem reutilizar IDs.
+SG-002. A numeração segue sequencialmente a partir daqui. Não reutilizar IDs já atribuídos, mesmo que um conteúdo seja cancelado.
