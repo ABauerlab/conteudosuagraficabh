@@ -1,14 +1,14 @@
 # Operação de conteúdo | SUA GRÁFICA BH
 
 ## Objetivo
-Manter uma rotina simples: ChatGPT pesquisa e cria roteiros, João grava e envia os brutos ao Drive, Claude edita e distribui os materiais finalizados pelo Postiz.
+Manter uma rotina simples: ChatGPT pesquisa, planeja e entrega lotes multimodais com roteiros, artes e direção visual; João grava os vídeos e coloca os brutos e a prancha visual no Drive; Claude produz as artes finais, edita os vídeos, revisa e agenda/distribui os materiais aptos pelo Postiz.
 
 Não criar etapas, serviços ou ferramentas adicionais quando as integrações já disponíveis no ambiente do Claude forem suficientes.
 
 ## Papéis
-- **ChatGPT:** pesquisa, estratégia editorial, roteiros, briefings e organização do repositório.
+- **ChatGPT:** pesquisa, estratégia editorial, roteiros, copy, briefings de todas as peças, prancha visual e organização do repositório.
 - **João:** grava os roteiros e envia os vídeos para a pasta de brutos. Quando solicitar o processamento em lote, autoriza a edição e a publicação dos conteúdos que passarem no controle de qualidade.
-- **Claude Code:** consulta este repositório, localiza os brutos no Drive, edita, revisa e distribui pelo Postiz.
+- **Claude Code:** consulta este repositório, o CRM e o Brand Kit; localiza os brutos e a prancha visual no Drive; produz artes finais, edita, revisa e agenda/distribui pelo Postiz.
 - **Google Drive:** armazenamento dos arquivos.
 - **Postiz:** distribuição nos canais configurados: Instagram, Facebook e Threads.
 
@@ -39,27 +39,35 @@ Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
 Não apagar nem sobrescrever brutos. Não alterar a estrutura de pastas sem autorização.
 
 ## Fluxo de trabalho
-1. Pesquisar oportunidades, tendências e referências brasileiras.
-2. Confirmar no catálogo do CRM/Supabase que cada produto ou serviço abordado está ativo e disponível.
-3. Criar roteiros, briefings e peças com referências documentadas.
-4. João grava cada roteiro e identifica o arquivo com o mesmo ID: `SG-XXX - TÍTULO DO VÍDEO.mp4`.
-5. João envia os arquivos para `01 - VÍDEOS BRUTOS/`.
-6. Claude cruza os arquivos com os roteiros, edita todos os itens com correspondência clara e salva os exports finais em `03 - APROVADOS/`.
-7. Claude reproduz e confere cada export, verifica legenda e CTA e distribui os conteúdos aptos pelo Postiz.
-8. Claude registra o resultado no calendário e nos arquivos individuais, quando tiver acesso de escrita.
+1. **Pesquisa e estratégia:** identificar oportunidades, dores, tendências e referências brasileiras; escolher o mix de vídeos, carrosséis, estáticos e Stories conforme o objetivo.
+2. **Planejamento:** entregar conteúdo final e briefing completo por ID SG, incluindo copy, roteiro, direção de gravação, direção de arte/edição, CTA e legendas por canal.
+3. **Prancha visual:** gerar uma prancha por lote que inclua artes. João salva a imagem em `CONTEÚDOS/05 - REFERÊNCIAS/` com os IDs SG no nome.
+4. **Gravação:** João grava os vídeos do lote, cada um identificado com o mesmo ID: `SG-XXX - TÍTULO DO VÍDEO.mp4`.
+5. **Upload:** João envia os arquivos brutos para `01 - VÍDEOS BRUTOS/`.
+6. **Comando ao Claude:** João informa os IDs exatos do lote usando o comando único de `PROMPT-UNICO-CLAUDE.md`.
+7. **Correspondência:** Claude identifica cada briefing, prancha e bruto pelo ID. Itens ambíguos ou sem material essencial ficam pendentes.
+8. **Produção:** Claude cria as artes finais, carrosséis slide a slide, Stories e capas previstas; edita os vídeos com bruto correspondente. Não refaz pesquisa, estratégia, copy ou roteiro já concluídos.
+9. **Revisão:** Claude abre e confere cada arte/slide e reproduz cada vídeo, verificando textos, áudio, imagem, formato, catálogo, direitos e identidade visual.
+10. **Distribuição:** Claude agenda/publica os materiais aptos via Postiz conforme calendário e canais efetivamente conectados. Legendas, CTA e formato devem ser adaptados por canal.
+11. **Registro:** Claude registra status, data, canal, links/IDs e pendências no calendário e nos arquivos individuais, quando tiver acesso de escrita.
 
 ## Regra especial: Reels do Instagram como Trial Reel
-Todo vídeo destinado ao Reels do Instagram deve seguir este fluxo:
-1. Publicar como **Trial Reel** com `is_trial_reel=true` e `graduation_strategy=MANUAL`, se a integração aceitar os campos.
-2. Após 24 horas completas, consultar as métricas. Esse prazo é o momento aproximado em que a Meta disponibiliza os insights, não uma publicação pública automática.
-3. Compartilhar o mesmo Reel com todos por meio da ação oficial de graduação manual, somente se a integração ou interface conectada permitir.
-4. Não usar `SS_PERFORMANCE` como substituto de um prazo fixo de 24 horas e não criar uma publicação duplicada para simular a graduação.
-5. Se não houver ação manual disponível, registrar `TRIAL PUBLICADO — GRADUAÇÃO MANUAL PENDENTE` e informar João.
+A Meta informa que os insights de um Trial Reel costumam ficar disponíveis aproximadamente 24 horas após a publicação. A graduação manual (“share with everyone”) é uma ação posterior e não significa que o Reel será publicado automaticamente ao completar 24 horas. A Meta também oferece uma opção de graduação automática baseada no desempenho observado nos primeiros 72 horas. [Fonte oficial](https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/).
 
-**Verificação obrigatória:** antes de executar, Claude deve confirmar se o Postiz e a conexão atual com o Instagram permitem criar Trial Reels e depois compartilhar o mesmo Reel com todos. Não confundir agendamento comum ou publicação normal com Trial Reel. Se o recurso não estiver disponível na integração, não publicar o Reel normalmente como substituição e não simular a etapa de teste. Marcar como `PENDENTE DE RECURSO TRIAL REEL`, informar João e manter os demais canais/itens aptos em andamento. Não afirmar que aguardou 24 horas ou publicou para todos sem confirmação real.
+O Postiz documenta os campos `is_trial_reel` e `graduation_strategy` (`MANUAL` ou `SS_PERFORMANCE`), mas isso, isoladamente, não comprova que a integração conectada permite promover manualmente o mesmo Reel depois. [Documentação Postiz](https://postiz.com/codex/instagram).
+
+Regras operacionais:
+1. Antes de usar Trial Reel, verificar no Postiz e na conta conectada se o recurso realmente está disponível.
+2. Se disponível e previsto no briefing, agendar/publicar com `is_trial_reel=true` e a estratégia definida, sem prometer graduação manual futura.
+3. Não deixar o Claude aguardando 24 horas nem manter a execução do lote aberta. Registrar ID, horário real e status do Trial Reel.
+4. Após a janela de métricas, a graduação manual exige uma ação posterior. Só executar quando a ferramenta oferecer a ação oficial para o mesmo Reel e a revisão das métricas tiver ocorrido.
+5. Não duplicar o Reel para simular graduação. Não tratar `SS_PERFORMANCE` como um timer de 24 horas.
+6. Se não houver suporte confirmado, marcar `PENDENTE DE RECURSO TRIAL REEL` e decidir publicação regular apenas quando o briefing permitir explicitamente essa alternativa. Continuar os demais itens aptos.
+
+Nunca afirmar que um Trial Reel foi graduado, que aguardou 24 horas ou que foi publicado para todos sem confirmação real.
 
 ## Comando padrão para Claude
-“Claude, processe os conteúdos disponíveis conforme os roteiros e briefings deste repositório. Antes de produzir ou publicar qualquer peça que mencione produto, confirme a disponibilidade no catálogo atual do CRM/Supabase. Para Reels do Instagram, siga obrigatoriamente o fluxo Trial Reel, aguarde 24 horas completas e só então compartilhe com todos, desde que o recurso esteja realmente disponível no Postiz/Instagram. Se não estiver, deixe pendente e me informe; não substitua por publicação pública comum. Edite, revise, distribua os itens aptos nos canais conectados, preserve os brutos, evite duplicatas e registre as ações confirmadas. Não invente informações nem declare ações que não foram confirmadas.”
+“Claude, processe exclusivamente os IDs do lote informados no comando, seguindo os briefings de vídeo, artes, carrosséis e Stories deste repositório. Antes de produzir ou publicar qualquer peça que mencione produto, confirme a disponibilidade no catálogo atual do CRM/Supabase. Para Reels do Instagram, siga obrigatoriamente o fluxo Trial Reel, aguarde 24 horas completas e só então compartilhe com todos, desde que o recurso esteja realmente disponível no Postiz/Instagram. Se não estiver, deixe pendente e me informe; não substitua por publicação pública comum. Edite, revise, distribua os itens aptos nos canais conectados, preserve os brutos, evite duplicatas e registre as ações confirmadas. Não invente informações nem declare ações que não foram confirmadas.”
 
 ## Regras para processamento em lote
 - Usar `SG-XXX` como identificador principal.
