@@ -219,3 +219,22 @@ Esta regra substitui qualquer orientação anterior que permita Reels totalmente
 - Antes de fechar cada lote, conferir que 100% dos Reels têm captação humana, roteiro falado e arquivo RAW previsto. Reel motion-only não conta como Reel válido.
 
 A mensagem da marca é construída por pessoas: tecnologia e edição ampliam clareza, ritmo e valor percebido, preservando conexão e confiança humanas.
+
+
+## Regra obrigatória: conteúdos sobre orçamento, pedidos e atendimento devem refletir o CRM real
+Antes de criar qualquer conteúdo que ensine, demonstre, descreva ou prometa como solicitar orçamento, fazer pedido, escolher produto, enviar arquivos, receber atendimento, pagar ou acompanhar um pedido, consultar obrigatoriamente o repositório operacional oficial `ABauerlab/crm-sua-grafica-bh`.
+
+O acesso ao CRM não deve ser usado apenas para conferir nomes de produtos. É necessário entender o funcionamento real do sistema e reproduzir fielmente a experiência existente:
+- Inspecionar a aplicação, as telas, rotas, componentes, formulários, validações, botões, mensagens, integrações e fluxos implementados no código atual.
+- Identificar o caminho real percorrido pelo cliente, desde o ponto de entrada até o envio da solicitação/contato e as etapas seguintes que estejam efetivamente implementadas.
+- Verificar se o pedido/orçamento acontece no site, em formulário, por redirecionamento ao WhatsApp ou por combinação dessas etapas. Não presumir que o fluxo seja exclusivamente WhatsApp.
+- Conferir quais informações o cliente realmente precisa fornecer, quais opções aparecem, como os arquivos são enviados, quais confirmações são exibidas e o que acontece depois do envio.
+- Quando necessário, consultar documentação, funções, tabelas, configurações e integrações do CRM para compreender o comportamento. Não expor dados pessoais, credenciais, tokens, segredos ou informações internas nos conteúdos.
+- Usar capturas de tela ou gravação de tela do sistema real como referência visual, quando disponíveis e autorizadas. Não fabricar telas, interfaces, mensagens, etapas ou demonstrações que não existam.
+- Distinguir claramente funcionalidades implementadas, funcionalidades parcialmente implementadas e funcionalidades planejadas. Só comunicar como disponível aquilo que estiver implementado e verificável.
+
+**Proibição absoluta:** não inventar um passo a passo genérico de orçamento ou pedido, não desenhar uma interface fictícia e não escrever frases como “clique em X”, “preencha Y”, “anexe Z” ou “acompanhe por W” sem confirmar que essa ação existe exatamente dessa forma no sistema atual.
+
+Se o conteúdo for sobre “como solicitar seu orçamento”, a produção deve ser baseada em uma demonstração fiel do fluxo real: registrar cada etapa confirmada, a tela correspondente, o texto/botão real e o resultado observado. Se o fluxo não puder ser verificado por falta de acesso, ambiente, autenticação ou dados, não improvisar: substituir o ângulo por um conteúdo que não dependa dessa demonstração ou marcar a peça como pendente de validação.
+
+O repositório de conteúdo e o CRM são fontes complementares. Para conteúdos operacionais, o código e a experiência real do CRM prevalecem sobre suposições, lembranças, referências de concorrentes ou roteiros antigos. Claude Code também deve consultar o CRM diretamente antes de produzir capturas, gravações de tela, mockups de interface ou demonstrações de fluxo. Toda demonstração final precisa corresponder à versão atual do sistema.
