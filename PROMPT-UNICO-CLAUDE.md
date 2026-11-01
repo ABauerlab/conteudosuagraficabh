@@ -213,3 +213,12 @@ Se houver falha em integração, informar claramente e sugerir somente o passo m
 Após o João colocar os vídeos brutos e a prancha visual do lote nas pastas indicadas, use este comando para iniciar a execução:
 
 > Claude, execute exclusivamente o lote de conteúdos **[INFORMAR IDs SG DO LOTE]** registrado no repositório `ABauerlab/conteudosuagraficabh`. Sincronize o repositório com segurança, leia integralmente `AGENTS.md`, `CLAUDE.md` e `PROMPT-UNICO-CLAUDE.md`, e consulte os briefings individuais desses IDs. Confira no Drive a prancha visual do lote em `CONTEÚDOS/05 - REFERÊNCIAS/`, o Brand Kit em `IDENTIDADE VISUAL/` e os brutos em `CONTEÚDOS/01 - VÍDEOS BRUTOS/`. Produza todas as artes finais (cada slide em arquivo separado), edite os vídeos com correspondência inequívoca por ID, revise, organize e agende pelo Postiz conforme calendário e instruções de cada conteúdo. Consulte o catálogo oficial antes de qualquer afirmação comercial. Não refaça estratégia, copy ou roteiros já registrados. Não invente dados, não sobrescreva brutos, não publique duplicatas e não declare ações sem confirmação. Continue com os itens aptos mesmo que algum esteja pendente. Ao final, informe IDs, arquivos e caminhos reais, agendamentos confirmados, links/IDs de publicação e pendências.
+
+
+## Regra obrigatória de CTA falado em vídeos
+
+Antes de editar cada vídeo, verifique se o briefing inclui uma chamada para ação adequada ao objetivo. Em todo vídeo com apresentador ou narração, a última fala do teleprompter deve conter o CTA exato. CTA apenas na legenda ou na tela não atende ao requisito.
+
+Preserve integralmente a fala final na edição, com áudio claro e tempo suficiente para compreensão. O elemento visual pode reforçar a mesma ação, nunca substituir a fala. Se o bruto não tiver a fala final prevista, registre o conteúdo como pendente de gravação complementar e não invente uma fala nem use voz sintética para simular João.
+
+Escolha uma ação principal por vídeo: seguir o perfil, comentar, salvar, compartilhar ou solicitar orçamento. Para perfil novo, priorize CTA de seguir quando fizer sentido. Para conteúdo comercial, use orçamento/WhatsApp apenas quando a intenção comercial e o destino oficial estiverem confirmados. Evite repetir mecanicamente o mesmo CTA em todos os vídeos.
