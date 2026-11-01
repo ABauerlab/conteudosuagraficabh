@@ -1,55 +1,78 @@
 # Estratégia editorial | SUA GRÁFICA BH
 
 ## Objetivo
-Atrair potenciais clientes por meio de conteúdo curto, interessante e compartilhável. O conteúdo deve despertar atenção e necessidade sem parecer um anúncio convencional.
+Construir uma operação de conteúdo de alto volume e aprendizado contínuo para atrair potenciais clientes para a SUA GRÁFICA BH. O foco é conteúdo curto, interessante, compartilhável e comercialmente relevante.
 
 ## Princípio central
-**Vamos vender sem falar em vender.**
+**Vender sem falar em vender.** Primeiro entreter, surpreender, informar ou gerar identificação. A conexão com a gráfica deve surgir naturalmente, sem forçar o produto em toda pauta.
 
-O vídeo deve fazer a pessoa pensar, comentar, compartilhar ou imaginar aquela solução aplicada ao próprio negócio. A marca e o produto entram naturalmente.
+## O que significa viralizar para a marca
+Viralização não é promessa nem métrica isolada. Procuramos aumentar a probabilidade de alcance e compartilhamento por meio de ganchos fortes, clareza visual, retenção, identificação e relevância. O resultado desejado é alcançar pessoas que possam se tornar clientes, não acumular visualizações vazias.
 
-## Públicos e situações
-- O comerciante que quer chamar atenção para uma promoção.
-- O restaurante que quer melhorar a apresentação de seus pedidos.
-- O empreendedor que está começando e precisa parecer profissional.
-- A loja que quer fortalecer sua identidade.
-- O prestador de serviço que precisa ser lembrado e indicado.
+## Públicos
+- Empreendedores e pequenos negócios.
+- Lojistas e comércios locais.
+- Restaurantes, lanchonetes e cafeterias.
+- Prestadores de serviços e profissionais autônomos.
+- Empresas, marcas e e-commerces.
+- Organizadores de eventos e negócios que precisam divulgar, identificar, embalar ou fortalecer suas marcas.
 
 ## Linhas editoriais
-1. **Tendências e curiosidades:** objetos, formatos, campanhas e ideias visuais que chamam atenção.
-2. **Aplicações criativas:** como materiais gráficos podem ser usados por negócios reais.
-3. **Erros e aprendizados:** falhas comuns de comunicação visual e apresentação.
-4. **Transformações:** antes e depois, comparações e demonstrações.
-5. **Identificação e humor:** situações reconhecíveis de empreendedores e comerciantes.
-6. **Bastidores e processos:** produção, acabamento e preparação, somente quando houver imagens reais e informações confirmadas.
+1. Tendências e curiosidades visuais.
+2. Reacts e comentários sobre campanhas, invenções e ações criativas.
+3. Aplicações criativas de materiais gráficos.
+4. Erros, mitos e aprendizados de comunicação visual.
+5. Transformações, comparações e antes/depois.
+6. Humor e identificação empreendedora.
+7. Bastidores e processos reais.
+8. Motion explicativo e conteúdo original.
+9. Demonstrações e ideias de marketing para negócios.
+10. Conteúdos de produto e conversão indireta.
 
-## Critérios para escolher uma ideia
-Priorizar ideias que:
-- Sejam entendidas rapidamente.
-- Tenham impacto visual no primeiro segundo.
-- Gerem curiosidade ou identificação.
-- Possam ser conectadas naturalmente a uma necessidade atendida pela gráfica.
-- Sejam simples de gravar e editar.
-- Tenham uma referência visual localizável e legalmente utilizável.
+## Formatos disponíveis
+- React com vídeo original ao fundo.
+- Tela dividida.
+- Fundo verde / chroma key.
+- Picture-in-picture.
+- Narração / voice-over.
+- Vídeo sem apresentador.
+- Motion graphics e explicativos.
+- Demonstrações e composições originais.
 
-## Indicadores para aprender
-Acompanhar por publicação, quando os dados estiverem disponíveis:
-- Visualizações e alcance.
-- Retenção e tempo médio assistido.
-- Compartilhamentos.
-- Salvamentos.
-- Comentários.
-- Visitas ao perfil e contatos recebidos.
+## Princípios de aquisição
+Cada pauta deve identificar:
+1. Público que queremos atrair.
+2. Situação, desejo ou problema desse público.
+3. Razão para parar e assistir.
+4. Ligação natural com uma solução gráfica, quando houver.
+5. Ação desejada: compartilhar, comentar, salvar, visitar perfil, iniciar conversa ou pedir orçamento.
 
-Não julgar um conteúdo apenas por visualizações. O objetivo inclui aquisição de potenciais clientes.
+O produto não precisa aparecer em todos os vídeos. Não inventar uma conexão artificial entre uma trend e a gráfica.
+
+## Critérios de seleção
+Priorizar:
+- Impacto visual imediato.
+- Gancho compreensível nos primeiros 1–2 segundos.
+- Curiosidade, surpresa, utilidade ou identificação.
+- Potencial de compartilhamento.
+- Relevância para empreendedores.
+- Facilidade de gravação e edição.
+- Referência rastreável e uso juridicamente adequado.
+- Potencial de gerar visita ao perfil ou conversa qualificada.
+
+## Mix inicial de conteúdo
+Como hipótese de partida, testar aproximadamente:
+- 50% atração e entretenimento relevante.
+- 30% conexão, educação e demonstração.
+- 20% conversão indireta e prova de confiança.
+
+Ajustar conforme métricas e qualidade dos contatos. Não tratar a proporção como regra rígida.
 
 ## Distribuição
-Canais atualmente conectados ao Postiz:
-- Instagram.
-- Facebook.
-- Threads.
+Canais conectados ao Postiz: Instagram, Facebook e Threads. O vídeo-base é compartilhado entre canais; adaptar legendas/textos quando necessário. Conferir as especificações vigentes das plataformas antes de mudar formatos ou exportação.
 
-O mesmo conteúdo-base será distribuído simultaneamente. Adaptar legenda ou texto de apoio por canal quando isso melhorar a compreensão, sem exigir uma produção separada do vídeo.
+## Duração
+Preferir vídeos curtos, normalmente 15–20 segundos quando a ideia permitir. Não sacrificar clareza para atingir duração fixa. Começar pelo momento mais interessante e eliminar contexto dispensável.
 
-## Cadência e duração
-A preferência operacional é por vídeos curtos, geralmente entre 15 e 20 segundos, podendo variar conforme a ideia. O gancho deve aparecer imediatamente. Não alongar o roteiro para preencher tempo.
+## Aprendizado
+Analisar retenção, compartilhamentos, salvamentos, visitas ao perfil, mensagens e contatos. Repetir princípios que funcionam, não copiar mecanicamente um vídeo vencedor. Ver `ANALISE-DE-DESEMPENHO.md`.
