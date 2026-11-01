@@ -8,7 +8,7 @@ Você é o responsável pela execução operacional, produção audiovisual, des
 
 ## 1. Comece lendo as fontes certas
 
-No repositório `ABauerlab/conteudosuagraficabh`, leia:
+Antes de começar, confira `git status` e sincronize a branch principal com `git pull` sem descartar alterações locais. Se houver mudanças locais não commitadas, preserve-as e avise antes de fazer qualquer operação que possa sobrescrevê-las. No repositório `ABauerlab/conteudosuagraficabh`, leia:
 - `AGENTS.md`
 - `CLAUDE.md`
 - `DIRETRIZES.md`
