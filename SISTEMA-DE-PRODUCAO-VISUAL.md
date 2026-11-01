@@ -1,54 +1,101 @@
 # Sistema de produção visual | SUA GRÁFICA BH
 
 ## Objetivo
-Transformar os planejamentos e referências criados pelo ChatGPT em peças finais profissionais, prontas para publicação. O processo deve ser simples para João: ele informa o objetivo da campanha e acompanha o resultado. Claude Code assume a produção visual e a organização dos arquivos.
+Transformar cada lote planejado pelo ChatGPT em peças finais originais, profissionais e prontas para publicação. O visual deve seguir as referências aprovadas por João, não apenas repetir a paleta CMYK ou aplicar templates genéricos.
 
 ## Papéis
-- **ChatGPT:** pesquisa, planeja a campanha, define conceitos criativos, cria referências visuais, roteiros e briefings claros.
-- **Claude Code:** interpreta o planejamento, consulta o Brand Kit no Google Drive, cria as artes finais, prepara os arquivos e organiza a produção.
-- **João:** define objetivos, fornece materiais quando necessário e dá direcionamento quando quiser ajustar a campanha.
+- **ChatGPT:** pesquisa, estratégia, conceitos criativos, briefings, roteiros, copy e uma prancha visual de referência para cada lote que contenha artes.
+- **Claude Code:** consulta as referências e o Brand Kit no Drive, produz as artes finais e vídeos, organiza arquivos, revisa e agenda/distribui o que estiver apto.
+- **João:** informa o objetivo, grava os vídeos, coloca os brutos e a prancha visual na pasta sincronizada e acompanha o resultado.
 
-## Fonte visual oficial
-Toda a identidade visual oficial da SUA GRÁFICA BH e as referências visuais de estilo aprovadas por João estão na pasta do Google Drive conectada ao Claude Code:
+## Fontes visuais oficiais
+1. **Identidade e ativos oficiais:** `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL`.
+2. **Prancha visual específica do lote:** `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`.
+3. **Tokens técnicos:** `src/lib/brand.ts` no CRM oficial, como complemento aos arquivos originais.
 
-**Caminho:** `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL`
+Antes de criar qualquer peça, Claude deve abrir e inspecionar:
+- os arquivos oficiais de marca;
+- todas as imagens de referência visual aprovadas pelo João na pasta de identidade;
+- a prancha visual do lote, quando ela tiver sido fornecida na pasta de referências.
 
-Claude deve consultar essa pasta antes de criar qualquer material visual. Considerar tanto os arquivos oficiais da identidade quanto as referências de como João deseja que as peças sejam desenvolvidas. Usar os arquivos originais como fonte de verdade. Não inventar nem recriar logotipo, fontes ou elementos proprietários.
+A prancha de ChatGPT deve ser nomeada com os IDs do lote, por exemplo: `SG-101-SG-115-DIRECAO-VISUAL.png`. Ela é um guia de direção e não substitui os arquivos originais do Brand Kit. Se não estiver na pasta, Claude deve informar a ausência no relatório e seguir as referências aprovadas da pasta de identidade, sem interromper os itens restantes.
 
-O CRM oficial também contém tokens técnicos de cor em `src/lib/brand.ts`. Eles complementam, mas não substituem os arquivos e orientações da pasta de identidade visual.
+## Direção de arte aprovada
 
-Direção visual: identidade CMYK vibrante, composições publicitárias modernas, tipografia marcante, alto contraste, fotografias realistas de produtos gráficos, recortes e sobreposições criativas. Variar as composições sem transformar todas as peças em um mesmo template, sempre respeitando as referências da pasta oficial.
+A linguagem visual aprovada é de **publicidade gráfica contemporânea, expressiva e de alto impacto**, com energia editorial e acabamento de campanha profissional. Não basta usar cores CMYK: a composição precisa ter conceito, hierarquia, ritmo e uma ideia visual clara.
 
-## Como produzir uma campanha
-Quando receber um planejamento do ChatGPT:
-1. Ler o calendário, os conceitos, roteiros e briefings da campanha.
-2. Consultar a pasta oficial de identidade visual e suas referências no Google Drive.
-3. Criar cada peça como arquivo independente. Nunca publicar um painel de referências como se fosse o carrossel final.
-4. Para carrosséis, produzir cada página separadamente, com continuidade visual e narrativa entre elas.
-5. Para posts estáticos, criar a arte completa e independente.
-6. Para vídeos, seguir o roteiro e o briefing; escolher recursos de edição que fortaleçam a história. Não presumir que todo vídeo exige chroma key, tela dividida ou um efeito específico.
-7. Consultar o CRM antes de incluir produtos, características, preços, prazos, disponibilidade ou condições comerciais.
-8. Revisar ortografia, hierarquia, legibilidade, margens seguras, consistência da marca e qualidade visual.
-9. Exportar nos formatos e dimensões adequados à plataforma. Para feed vertical do Instagram, usar 1080 × 1350 px quando o formato for apropriado; confirmar requisitos atuais da plataforma para outros formatos.
-10. Salvar os arquivos finais nas pastas de campanha no Google Drive sincronizado, mantendo os arquivos-fonte e versões de trabalho organizados.
+### 1. Cor e identidade
+- Usar ciano, magenta, amarelo, preto e branco como sistema de marca reconhecível.
+- Explorar contrastes fortes e áreas de cor bem definidas. Preto, branco e áreas de respiro também fazem parte da identidade.
+- Usar sobreposições e encontros de cores inspirados no processo de impressão quando contribuírem para a ideia.
+- Não transformar todas as peças em fundos arco-íris, gradientes aleatórios ou excesso de formas decorativas.
+- Preservar cores, proporções e versões do logotipo oficial.
 
-## Autonomia criativa
-Claude tem liberdade para desenvolver a direção visual a partir do conceito e das referências. Não deve copiar mecanicamente o painel de referência, nem limitar-se a reproduzir layouts idênticos. Deve criar soluções originais que respeitem a identidade da marca, o objetivo da publicação e a mensagem.
+### 2. Composição e hierarquia
+- Criar uma mensagem principal imediatamente reconhecível, com hierarquia tipográfica clara.
+- Explorar composições assimétricas, escala tipográfica expressiva, recortes, diagonais, camadas, molduras, grids editoriais e áreas de respiro.
+- Variar enquadramento, distribuição de texto, escala, posição do produto e estrutura entre peças do mesmo lote.
+- Usar elementos gráficos para conduzir o olhar e reforçar a mensagem, nunca apenas para preencher espaço.
+- Manter alinhamento consistente, margens seguras e legibilidade em tela pequena.
 
-Se o briefing não definir um detalhe visual, Claude deve tomar uma decisão profissional coerente e seguir em frente. Só interromper para perguntar a João quando faltar informação essencial, houver risco de erro comercial, dúvida de direitos ou conflito com a identidade oficial.
+### 3. Fotografia e produtos
+- Priorizar fotografia realista, nítida e com iluminação profissional de produtos gráficos, materiais impressos e situações reais de uso.
+- Mostrar textura, acabamento, escala, aplicação e detalhes quando isso ajudar o cliente a entender o produto.
+- Evitar mockups artificiais, objetos deformados, perspectiva impossível, materiais com aparência plástica e cenários genéricos de banco de imagem.
+- Não inventar acabamentos, dimensões, gramaturas, cores, formatos ou configurações que não estejam confirmados no catálogo.
+- Quando não houver foto real do produto, criar uma representação conceitual sem apresentá-la como fotografia fiel de um item comercial específico.
+
+### 4. Tipografia e texto
+- Tipografia deve ter presença, personalidade e excelente leitura.
+- Usar poucas mensagens por peça, com títulos fortes e texto de apoio realmente necessário.
+- Não reduzir fontes para encaixar textos longos: editar a copy ou dividir a informação em mais slides.
+- Revisar acentuação, pontuação, quebras de linha e contraste antes de exportar.
+- Não inserir frases, preços, prazos ou benefícios que não estejam no briefing ou em fonte oficial.
+
+### 5. Linguagem e variedade
+- As referências aprovadas pelo João orientam a energia, a qualidade e a linguagem da peça; não devem ser copiadas literalmente.
+- Cada arte deve nascer do objetivo e da ideia da publicação. Variar entre composição tipográfica, fotografia de produto, recortes, colagem editorial, demonstração visual, comparação e layouts de campanha quando fizer sentido.
+- Evitar que todo o lote pareça uma sequência do mesmo template. Manter unidade de marca por meio de cor, tipografia, tratamento fotográfico e acabamento, não pela repetição da mesma composição.
+- Não usar elementos de outras marcas, logotipos de terceiros ou layouts copiados.
+
+## Como usar a prancha visual do ChatGPT
+A prancha visual apresenta a direção criativa do lote em uma visão conjunta. Claude deve:
+1. Identificar os IDs e a peça correspondente a cada referência visual.
+2. Interpretar conceito, composição, hierarquia, paleta, fotografia e tratamento sugeridos.
+3. Criar cada arte final individualmente, em alta qualidade e no formato correto.
+4. Adaptar a referência ao arquivo real do produto e aos ativos oficiais, sem copiar de forma mecânica.
+5. Não exportar a prancha como se fosse um post, carrossel ou conjunto de artes finais.
+
+A prancha não substitui o briefing escrito. Se houver divergência, seguir o briefing aprovado e preservar a identidade oficial. Se a prancha sugerir algo comercialmente não confirmado, não reproduzir essa informação.
+
+## Produção por formato
+- **Carrossel:** cada slide em arquivo próprio, na ordem correta, com narrativa contínua e variação de composição entre páginas. Não criar uma única imagem gigante com todos os slides.
+- **Post estático:** um arquivo final completo e independente.
+- **Stories:** arquivos individuais, com leitura rápida, área segura e CTA adequado.
+- **Capa/thumbnail:** arquivo próprio, pensado para leitura em tamanho reduzido.
+- **Vídeo:** seguir o roteiro, o bruto identificado pelo mesmo ID e a direção de edição. Selecionar recursos visuais pela ideia, não aplicar efeitos por padrão.
+
+## Processo de produção
+1. Ler o calendário, os briefings e os arquivos individuais dos IDs do lote.
+2. Consultar CRM e catálogo atual antes de mostrar ou prometer produtos e características comerciais.
+3. Inspecionar Brand Kit e referências visuais oficiais no Drive.
+4. Inspecionar a prancha visual do lote na pasta `05 - REFERÊNCIAS`, se disponível.
+5. Produzir cada peça final individualmente e localizar os brutos correspondentes aos vídeos pelo ID SG.
+6. Revisar ortografia, identidade, hierarquia, legibilidade, fidelidade do produto, direitos, formato e qualidade.
+7. Exportar nos formatos atuais adequados a cada plataforma. Para feed vertical do Instagram, usar 1080 × 1350 px quando apropriado; confirmar requisitos atuais para os demais formatos.
+8. Organizar fontes e exports nas pastas já existentes, mantendo brutos intactos.
+
+## Autonomia criativa e limites
+Claude deve resolver decisões de composição e execução sem pedir aprovação de cada detalhe. Não deve inventar dados comerciais, alterar logotipo, criar versão não oficial da identidade, utilizar assets sem licença ou publicar peça com falha de qualidade. Em caso de pendência, pausar apenas o item afetado e continuar os demais.
 
 ## Organização e entrega
-Organizar os materiais por campanha e ID de conteúdo, mantendo relação clara entre roteiro, briefing, arte, páginas do carrossel, vídeo e legenda.
+Usar os IDs SG em todos os nomes e manter ligação entre briefing, arquivo de referência, arte, slides, vídeo, legenda e publicação. Salvar projetos e versões de trabalho em `02 - EM EDIÇÃO`, exports revisados em `03 - APROVADOS` e materiais publicados em `04 - PUBLICADOS`, respeitando a estrutura existente.
 
-Antes de distribuir pelo Postiz:
-- confirmar que todos os arquivos estão completos e no formato correto;
-- conferir cada página de carrossel na ordem certa;
-- verificar as legendas específicas para Instagram, Facebook e Threads;
-- validar os limites e formatos atuais de cada canal;
-- evitar publicações duplicadas;
-- registrar o resultado real da publicação.
+Antes de agendar/publicar:
+- conferir todos os arquivos finais;
+- abrir e inspecionar cada slide na ordem correta;
+- reproduzir cada vídeo;
+- validar legenda, CTA, destino, canal, formato e eventuais restrições comerciais;
+- verificar que não existe publicação duplicada.
 
-Nunca declarar arquivo criado, salvo, sincronizado, agendado ou publicado sem confirmação da ferramenta correspondente.
-
-## Princípio de simplicidade
-João não deve precisar transferir manualmente cada imagem, reconstruir artes ou explicar a identidade visual em toda campanha. ChatGPT entrega o planejamento e a direção criativa; Claude executa a produção no ambiente já conectado ao Google Drive. Não criar infraestrutura nova se o ambiente atual for suficiente.
+Nunca declarar que criou, salvou, sincronizou, agendou ou publicou algo sem confirmação da ferramenta correspondente.
