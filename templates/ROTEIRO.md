@@ -1,91 +1,78 @@
-# [ID] | [Título do vídeo]
+# [SG-XXX] | [TÍTULO DO VÍDEO]
 
 - **Status:** IDEIA
+- **Título/filename:** [usar o mesmo nome no Drive]
 - **Pilar editorial:**
 - **Público-alvo:**
-- **Etapa:** ATRAIR / CONECTAR / CONVERTER
-- **Objetivo de aquisição:**
-- **Formato:** REACT / TELA DIVIDIDA / FUNDO VERDE / VOICE-OVER / MOTION / ORIGINAL
-- **Duração estimada:** 15–20 segundos, se adequado
-- **Redes:** Instagram, Facebook e Threads
+- **Etapa de aquisição:** ATRAIR / CONECTAR / CONVERTER
+- **Objetivo:**
+- **Hipótese a testar:**
+- **Formato:** APRESENTADOR / REACT / VOICE-OVER / MOTION / DEMONSTRAÇÃO / HUMOR / OUTRO
+- **Duração estimada:**
+- **Plataformas:** Instagram Reels / TikTok / outras
 
-## Ideia e ângulo
-[O que acontece e por que alguém assistiria.]
-
-## Gancho
-[Primeira fala ou primeiro elemento visual. Forte e imediato.]
+## Pesquisa de mercado
+- **Data da pesquisa:**
+- **Oportunidade observada:**
+- **Fontes e links:**
+- **Evidência:**
+- **Interpretação:**
+- **Hipótese:**
+- **Adaptação original para a SUA GRÁFICA BH:**
 
 ## Texto para teleprompter
-[Somente as falas, em linguagem natural. Pronto para colar no Edits.]
+> Este bloco deve conter exclusivamente as falas. Sem indicações de cena, pausas, instruções ou comentários.
 
-## Referência externa (preencher quando houver react ou vídeo de terceiros)
-- **Link direto do Instagram original:**
-- **Link alternativo:**
-- **Perfil/criador:**
-- **Plataforma:**
-- **Original confirmado?** SIM / NÃO / REPOST
-- **Versão limpa encontrada?**
-- **Legendas/textos incorporados?**
-- **Status de direitos/licença:**
-- **Evidência/observações:**
+[Texto falado pronto para copiar e colar.]
 
-Para conteúdo original sem vídeo externo, escrever: NÃO SE APLICA e preencher o conceito visual abaixo.
-
-## Conceito visual / briefing de gravação
-- **O que João precisa gravar:**
-- **Enquadramento:**
-- **Orientação de fala/atuação:**
+## Ficha de gravação (não faz parte do teleprompter)
+- **Enquadramento e cenário:**
+- **Orientação de atuação:**
 - **Takes necessários:**
+- **Observações:**
 
 ## Briefing de edição para Claude
-- **Arquivo bruto esperado:**
-- **Sequência de cenas:**
-- **Composição:** react / split screen / chroma key / motion etc.
-- **Legendas e textos na tela:**
-- **Animações/motion:**
-- **Trilha e efeitos:**
-- **Tratamento de legendas da referência:**
-- **Créditos/atribuição obrigatórios:**
+- **Arquivo bruto esperado:** `SG-XXX - TÍTULO DO VÍDEO.mp4`
+- **Sequência/estrutura:**
+- **Imagens ou assets necessários:**
+- **Textos na tela:**
+- **Legendas:**
+- **Motion/efeitos:**
+- **Trilha/áudio:**
+- **Referências e créditos:**
 - **Restrições:**
 - **Exportação:**
 
-## Conexão com a gráfica
+## Conexão comercial
 - **Necessidade do público:**
-- **Produto/solução relacionada (se confirmado):**
-- **Conexão natural:**
-- **CTA indireto:**
+- **Produto relacionado:** [confirmar no CRM; se não confirmado, não afirmar]
+- **CTA:**
+- **Legenda:**
 
-## Legenda de publicação
-[Texto para Postiz.]
-
-## Avaliação antes de gravar
+## Avaliação
 - Gancho: /5
 - Clareza: /5
+- Relevância para comprador: /5
 - Potencial de compartilhamento: /5
-- Relevância para público comprador: /5
+- Potencial de gerar conversa: /5
 - Facilidade de produção: /5
-- Segurança de fonte/direitos: /5
 - **Decisão:** APROVAR / REVISAR / DESCARTAR
 
 ## Checklist
-- [ ] Pesquisa de referência concluída, se necessária.
-- [ ] Link original conferido, se necessário.
-- [ ] Direitos/licença avaliados.
-- [ ] Gancho forte.
-- [ ] Texto natural.
-- [ ] Briefing de gravação simples.
-- [ ] Briefing de Claude completo.
-- [ ] Revisão final aprovada.
+- [ ] Pesquisa de mercado concluída e fontes registradas.
+- [ ] Informações de produto verificadas no CRM, se citadas.
+- [ ] Direitos e referência avaliados, se aplicável.
+- [ ] Texto de teleprompter contém somente falas.
+- [ ] Briefing de gravação e edição preenchidos.
+- [ ] Nome/ID consistente com Drive.
 
 ## Pós-publicação
-- **Data e horário:**
-- **Links publicados:**
-- **Plataformas:**
-- **Visualizações/alcance e período:**
-- **Retenção/tempo médio:**
-- **Compartilhamentos:**
-- **Salvamentos:**
+- **Data/plataforma/link:**
+- **Janela de análise:**
+- **Alcance/visualizações:**
+- **Retenção/tempo médio/conclusão:**
+- **Compartilhamentos/salvamentos/comentários:**
 - **Visitas ao perfil/cliques:**
-- **Mensagens/leads/orçamentos/vendas atribuíveis:**
-- **Aprendizado:**
-- **Próximo teste:**
+- **Conversas/leads/orçamentos/vendas:**
+- **Origem/atribuição:** DIRETA / ASSISTIDA / ESTIMADA / DESCONHECIDA
+- **Aprendizado e próximo teste:**
