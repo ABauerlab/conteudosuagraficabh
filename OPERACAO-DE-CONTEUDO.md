@@ -22,7 +22,8 @@ Não criar etapas, serviços ou ferramentas adicionais quando as integrações j
 - Estudar conteúdos estáticos e vídeos de outras gráficas brasileiras que apresentem sinais verificáveis de alto desempenho, incluindo publicações com milhares de curtidas quando essa métrica estiver visível.
 - Registrar link da publicação original, perfil, plataforma, data e métricas observadas. Diferenciar dados confirmados de estimativas.
 - Identificar o que torna a peça eficaz: gancho, oferta, composição, fotografia, hierarquia, texto, formato e CTA.
-- Adaptar o conceito à identidade visual oficial da SUA GRÁFICA BH, criando peças originais. Não copiar a arte, o texto, o layout exato ou a identidade de terceiros.
+- Acompanhar tendências de produtos, formatos e aplicações do mercado gráfico. Exemplo de pauta para investigar: **totem de mão**. Primeiro verificar se é uma tendência relevante no mercado brasileiro e, antes de criar qualquer conteúdo, confirmar no catálogo/Supabase se a gráfica vende esse item.
+- Adaptar os conceitos à identidade visual oficial da SUA GRÁFICA BH, criando peças originais. Não copiar a arte, o texto, o layout exato ou a identidade de terceiros.
 - Usar referências e materiais de terceiros somente quando houver licença, autorização ou permissão adequada para reutilização comercial. Preferir bancos de imagens/vídeos com licença comercial clara, materiais próprios ou assets autorizados.
 - Para imagens e vídeos de gráficas, máquinas offset/digitais e processos de impressão, priorizar fontes brasileiras, contexto brasileiro e materiais em português do Brasil. Não usar materiais estrangeiros ou conteúdo com textos em outros idiomas.
 - A expressão “sem direito autoral” não deve ser presumida: verificar a licença de cada arquivo e guardar a fonte e as condições de uso. Não remover marcas d'água nem créditos.
