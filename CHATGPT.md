@@ -205,3 +205,17 @@ A prancha deve funcionar como um mapa visual do que Claude vai produzir:
 - Preferir proporção horizontal ampla, alta resolução e fundo neutro/limpo para facilitar a leitura e a inspeção pelo Claude.
 
 A prancha é uma **referência visual executável** para Claude: deve permitir identificar o que criar, qual layout seguir e como a peça se relaciona com as demais. Claude deve reproduzir cada arte final separadamente, nunca publicar a prancha como peça. Salvar o arquivo com intervalo de IDs e nome do lote, por exemplo `SG-101-SG-142-PRANCHA-DE-PRODUCAO-01.png`, na pasta sincronizada `CONTEÚDOS/05 - REFERÊNCIAS/`. Se houver mais de uma prancha, manter sufixos sequenciais.
+
+
+## REGRA MÁXIMA: TODOS OS REELS EXIGEM GRAVAÇÃO HUMANA
+Esta regra substitui qualquer orientação anterior que permita Reels totalmente automatizados, apenas em motion, com narração sintética ou inteiramente gerados por IA.
+
+- Todo Reel, sem exceção, deve partir de uma gravação humana real, com uma pessoa aparecendo e falando no vídeo final. A captação padrão é João falando o roteiro completo para a câmera frontal do celular, em vídeo vertical 9:16.
+- Cada Reel deve ter roteiro/teleprompter completo e instruções claras de gravação, enquadramento, luz, áudio, takes e nome do arquivo RAW.
+- É proibido criar Reels 100% em motion, 100% com IA, com avatar sintético ou sem captação humana real. Não usar voz sintética para substituir a pessoa.
+- A estratégia define a edição individualmente. Motion graphics, textos animados, imagens de produtos, B-roll, demonstrações, efeitos e recursos de IA podem complementar a fala humana, nunca substituí-la.
+- Todo briefing deve conter **COMO ESTE REEL SERÁ PRODUZIDO**, explicando o que a pessoa grava, quais takes adicionais/objetos são necessários e quais elementos Claude adiciona na edição. Não exigir B-roll sem necessidade.
+- React com vídeo externo só quando houver referência específica e direitos comerciais confirmados; a pessoa ainda deve aparecer falando/reagindo no vídeo final.
+- Antes de fechar cada lote, conferir que 100% dos Reels têm captação humana, roteiro falado e arquivo RAW previsto. Reel motion-only não conta como Reel válido.
+
+A mensagem da marca é construída por pessoas: tecnologia e edição ampliam clareza, ritmo e valor percebido, preservando conexão e confiança humanas.
