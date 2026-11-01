@@ -1,7 +1,7 @@
 # Sistema de produção de conteúdo | SUA GRÁFICA BH
 
 ## Objetivo
-Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁFICA BH. O processo deve ser simples para João: receber roteiros prontos, gravar os vídeos e enviar os arquivos brutos. Claude fica responsável pela edição, revisão e distribuição dos materiais aptos.
+Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁFICA BH. O processo deve ser simples para João: receber um lote completo de conteúdos, gravar apenas os vídeos previstos, salvar a prancha visual no Drive e enviar os brutos. Claude fica responsável pela produção das artes finais, edição dos vídeos, revisão e agendamento/distribuição dos materiais aptos.
 
 ## Fontes oficiais e responsabilidades
 - **CRM oficial** (`ABauerlab/crm-sua-grafica-bh`): fonte de verdade para identidade visual, catálogo ativo, especificações e informações comerciais.
