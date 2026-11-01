@@ -59,7 +59,9 @@ A linguagem visual aprovada é de **publicidade gráfica contemporânea, express
 - Não usar elementos de outras marcas, logotipos de terceiros ou layouts copiados.
 
 ## Como usar a prancha visual do ChatGPT
-A prancha visual apresenta a direção criativa do lote em uma visão conjunta. Claude deve:
+A prancha visual apresenta a direção criativa do lote em uma visão conjunta e deve seguir o formato de grade/folha de contato mostrado nas referências fornecidas por João: miniaturas de cada peça real, organizadas por dia/formato, cada uma identificada por ID SG, formato e canal. Não é moodboard abstrato. Deve mostrar a composição pretendida e a copy verdadeira em cada miniatura. Carrosséis aparecem como sequência de slides individuais; Stories em quadros verticais individuais; posts estáticos em formato final; Reels com capa e quadros-chave quando útil. Separar visualmente o que João grava e o que Claude produz sem gravação. Se o lote não couber com leitura adequada, dividir em pranchas numeradas. Usar resolução alta e não deixar texto ilegível. Claude deve criar cada peça final individualmente, nunca publicar a prancha.
+
+Claude deve:
 1. Identificar os IDs e a peça correspondente a cada referência visual.
 2. Interpretar conceito, composição, hierarquia, paleta, fotografia e tratamento sugeridos.
 3. Criar cada arte final individualmente, em alta qualidade e no formato correto.
