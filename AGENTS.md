@@ -47,7 +47,8 @@ O CRM é a fonte de verdade para identidade visual oficial, catálogo atual, dis
 - Cada pauta recebe ID sequencial SG-001, SG-002 etc. e arquivo próprio em `conteudos/`.
 - Atualize `CALENDARIO.md` quando status mudar.
 - Registre cada referência em `REFERENCIAS.md`.
-- Use `templates/ROTEIRO.md` para cada vídeo.
+- Use `templates/CONTEUDO.md` como padrão para cada conteúdo (vídeo, carrossel, post estático, Stories ou capa). `templates/ROTEIRO.md` permanece como modelo legado para roteiros de vídeo já existentes.
+- Consulte `SISTEMA-DE-PRODUCAO-VISUAL.md` para a direção de arte aprovada e a entrega da prancha visual por lote.
 - Registre aprendizados e métricas disponíveis após publicação.
 - Verifique duplicações e preserve mudanças do outro assistente.
 
@@ -67,3 +68,11 @@ Ao concluir alterações, informar arquivos modificados e commit. Se algum repos
 Consultar também `PESQUISA-ESTRATEGICA-AQUISICAO-2026-11.md` antes de planejar novos lotes. O objetivo é conduzir potenciais compradores das redes sociais ao WhatsApp oficial já conectado ao CRM. Reels, carrosséis, estáticos e Stories devem ser escolhidos conforme a função da pauta. Avaliar alcance, retenção, compartilhamentos, salvamentos, cliques, conversas, orçamentos e pedidos. Usar o ID SG no registro do conteúdo e não presumir atribuição automática sem confirmar que a origem chega ao CRM.
 
 Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
+
+
+## Produção visual por lote
+- A prancha visual de referência é criada pelo ChatGPT para cada lote que contenha artes.
+- João deve salvar a imagem em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs SG no nome.
+- Claude deve inspecionar a prancha e as referências visuais originais em `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/` antes de criar artes.
+- A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
+- Execute somente os IDs indicados pelo João; não recrie pesquisa, copy ou roteiros já completos no repositório.
