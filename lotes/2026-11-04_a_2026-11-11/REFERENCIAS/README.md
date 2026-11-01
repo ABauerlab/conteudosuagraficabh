@@ -1,1 +1,0 @@
-Salvar manualmente a prancha gerada no chat em Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/ como SG-001-SG-048-PRANCHA-DE-PRODUCAO.png. A prancha é referência, não arte final. Briefings individuais são fonte de texto.
