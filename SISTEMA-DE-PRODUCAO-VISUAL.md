@@ -9,18 +9,20 @@ Transformar os planejamentos e referências criados pelo ChatGPT em peças finai
 - **João:** define objetivos, fornece materiais quando necessário e dá direcionamento quando quiser ajustar a campanha.
 
 ## Fonte visual oficial
-O Brand Kit oficial da SUA GRÁFICA BH está armazenado no Google Drive conectado ao Claude Code.
+Toda a identidade visual oficial da SUA GRÁFICA BH e as referências visuais de estilo aprovadas por João estão na pasta do Google Drive conectada ao Claude Code:
 
-**Localização da pasta:** a confirmar quando João indicar o caminho exato. Até lá, Claude deve localizar no Drive conectado a pasta do Brand Kit da SUA GRÁFICA BH e confirmar que está usando os arquivos oficiais. Não inventar nem recriar logotipo, fontes ou elementos proprietários.
+**Caminho:** `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL`
 
-O CRM oficial também contém tokens técnicos de cor em `src/lib/brand.ts`. Eles complementam, mas não substituem, o Brand Kit completo.
+Claude deve consultar essa pasta antes de criar qualquer material visual. Considerar tanto os arquivos oficiais da identidade quanto as referências de como João deseja que as peças sejam desenvolvidas. Usar os arquivos originais como fonte de verdade. Não inventar nem recriar logotipo, fontes ou elementos proprietários.
 
-Referências visuais aprovadas por João nesta conversa: identidade CMYK vibrante, composições publicitárias modernas, tipografia marcante, alto contraste, fotografias realistas de produtos gráficos, recortes e sobreposições criativas. Variar as composições sem transformar todas as peças em um mesmo template.
+O CRM oficial também contém tokens técnicos de cor em `src/lib/brand.ts`. Eles complementam, mas não substituem os arquivos e orientações da pasta de identidade visual.
+
+Direção visual: identidade CMYK vibrante, composições publicitárias modernas, tipografia marcante, alto contraste, fotografias realistas de produtos gráficos, recortes e sobreposições criativas. Variar as composições sem transformar todas as peças em um mesmo template, sempre respeitando as referências da pasta oficial.
 
 ## Como produzir uma campanha
 Quando receber um planejamento do ChatGPT:
 1. Ler o calendário, os conceitos, roteiros e briefings da campanha.
-2. Consultar o Brand Kit oficial no Google Drive e as referências visuais aprovadas.
+2. Consultar a pasta oficial de identidade visual e suas referências no Google Drive.
 3. Criar cada peça como arquivo independente. Nunca publicar um painel de referências como se fosse o carrossel final.
 4. Para carrosséis, produzir cada página separadamente, com continuidade visual e narrativa entre elas.
 5. Para posts estáticos, criar a arte completa e independente.
