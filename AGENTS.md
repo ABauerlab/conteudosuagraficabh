@@ -88,3 +88,7 @@ Cada pasta de lote em `conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/` deve conter `FEE
 
 ## Padrão mínimo de qualidade dos briefings individuais
 O arquivo SG é a ordem de produção para Claude, não um lembrete curto. Aplicar integralmente a seção “REGRA DE BRIEFING COMPLETO — NÃO ACEITAR RESUMOS” de `CHATGPT.md`. Briefing com apenas título, uma frase ou instrução genérica não está pronto. Exigir teleprompter e direção de edição completos para Reels; roteiro slide a slide e direção de arte para carrosséis; copy e composição para estáticos; texto e layout individual para Stories. Validar todos os campos aplicáveis do `templates/CONTEUDO.md` antes de abrir PR.
+
+
+## Reinício autorizado da sequência de IDs
+João autorizou reiniciar a numeração após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Consultar `CALENDARIO.md` como fonte de verdade; não usar SG-049 como próximo ID. Manter um Markdown individual por conteúdo e separar os arquivos em FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização.

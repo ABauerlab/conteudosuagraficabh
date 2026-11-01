@@ -23,4 +23,4 @@ conteudos/
         └── SG-051.md
 ```
 
-Um conteúdo = um ID SG = um arquivo Markdown individual, dentro da pasta correspondente ao formato. É proibido agrupar vários conteúdos em um arquivo diário, temático ou por faixa de IDs. IDs são globais, únicos e sequenciais. Não reutilizar IDs já atribuídos, mesmo quando um lote for removido. Atualizar `CALENDARIO.md` e o README do lote. Antes de declarar conclusão, conferir a árvore do GitHub, contagem, pastas e correspondência entre ID, formato e arquivo.
+Um conteúdo = um ID SG = um arquivo Markdown individual, dentro da pasta correspondente ao formato. É proibido agrupar vários conteúdos em um arquivo diário, temático ou por faixa de IDs. IDs são sequenciais e globais dentro do ciclo editorial vigente. Se João autorizar explicitamente reiniciar a numeração, o próximo lote começa em SG-001. Não reiniciar por iniciativa própria. Atualizar `CALENDARIO.md` e o README do lote. Antes de declarar conclusão, conferir a árvore do GitHub, contagem, pastas e correspondência entre ID, formato e arquivo.
