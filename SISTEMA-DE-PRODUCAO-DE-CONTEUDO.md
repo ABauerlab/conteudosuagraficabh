@@ -112,3 +112,16 @@ Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE ARQUIVO, PENDENTE DE DI
 O planejamento, a pesquisa, a copy, os roteiros e a direção criativa já são responsabilidade do ChatGPT. Claude não deve recriar essas etapas quando houver briefing completo. Ele executa os IDs informados no comando, produz as artes finais, edita os vídeos gravados, faz o controle de qualidade e agenda/distribui os itens aptos. Se faltar um arquivo essencial, pausa somente aquele ID e não inventa conteúdo substituto.
 
 A prancha visual gerada no ChatGPT precisa ser transferida por João para a pasta sincronizada do Drive indicada neste documento; não presumir que um arquivo desta conversa aparece automaticamente no ambiente do Claude.
+
+
+## Regra obrigatória de CTA nos vídeos
+
+Todo vídeo com fala de apresentador ou narração precisa ter CTA falado como última fala do roteiro/teleprompter. A chamada também deve aparecer no briefing individual, na legenda e, quando fizer sentido, na tela durante o encerramento. Nunca deixar o CTA somente na legenda ou em lettering.
+
+A ação deve ser escolhida conforme o objetivo:
+- Perfil em fase de crescimento/descoberta: seguir o perfil.
+- Conteúdo educativo ou de referência: salvar ou compartilhar.
+- Conteúdo de conversa/comunidade: comentar ou responder uma pergunta.
+- Conteúdo com intenção comercial e produto confirmado: solicitar orçamento pelo canal oficial.
+
+Usar apenas uma ação principal por vídeo, com frase natural, curta e sem tom insistente. Variar os CTAs ao longo do calendário. Não prometer produto, preço ou condição sem confirmação no CRM. Vídeos sem fala podem usar CTA visual, sem forçar narração.
