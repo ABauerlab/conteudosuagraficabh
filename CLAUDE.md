@@ -81,3 +81,18 @@ Durante a edição:
 - Use lettering/elemento visual apenas como reforço da mesma ação.
 - Se o bruto enviado não contiver o CTA falado previsto, marque o ID como pendente de gravação complementar; não substitua silenciosamente por texto na tela nem invente uma fala com IA.
 - Vídeos sem fala ou narração podem usar CTA visual conforme o briefing.
+
+
+## Fluxo obrigatório por lote: captação separada da produção automatizada
+Ao executar um lote semanal, não trate cada peça como um arquivo isolado para João descobrir o que fazer. Leia a pasta do lote e siga os dois fluxos:
+
+- `CAPTACAO.md`: contém exclusivamente gravações que dependem de João. Faça uma lista de sessão agrupada por cenário e informe claramente o que filmar/falar, takes, objetos, enquadramento, áudio e nome do RAW com ID SG. Não crie captação para artes ou Stories gráficos.
+- `PRODUCAO-CLAUDE.md`: produza integralmente os itens sem captação humana. Isso inclui Stories gráficos individuais, posts estáticos, carrosséis com cada slide em arquivo próprio, capas, motion e vídeos com assets próprios/licenciados. Não espere pelos vídeos brutos para começar essa fila.
+- `CALENDARIO.md`: atualize status real, IDs, datas e responsável por peça. Não marque como aprovado/publicado sem validação correspondente.
+- `REFERENCIAS/`: consulte a prancha visual, mas use os arquivos oficiais do Brand Kit como fonte de verdade.
+
+A cadência editorial mínima é 2 Reels, 1 post de feed e 3 Stories por dia, mas isso não significa que João precise gravar 2 vídeos e 3 Stories diariamente. A modalidade é definida individualmente no briefing: captação humana somente quando rosto, voz ou demonstração forem realmente necessários; os demais itens são produzidos por Claude com artes, motion e assets originais/licenciados.
+
+Quando os brutos chegarem, localizar os arquivos pelo ID SG, editar os vídeos correspondentes e mover os resultados para as pastas existentes. Nunca alterar ou apagar brutos originais. Usar nomenclatura SG-###-RAW.mp4, SG-###-FEED-01.png, SG-###-SLIDE-01.png e SG-###-STORY.png. Exportar cada Story e cada slide de carrossel individualmente.
+
+Antes de finalizar, conferir se todo ID do calendário aparece em exatamente um dos fluxos ou está claramente marcado como dependente/pendente. Reportar a João primeiro o total exato de gravações necessárias e, em separado, o total de peças produzidas integralmente por Claude.
