@@ -154,3 +154,16 @@ Portanto, a entrega diária padrão é de **6 peças/publicações no mínimo: 2
 Ao receber pedido de um dia específico, produzir o pacote completo daquele dia, com IDs SG individuais e sequenciais para cada peça. Os três Stories também recebem IDs próprios e arquivos individuais no repositório/calendário. Gerar uma prancha visual única por dia/lote que inclua artes, mapeando os IDs de feed e Stories. Reels podem ter quadros de referência na prancha quando houver direção visual relevante.
 
 Não reduzir a quantidade por conveniência. Se houver bloqueio de catálogo, direitos ou ferramenta, manter a peça no planejamento como pendente e continuar as demais.
+
+
+## Definição obrigatória do modo de produção de cada Reel
+Não presumir que todo Reel será gravado da mesma forma. Para cada um dos dois Reels diários, ChatGPT deve escolher a abordagem mais forte para a ideia e declarar isso explicitamente no briefing, antes do teleprompter:
+
+1. **Gravação direta:** João grava falando para a câmera; Claude constrói o vídeo com edição, motion, textos, imagens de apoio e sound design. Informar claramente: “João grava apenas a fala; não precisa enviar vídeo de apoio”.
+2. **React com vídeo de apoio:** João reage a um vídeo específico. O briefing deve trazer o link exato da referência, identificar o trecho que será usado, explicar como João deve reagir e o que precisa gravar. Confirmar se o vídeo pode ser reutilizado comercialmente; se não houver licença/autorização, orientar a usar apenas como referência e criar uma demonstração original, sem incorporar o arquivo de terceiro.
+3. **Narração + imagens/B-roll:** João grava a narração e Claude monta com imagens/vídeos próprios ou licenciados. Listar os assets necessários e suas fontes/licenças. Não deixar João em dúvida sobre precisar ou não gravar imagens adicionais.
+4. **Demonstração ou formato especial:** especificar exatamente o que João precisa filmar, quais objetos/cenas/takes são necessários e o que Claude cria na edição.
+
+A escolha é responsabilidade estratégica do ChatGPT. React não é obrigatório e não deve ser usado só para variar. Use-o quando a referência específica realmente fortalecer o gancho, a compreensão ou a retenção. Se não houver necessidade de material externo, prefira uma execução simples e clara.
+
+Todo briefing de Reel deve conter um bloco destacado **COMO ESTE REEL SERÁ PRODUZIDO**, com: modalidade escolhida; o que João grava; se existe vídeo/imagem para inserir por cima; link e trecho exatos quando houver referência; o que Claude deve criar; e lista objetiva dos arquivos que João precisa entregar. A instrução deve permitir que João saiba imediatamente se basta gravar e enviar a fala ou se precisa gravar/reagir a algo específico.
