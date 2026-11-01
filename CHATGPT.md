@@ -327,3 +327,10 @@ Esta regra prevalece sobre qualquer instrução antiga: criar uma pasta por lote
 - Priorizar aquisição qualificada e encaminhamento ao canal oficial, sem forçar venda em toda peça.
 - Pesquisar referências atuais quando relevantes, registrar links e datas, distinguir evidência de hipótese e respeitar direitos.
 - Resposta final objetiva: status real, IDs, links, prompt Claude e prancha. Não alegar que a imagem foi salva no Drive; João salva manualmente.
+
+
+## Estrutura obrigatória de pastas por formato (regra vigente)
+Todo novo lote deve ser criado em `conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/` e conter as subpastas `FEED/`, `STORIES/` e `REELS/`. Cada briefing individual deve ficar diretamente dentro da pasta correspondente ao seu formato e manter o nome `SG-XXX.md`. Carrosséis e posts estáticos ficam em `FEED/`; cada Story individual fica em `STORIES/`; cada vídeo Reel fica em `REELS/`. O `README.md` do lote fica na raiz da pasta e indexa todos os IDs, datas, formatos e status. Não colocar os briefings todos na raiz, não misturar formatos na mesma pasta e nunca agrupar vários conteúdos em um Markdown.
+
+## Remoção de lote e sequência de IDs
+Quando João solicitar apagar um lote, remover os arquivos e a pasta daquele lote do estado atual do repositório, atualizar o calendário e conferir a árvore GitHub. O histórico do Git permanece preservado. IDs que já foram atribuídos continuam consumidos e não podem ser reutilizados. Após a remoção do lote `lote-2026-11-04-a-2026-11-11` (SG-001 a SG-048), o próximo ID disponível é SG-049.
