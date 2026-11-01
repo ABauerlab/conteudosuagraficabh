@@ -1,30 +1,23 @@
 # Calendário e fila de conteúdo | SUA GRÁFICA BH
 
-O calendário começa do zero. Todos os roteiros anteriores foram retirados da fila editorial. Nenhuma pauta antiga deve ser reaproveitada automaticamente.
+## Lote semanal | 02 a 08/11/2026
 
-## Cadência diária obrigatória
+**Status geral:** PLANEJADO. Nenhuma peça foi agendada ou publicada.
+**Cadência:** mínimo de 2 Trial Reels + 1 feed + 3 Stories por dia. Conteúdos adicionais estão identificados.
 
-| Entrega | Quantidade mínima | Observação |
-|---|---:|---|
-| Reels | 2 | Planejados como Trial Reels enquanto durar a fase de testes, sujeito à disponibilidade real do recurso |
-| Feed | 1 | Carrossel ou post estático, conforme a estratégia |
-| Stories | 3 | Peças próprias, com objetivo e CTA; não contam como post de feed |
-
-**Mínimo diário: 6 peças.** Cada peça recebe um ID SG próprio e sequencial, inclusive cada Story individual.
-
-## Status
-IDEIA → PESQUISANDO REFERÊNCIA → BRIEFING PRONTO → PRONTO PARA GRAVAR / PRONTO PARA PRODUZIR → GRAVADO → EM PRODUÇÃO → PRONTO PARA PUBLICAR → AGENDADO → PUBLICADO → ANALISADO.
-
-Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE CATÁLOGO, PENDENTE DE DIREITOS, PENDENTE DE ARQUIVO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE PRODUÇÃO e ERRO DE AGENDAMENTO.
-
-## Fila atual
-
-| ID | Conteúdo | Formato | Status | Observações |
+| Data | Dia | Reels | Feed | Stories |
 |---|---|---|---|---|
-| — | Nenhum conteúdo cadastrado | — | ZERADO | A próxima pauta começa em SG-001 |
+| 02/11 | Segunda | SG-001, SG-002 | SG-003 | SG-004, SG-005, SG-006 |
+| 03/11 | Terça | SG-007, SG-008 | SG-009 | SG-010, SG-011, SG-012 |
+| 04/11 | Quarta | SG-013, SG-014, SG-039 | SG-015 | SG-016, SG-017, SG-018, SG-040 |
+| 05/11 | Quinta | SG-019, SG-038 | SG-043 | SG-041, SG-042, SG-044 |
+| 06/11 | Sexta | SG-020, SG-021 | SG-022 | SG-023, SG-024, SG-025 |
+| 07/11 | Sábado | SG-026, SG-027 | SG-028 | SG-029, SG-030, SG-031 |
+| 08/11 | Domingo | SG-032, SG-033 | SG-034 | SG-035, SG-036, SG-037 |
 
-## Registro de publicação e análise
-Para cada ID, preencher data/hora planejadas e efetivas, canal, link/ID confirmado, alcance, visualizações, retenção, compartilhamentos, salvamentos, comentários, visitas ao perfil, cliques, conversas, leads/pedidos atribuíveis e aprendizado.
-
-## Próximo ID disponível
-**SG-001.** A numeração foi reiniciada porque os briefings anteriores foram removidos. Não reutilizar um ID depois que ele for atribuído a uma peça, mesmo se ela for cancelada.
+## Regras de execução
+- Todos os Reels devem ser planejados como Trial Reels. Confirmar suporte no Postiz e na conta antes de agendar. Se indisponível, marcar pendente e não publicar como Reel comum sem autorização.
+- Não inventar horários. Usar dados de audiência se disponíveis.
+- Stories são peças independentes e obrigatórias.
+- Medir retenção, compartilhamentos, salvamentos, visitas, cliques e conversas. Não presumir atribuição automática ao CRM.
+- Prancha visual: `SG-001-SG-044-DIRECAO-VISUAL.png`, salvar manualmente em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`.
