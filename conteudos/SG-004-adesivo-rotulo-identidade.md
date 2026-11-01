@@ -3,6 +3,7 @@
 - **Status:** BRIEFING PRONTO
 - **Formato:** VÍDEO / REEL
 - **Data sugerida:** 05/11/2026
+- **Distribuição Instagram:** Trial Reel com `is_trial_reel=true` e `graduation_strategy=MANUAL`, condicionado à confirmação na integração Postiz conectada. Revisar métricas após aproximadamente 24h; se o resultado justificar, compartilhar o mesmo Reel com todos pelo Instagram. Não criar uma cópia pública.
 - **Pilar:** Produto em contexto
 - **Público:** Pequenas marcas, confeitaria, cosméticos, alimentos embalados e e-commerce
 - **Etapa:** DESCOBERTA / CONSIDERAÇÃO
