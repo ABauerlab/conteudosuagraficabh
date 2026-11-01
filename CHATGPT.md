@@ -275,3 +275,37 @@ Não publicar nem considerar o lote pronto enquanto todos os itens abaixo não f
 6. O calendário geral da raiz, calendário do lote e briefings individuais usam os mesmos IDs e formatos.
 7. Os arquivos realmente existem no GitHub; conferir a árvore do repositório após a gravação. Não declarar conclusão com gravação parcial ou ferramenta interrompida.
 8. Se qualquer validação falhar, corrigir antes de entregar. Se a ferramenta impedir a gravação completa, informar claramente que o lote não está pronto e não orientar a produção.
+
+
+
+
+## REGRA DEFINITIVA DE ENTREGA DE LOTES — IMAGEM GERADA NO CHATGPT
+
+Esta seção substitui qualquer instrução anterior que permita criar pranchas com HTML, SVG, Python, Canva automatizado, código, composição programática ou qualquer gerador externo.
+
+### Uso obrigatório do gerador de imagem
+- Toda prancha visual de lote deve ser criada com o gerador de imagens nativo do ChatGPT (ImageGen), diretamente nesta conversa.
+- É proibido montar a prancha por HTML/CSS, SVG, código, Python/PIL, screenshot de página, mockup programático ou ferramenta externa de imagem.
+- A prancha deve ser uma imagem publicitária/editorial visualmente refinada, com fotografia realista, composições profissionais, tipografia forte, cores e linguagem oficiais da SUA GRÁFICA BH. Evitar aparência de planilha, wireframe, apresentação corporativa genérica ou cartões repetitivos.
+- O gerador de imagem deve receber a matriz e os briefings já definidos. Planejar a composição para privilegiar fidelidade visual, hierarquia e qualidade estética. Se todo o lote não couber com legibilidade, gerar mais de uma prancha pelo próprio gerador de imagem.
+- Não usar textos longos ou minúsculos na imagem. Incluir ID SG e título curto de cada peça de forma legível; a copy integral permanece nos briefings. Não inventar palavras, números ou totais. Revisar visualmente o resultado antes de entregar.
+- A prancha deve ser uma referência real para Claude, com miniaturas criativas que mostrem a direção de arte das peças, não apenas retângulos coloridos com títulos. Mostrar variedade real de layout, fotografia, elementos gráficos e composições coerentes com a marca.
+- Para cada lote, a prancha precisa cobrir todas as peças, inclusive Reels (capa/storyboard), feed e Stories. Conferir IDs e totais contra o calendário antes da geração.
+- Entregar a imagem gerada diretamente no chat. Não criar uma versão alternativa em HTML ou código. O usuário salva manualmente a imagem no Drive para Claude consultar.
+
+### Formato da resposta ao pedido de lote
+Quando João pedir um lote, a resposta final deve conter SOMENTE:
+1. **Conclusão:** uma linha curta com o status real, quantidade e intervalo de IDs, sem narrar o processo.
+2. **Prompt para Claude:** um único prompt completo, pronto para copiar, que aponte para a pasta do lote, os briefings e as pranchas salvas manualmente no Drive, incluindo todas as instruções de produção, edição, organização, qualidade e distribuição.
+3. **Prancha visual:** a imagem gerada pelo ImageGen diretamente no chat.
+
+Não incluir introdução longa, pesquisa, referências em seção separada, explicação de estratégia, lista de sugestões, tabelas de status ou links extras, salvo se João pedir. Não afirmar que a prancha foi salva no Drive. O prompt deve dizer a Claude onde localizá-la após João salvá-la.
+
+### Reset de lote
+Quando João pedir para zerar/recomeçar o lote, remover os briefings e documentos daquele lote do repositório, resetar o calendário geral para o próximo ID definido pelas instruções e confirmar a remoção na árvore GitHub. Não manter arquivos parciais, versões antigas ou pranchas programáticas como se fossem referências aprovadas. O histórico Git permanece preservado.
+
+### Política de arquivo de conteúdo
+Briefings individuais devem ser documentos Markdown simples, claros e bem formatados, nunca HTML disfarçado. Não gerar arquivos HTML para o usuário como substituto dos briefings. O Markdown deve ser fácil de ler no GitHub e no Claude Code.
+
+### Regra de qualidade da prancha
+Antes de entregar, conferir: aparência profissional; identidade correta; cobertura de todos os IDs; títulos corretos; ausência de texto embaralhado; proporções adequadas; variedade visual; correspondência com as peças planejadas. Se o ImageGen produzir texto incorreto ou ilegível, regenerar a prancha com instruções de texto mais simples e menos conteúdo por quadro. Nunca compensar erro com uma prancha feita em código.
