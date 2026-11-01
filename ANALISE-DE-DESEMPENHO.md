@@ -1,52 +1,37 @@
-# Análise de desempenho e aprendizado
 
-## Objetivo
-Transformar cada publicação em aprendizado para aumentar a eficiência de aquisição. Visualizações são um indicador, não o objetivo final isolado.
 
-## Dados a registrar
-Sempre que disponíveis:
-- ID do conteúdo e data/hora de publicação.
-- Plataforma e link publicado.
-- Duração e formato.
-- Público/ângulo e linha editorial.
-- Texto do gancho.
-- Alcance e visualizações.
-- Tempo médio assistido e retenção.
-- Taxa de conclusão, se fornecida.
-- Compartilhamentos e salvamentos.
-- Comentários relevantes.
-- Visitas ao perfil, cliques e mensagens.
-- Leads, orçamentos e vendas atribuíveis, quando rastreáveis.
+## Métricas de aquisição ponta a ponta
+Além das métricas nativas de cada rede, registrar quando disponíveis:
+- ID permanente do conteúdo (`SG-XXX`).
+- Cliques no link oficial ou no site.
+- Conversas iniciadas no WhatsApp.
+- Leads qualificados pelo agente/CRM.
+- Orçamentos emitidos.
+- Pedidos pagos e receita confirmada.
+- Origem da conversa: código SG preservado, referência declarada pelo cliente, estimativa ou desconhecida.
 
-Registrar a origem e o período de apuração dos dados. Não misturar métricas de plataformas ou períodos diferentes sem identificar.
+### Classificação da atribuição
+- **CONFIRMADA:** o ID ou campanha chegou à conversa/CRM e foi registrado.
+- **DECLARADA:** o cliente informou que veio daquele conteúdo, mas o código não foi preservado automaticamente.
+- **ASSISTIDA/ESTIMADA:** há evidência indireta, mas não dá para atribuir a venda com certeza.
+- **DESCONHECIDA:** nenhuma origem confiável foi registrada.
 
-## Leitura dos resultados
-- Muitas visualizações, pouca retenção: revisar gancho, primeiro frame e correspondência entre promessa e entrega.
-- Boa retenção, poucos compartilhamentos: testar relevância social, utilidade ou identificação.
-- Muitos compartilhamentos, poucas visitas ao perfil: fortalecer a associação da marca sem transformar o vídeo em anúncio.
-- Muitas visitas, poucos contatos: revisar perfil, oferta, clareza de atendimento e caminho de conversão.
-- Poucas visualizações, mas contatos qualificados: avaliar valor comercial, não descartar automaticamente.
+Não converter estimativa em fato e não atribuir uma venda a um conteúdo apenas porque ele foi publicado antes da compra. Não armazenar dados pessoais além do necessário.
 
-Essas leituras são hipóteses para investigar, não diagnósticos automáticos.
+### Painel de leitura
+1. **Atenção:** alcance de não seguidores, retenção inicial e tempo médio.
+2. **Valor social:** compartilhamentos, salvamentos e comentários qualificados.
+3. **Intenção:** visitas ao perfil, cliques, conversas e leads.
+4. **Resultado comercial:** orçamentos, pedidos pagos e receita.
 
-## Experimentos
-Testar uma variável principal por vez sempre que possível:
-- Gancho.
-- Duração.
-- Formato (react, tela dividida, fundo verde, motion).
-- Tema/público.
-- CTA.
-- Ritmo/estilo de edição.
+Comparar cada etapa com conteúdos do mesmo formato, período e público. Reels, carrosséis e posts estáticos não devem ser comparados apenas por visualizações brutas.
 
-Não publicar duplicatas idênticas em excesso. Variar de modo que o resultado possa ensinar algo.
+### Regra de decisão
+- Alto alcance sem leads: ajustar público, associação com produto e CTA, sem transformar todo conteúdo em anúncio.
+- Bom engajamento e poucos cliques: tornar o próximo passo mais claro.
+- Muitos cliques e poucas conversas: conferir link, perfil e fluxo de entrada.
+- Muitas conversas e poucos orçamentos: avaliar qualidade do público e a ponte para o catálogo/CRM.
+- Muitos orçamentos e baixa conversão: investigar condições comerciais e atendimento com dados do CRM.
+- Leads qualificados com pouco alcance: preservar o ângulo e testar outra distribuição/gancho.
 
-## Revisão periódica
-A cada conjunto de publicações:
-1. Identificar os conteúdos com melhores sinais de retenção e compartilhamento.
-2. Identificar os que trouxeram visitas, mensagens e oportunidades comerciais.
-3. Comparar formatos e públicos.
-4. Registrar hipóteses e próximos testes.
-5. Atualizar o banco de ganchos e a estratégia quando houver evidência suficiente.
-
-## Atribuição
-Não atribuir vendas a um vídeo sem evidência. Quando possível, usar links rastreáveis, códigos, pergunta de origem no atendimento ou registro de campanha. Proteger dados pessoais e registrar apenas o necessário.
+Revisar por lotes de conteúdos, não por uma publicação isolada. Métricas globais e cases externos são referências; os dados da própria marca têm prioridade.
