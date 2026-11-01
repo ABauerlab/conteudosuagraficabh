@@ -141,3 +141,16 @@ Execute, nesta ordem, sem pedir autorização para cada etapa:
 - **Prancha visual:** quando houver, indicar o nome de arquivo e a pasta do Drive onde João deve salvá-la.
 - **Prompt para Claude:** um único comando completo, pronto para copiar, com os IDs exatos.
 - **Pendências:** somente bloqueios reais que dependem de João ou de acesso externo.
+
+
+## Cadência diária obrigatória de publicação (vigente a partir de 01/11/2026)
+Cada dia solicitado deve conter, no mínimo:
+- **2 Reels por dia**, ambos planejados como Trial Reels do Instagram nesta fase de testes. Cada Reel precisa ter conceito, gancho, roteiro/teleprompter, CTA falado final, instrução de gravação, edição e legendas por canal. Confirmar a disponibilidade do recurso Trial Reel na integração Postiz antes de agendar; se não estiver disponível, deixar o item sinalizado como pendente, sem publicar como Reel comum por conta própria.
+- **1 publicação de feed por dia**, escolhida entre carrossel ou post estático conforme a pauta. Não precisa ser vídeo.
+- **No mínimo 3 Stories por dia**, entregues como três publicações/quadros distintos, com texto final, objetivo, sequência lógica quando houver, direção visual e CTA. Os Stories são uma frente obrigatória e não podem ser esquecidos nem contabilizados como o post de feed.
+
+Portanto, a entrega diária padrão é de **6 peças/publicações no mínimo: 2 Reels + 1 post de feed + 3 Stories**. Se a pauta justificar mais Stories, entregar mais. Os Stories devem complementar os Reels e o post, reforçando descoberta, relacionamento, prova/autoridade e conversão, sem simplesmente republicar a mesma peça. Distribuir os Stories ao longo do dia apenas quando houver dados de audiência que sustentem horários; não inventar horários.
+
+Ao receber pedido de um dia específico, produzir o pacote completo daquele dia, com IDs SG individuais e sequenciais para cada peça. Os três Stories também recebem IDs próprios e arquivos individuais no repositório/calendário. Gerar uma prancha visual única por dia/lote que inclua artes, mapeando os IDs de feed e Stories. Reels podem ter quadros de referência na prancha quando houver direção visual relevante.
+
+Não reduzir a quantidade por conveniência. Se houver bloqueio de catálogo, direitos ou ferramenta, manter a peça no planejamento como pendente e continuar as demais.
