@@ -73,18 +73,19 @@ Usar o mesmo ID em todas as etapas:
 
 O ID é permanente. Títulos podem mudar sem alterar o ID. Takes adicionais recebem sufixos `-take-02`, `-take-03`.
 
-## Comando padrão para Claude
-“Claude, processe todos os vídeos disponíveis em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`. Consulte o repositório `ABauerlab/conteudosuagraficabh`, encontre o roteiro de cada vídeo pelo ID e siga integralmente as instruções, briefings e padrões de edição. Edite todos os vídeos que tiverem correspondência clara, revise e reproduza cada export para garantir a qualidade. Salve os arquivos finais em `03 - APROVADOS/`. Depois de conferir legenda, CTA e adequação por canal, distribua os conteúdos aprovados pelo Postiz nos canais conectados: Instagram, Facebook e Threads. Não publique duplicatas. Preserve todos os brutos. Registre o que foi editado, agendado ou publicado e informe pendências e falhas. Não invente informações nem declare ações que não foram confirmadas.”
+## Comando padrão e execução em lote
+O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João informa os IDs SG exatos do lote depois de colocar os brutos e a prancha visual no Drive.
 
-## Execução em lote e publicação automática
-- O comando de processamento em lote autoriza Claude a editar e publicar os vídeos que passarem integralmente pelo controle de qualidade, sem pedir aprovação individual de cada vídeo.
-- Não publicar arquivos sem roteiro correspondente, com divergência material, com informação comercial pendente ou com problema de direitos.
-- Não publicar exports que não tenham sido reproduzidos e conferidos.
+Claude executa somente os briefings desses IDs: produz carrosséis slide a slide, posts estáticos, Stories e capas; edita vídeos com bruto correspondente; revisa, organiza e agenda/distribui os itens aptos pelo Postiz. O comando autoriza execução sem aprovação individual para cada peça que passar integralmente pelo controle de qualidade.
+
+- Não criar pauta, copy, roteiro ou conteúdo substituto quando o briefing já está completo.
+- Não processar conteúdos fora dos IDs informados.
+- Não produzir nem publicar material sem briefing, confirmação comercial ou direitos resolvidos.
 - Verificar o histórico do Postiz para evitar duplicidade.
-- Se um vídeo falhar, pausar somente aquele item e continuar os demais aptos.
+- Se uma peça falhar, pausar somente aquele ID e continuar os demais aptos.
 - Se o Postiz falhar em um canal, registrar a falha daquele canal. Não declarar publicação concluída sem confirmação.
-- Não criar automações ou infraestrutura externa para executar o fluxo; usar as integrações e ferramentas já conectadas ao Claude.
-
+- Agendar conforme calendário e briefing; não inventar data/horário como se fossem dados comprovados.
+- Não aguardar 24 horas com o processo aberto para Trial Reels; registrar status e tratar a avaliação posterior como etapa separada.
 ## Controle de qualidade
 - Fala fiel à gravação e ao roteiro.
 - Gancho claro e ritmo que preserve entendimento.
