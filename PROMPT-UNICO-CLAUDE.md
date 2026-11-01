@@ -117,20 +117,23 @@ Use o Postiz e as contas já conectadas da SUA GRÁFICA BH. Confirme que o desti
 
 Para cada canal, adapte legenda, CTA, formato e mídia. Não copiar a mesma legenda automaticamente para Instagram, Facebook e Threads. Antes de distribuir, valide os limites e formatos atuais da plataforma e do Postiz. Não truncar legendas silenciosamente.
 
+Agende os conteúdos conforme o calendário e as instruções individuais do lote. Não invente data ou horário como se fossem dados de melhor desempenho. Quando o briefing apresentar apenas uma ordem editorial, usar a sequência definida e registrar a sugestão de horário como hipótese, não como fato. Só publicar imediatamente quando o pedido ou briefing determinar isso.
+
 ### Regra de Reels do Instagram
-Quando o conteúdo for Reel:
-1. Publicar primeiro como Trial Reel, se a conta e integração aceitarem os campos de Trial.
-2. Preferir configuração `is_trial_reel=true` e `graduation_strategy=MANUAL`.
-3. Registrar horário real do Trial Reel.
-4. Após 24 horas completas, consultar as métricas e executar a ação de “share with everyone”/graduação do MESMO Reel, se a integração ou a interface conectada suportar essa ação.
-5. Não usar `SS_PERFORMANCE` como sinônimo de publicação pública exatamente após 24 horas: a estratégia é automática baseada em desempenho, não um timer fixo.
-6. Não criar uma segunda publicação pública para simular graduação e não publicar Reel normal como substituição silenciosa.
-7. Se conseguir publicar o Trial, mas não conseguir graduar o mesmo Reel, deixar registrado como `TRIAL PUBLICADO — GRADUAÇÃO MANUAL PENDENTE`, informar João e indicar a ação nativa necessária. Não declarar publicação pública concluída sem confirmação.
+A Meta informa que os insights do Trial Reel costumam ficar disponíveis aproximadamente 24 horas após o compartilhamento; isso não significa que o conteúdo se torne público automaticamente nesse momento. Também existe uma opção de compartilhamento automático baseada no desempenho observado durante as primeiras 72 horas. Consulte a orientação oficial atual antes de executar: https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/.
 
-A Meta informa que os insights do Trial aparecem aproximadamente após 24 horas; isso não significa que ele se torna público sozinho nesse momento. A política operacional do João é avaliar na marca de 24h e depois compartilhar com todos, quando a ação estiver disponível.
+A documentação do Postiz descreve os campos `is_trial_reel` e `graduation_strategy` (`MANUAL` ou `SS_PERFORMANCE`), mas a presença desses campos não garante que a conta e a integração conectadas permitam promover manualmente o mesmo Reel após a janela de análise. Consulte: https://postiz.com/codex/instagram.
 
-Facebook e Threads podem ser publicados normalmente após revisão, conforme o planejamento. Não aplicar a regra de Trial a esses canais.
+Regras operacionais:
+1. Antes de usar Trial Reel, verificar no Postiz e na conta conectada se a publicação como Trial está realmente disponível.
+2. Se estiver disponível e for o formato definido no briefing, agendar/publicar com `is_trial_reel=true` e a estratégia indicada.
+3. Registrar ID, horário real, status e confirmação retornada pela ferramenta.
+4. **Não deixar o Claude aguardando 24 horas nem manter a execução do lote aberta.** Após criar/agendar o Trial Reel, finalizar as demais tarefas e registrar a etapa posterior como pendente.
+5. Após a janela de métricas, a graduação manual exige uma ação posterior. Só executar quando a ferramenta oferecer a ação oficial para o mesmo Reel e as métricas tiverem sido avaliadas.
+6. Não usar `SS_PERFORMANCE` como sinônimo de um timer fixo de 24 horas. Não criar uma segunda publicação para simular a graduação.
+7. Se o recurso não estiver disponível, marcar `PENDENTE DE RECURSO TRIAL REEL`. Só usar Reel regular como alternativa se o briefing permitir explicitamente; caso contrário, deixar pendente e continuar os demais itens aptos.
 
+Facebook e Threads podem ser agendados/publicados normalmente após revisão, conforme o calendário. Não aplicar a regra de Trial a esses canais.
 ## 8. Caminho para o WhatsApp e atribuição
 
 - Use o link oficial de WhatsApp/site já configurado pela marca. Confira o endereço no site/CRM atual. Não invente telefone, URL ou destino.
