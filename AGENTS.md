@@ -84,3 +84,7 @@ Criar subpasta por lote em conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/. Um conteúdo
 
 ## Pastas obrigatórias por formato nos próximos lotes
 Cada pasta de lote em `conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/` deve conter `FEED/`, `STORIES/` e `REELS/`, além de um `README.md` na raiz. Guardar cada `SG-XXX.md` individual diretamente na subpasta do formato: FEED para carrosséis e estáticos, STORIES para cada Story separado e REELS para cada vídeo. Não agrupar briefings, não misturar formatos e não deixar os arquivos individuais soltos na raiz do lote. O índice deve mapear ID, data, formato e status. IDs continuam globais e sequenciais; lote apagado não libera IDs para reutilização.
+
+
+## Padrão mínimo de qualidade dos briefings individuais
+O arquivo SG é a ordem de produção para Claude, não um lembrete curto. Aplicar integralmente a seção “REGRA DE BRIEFING COMPLETO — NÃO ACEITAR RESUMOS” de `CHATGPT.md`. Briefing com apenas título, uma frase ou instrução genérica não está pronto. Exigir teleprompter e direção de edição completos para Reels; roteiro slide a slide e direção de arte para carrosséis; copy e composição para estáticos; texto e layout individual para Stories. Validar todos os campos aplicáveis do `templates/CONTEUDO.md` antes de abrir PR.

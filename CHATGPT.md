@@ -334,3 +334,29 @@ Todo novo lote deve ser criado em `conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/` e co
 
 ## Remoção de lote e sequência de IDs
 Quando João solicitar apagar um lote, remover os arquivos e a pasta daquele lote do estado atual do repositório, atualizar o calendário e conferir a árvore GitHub. O histórico do Git permanece preservado. IDs que já foram atribuídos continuam consumidos e não podem ser reutilizados. Após a remoção do lote `lote-2026-11-04-a-2026-11-11` (SG-001 a SG-048), o próximo ID disponível é SG-049.
+
+
+## REGRA DE BRIEFING COMPLETO — NÃO ACEITAR RESUMOS
+Um briefing não é uma anotação de pauta. Cada arquivo SG deve ser uma ordem de produção autossuficiente para Claude. É proibido entregar briefings telegráficos, com apenas título, uma frase de copy e uma regra genérica. Se o arquivo não permitir que Claude produza a peça sem inventar conceito, texto, cenas ou layout, o briefing está incompleto e o lote não pode ser considerado pronto.
+
+Todo arquivo deve preencher as seções aplicáveis do template. Não deixar campos aplicáveis vazios nem usar frases como “criar algo moderno”, “usar identidade visual”, “quatro quadros visuais” ou “editar conforme referência” como substituto de instruções concretas.
+
+### Reels — conteúdo e edição
+- Informar objetivo, público, etapa do funil, gancho dos primeiros segundos e ideia narrativa.
+- Incluir teleprompter integral, em bloco separado, somente com as falas; CTA exato na última fala.
+- Especificar se João aparece falando, modo de produção, enquadramento, cenário, luz, áudio, postura, gestos, pausas, takes e nome exato do arquivo RAW.
+- Dar direção de edição para Claude: sequência temporal/cenas, duração estimada por trecho, cortes, reenquadramentos, B-roll com fonte/licença, textos na tela com redação exata, motion, transições, ritmo, sound design, legendas, tela final e exportação.
+- Se houver react ou referência externa, incluir link direto, timestamp/trecho, autoria, plataforma e verificação de direitos. Sem isso, não solicitar react.
+
+### Feed — carrossel ou estático
+- Carrossel: definir quantidade de slides e escrever cada slide individualmente com texto final, função narrativa, hierarquia, composição, fotografia/elementos, paleta, tipografia, continuidade com o slide anterior e gancho para o próximo. Incluir capa e CTA final. Claude exporta cada slide separadamente.
+- Estático: fornecer copy final integral, hierarquia textual, composição descrita com precisão, assunto/fotografia, tratamento, elementos gráficos, CTA, proporção e margens seguras.
+
+### Stories
+Cada Story é um conteúdo e arquivo independente. Informar texto exato, objetivo na sequência, composição, fundo/fotografia, hierarquia, elemento visual, CTA e destino. Se houver sequência, explicar a ligação narrativa entre Stories sem agrupá-los no mesmo arquivo.
+
+### Pacote de publicação
+Escrever legendas finais específicas para Instagram, Facebook e Threads quando os canais fizerem parte do plano; adaptar CTA e formato. Não usar “adaptar legenda” como instrução. Threads sem hashtags. Incluir texto alternativo quando pertinente e título/capa quando aplicável.
+
+### Gate de aprovação editorial
+Antes de gravar no GitHub, conferir cada SG individualmente: (1) copy final completa; (2) instruções de produção específicas do formato; (3) instruções de edição/arte suficientes para execução por Claude; (4) entregáveis e nomes de arquivo; (5) legenda e CTA; (6) referências/direitos e pendências. Se faltar qualquer item aplicável, completar o briefing antes de criar PR. Preferir menos conteúdos bem desenvolvidos a um lote cheio de resumos vazios, sem descumprir a quantidade explicitamente solicitada.

@@ -125,3 +125,23 @@ Checklist adicional para vídeos:
 - [ ] A frase soa natural e corresponde ao objetivo do conteúdo.
 - [ ] A edição preserva a fala completa e dá tempo para a ação ser compreendida.
 - [ ] O CTA visual reforça, mas não substitui, o CTA falado.
+
+
+## Briefing de execução para Claude (obrigatório)
+
+### O que Claude deve entregar
+- **Arquivos finais:** [nomes exatos e quantidade]
+- **Arquivos-fonte/projeto:** [quando aplicável]
+- **Pasta de destino no Drive:** [caminho exato]
+- **Dependência de gravação/assets:** [sim/não; detalhar]
+- **Critério de aceite:** [como saber que a peça está correta]
+
+### Direção de produção detalhada
+[Descrever a execução em passos claros. Para vídeo, detalhar timeline, cenas, cortes, motion, textos, B-roll, áudio e exportação. Para feed, detalhar cada slide ou a composição do estático. Para Story, detalhar a arte individual, hierarquia, elementos e CTA. Não deixar Claude decidir a copy ou inventar a direção que deveria estar no briefing.]
+
+### Checklist específico deste conteúdo
+- [ ] Todos os textos finais estão escritos neste arquivo.
+- [ ] A direção visual e de edição está suficientemente detalhada para execução.
+- [ ] Entregáveis, dimensões/proporções e nomes de arquivos estão definidos.
+- [ ] Direitos, catálogo e pendências estão verificados ou sinalizados.
+- [ ] Claude consegue executar sem criar estratégia, copy ou roteiro novo.
