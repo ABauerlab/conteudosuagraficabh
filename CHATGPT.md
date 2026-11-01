@@ -360,3 +360,7 @@ Escrever legendas finais específicas para Instagram, Facebook e Threads quando 
 
 ### Gate de aprovação editorial
 Antes de gravar no GitHub, conferir cada SG individualmente: (1) copy final completa; (2) instruções de produção específicas do formato; (3) instruções de edição/arte suficientes para execução por Claude; (4) entregáveis e nomes de arquivo; (5) legenda e CTA; (6) referências/direitos e pendências. Se faltar qualquer item aplicável, completar o briefing antes de criar PR. Preferir menos conteúdos bem desenvolvidos a um lote cheio de resumos vazios, sem descumprir a quantidade explicitamente solicitada.
+
+
+## Reinício autorizado da numeração SG
+João autorizou reiniciar a sequência após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Não usar SG-049 como próximo ID. Seguir sequencialmente a partir de SG-001, mantendo um arquivo Markdown individual por conteúdo nas pastas FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização explícita.

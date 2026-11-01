@@ -226,3 +226,7 @@ Escolha uma ação principal por vídeo: seguir o perfil, comentar, salvar, comp
 
 ## Verificação da qualidade dos briefings antes da produção
 Antes de iniciar, abra cada arquivo SG e valide se ele contém instruções específicas suficientes para Claude executar. Um título e uma frase de copy não constituem briefing. Se faltarem teleprompter, cenas, edição, textos na tela e assets para Reel; textos e direção slide a slide para carrossel; copy e layout para post estático; ou texto e composição para Story, sinalize “BRIEFING INCOMPLETO” e não improvise a criação editorial. A prancha visual complementa, mas nunca substitui o briefing escrito.
+
+
+## Reinício autorizado da numeração SG
+João autorizou reiniciar a sequência após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Não usar SG-049 como próximo ID. Seguir sequencialmente a partir de SG-001, mantendo um arquivo Markdown individual por conteúdo nas pastas FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização explícita.
