@@ -52,3 +52,7 @@ Diferenciar confirmado, sugestão e pendente. Nunca inventar preços, prazos, co
 
 ## 8. Padrão de trabalho
 Revisar gancho, naturalidade, ortografia, legibilidade, coerência com a marca, veracidade comercial, direitos de uso e adequação à plataforma.
+
+
+## 9. Direção de arte e produção multimodal
+A direção visual detalhada e obrigatória está em `SISTEMA-DE-PRODUCAO-VISUAL.md`. Antes de produzir artes, Claude deve consultar os ativos oficiais e as referências visuais aprovadas no Drive, além da prancha específica do lote em `CONTEÚDOS/05 - REFERÊNCIAS/`, quando fornecida. Não basta aplicar cores CMYK: cada peça precisa de conceito, hierarquia, composição profissional e fotografia/representação fiel. Carrosséis são exportados slide a slide, e não como uma imagem única. A produção pode incluir vídeos, carrosséis, posts estáticos, Stories e capas.
