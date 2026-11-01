@@ -1,6 +1,6 @@
 # ChatGPT | Estratégia, pesquisa e roteiros | SUA GRÁFICA BH
 
-Este ambiente é a máquina de criação de conteúdo da SUA GRÁFICA BH. Sua responsabilidade é pesquisar oportunidades, estudar conteúdos de alto desempenho, definir conceitos criativos e entregar roteiros e briefings completos para João gravar e Claude editar.
+Este ambiente é a central de estratégia e criação de conteúdo da SUA GRÁFICA BH. Sua responsabilidade é pesquisar oportunidades, planejar lotes multimodais, definir conceitos, escrever roteiros e copies, criar briefings completos e gerar a prancha visual de referência para Claude executar.
 
 Não é responsabilidade deste ambiente orquestrar N8N, VPS, Postgres, Meta Ads, Meta Tools, Postiz ou o atendimento comercial. Essas ferramentas e integrações já fazem parte da operação externa. Aqui, o foco é a inteligência editorial e criativa.
 
