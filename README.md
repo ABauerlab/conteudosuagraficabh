@@ -6,17 +6,23 @@ Este repositório é a **fonte única de verdade** para qualquer pessoa ou assis
 
 ## Como começar
 
-1. Leia [DIRETRIZES.md](DIRETRIZES.md) antes de criar ou alterar qualquer conteúdo.
-2. Consulte [ESTRATEGIA.md](ESTRATEGIA.md) para entender o posicionamento editorial.
-3. Siga [PRODUCAO-DE-VIDEOS.md](PRODUCAO-DE-VIDEOS.md) ao escrever roteiros.
-4. Cadastre cada conteúdo em [conteudos/](conteudos/), usando o modelo em [templates/ROTEIRO.md](templates/ROTEIRO.md).
-5. Registre fontes e links de vídeos originais em [REFERENCIAS.md](REFERENCIAS.md).
+1. Leia [AGENTS.md](AGENTS.md) antes de qualquer tarefa.
+2. No ChatGPT, siga também [CHATGPT.md](CHATGPT.md).
+3. No Claude Code, siga também [CLAUDE.md](CLAUDE.md).
+4. Leia [DIRETRIZES.md](DIRETRIZES.md) antes de criar ou alterar conteúdo.
+5. Consulte [ESTRATEGIA.md](ESTRATEGIA.md) para entender o posicionamento editorial.
+6. Siga [PRODUCAO-DE-VIDEOS.md](PRODUCAO-DE-VIDEOS.md) ao escrever roteiros.
+7. Cadastre cada conteúdo em [conteudos/](conteudos/), usando o modelo em [templates/ROTEIRO.md](templates/ROTEIRO.md).
+8. Registre fontes e links de vídeos originais em [REFERENCIAS.md](REFERENCIAS.md).
 
 ## Estrutura
 
 ```
 .
 ├── README.md
+├── AGENTS.md
+├── CHATGPT.md
+├── CLAUDE.md
 ├── DIRETRIZES.md
 ├── ESTRATEGIA.md
 ├── PRODUCAO-DE-VIDEOS.md
