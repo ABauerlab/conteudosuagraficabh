@@ -3,12 +3,14 @@
 ## Objetivo
 Transformar pesquisa de formatos e conteúdos de alto desempenho em roteiros originais, fáceis de gravar e acompanhados de instruções de edição suficientemente claras para Claude executar sem precisar decidir a direção criativa do zero.
 
+O objetivo não é produzir vídeos com um único efeito visual. É criar conteúdos que capturem atenção, mantenham interesse, entreguem valor e gerem demanda qualificada para a SUA GRÁFICA BH.
+
 ## Fluxo
 1. Pesquisar conteúdos recentes e referências concretas em plataformas relevantes, especialmente Instagram.
 2. Identificar o formato, gancho, estrutura narrativa e mecanismo de retenção que podem ser adaptados.
 3. Escolher um ângulo original relevante para empreendedores e potenciais clientes da gráfica.
 4. Definir o formato e a composição visual antes de escrever a versão final do roteiro.
-5. Entregar fala para teleprompter e ficha de produção completa.
+5. Entregar fala para teleprompter, ficha de produção e pacote de publicação.
 6. João grava e envia o arquivo identificado com o ID do roteiro.
 7. Claude consulta o briefing, usa as ferramentas disponíveis (incluindo Remotion quando adequado), edita, revisa e distribui conforme as instruções operacionais do repositório.
 
@@ -16,13 +18,62 @@ João deve ter o mínimo de trabalho operacional: abrir a pasta de roteiros, gra
 
 ## Pesquisa de conteúdos de alto desempenho
 Não basta listar trends. Procurar exemplos reais, recentes e rastreáveis de conteúdos com sinais de desempenho:
+- Vídeo direto para a câmera com narrativa visual construída na edição.
 - Tela dividida com apresentador e conteúdo visual/motion.
 - React, comentário, chroma key e picture-in-picture.
-- Motion graphics e storytelling visual.
+- Motion graphics, animação, storytelling visual e sound design.
 - Demonstração, transformação, comparação e antes/depois.
 - Formatos que criem curiosidade, surpresa, identificação ou utilidade.
 
 Registrar link, criador, plataforma, data e métricas observáveis quando disponíveis. Não inventar números nem afirmar viralidade com base em impressão. Diferenciar evidência, interpretação e hipótese. A referência serve para entender o mecanismo criativo, não para copiar falas, identidade ou execução.
+
+## Escolha da linguagem visual
+O formato deve nascer da ideia. Não transformar chroma key, split screen ou qualquer efeito em padrão obrigatório.
+
+Possibilidades:
+- **Câmera + motion:** João fala diretamente para a câmera e Claude constrói uma história visual com animações, textos cinéticos, gráficos, imagens de apoio, cortes, zooms pontuais e sound design.
+- **Tela dividida:** apresentador e conteúdo visual ocupam áreas distintas da tela.
+- **React/comentário:** reação ou análise com referência identificada e direitos verificados.
+- **Chroma key:** João aparece integrado a um cenário ou conteúdo de apoio quando isso realmente melhora a explicação.
+- **Picture-in-picture:** apresentador em janela sobre o conteúdo principal.
+- **Voice-over:** narração conduz a sequência visual.
+- **Sem apresentador:** demonstração, storytelling visual, produto, processo ou animação.
+- **Demonstração/comparação:** mostrar materiais, acabamentos, aplicações e diferenças confirmadas pelo catálogo.
+
+Claude pode propor soluções visuais originais quando o roteiro permitir, mas deve preservar o conceito, a mensagem e a intenção do briefing. Não adicionar efeitos só por decoração.
+
+## Exemplo de direção: vídeo direto para a câmera com motion
+Quando João grava apenas falando:
+- A gravação deve priorizar áudio limpo, boa luz, enquadramento estável e espaço visual para cortes.
+- Claude deve mapear a fala em blocos de ideias e criar uma progressão visual correspondente.
+- Criar cenas, animações, tipografia cinética, gráficos, ilustrações ou imagens de apoio que expliquem ou reforcem cada ponto.
+- Usar cortes, aproximações, transições e efeitos sonoros com intenção, sem poluir.
+- Introduzir mudanças visuais para renovar a atenção, sem sacrificar a compreensão.
+- O final deve concluir a história e conduzir ao CTA.
+
+## Exemplo de direção: tela dividida
+Quando esse formato for escolhido:
+- João grava olhando para a câmera, com enquadramento e posição definidos na ficha.
+- A composição pode reservar a faixa inferior para João e a superior para motion graphics.
+- Claude cria a parte visual no Remotion, com animações, textos, gráficos, comparações ou ilustrações que acompanhem a fala.
+- Cada elemento visual deve ter relação direta com o trecho narrado e entrar no momento correto.
+- Legendas e elementos de interface devem respeitar as áreas seguras e não disputar atenção.
+
+Não presumir que todo vídeo será tela dividida. O formato deve servir à narrativa.
+
+## Regras de roteiro e retenção
+- Gancho forte nos primeiros segundos, sem introdução institucional.
+- Criar uma pergunta, tensão, contraste, promessa específica ou situação reconhecível que justifique continuar assistindo.
+- Entregar a recompensa prometida pelo gancho; não enrolar.
+- Construir progressão narrativa: gancho, desenvolvimento, virada/descoberta e conclusão/CTA quando adequado.
+- Linguagem brasileira, natural, conversada e fácil de falar em voz alta.
+- Frases curtas e vocabulário cotidiano.
+- Texto para teleprompter contém apenas a fala, sem indicações técnicas.
+- Evitar clickbait, exageros, falsas urgências e fatos não verificados.
+- Preferir 15–30 segundos quando a ideia permitir; a duração deve ser determinada pela história, não por uma regra rígida.
+- Variar ganchos, formatos, públicos e temas. Não publicar ideias fracas apenas para preencher calendário.
+- Edição rápida não significa cortes aleatórios: cada corte, animação, pausa e efeito deve sustentar atenção ou entendimento.
+- Priorizar retenção qualificada e intenção comercial, não visualizações vazias.
 
 ## Referências para reacts
 Antes de entregar roteiro dependente de vídeo externo:
@@ -38,42 +89,16 @@ Se o original não for localizado, não inventar link nem apresentar o roteiro d
 
 Encontrar a origem não equivale a ter autorização para reutilizar. Verificar licença, autorização ou outra base legítima aplicável. Não remover marcas d'água, créditos ou identificação para ocultar autoria.
 
-## Conteúdos sem vídeo externo
-Para vídeos originais, motion, explicativos ou demonstrações, entregar conceito visual, sequência de cenas e briefing detalhado para Claude criar os assets.
+## Legendas e distribuição
+Cada conteúdo deve ter um pacote de publicação individual para Instagram, Facebook e Threads:
+- Legenda específica para o canal, com primeira linha forte, contexto e CTA.
+- Hashtags apenas quando úteis e dentro do limite vigente de cada plataforma.
+- Menções, links e chamadas adaptados às regras e ao comportamento de cada rede.
+- Capa/título quando aplicável.
+- Descrição acessível/alt text quando suportado e pertinente.
+- Texto revisado, sem cortes automáticos ou truncamento silencioso.
 
-## Formatos possíveis
-- Tela dividida.
-- React com vídeo de referência.
-- Chroma key / fundo verde.
-- Picture-in-picture.
-- Voice-over.
-- Vídeo sem apresentador.
-- Motion graphics original.
-- Demonstração e composição original.
-
-Escolher o formato em função da ideia e da referência, não por obrigação de usar um efeito da moda.
-
-## Exemplo de direção: tela dividida
-Quando esse formato for escolhido:
-- João grava olhando para a câmera, com enquadramento e posição definidos na ficha.
-- A composição pode reservar a faixa inferior para João e a superior para motion graphics.
-- Claude cria a parte visual no Remotion, com animações, textos, gráficos, comparações ou ilustrações que acompanhem a fala.
-- Cada elemento visual deve ter relação direta com o trecho narrado e entrar no momento correto.
-- Legendas e elementos de interface devem respeitar as áreas seguras e não disputar atenção.
-- O briefing deve dizer claramente o que aparece em cada parte da tela e em que momento.
-
-Não presumir que todo vídeo será tela dividida. O formato deve servir à narrativa.
-
-## Regras de roteiro
-- Gancho forte nos primeiros 1–2 segundos.
-- Linguagem brasileira, natural, conversada e fácil de falar em voz alta.
-- Frases curtas e vocabulário cotidiano.
-- Texto para teleprompter contém apenas a fala, sem indicações técnicas.
-- Evitar introduções, apresentações institucionais e tom de anúncio.
-- Preferir 15–30 segundos quando a ideia permitir.
-- Não usar clickbait, promessas ou fatos não verificados.
-- Não entregar ideia fraca apenas para preencher calendário.
-- Variar ganchos, formatos, públicos e temas.
+Antes de agendar/publicar, Claude deve verificar documentação oficial atual da Meta/Instagram/Threads e os limites realmente aceitos pelo Postiz e pelas integrações conectadas. Validar caracteres, hashtags, menções, links, duração, proporção, tamanho/formato do arquivo e campos aceitos em cada canal. Não reutilizar limites memorizados de versões antigas nem presumir que Instagram, Facebook e Threads aceitam as mesmas especificações. Registrar data e fonte da validação quando houver mudança relevante. Se uma rede não aceitar determinado texto ou mídia, adaptar a versão daquele canal e registrar a diferença.
 
 ## Entrega obrigatória de cada conteúdo
 1. ID e título/filename.
@@ -85,9 +110,10 @@ Não presumir que todo vídeo será tela dividida. O formato deve servir à narr
 7. Formato e duração estimada.
 8. Instruções de gravação para João.
 9. Briefing técnico para Claude: composição, cenas, motions, timing, textos, assets, transições e recursos recomendados.
-10. Legenda, CTA e adaptação por canal.
-11. Fontes, direitos e pendências.
-12. Checklist de conclusão.
+10. Legendas separadas para Instagram, Facebook e Threads.
+11. CTA, capa e observações de mídia.
+12. Fontes, direitos, limites verificados e pendências.
+13. Checklist de conclusão.
 
 ## Briefing para Claude
 Claude pode usar Remotion, FFmpeg, JavaScript/TypeScript, chroma key, split screen, picture-in-picture, tracking, máscaras, motion graphics, animações, legendas e efeitos, conforme disponibilidade e adequação. O briefing deste repositório define a direção criativa. Claude executa tecnicamente, sem reinventar o conceito nem substituir o formato indicado sem necessidade. Se houver limitação técnica real, deve informar e propor a alternativa mais próxima.
