@@ -96,3 +96,22 @@ A cadência editorial mínima é 2 Reels, 1 post de feed e 3 Stories por dia, ma
 Quando os brutos chegarem, localizar os arquivos pelo ID SG, editar os vídeos correspondentes e mover os resultados para as pastas existentes. Nunca alterar ou apagar brutos originais. Usar nomenclatura SG-###-RAW.mp4, SG-###-FEED-01.png, SG-###-SLIDE-01.png e SG-###-STORY.png. Exportar cada Story e cada slide de carrossel individualmente.
 
 Antes de finalizar, conferir se todo ID do calendário aparece em exatamente um dos fluxos ou está claramente marcado como dependente/pendente. Reportar a João primeiro o total exato de gravações necessárias e, em separado, o total de peças produzidas integralmente por Claude.
+
+
+## Prancha de produção visual em grade (referência obrigatória)
+O João forneceu duas referências visuais que definem o formato esperado: um guia visual com vários estilos de post apresentados em uma grade e uma colagem de peças publicitárias completas. Use essas imagens como referência de apresentação e praticidade, sem copiar os layouts literalmente.
+
+A prancha do lote não é um moodboard abstrato. É uma folha de contato/grade de produção que antecipa visualmente as peças reais que serão criadas:
+- incluir miniatura de cada peça gráfica do lote, organizada por dia e/ou formato;
+- rotular cada miniatura com ID SG, formato e canal;
+- usar a copy real dos briefings, com título e texto principal legíveis;
+- mostrar composição, fotografia/objeto, paleta, hierarquia, CTA e tratamento visual pretendidos;
+- carrosséis aparecem como sequência de miniaturas, uma por slide;
+- Stories aparecem individualmente em 9:16;
+- posts estáticos e capas aparecem no formato final;
+- Reels podem ter capa e quadros-chave de storyboard, sem sugerir que a prancha seja o vídeo final;
+- separar com clareza o grupo JOÃO GRAVA do grupo CLAUDE PRODUZ SEM GRAVAÇÃO.
+
+A prancha precisa ser legível. Se não couber tudo em uma única imagem sem comprometer a leitura, dividir em pranchas numeradas por dia/formato. Não reduzir miniaturas a ponto de o texto ficar ilegível. Usar fundo neutro, grid alinhado, margens consistentes e resolução suficiente para zoom.
+
+Claude deve usar a prancha para entender e reproduzir as peças, mas deve criar/exportar cada arte individualmente em sua dimensão final. Nunca exportar ou publicar a prancha como se fosse um post. Verificar os IDs na prancha contra CAPTACAO.md, PRODUCAO-CLAUDE.md e CALENDARIO.md; corrigir qualquer divergência antes de produzir.
