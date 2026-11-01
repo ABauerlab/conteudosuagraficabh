@@ -104,7 +104,7 @@ A prancha deve seguir as imagens de referência aprovadas por João e o `SISTEMA
 **Handoff necessário:** a imagem gerada nesta conversa não é automaticamente inserida no Google Drive, no GitHub ou no ambiente do Claude. Entregar a prancha no chat com um nome de arquivo sugerido contendo os IDs e orientar João a salvá-la em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`. O Claude deve localizar essa prancha pelo ID. Não afirmar que ela foi enviada ao Drive ou ao GitHub sem confirmação real.
 
 ### Arquivos e comando de execução
-Registre os briefings individuais em `conteudos/` e atualize `CALENDARIO.md` sempre que houver acesso de escrita. Não duplicar IDs nem sobrescrever conteúdos anteriores. Se não for possível gravar no GitHub, entregar os arquivos em formato pronto para serem adicionados e informar a limitação.
+Registre cada briefing individual em `conteudos/` usando `templates/CONTEUDO.md` como estrutura e atualize `CALENDARIO.md` sempre que houver acesso de escrita. Não duplicar IDs nem sobrescrever conteúdos anteriores. Se não for possível gravar no GitHub, entregar os arquivos em formato pronto para serem adicionados e informar a limitação.
 
 O caminho de conversão padrão é o link oficial para o WhatsApp já conectado ao CRM. Não invente destinos nem afirme que a origem é rastreada se não estiver confirmada.
 
