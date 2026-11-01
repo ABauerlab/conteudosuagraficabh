@@ -57,12 +57,13 @@ A Meta informa que os insights de um Trial Reel costumam ficar disponíveis apro
 O Postiz documenta os campos `is_trial_reel` e `graduation_strategy` (`MANUAL` ou `SS_PERFORMANCE`), mas isso, isoladamente, não comprova que a integração conectada permite promover manualmente o mesmo Reel depois. [Documentação Postiz](https://postiz.com/codex/instagram).
 
 Regras operacionais:
-1. Antes de usar Trial Reel, verificar no Postiz e na conta conectada se o recurso realmente está disponível.
-2. Se disponível e previsto no briefing, agendar/publicar com `is_trial_reel=true` e a estratégia definida, sem prometer graduação manual futura.
+1. O Postiz documenta suporte a `is_trial_reel=true` e `graduation_strategy=MANUAL` ou `SS_PERFORMANCE`. Antes do primeiro uso na instalação self-hosted, Claude deve confirmar a versão, os campos aceitos e o canal Instagram conectado.
+2. Se disponível e previsto no briefing, agendar/publicar o Trial Reel via Postiz com `is_trial_reel=true` e `graduation_strategy=MANUAL` quando a decisão de compartilhar depois for humana.
 3. Não deixar o Claude aguardando 24 horas nem manter a execução do lote aberta. Registrar ID, horário real e status do Trial Reel.
-4. Após a janela de métricas, a graduação manual exige uma ação posterior. Só executar quando a ferramenta oferecer a ação oficial para o mesmo Reel e a revisão das métricas tiver ocorrido.
-5. Não duplicar o Reel para simular graduação. Não tratar `SS_PERFORMANCE` como um timer de 24 horas.
-6. Se não houver suporte confirmado, marcar `PENDENTE DE RECURSO TRIAL REEL` e decidir publicação regular apenas quando o briefing permitir explicitamente essa alternativa. Continuar os demais itens aptos.
+4. Aproximadamente 24 horas depois, consultar as métricas. Se a decisão for compartilhar com seguidores, abrir o mesmo Trial Reel no Instagram e usar a ação nativa **Compartilhar com todos / Share with everyone**. Essa etapa não deve criar outra publicação.
+5. Não publicar uma cópia normal no dia seguinte para depois apagar uma delas. Isso divide os históricos, perde sinais e não transfere o engajamento entre posts.
+6. `SS_PERFORMANCE` é uma opção de graduação automática decidida pelo Instagram, não um agendamento público manual para exatamente 24 horas.
+7. Se o recurso ou a ação nativa não estiverem disponíveis, marcar `PENDENTE DE RECURSO TRIAL REEL`; não duplicar. Reaproveitar a ideia somente em outro momento, com variação criativa substancial, se fizer sentido.
 
 Nunca afirmar que um Trial Reel foi graduado, que aguardou 24 horas ou que foi publicado para todos sem confirmação real.
 
