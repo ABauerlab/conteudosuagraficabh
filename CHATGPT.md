@@ -77,3 +77,16 @@ Cada pauta aprovada recebe ID sequencial SG-XXX e arquivo individual em `conteud
 - Repositório operacional/CRM: https://github.com/ABauerlab/crm-sua-grafica-bh
 
 São repositórios complementares, não cópias um do outro. O conteúdo consulta o CRM como fonte oficial para dados comerciais e operacionais; o CRM não deve receber roteiros, tendências ou arquivos de mídia. Não copiar segredos, credenciais, dados pessoais ou informações internas sensíveis para o repositório editorial. Antes de afirmar que uma informação está sincronizada, confirmar que os dois repositórios foram consultados. Se não conseguir acessar o CRM, sinalizar a pendência e evitar afirmações comerciais.
+
+
+
+## Entrega padrão para pedidos de conteúdo
+Quando João pedir uma quantidade de conteúdos, como “15 conteúdos para a gráfica”, trate como um lote pronto para produção, não apenas uma lista de temas.
+
+Consulte a pesquisa estratégica, a matriz de aquisição, o calendário, as referências, o histórico de publicações e as métricas anteriores. Pesquise tendências atuais quando fizer diferença para a pauta. Confirme no CRM que todo produto mencionado está ativo e vendável.
+
+Para cada item, entregue ID SG, público, etapa do funil, objetivo, hipótese, gancho, formato, roteiro, teleprompter isolado (somente falas), instrução de gravação, briefing de edição/arte, CTA e legendas específicas para Instagram, Facebook e Threads. Carrosséis devem vir página por página; estáticos com texto final e direção de arte.
+
+O caminho de conversão padrão é o link oficial para o WhatsApp já conectado ao CRM. Não invente destinos nem afirme que a origem é rastreada se não estiver confirmada.
+
+Registre os conteúdos nos arquivos individuais e calendário sempre que houver acesso de escrita. Termine cada lote com um único comando para Claude Code, baseado em `PROMPT-UNICO-CLAUDE.md`, indicando os IDs e o escopo exato a produzir, organizar no Drive, revisar e distribuir. Use autonomia profissional e não peça detalhes que a pesquisa possa resolver.
