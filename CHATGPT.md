@@ -238,3 +238,40 @@ O acesso ao CRM não deve ser usado apenas para conferir nomes de produtos. É n
 Se o conteúdo for sobre “como solicitar seu orçamento”, a produção deve ser baseada em uma demonstração fiel do fluxo real: registrar cada etapa confirmada, a tela correspondente, o texto/botão real e o resultado observado. Se o fluxo não puder ser verificado por falta de acesso, ambiente, autenticação ou dados, não improvisar: substituir o ângulo por um conteúdo que não dependa dessa demonstração ou marcar a peça como pendente de validação.
 
 O repositório de conteúdo e o CRM são fontes complementares. Para conteúdos operacionais, o código e a experiência real do CRM prevalecem sobre suposições, lembranças, referências de concorrentes ou roteiros antigos. Claude Code também deve consultar o CRM diretamente antes de produzir capturas, gravações de tela, mockups de interface ou demonstrações de fluxo. Toda demonstração final precisa corresponder à versão atual do sistema.
+
+
+## Correção obrigatória após falha de alinhamento do lote (01/11/2026)
+Esta seção prevalece sobre qualquer instrução anterior ambígua sobre pranchas, captação e divisão de produção.
+
+### Inventário diário que nunca pode ser reduzido
+Cada dia do lote precisa conter exatamente os itens mínimos abaixo, cada um com ID SG próprio e briefing individual:
+- 2 REELS (ambos com presença humana real no vídeo final, roteiro integral e captação de João).
+- 1 FEED (carrossel ou estático, escolhido pela estratégia).
+- 3 STORIES (três peças/telas individuais, não um conjunto contado como uma peça só).
+
+Antes de criar arquivos ou pranchas, montar uma matriz de controle com data, ID, formato, título, responsável, necessidade de RAW, presença na prancha e status. Validar a contagem por dia e no total. Para N dias, o mínimo é 6N peças: 2N Reels + N Feed + 3N Stories. Exemplo: 8 dias = 16 Reels + 8 Feed + 24 Stories = 48 peças. Nunca chamar 8 Feed + 24 Stories de lote completo se os 16 Reels não estiverem entregues.
+
+### Reels: captação e visualização são entregas distintas
+Todo Reel exige RAW humano de João, mas isso NÃO autoriza omitir o Reel do planejamento, do briefing ou da prancha. Cada Reel deve ter: briefing completo, roteiro/teleprompter, instruções de captação, nome do RAW, direção de edição, legenda por canal, capa/thumbnail e 2–4 quadros-chave de referência visual quando aplicável. Marcar o status como AGUARDANDO RAW até a gravação; nunca remover o Reel do inventário visual por estar aguardando captação.
+
+### Pranchas: cobertura total, sem exceção
+A prancha visual é uma representação do lote inteiro, não apenas das artes que Claude consegue produzir sem RAW. Deve incluir todos os IDs do lote:
+- Para cada Reel: capa/thumbnail e storyboard/quadros-chave, claramente marcados como REEL e AGUARDANDO RAW.
+- Para cada Feed: miniaturas de todos os slides do carrossel, ou a peça estática completa.
+- Para cada Story: cada uma das três artes individuais, em proporção 9:16.
+
+Se não couber com legibilidade, dividir em pranchas numeradas. É proibido reduzir a quantidade de peças para caber numa única imagem. Toda prancha deve ter cabeçalho com total correto por formato e total geral. Conferir matematicamente os números e comparar cada ID da matriz com a prancha antes de entregar. Nunca escrever “32 conteúdos” quando o lote contém 48 peças; nunca omitir os Reels do quadro-resumo.
+
+### Ordem de execução e arquivos
+A pasta do lote deve conter, no mínimo, `CALENDARIO.md`, `CAPTACAO.md`, `PRODUCAO-CLAUDE.md`, `REFERENCIAS/README.md` e um briefing individual para cada ID SG. `CAPTACAO.md` lista os 2 Reels por dia com teleprompter e instruções para João. `PRODUCAO-CLAUDE.md` inclui todos os itens gráficos e a edição prevista dos Reels, sem apagar ou excluir os Reels do pacote completo. O calendário lista os 6 itens mínimos por dia e identifica dependências/status.
+
+### Gate de validação antes de entregar
+Não publicar nem considerar o lote pronto enquanto todos os itens abaixo não forem verdadeiros:
+1. Contagem de IDs corresponde a 2 Reels + 1 Feed + 3 Stories por dia.
+2. Todos os Reels têm roteiro integral, CTA falado, instruções humanas e filename RAW.
+3. Todos os IDs aparecem na matriz e na prancha; nenhum Reel fica de fora por depender de RAW.
+4. Cada carrossel tem todos os slides descritos; cada Story tem briefing e arte individual.
+5. Cabeçalhos e totais das pranchas correspondem à contagem real, sem texto ilegível ou números contraditórios.
+6. O calendário geral da raiz, calendário do lote e briefings individuais usam os mesmos IDs e formatos.
+7. Os arquivos realmente existem no GitHub; conferir a árvore do repositório após a gravação. Não declarar conclusão com gravação parcial ou ferramenta interrompida.
+8. Se qualquer validação falhar, corrigir antes de entregar. Se a ferramenta impedir a gravação completa, informar claramente que o lote não está pronto e não orientar a produção.
