@@ -26,6 +26,7 @@ Antes de começar, confira `git status` e sincronize a branch principal com `git
 - `REFERENCIAS.md`
 - `CALENDARIO.md`
 - os arquivos individuais em `conteudos/` relacionados ao pedido.
+- `templates/CONTEUDO.md` para briefings multimodais e `templates/ROTEIRO.md` somente para roteiros legados.
 
 Se existir conflito, respeite esta hierarquia: catálogo e regras operacionais do CRM; instruções permanentes do repositório de conteúdo; briefing específico do ChatGPT; este comando. Nunca sobrescreva informação comercial oficial com uma referência de concorrente.
 
