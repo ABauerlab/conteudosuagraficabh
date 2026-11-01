@@ -1,72 +1,63 @@
-# Operação de conteúdo em escala
+# Operação de conteúdo | SUA GRÁFICA BH
 
 ## Objetivo
-Permitir produção contínua de vídeos com baixa carga operacional para João: ChatGPT pesquisa e roteiriza, João grava e envia ao Drive, Claude localiza o roteiro e edita.
+Manter uma rotina simples: ChatGPT pesquisa e cria roteiros, João grava e envia os brutos ao Drive, Claude edita e distribui os materiais finalizados pelo Postiz.
+
+Não criar etapas, serviços ou ferramentas adicionais quando as integrações já disponíveis no ambiente do Claude forem suficientes.
 
 ## Papéis
-- **João:** aprova pautas quando necessário, grava os roteiros no teleprompter e envia arquivos brutos ao Google Drive.
-- **ChatGPT:** pesquisa mercado, identifica oportunidades, seleciona pautas, cria roteiros e briefings e mantém os registros editoriais.
-- **Claude Code:** consulta este repositório, encontra os brutos no Drive, edita, exporta e informa a entrega.
-- **Google Drive:** armazenamento e passagem dos arquivos entre gravação, edição, aprovação e publicação.
-- **Distribuição:** publicação orgânica e uso em campanhas pagas conforme decisão do responsável. Não presumir Postiz ou publicação automática.
+- **ChatGPT:** pesquisa, estratégia editorial, roteiros, briefings e organização do repositório.
+- **João:** grava os roteiros e envia os vídeos para a pasta de brutos. Quando solicitar o processamento em lote, autoriza a edição e a publicação dos conteúdos que passarem no controle de qualidade.
+- **Claude Code:** consulta este repositório, localiza os brutos no Drive, edita, revisa, exporta e distribui pelo Postiz.
+- **Google Drive:** armazenamento dos arquivos.
+- **Postiz:** distribuição orgânica nos canais configurados: Instagram, Facebook e Threads.
 
-## Pasta oficial do Drive
-`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
-
-Subpastas:
-1. `01 - VÍDEOS BRUTOS/` — arquivos originais gravados por João.
-2. `02 - EM EDIÇÃO/` — projetos e versões de trabalho do Claude.
-3. `03 - APROVADOS/` — exports finais aprovados.
-4. `04 - PUBLICADOS/` — arquivos finais e/ou materiais publicados.
+## Pastas do Drive
+Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
+1. `01 - VÍDEOS BRUTOS/` — gravações originais de João.
+2. `02 - EM EDIÇÃO/` — projetos e versões de trabalho.
+3. `03 - APROVADOS/` — exports finais revisados.
+4. `04 - PUBLICADOS/` — arquivos finais e materiais publicados.
 5. `05 - REFERÊNCIAS/` — referências e assets autorizados/licenciados.
 
-Não apagar nem sobrescrever arquivos brutos. Se o conector não permitir movimentar arquivos, manter cópias e informar.
+Não apagar nem sobrescrever brutos. Não alterar a estrutura de pastas sem autorização.
 
-## Fluxo
-1. Pesquisa de mercado obrigatória antes de cada lote de roteiros.
-2. Seleção de pautas por relevância para o público e potencial de aquisição.
-3. Criar roteiro curto, natural e pronto para teleprompter.
-4. Criar arquivo individual `conteudos/SG-XXX-titulo-curto.md` e atualizar `CALENDARIO.md`.
-5. João grava um vídeo por arquivo e usa o mesmo ID/título no nome: `SG-XXX - TÍTULO DO VÍDEO.mp4`.
-6. João envia os arquivos para `01 - VÍDEOS BRUTOS/`.
-7. João solicita ao Claude a edição da pasta.
-8. Claude cruza os arquivos do Drive com os roteiros por ID, identifica divergências e consulta os briefings antes de editar.
-9. Claude salva projetos/versões em `02 - EM EDIÇÃO/` e exports finais em `03 - APROVADOS/`. Não marca como aprovado sem validação de João.
-10. Após aprovação, salvar cópia em `04 - PUBLICADOS/` quando necessário e registrar links, data e plataforma.
-11. Registrar métricas e resultados comerciais disponíveis e alimentar a próxima rodada de pesquisa.
+## Fluxo de trabalho
+1. Pesquisar oportunidades e criar roteiros.
+2. Criar um arquivo individual `conteudos/SG-XXX-titulo-curto.md` usando `templates/ROTEIRO.md`; atualizar `CALENDARIO.md`.
+3. João grava cada roteiro e identifica o arquivo com o mesmo ID: `SG-XXX - TÍTULO DO VÍDEO.mp4`.
+4. João envia os arquivos para `01 - VÍDEOS BRUTOS/`.
+5. João envia ao Claude um único comando para processar os vídeos da pasta.
+6. Claude cruza os arquivos com os roteiros, edita todos os itens com correspondência clara e salva os exports finais em `03 - APROVADOS/`.
+7. Claude reproduz e confere cada export, verifica legenda e CTA e distribui os conteúdos aptos pelo Postiz para Instagram, Facebook e Threads.
+8. Claude registra o resultado no calendário e nos arquivos individuais, quando tiver acesso de escrita.
+9. Os resultados disponíveis são registrados para orientar os próximos conteúdos.
 
-## Gravação em lote
-- Preparar a lista de roteiros aprovados.
-- Agrupar por cenário, enquadramento e formato para reduzir trocas.
-- Entregar o texto falado isolado, sem instruções misturadas.
-- Gravar takes curtos, um vídeo por arquivo.
-- Usar sufixos `-take-02`, `-take-03` quando houver novas tomadas.
-- João não precisa editar nem procurar assets.
+## Comando padrão para Claude
+“Claude, processe todos os vídeos disponíveis em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`. Consulte o repositório `ABauerlab/conteudosuagraficabh`, encontre o roteiro de cada vídeo pelo ID e siga integralmente as instruções, briefings e padrões de edição. Edite todos os vídeos que tiverem correspondência clara, revise e reproduza cada export para garantir a qualidade. Salve os arquivos finais em `03 - APROVADOS/`. Depois de conferir legenda, CTA e adequação por canal, distribua os conteúdos aprovados pelo Postiz nos canais conectados: Instagram, Facebook e Threads. Não publique duplicatas. Preserve todos os brutos. Registre o que foi editado, agendado ou publicado e informe pendências e falhas. Não invente informações nem declare ações que não foram confirmadas.”
 
-## Handoff para Claude
-Ao receber solicitação para editar a pasta:
-- Ler `AGENTS.md`, `CLAUDE.md`, `SISTEMA-DE-PRODUCAO-DE-CONTEUDO.md`, `PADROES-DE-EDICAO.md` e os arquivos individuais correspondentes.
-- Listar os arquivos encontrados e fazer correspondência por ID.
-- Informar brutos sem roteiro, roteiros sem bruto e nomes ambíguos antes de prosseguir.
-- Não inventar falas, cenas reais, depoimentos, resultados ou informações comerciais.
-- Preservar os brutos.
-- Entregar ID, bruto, status, caminho real do export e pendências.
-- Não alegar que moveu, exportou ou editou se a ação não foi confirmada.
-
-## Mensagem padrão
-“Claude, edite os vídeos disponíveis em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`. Consulte o repositório `ABauerlab/conteudosuagraficabh`, encontre o roteiro de cada vídeo pelo ID/nome e siga o briefing e os padrões de edição. Antes de começar, informe arquivos sem correspondência. Salve projetos e versões em `02 - EM EDIÇÃO/`; não altere os brutos. Não invente falas nem informações comerciais.”
+## Regras para processamento em lote
+- Usar `SG-XXX` como identificador principal.
+- Antes de editar, listar os arquivos encontrados e identificar brutos sem roteiro, roteiros sem bruto e nomes ambíguos.
+- Não interromper todo o lote por causa de um único arquivo com problema; processar os demais que estiverem aptos.
+- Não inventar correspondências, falas, cenas, depoimentos ou dados comerciais.
+- Não apagar ou sobrescrever os arquivos originais.
+- Não publicar material que falhar na revisão.
+- Verificar histórico do Postiz para evitar duplicidade.
+- Se o Postiz falhar em um canal, registrar a falha e não afirmar que houve publicação naquele canal.
 
 ## Controle de qualidade
 - Fala fiel à gravação e ao roteiro.
-- Gancho claro nos primeiros segundos.
-- Legendas revisadas, legíveis e dentro da área segura.
-- Áudio limpo, sem clipping e música licenciada abaixo da voz.
-- Sem cortes bruscos ou ritmo que prejudique compreensão.
-- Assets oficiais e identidade respeitados.
+- Gancho claro e ritmo natural.
+- Legendas corretas, legíveis e dentro da área segura.
+- Áudio limpo, sem clipping; música licenciada e abaixo da voz.
+- Cortes sem prejudicar o entendimento.
+- Identidade visual e assets oficiais respeitados.
+- Informações comerciais confirmadas no CRM.
 - Direitos e créditos preservados.
-- Export reproduzido e conferido.
-- João aprova antes de marcar como aprovado/publicável.
+- Export reproduzido e conferido antes da distribuição.
 
 ## Status
-IDEIA → PESQUISA → ROTEIRO PRONTO → PRONTO PARA GRAVAR → GRAVADO → EM EDIÇÃO → REVISÃO → APROVADO → PUBLICADO → ANALISADO.
-Estados adicionais: PAUSADO, PENDENTE DE REFERÊNCIA, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO.
+IDEIA → PESQUISA → ROTEIRO PRONTO → PRONTO PARA GRAVAR → GRAVADO → EM EDIÇÃO → FINALIZADO → AGENDADO → PUBLICADO → ANALISADO.
+
+Estados adicionais: PENDENTE DE ROTEIRO, PENDENTE DE REFERÊNCIA, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO, ERRO DE EDIÇÃO e ERRO DE PUBLICAÇÃO.
