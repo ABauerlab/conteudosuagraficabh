@@ -45,3 +45,7 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - Não prometer viralização; trabalhar com hipóteses e testes.
 - Preservar os vídeos brutos.
 - Não publicar material que não tenha passado pelo controle de qualidade.
+
+
+## Estrutura obrigatória dos lotes
+Cada lote fica em conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/. Cada peça tem seu próprio arquivo SG-XXX.md. É proibido agrupar conteúdos em arquivos diários. Consulte conteudos/README.md e os briefings individuais de cada lote.

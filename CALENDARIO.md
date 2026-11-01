@@ -1,6 +1,8 @@
 # Calendário | SUA GRÁFICA BH
 
 ## Lote 04/11/2026 a 11/11/2026
+- Pasta: conteudos/lote-2026-11-04-a-2026-11-11/
+- Briefings individuais: 48 arquivos SG-XXX.md, um por conteúdo.
 - Captação dos 16 Reels: 03/11/2026
 - Total: 48 peças | 16 Reels | 8 carrosséis | 24 Stories individuais
 - IDs: SG-001 a SG-048
