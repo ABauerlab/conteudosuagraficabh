@@ -70,6 +70,11 @@ Usar o mesmo ID em todas as etapas:
 - Bruto: `SG-XXX - TÍTULO DO VÍDEO.mp4`
 - Projeto: `SG-XXX - TÍTULO DO VÍDEO`
 - Export: `SG-XXX - TÍTULO DO VÍDEO - FINAL.mp4`
+- Carrossel: `SG-XXX-SLIDE-01.png`, `SG-XXX-SLIDE-02.png` etc.
+- Post estático: `SG-XXX-ARTE-FINAL.png`
+- Story: `SG-XXX-STORY-01.png`, `SG-XXX-STORY-02.png` etc.
+- Capa/thumbnail: `SG-XXX-CAPA.png`
+- Prancha visual do lote: `SG-XXX-SG-YYY-DIRECAO-VISUAL.png` (usar o primeiro e o último ID do lote).
 
 O ID é permanente. Títulos podem mudar sem alterar o ID. Takes adicionais recebem sufixos `-take-02`, `-take-03`.
 
