@@ -50,10 +50,11 @@ Não apagar nem sobrescrever brutos. Não alterar a estrutura de pastas sem auto
 
 ## Regra especial: Reels do Instagram como Trial Reel
 Todo vídeo destinado ao Reels do Instagram deve seguir este fluxo:
-1. Primeiro, publicar como **Trial Reel (Reel de teste)**, usando o recurso oficial do Instagram, quando essa opção estiver disponível e for compatível com a integração do Postiz.
-2. Aguardar 24 horas completas após a publicação de teste.
-3. Depois das 24 horas, compartilhar/publicar o mesmo Reel para todos, tornando-o público para a audiência geral, conforme o fluxo oficial disponível.
-4. Registrar os horários reais da etapa de teste e da publicação geral.
+1. Publicar como **Trial Reel** com `is_trial_reel=true` e `graduation_strategy=MANUAL`, se a integração aceitar os campos.
+2. Após 24 horas completas, consultar as métricas. Esse prazo é o momento aproximado em que a Meta disponibiliza os insights, não uma publicação pública automática.
+3. Compartilhar o mesmo Reel com todos por meio da ação oficial de graduação manual, somente se a integração ou interface conectada permitir.
+4. Não usar `SS_PERFORMANCE` como substituto de um prazo fixo de 24 horas e não criar uma publicação duplicada para simular a graduação.
+5. Se não houver ação manual disponível, registrar `TRIAL PUBLICADO — GRADUAÇÃO MANUAL PENDENTE` e informar João.
 
 **Verificação obrigatória:** antes de executar, Claude deve confirmar se o Postiz e a conexão atual com o Instagram permitem criar Trial Reels e depois compartilhar o mesmo Reel com todos. Não confundir agendamento comum ou publicação normal com Trial Reel. Se o recurso não estiver disponível na integração, não publicar o Reel normalmente como substituição e não simular a etapa de teste. Marcar como `PENDENTE DE RECURSO TRIAL REEL`, informar João e manter os demais canais/itens aptos em andamento. Não afirmar que aguardou 24 horas ou publicou para todos sem confirmação real.
 
