@@ -72,3 +72,81 @@ A edição deve:
 - [ ] Vídeo vertical e sem marcas d'água de terceiros.
 - [ ] Produto e informações comerciais representados corretamente.
 - [ ] Legenda de publicação revisada.
+
+
+## Formatos de produção permitidos
+
+A estratégia não deve ficar limitada a um único formato. Escolher o formato que melhor aproveita a referência e aumenta a clareza/atenção:
+- **React / comentário:** João aparece em primeiro plano ou em janela sobre o vídeo original.
+- **Tela dividida:** apresentador e referência aparecem simultaneamente.
+- **Fundo verde (chroma key):** apresentador recortado sobre vídeo, imagem, site, produto ou demonstração.
+- **Narração / voice-over:** a referência conduz o vídeo e a fala é gravada separadamente ou gerada conforme briefing aprovado.
+- **Vídeo sem apresentador:** edição com imagens, textos, demonstrações e motion.
+- **Motion design / explicativo:** animações originais para explicar uma ideia, comparação, aplicação ou benefício.
+
+Não escolher um formato por hábito. A escolha deve favorecer retenção, compreensão e aquisição de potenciais clientes.
+
+## Regra obrigatória: localizar a referência antes do roteiro final
+
+Para vídeos de reação, comentário, tela dividida ou fundo verde baseados em um vídeo encontrado na internet:
+
+1. Primeiro pesquisar e localizar a publicação original do vídeo que será exibido ao fundo.
+2. Entregar o link direto da publicação original, o perfil/criador, a plataforma e, quando possível, a data.
+3. Confirmar que o link abre e que o conteúdo corresponde ao vídeo descrito.
+4. Só depois apresentar o roteiro final para teleprompter e o briefing de edição.
+5. Se a origem não for encontrada, informar claramente que a busca não foi concluída. Não inventar a origem nem substituir silenciosamente por um vídeo parecido. Pode-se apresentar uma ideia provisória, mas ela deve estar identificada como provisória e não como roteiro pronto para gravação.
+
+A prioridade é localizar o vídeo sem a camada de reação/comentário, sempre que essa versão existir publicamente. Se só houver uma republicação, indicar que é republicação, não a origem.
+
+## Legendas, textos e elementos incorporados no vídeo de referência
+
+Ao entregar uma referência, verificar se o vídeo original contém legendas, textos sobrepostos, marcas d'água ou elementos gráficos.
+
+No briefing para Claude:
+- Se houver legendas de terceiros que atrapalhem a composição, avaliar primeiro obter uma versão limpa autorizada, reenquadrar/cortar ou usar máscara/inpainting para reconstruir a área.
+- Se não for possível remover sem degradar a imagem, sugerir posicionamento, crop ou layout alternativo e avisar.
+- Não prometer remoção perfeita quando o texto cobre objetos, rostos ou detalhes importantes.
+- **Nunca remover ou ocultar marcas d'água, créditos, nomes de criadores ou identificadores de autoria para disfarçar a origem ou contornar direitos de uso.**
+- Preservar créditos e atribuição quando exigidos pela licença ou autorização.
+- Não reutilizar vídeo de terceiros comercialmente sem verificar licença, autorização ou outra base legítima aplicável. Encontrar a origem não significa obter permissão de uso.
+
+## Ferramentas e liberdade criativa de edição
+
+Claude está autorizado a propor e executar soluções de edição adequadas ao objetivo, incluindo:
+- Remotion para composições, motion graphics, animações, legendas e templates programáticos.
+- FFmpeg para cortes, conversão, composição, tratamento de áudio, legendas e exportação.
+- JavaScript e ferramentas de edição disponíveis no projeto para automatizar tarefas e criar elementos visuais.
+- Chroma key, split screen, picture-in-picture, tracking, máscaras, transições, zooms, gráficos e animações originais.
+
+A ferramenta é escolhida pela necessidade do vídeo, não por preferência técnica. O resultado deve parecer nativo das redes, ter ritmo, legibilidade e acabamento profissional. Evitar efeitos gratuitos, excesso de transições e animações que distraiam da ideia.
+
+## Direção criativa e aquisição
+
+Cada vídeo deve responder internamente:
+1. Quem queremos atrair?
+2. Qual situação, desejo ou problema do empreendedor aparece?
+3. Por que alguém pararia para assistir?
+4. Qual conexão natural existe com uma solução gráfica?
+5. Qual ação desejamos provocar: compartilhar, comentar, salvar, visitar o perfil ou iniciar uma conversa?
+
+O produto não precisa ser citado em todos os vídeos. O conteúdo pode construir atenção e familiaridade com a marca antes da conversão. Não forçar uma associação artificial entre uma trend e um produto gráfico.
+
+## Variação e prevenção de repetição
+
+- Alternar formatos, ganchos, ritmos, temas e públicos.
+- Consultar o calendário e os conteúdos publicados antes de sugerir uma pauta.
+- Não repetir o mesmo gancho ou estrutura em sequência, salvo quando houver teste intencional.
+- Registrar quando uma pauta for uma variação ou continuação de conteúdo anterior.
+- Criar séries recorrentes quando um formato apresentar bons sinais de desempenho.
+
+## Aprendizado pós-publicação
+
+Sempre que o responsável fornecer métricas ou comentários relevantes, registrar no arquivo do conteúdo:
+- Visualizações/alcance e período de apuração.
+- Retenção ou tempo médio assistido.
+- Compartilhamentos, salvamentos e comentários.
+- Visitas ao perfil, cliques e contatos atribuíveis, se disponíveis.
+- Gancho e formato utilizados.
+- O que funcionou, o que não funcionou e qual hipótese testar em seguida.
+
+Usar os resultados como evidência para orientar novos testes, sem tratar um único vídeo como prova definitiva.
