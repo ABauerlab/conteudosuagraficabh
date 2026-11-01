@@ -1,78 +1,24 @@
-# Estratégia editorial | SUA GRÁFICA BH
 
-## Objetivo
-Construir uma operação de conteúdo de alto volume e aprendizado contínuo para atrair potenciais clientes para a SUA GRÁFICA BH. O foco é conteúdo curto, interessante, compartilhável e comercialmente relevante.
 
-## Princípio central
-**Vender sem falar em vender.** Primeiro entreter, surpreender, informar ou gerar identificação. A conexão com a gráfica deve surgir naturalmente, sem forçar o produto em toda pauta.
+## Estratégia de aquisição de ponta a ponta
+A função do conteúdo orgânico é gerar demanda qualificada e transferi-la para o fluxo já existente, sem criar outro atendimento paralelo:
 
-## O que significa viralizar para a marca
-Viralização não é promessa nem métrica isolada. Procuramos aumentar a probabilidade de alcance e compartilhamento por meio de ganchos fortes, clareza visual, retenção, identificação e relevância. O resultado desejado é alcançar pessoas que possam se tornar clientes, não acumular visualizações vazias.
+**Descoberta social → conteúdo que cria interesse → perfil/link oficial → WhatsApp → agente de IA no CRM → qualificação → catálogo e orçamento → pagamento/pedido → pós-venda e recompra.**
 
-## Públicos
-- Empreendedores e pequenos negócios.
-- Lojistas e comércios locais.
-- Restaurantes, lanchonetes e cafeterias.
-- Prestadores de serviços e profissionais autônomos.
-- Empresas, marcas e e-commerces.
-- Organizadores de eventos e negócios que precisam divulgar, identificar, embalar ou fortalecer suas marcas.
+### Papel dos canais e formatos
+- Instagram Reels: descoberta, alcance em não seguidores, histórias curtas, demonstrações e comentários com valor agregado.
+- Instagram carrossel: guias visuais, comparações, checklists, erros e ideias para salvar/compartilhar.
+- Posts estáticos: campanha visual ou mensagem que funcione melhor numa única imagem; não usar por obrigação.
+- Stories: relacionamento, perguntas/enquetes e encaminhamento para o link oficial.
+- Facebook e Threads: adaptar a mensagem ao contexto e às possibilidades reais de cada canal; não presumir funcionalidades de DM que não estejam implementadas.
 
-## Linhas editoriais
-1. Tendências e curiosidades visuais.
-2. Reacts e comentários sobre campanhas, invenções e ações criativas.
-3. Aplicações criativas de materiais gráficos.
-4. Erros, mitos e aprendizados de comunicação visual.
-5. Transformações, comparações e antes/depois.
-6. Humor e identificação empreendedora.
-7. Bastidores e processos reais.
-8. Motion explicativo e conteúdo original.
-9. Demonstrações e ideias de marketing para negócios.
-10. Conteúdos de produto e conversão indireta.
+### Princípios de aquisição
+Cada pauta responde: quem queremos atrair, qual situação essa pessoa reconhece, por que ela assistiria/compartilharia, qual solução vendável da gráfica se relaciona naturalmente e qual próximo passo queremos gerar. Conteúdo sem relação comercial pode ajudar a marca, mas não deve dominar a pauta nem ser forçado a vender.
 
-## Formatos disponíveis
-- React com vídeo original ao fundo.
-- Tela dividida.
-- Fundo verde / chroma key.
-- Picture-in-picture.
-- Narração / voice-over.
-- Vídeo sem apresentador.
-- Motion graphics e explicativos.
-- Demonstrações e composições originais.
+### Indicadores por etapa
+- Descoberta: alcance de não seguidores, retenção, visualizações qualificadas, compartilhamentos e visitas ao perfil.
+- Consideração: salvamentos, compartilhamentos, comentários pertinentes, cliques e visitas ao site/perfil.
+- Conversão: conversas WhatsApp, leads qualificados, orçamentos, pedidos pagos e receita atribuível.
+- Aprendizado: taxa de passagem entre etapas e origem confirmada por ID SG, quando tecnicamente preservada.
 
-## Princípios de aquisição
-Cada pauta deve identificar:
-1. Público que queremos atrair.
-2. Situação, desejo ou problema desse público.
-3. Razão para parar e assistir.
-4. Ligação natural com uma solução gráfica, quando houver.
-5. Ação desejada: compartilhar, comentar, salvar, visitar perfil, iniciar conversa ou pedir orçamento.
-
-O produto não precisa aparecer em todos os vídeos. Não inventar uma conexão artificial entre uma trend e a gráfica.
-
-## Critérios de seleção
-Priorizar:
-- Impacto visual imediato.
-- Gancho compreensível nos primeiros 1–2 segundos.
-- Curiosidade, surpresa, utilidade ou identificação.
-- Potencial de compartilhamento.
-- Relevância para empreendedores.
-- Facilidade de gravação e edição.
-- Referência rastreável e uso juridicamente adequado.
-- Potencial de gerar visita ao perfil ou conversa qualificada.
-
-## Mix inicial de conteúdo
-Como hipótese de partida, testar aproximadamente:
-- 50% atração e entretenimento relevante.
-- 30% conexão, educação e demonstração.
-- 20% conversão indireta e prova de confiança.
-
-Ajustar conforme métricas e qualidade dos contatos. Não tratar a proporção como regra rígida.
-
-## Distribuição
-Canais conectados ao Postiz: Instagram, Facebook e Threads. O vídeo-base é compartilhado entre canais; adaptar legendas/textos quando necessário. Conferir as especificações vigentes das plataformas antes de mudar formatos ou exportação.
-
-## Duração
-Preferir vídeos curtos, normalmente 15–20 segundos quando a ideia permitir. Não sacrificar clareza para atingir duração fixa. Começar pelo momento mais interessante e eliminar contexto dispensável.
-
-## Aprendizado
-Analisar retenção, compartilhamentos, salvamentos, visitas ao perfil, mensagens e contatos. Repetir princípios que funcionam, não copiar mecanicamente um vídeo vencedor. Ver `ANALISE-DE-DESEMPENHO.md`.
+Reels e carrosséis cumprem papéis diferentes; os dados globais de mercado orientam hipóteses, enquanto a decisão final deve usar o desempenho real da conta da SUA GRÁFICA BH.
