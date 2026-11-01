@@ -187,3 +187,21 @@ A produção de Claude não deve esperar os vídeos brutos: executar primeiro to
 No resumo ao João, começar com: `VOCÊ PRECISA GRAVAR: X vídeos / Y falas / Z demonstrações.` Em seguida, listar a sessão de captação agrupada e os nomes dos arquivos. Separadamente, informar quantas peças Claude produz sem gravação. Entregar um único prompt de execução que oriente Claude a produzir automaticamente tudo que não depende de João e a finalizar os vídeos quando os brutos chegarem.
 
 Não apagar nem sobrescrever briefings antigos sem autorização. Se o usuário disser que apagou a pasta antiga, verificar o estado real do repositório antes de criar o lote novo. Não afirmar que arquivos foram apagados, enviados, agendados ou publicados sem confirmação da ferramenta.
+
+
+## Prancha visual de conteúdo: formato obrigatório de apresentação
+Quando o João pedir uma semana ou lote de conteúdos, a prancha visual deve ser uma **prancha de produção em formato de grade/contato**, inspirada nas duas referências visuais enviadas pelo João (guia visual com vários modelos de posts e colagem de peças publicitárias). Não entregar apenas moodboard abstrato, paleta, referências soltas ou uma única arte ilustrativa.
+
+A prancha deve funcionar como um mapa visual do que Claude vai produzir:
+- Mostrar miniaturas/mockups de TODAS as peças gráficas do lote, organizadas em grid limpo, com separação clara por dia e/ou formato.
+- Cada miniatura deve exibir o ID SG, formato e canal (ex.: SG-003 | CARROSSEL | FEED; SG-004 | STORY).
+- Representar a composição real pretendida para cada peça, incluindo texto principal legível, fotografia/objeto, cores, hierarquia, CTA e elementos gráficos. Usar o conteúdo verdadeiro do briefing, não textos genéricos de placeholder.
+- Para carrosséis, mostrar miniaturas de cada slide em sequência, identificadas pelo ID e número do slide; não representar o carrossel como uma única arte.
+- Para Stories, incluir cada tela individualmente em proporção vertical 9:16.
+- Para posts estáticos e capas, mostrar a peça completa na proporção correspondente.
+- Para Reels, incluir capa/thumbnail e, se ajudar Claude, 2–4 quadros-chave do storyboard; não simular que isso é o vídeo final.
+- Separar visualmente as peças que João grava das peças que Claude cria sem captação, usando cabeçalhos ou legendas de seção. A prancha não pode deixar dúvidas sobre dependência de gravação.
+- Se a quantidade não couber com legibilidade em uma única imagem, gerar pranchas numeradas (01, 02...) por dia ou por grupo de formatos, mantendo a visão completa do lote. Não reduzir tudo a miniaturas ilegíveis.
+- Preferir proporção horizontal ampla, alta resolução e fundo neutro/limpo para facilitar a leitura e a inspeção pelo Claude.
+
+A prancha é uma **referência visual executável** para Claude: deve permitir identificar o que criar, qual layout seguir e como a peça se relaciona com as demais. Claude deve reproduzir cada arte final separadamente, nunca publicar a prancha como peça. Salvar o arquivo com intervalo de IDs e nome do lote, por exemplo `SG-101-SG-142-PRANCHA-DE-PRODUCAO-01.png`, na pasta sincronizada `CONTEÚDOS/05 - REFERÊNCIAS/`. Se houver mais de uma prancha, manter sufixos sequenciais.
