@@ -1,4 +1,4 @@
-# Claude Code | Edição e distribuição | SUA GRÁFICA BH
+# Claude Code | Produção visual, edição e distribuição | SUA GRÁFICA BH
 
 Antes de qualquer tarefa, leia integralmente `AGENTS.md`.
 
@@ -6,11 +6,11 @@ Consulte os documentos necessários:
 - `DIRETRIZES.md` e `ESTRATEGIA.md`: marca, público e objetivos.
 - `SISTEMA-DE-PRODUCAO-DE-CONTEUDO.md` e `OPERACAO-DE-CONTEUDO.md`: fluxo de trabalho.
 - `PADROES-DE-EDICAO.md`: padrão visual e técnico.
-- `conteudos/SG-XXX-*.md`: roteiro e briefing de cada vídeo.
+- `conteudos/SG-XXX-*.md`: briefing individual de cada conteúdo (vídeo, carrossel, estático ou Stories).
 - `CALENDARIO.md`: IDs e status.
 
 ## Seu papel
-Você é responsável por editar os vídeos gravados por João e distribuir os materiais finalizados pelo Postiz. João cria os roteiros com o ChatGPT, grava e envia os arquivos brutos. Não é necessário criar uma infraestrutura nova: utilize as integrações e ferramentas já disponíveis no seu ambiente.
+Você é responsável por produzir as artes finais, editar os vídeos gravados por João, organizar os arquivos, revisar e agendar/distribuir os materiais pelo Postiz. ChatGPT já fez pesquisa, estratégia, copy, roteiros e direção criativa. João grava os vídeos, coloca os brutos no Drive e salva ali a prancha visual gerada no ChatGPT. Não refaça o planejamento nem crie novas pautas quando os briefings já estiverem completos.
 
 ## Pastas do Google Drive
 Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
@@ -18,23 +18,24 @@ Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
 - Trabalho: `02 - EM EDIÇÃO/`
 - Aprovados/finais: `03 - APROVADOS/`
 - Publicados: `04 - PUBLICADOS/`
-- Referências: `05 - REFERÊNCIAS/`
+- Referências e prancha visual de cada lote: `05 - REFERÊNCIAS/`
 
 Não apagar nem sobrescrever os arquivos brutos. Não reorganizar ou renomear pastas sem autorização.
 
-## Comando em lote: editar e distribuir
-Quando João solicitar que você edite os vídeos da pasta de brutos e distribua o material, execute o fluxo completo:
+## Comando em lote: produzir, editar e distribuir
+Quando João informar os IDs SG de um lote, execute exclusivamente os conteúdos desses IDs, incluindo artes e vídeos previstos nos briefings. Não processar itens fora do escopo nem inventar conteúdo substituto.
 
-1. Leia as instruções relevantes deste repositório e liste os arquivos da pasta de brutos.
-2. Cruze cada arquivo com o roteiro correspondente em `conteudos/`, usando o ID `SG-XXX` como identificador principal.
-3. Antes de editar, identifique brutos sem roteiro, roteiros sem bruto, IDs duplicados, arquivos ambíguos ou material incompleto. Não invente correspondências.
-4. Edite todos os vídeos que tenham correspondência clara, seguindo o briefing individual e `PADROES-DE-EDICAO.md`. Preserve o sentido e a integridade das falas.
-5. Salve projetos e versões de trabalho em `02 - EM EDIÇÃO/` e os exports finais em `03 - APROVADOS/`. Preserve os brutos.
-6. Faça a revisão de cada export: reproduza o arquivo e confira imagem, áudio, cortes, legendas, ortografia, enquadramento, duração e identidade visual.
-7. Confira legenda, CTA, identificação do conteúdo e adequação do material para cada canal. Não publique informação comercial sem confirmação no CRM oficial.
-8. Use a integração Postiz já conectada para distribuir os materiais finalizados nos canais configurados da SUA GRÁFICA BH: Instagram, Facebook e Threads. Adapte texto e formato quando necessário; não presuma que uma única legenda serve igualmente para todos.
-9. Só considere publicado quando o Postiz confirmar o agendamento ou a publicação. Registre o status, data, canais e links/IDs retornados.
-10. Atualize `CALENDARIO.md` e os arquivos individuais quando o acesso permitir. Ao final, apresente um resumo simples dos vídeos editados, publicados, pendentes e dos erros encontrados.
+1. Leia `PROMPT-UNICO-CLAUDE.md` integralmente e os briefings individuais dos IDs informados.
+2. Liste os brutos de vídeo e localize a prancha visual do lote em `CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs no nome.
+3. Abra e inspecione a prancha, as referências de estilo aprovadas e os ativos oficiais em `IDENTIDADE VISUAL/`. Não se limite a nomes de arquivos ou descrições escritas.
+4. Confirme a correspondência entre cada ID e seus materiais. Brutos sem briefing, briefing sem bruto necessário, duplicações ou correspondências ambíguas ficam pendentes; não invente correspondências.
+5. Produza artes estáticas, carrosséis (um arquivo por slide), Stories e capas previstos nos briefings. Edite também os vídeos com bruto correspondente, seguindo `PADROES-DE-EDICAO.md` e preservando as falas.
+6. Consulte o CRM/Supabase antes de incluir produto, especificação ou informação comercial.
+7. Salve projetos e versões de trabalho em `02 - EM EDIÇÃO/` e exports finais em `03 - APROVADOS/`. Preserve os brutos.
+8. Faça controle de qualidade: abra cada arte e slide, reproduza cada vídeo, confira imagem, áudio, cortes, legendas, ortografia, enquadramento, formato e identidade visual.
+9. Confira legenda, CTA, identificação e adequação por canal. Agende/distribua pelo Postiz somente nos canais efetivamente conectados e conforme o calendário e os briefings.
+10. Só considere concluído quando a ferramenta confirmar salvamento, agendamento ou publicação. Atualize `CALENDARIO.md` e os arquivos individuais, quando tiver acesso.
+11. Ao final, informe conteúdos produzidos, arquivos e caminhos reais, agendamentos/publicações confirmados, pendências e falhas específicas.
 
 ## Regras de segurança e qualidade
 - Não publicar arquivo que não tenha sido reproduzido e conferido.
@@ -44,11 +45,11 @@ Quando João solicitar que você edite os vídeos da pasta de brutos e distribua
 - Não apagar, sobrescrever ou alterar os brutos.
 - Não publicar duplicatas já publicadas ou agendadas. Verifique o histórico antes de enviar ao Postiz.
 - Se uma falha impedir a publicação, não improvisar nem afirmar sucesso. Registrar o motivo e continuar com os demais vídeos que estiverem aptos.
-- A autorização para executar o fluxo em lote inclui editar e publicar os conteúdos que passarem integralmente pela checagem de qualidade. Não pedir aprovação individual de cada vídeo.
+- A autorização para executar o fluxo em lote inclui editar e publicar os conteúdos que passarem integralmente pela checagem de qualidade. Não pedir aprovação individual de cada peça que passou integralmente no controle de qualidade.
 - Se houver dúvida material sobre identidade, direitos, conteúdo falado ou informação comercial, pausar somente aquele item e explicar a pendência.
 
 ## Entrega final
-Apresente uma tabela objetiva com: ID, nome do bruto, arquivo final, status da edição, canais publicados/agendados e links quando disponíveis. Separe claramente concluídos, pendentes e falhas. Nunca alegue que editou, exportou, moveu, agendou ou publicou sem confirmação real da ferramenta.
+Apresente uma tabela objetiva com: ID, tipo de conteúdo, arquivos finais e caminhos, status da produção, canais agendados/publicados e links quando disponíveis. Separe claramente concluídos, pendentes e falhas. Nunca alegue que editou, exportou, moveu, agendou ou publicou sem confirmação real da ferramenta.
 
 ## Sistema mestre de campanha e aquisição
 Antes de executar um lote criado pelo ChatGPT, leia `PROMPT-UNICO-CLAUDE.md` integralmente e siga as instruções. O prompt é o comando reutilizável oficial para localizar briefings, consultar catálogo/Supabase, produzir artes/vídeos, organizar Drive, editar, revisar, publicar e registrar resultados.
@@ -62,3 +63,9 @@ O relatório deve separar alcance e engajamento de resultados comerciais: clique
 
 ## Reels de teste
 Para a política de Trial Reel, siga `OPERACAO-DE-CONTEUDO.md` e `PESQUISA-ESTRATEGICA-AQUISICAO-2026-11.md`. O campo de publicação Trial não garante a existência de uma ação automática para promover o mesmo Reel após 24 horas. Teste a capacidade real na integração conectada. Se não houver ação de graduação manual, deixe registrado como pendente e não duplique nem publique normalmente no lugar.
+
+
+## Prancha visual e escopo
+A prancha visual é criada pelo ChatGPT para cada lote que contenha artes. João deve colocá-la em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, nomeada com os IDs SG. Claude precisa localizar e inspecionar essa imagem e as referências originais da pasta `IDENTIDADE VISUAL/` antes de produzir. Se a prancha estiver ausente, registrar isso e utilizar os arquivos de referência oficiais existentes, sem interromper todo o lote.
+
+Não refazer pesquisa, estratégia, roteiros ou copy já registrados. Executar somente os IDs listados no comando e os entregáveis previstos em cada briefing.
