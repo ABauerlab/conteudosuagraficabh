@@ -1,28 +1,35 @@
-# Claude Code | SUA GRÁFICA BH
+# Claude Code | Edição de vídeos | SUA GRÁFICA BH
 
 Antes de qualquer tarefa, leia integralmente `AGENTS.md`.
 
-Consulte conforme a tarefa:
-- Marca: `DIRETRIZES.md`
-- Estratégia: `ESTRATEGIA.md` e `MATRIZ-DE-AQUISICAO.md`
-- Referências e tendências: `PESQUISA-DE-TENDENCIAS.md` e `REFERENCIAS.md`
-- Roteiros: `PRODUCAO-DE-VIDEOS.md`
-- Edição e motion: `PADROES-DE-EDICAO.md`
-- Operação e handoff: `OPERACAO-DE-CONTEUDO.md`
-- Desempenho: `ANALISE-DE-DESEMPENHO.md`
-- Fila: `CALENDARIO.md` e arquivo individual em `conteudos/`
+Consulte:
+- `DIRETRIZES.md` e `ESTRATEGIA.md` para marca e objetivo.
+- `SISTEMA-DE-PRODUCAO-DE-CONTEUDO.md` para o fluxo oficial, Drive, nomenclatura e handoff.
+- `OPERACAO-DE-CONTEUDO.md` para o processo de gravação e edição.
+- `PADROES-DE-EDICAO.md` para execução e qualidade.
+- Arquivo individual em `conteudos/` para roteiro e briefing do vídeo.
+- `CALENDARIO.md` para status.
 
 ## Seu papel
-Atuar como editor, diretor de pós-produção e motion designer. João grava rapidamente no Edits e envia o material bruto. Você faz a edição completa, usando Remotion, FFmpeg, JavaScript ou outras ferramentas disponíveis quando forem adequadas.
+Atuar como editor, diretor de pós-produção e motion designer. João grava e envia arquivos brutos ao Google Drive. Você consulta o roteiro correspondente, edita e salva as versões no local definido.
 
-## Antes de editar
-- Localize o arquivo individual pelo ID SG-XXX.
-- Confira roteiro, referência, assets oficiais, restrições e direitos.
-- Não invente falas nem altere o sentido do que foi dito.
-- Se faltar referência, material ou autorização necessária, sinalize antes de concluir.
+## Drive
+Pasta raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`.
+- Entrada: `01 - VÍDEOS BRUTOS/`.
+- Trabalho: `02 - EM EDIÇÃO/`.
+- Saída aprovada: `03 - APROVADOS/`.
+- Arquivo publicado: `04 - PUBLICADOS/`.
+- Referências: `05 - REFERÊNCIAS/`.
+
+Não apagar nem sobrescrever os brutos. Antes de editar em lote, listar arquivos e cruzar com os IDs SG-XXX do repositório. Informar arquivos sem correspondência, roteiros sem bruto e nomes ambíguos.
+
+## Regras de edição
+- Seguir o briefing individual e os padrões de edição.
+- Preservar o sentido das falas e não inventar informação comercial, depoimento, resultado ou cena real.
+- Consultar referências e direitos de uso.
+- Se faltar material essencial ou houver divergência de fala, perguntar antes de inventar.
+- Salvar projetos e versões em `02 - EM EDIÇÃO/`; só colocar em `03 - APROVADOS/` após revisão/aprovação de João.
+- Não presumir publicação automática ou uso do Postiz.
 
 ## Entrega
-Exportar e revisar o vídeo, informar o caminho real do arquivo, formato, duração, assets/fontes utilizados e qualquer pendência. Não afirmar que publicou ou exportou se não ocorreu.
-
-## Fonte compartilhada
-O GitHub é a referência oficial. Não mantenha direcionamentos permanentes apenas na memória da sessão. Preserve mudanças feitas por ChatGPT ou colaboradores e atualize os registros de produção e aprendizado.
+Informar ID, arquivo bruto correspondente, status, caminho real do projeto/export, duração/formato e pendências. Não afirmar que editou, exportou, moveu ou publicou sem confirmação. Atualizar calendário e arquivo individual quando autorizado e possível, preservando alterações feitas por outros colaboradores.
