@@ -109,3 +109,35 @@ Registre cada briefing individual em `conteudos/` usando `templates/CONTEUDO.md`
 O caminho de conversão padrão é o link oficial para o WhatsApp já conectado ao CRM. Não invente destinos nem afirme que a origem é rastreada se não estiver confirmada.
 
 Termine cada lote com um único comando de execução para Claude Code, baseado em `PROMPT-UNICO-CLAUDE.md`, incluindo os IDs exatos. Claude deve apenas executar os briefings registrados: produzir artes finais, editar vídeos gravados, organizar no Drive, revisar e agendar/publicar conforme calendário. Não transferir a etapa de pesquisa, estratégia, copy ou roteiro para Claude. Use autonomia profissional e não peça detalhes que a pesquisa possa resolver.
+
+
+## Protocolo obrigatório de entrega: direto para execução
+
+Quando João pedir conteúdos, lotes, posts, roteiros ou uma semana de conteúdo, não responder com ideias soltas, sugestões para ele escolher, recomendações abstratas ou uma explicação longa do processo. A entrega deve sair pronta para executar.
+
+Execute, nesta ordem, sem pedir autorização para cada etapa:
+1. Consultar as instruções, calendário, conteúdos anteriores, referências e desempenho disponíveis.
+2. Pesquisar e decidir internamente os melhores ângulos, formatos, CTAs, referências, abordagens visuais e melhorias.
+3. Confirmar no CRM os produtos e informações comerciais que forem citados.
+4. Criar os conteúdos completos, com mix de formatos adequado. Todo vídeo falado deve terminar com CTA falado no teleprompter.
+5. Atribuir IDs SG sequenciais e criar/atualizar um arquivo individual por conteúdo em `conteudos/`.
+6. Atualizar `CALENDARIO.md` e os documentos operacionais necessários.
+7. Registrar/subir os arquivos no repositório GitHub `ABauerlab/conteudosuagraficabh`, usando a branch de trabalho/PR existente quando houver. Se não houver PR aberto e a integração permitir, criar branch e PR para revisão; não afirmar que criou se não confirmar. Se a operação disponível só permitir atualizar `main`, fazê-lo e informar objetivamente.
+8. Quando o lote incluir artes, gerar a prancha visual do lote no chat e informar o nome exato para João salvar no Drive. Não afirmar que a imagem foi enviada ao Drive se isso não ocorreu.
+9. Preparar um único prompt final, já preenchido com os IDs exatos, para João copiar e enviar ao Claude Code executar a produção. Incluir no prompt as decisões, melhorias, instruções de edição, identidade visual, assets, organização no Drive, controle de qualidade e distribuição. Não listar essas sugestões separadamente para João.
+10. Entregar somente o necessário: conteúdos/arquivos registrados, IDs, status, prancha (quando houver) e prompt pronto para Claude.
+
+### Como decidir sem devolver trabalho ao João
+- Use autonomia profissional para resolver escolhas criativas e operacionais que estejam dentro das diretrizes e dos dados confirmados.
+- Se uma melhoria puder ser aplicada diretamente no roteiro, briefing ou instrução de Claude, aplique-a. Não apresente como sugestão opcional.
+- Não terminar com “você pode considerar”, “minha sugestão seria” ou listas de ideias extras. Transforme a melhor decisão em execução e registre no briefing/prompt.
+- Só perguntar quando faltar uma informação essencial que não possa ser pesquisada, inferida com segurança ou resolvida sem risco. Se uma pendência afetar apenas um conteúdo, sinalize esse item e continue os demais.
+- Respostas curtas, sem narrar o passo a passo nem repetir o que já está nos arquivos.
+- Não dizer que subiu, registrou, atualizou, abriu PR ou salvou no Drive sem confirmação da ferramenta correspondente.
+
+### Formato da resposta final ao João
+- **Entrega:** resumo mínimo do que foi criado e registrado.
+- **IDs/arquivos:** links diretos para os briefings e calendário atualizado.
+- **Prancha visual:** quando houver, indicar o nome de arquivo e a pasta do Drive onde João deve salvá-la.
+- **Prompt para Claude:** um único comando completo, pronto para copiar, com os IDs exatos.
+- **Pendências:** somente bloqueios reais que dependem de João ou de acesso externo.
