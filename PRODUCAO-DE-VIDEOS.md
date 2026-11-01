@@ -120,3 +120,21 @@ Claude pode usar Remotion, FFmpeg, JavaScript/TypeScript, chroma key, split scre
 
 ## Pós-publicação
 Registrar links e métricas disponíveis no arquivo do conteúdo. Analisar retenção, compartilhamentos, salvamentos, visitas ao perfil e contatos. Usar resultados para melhorar os próximos testes, sem concluir demais a partir de uma publicação isolada.
+
+
+## Regra obrigatória: CTA falado no encerramento
+
+Todo vídeo com apresentador, narração ou teleprompter deve terminar com uma chamada para ação falada, escrita no próprio roteiro e incluída na última fala do teleprompter. Não basta colocar CTA na legenda, na tela ou na descrição.
+
+- Definir uma ação principal por vídeo, coerente com o objetivo e a etapa do funil.
+- Para perfil novo ou conteúdo de descoberta, priorizar seguir o perfil: “Segue a SUA GRÁFICA BH para ver mais ideias como essa.”
+- Para conteúdo educativo, considerar salvar ou compartilhar: “Salva esse vídeo para consultar quando for produzir o seu material.”
+- Para estimular conversa, fazer pergunta objetiva: “Qual dessas opções combina mais com o seu negócio? Conta aqui nos comentários.”
+- Para intenção comercial real e produto confirmado, direcionar ao canal oficial: “Quer fazer um orçamento? Chama a gente pelo link da bio.”
+- Não usar CTA comercial se o conteúdo não tiver intenção de venda ou se produto/condição não estiver confirmado.
+- Evitar empilhar pedidos. Escolher uma ação principal e formular uma frase natural, curta e falável.
+- Variar as chamadas entre os conteúdos para não transformar todos os vídeos em “siga o perfil”.
+- O CTA deve estar claramente identificado no briefing e no fim do teleprompter.
+- A edição deve preservar a fala completa, dar tempo para ela ser entendida e reforçá-la visualmente sem competir com a voz.
+
+**Exceção:** vídeos puramente visuais, sem fala ou narração, não precisam inventar uma fala; devem apresentar CTA visual adequado ao formato.
