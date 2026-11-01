@@ -87,20 +87,20 @@ Claude executa somente os briefings desses IDs: produz carrosséis slide a slide
 - Agendar conforme calendário e briefing; não inventar data/horário como se fossem dados comprovados.
 - Não aguardar 24 horas com o processo aberto para Trial Reels; registrar status e tratar a avaliação posterior como etapa separada.
 ## Controle de qualidade
-- Fala fiel à gravação e ao roteiro.
-- Gancho claro e ritmo que preserve entendimento.
-- Legendas corretas, legíveis e dentro da área segura.
-- Áudio limpo, sem clipping; música licenciada abaixo da voz.
-- Cortes e transições sem prejudicar a compreensão.
-- Identidade visual e assets oficiais respeitados.
+- Briefing, prancha, bruto e arquivos finais correspondem aos mesmos IDs.
+- Textos revisados em português do Brasil, com legibilidade em celular.
+- Hierarquia, composição, contraste, margens seguras e identidade visual respeitados.
+- Cada slide de carrossel é arquivo próprio e foi revisado na ordem correta.
+- Cada vídeo foi reproduzido; áudio, cortes, legendas e enquadramento conferidos.
 - Informações comerciais confirmadas no CRM.
 - Direitos e créditos preservados.
-- Export reproduzido antes da distribuição.
+- CTA, legenda e formato adequados a cada canal.
+- Exports finais conferidos antes da distribuição.
 
 ## Status
-IDEIA → PESQUISA → ROTEIRO PRONTO → PRONTO PARA GRAVAR → GRAVADO → EM EDIÇÃO → FINALIZADO → AGENDADO → PUBLICADO → ANALISADO.
+IDEIA → PESQUISA → BRIEFING PRONTO → PRONTO PARA GRAVAR / PRONTO PARA PRODUZIR → GRAVADO → EM PRODUÇÃO → PRONTO PARA PUBLICAR → AGENDADO → PUBLICADO → ANALISADO.
 
-Estados adicionais: PENDENTE DE ROTEIRO, PENDENTE DE REFERÊNCIA, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO, ERRO DE EDIÇÃO e ERRO DE PUBLICAÇÃO.
+Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE ARQUIVO, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE PRODUÇÃO e ERRO DE AGENDAMENTO.
 
 
 ## Regra de escopo e economia de execução
