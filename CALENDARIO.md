@@ -1,41 +1,30 @@
-# Calendário e fila de conteúdo
+# Calendário e fila de conteúdo | SUA GRÁFICA BH
 
-Use este arquivo como visão geral de todos os formatos. O briefing completo de cada publicação fica em arquivo próprio dentro de `conteudos/`, seguindo `templates/CONTEUDO.md`.
+O calendário começa do zero. Todos os roteiros anteriores foram retirados da fila editorial. Nenhuma pauta antiga deve ser reaproveitada automaticamente.
+
+## Cadência diária obrigatória
+
+| Entrega | Quantidade mínima | Observação |
+|---|---:|---|
+| Reels | 2 | Planejados como Trial Reels enquanto durar a fase de testes, sujeito à disponibilidade real do recurso |
+| Feed | 1 | Carrossel ou post estático, conforme a estratégia |
+| Stories | 3 | Peças próprias, com objetivo e CTA; não contam como post de feed |
+
+**Mínimo diário: 6 peças.** Cada peça recebe um ID SG próprio e sequencial, inclusive cada Story individual.
 
 ## Status
-- IDEIA: oportunidade identificada, ainda sem briefing completo.
-- PESQUISANDO REFERÊNCIA: buscando fonte ou exemplo que sustente a ideia.
-- BRIEFING PRONTO: copy, roteiro e entregáveis definidos no repositório.
-- PRANCHA VISUAL PENDENTE: briefing pronto, falta salvar a prancha visual do lote no Drive.
-- PRONTO PARA GRAVAR: vídeo com teleprompter e instrução de gravação.
-- PRONTO PARA PRODUZIR: arte/peça com briefing completo, sem necessidade de gravação.
-- GRAVADO: bruto recebido no Drive e identificado pelo ID.
-- EM PRODUÇÃO: Claude está criando a arte ou editando o vídeo.
-- PRONTO PARA PUBLICAR: arquivos finais revisados e aprovados no controle de qualidade.
-- AGENDADO: agendamento confirmado pelo Postiz.
-- PUBLICADO: publicação confirmada pela plataforma/Postiz.
-- ANALISADO: resultados registrados e aprendizado documentado.
+IDEIA → PESQUISANDO REFERÊNCIA → BRIEFING PRONTO → PRONTO PARA GRAVAR / PRONTO PARA PRODUZIR → GRAVADO → EM PRODUÇÃO → PRONTO PARA PUBLICAR → AGENDADO → PUBLICADO → ANALISADO.
 
-Estados adicionais: PENDENTE DE CATÁLOGO, PENDENTE DE DIREITOS, PENDENTE DE ARQUIVO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE PRODUÇÃO e ERRO DE AGENDAMENTO.
+Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE CATÁLOGO, PENDENTE DE DIREITOS, PENDENTE DE ARQUIVO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE PRODUÇÃO e ERRO DE AGENDAMENTO.
 
-## Conteúdo inicial
+## Fila atual
 
 | ID | Conteúdo | Formato | Status | Observações |
 |---|---|---|---|---|
-| SG-001 | Uma ideia simples para chamar atenção no ponto de venda | Reel | BRIEFING PRONTO | Produção original com motion/mockup conceitual. CTA falado no encerramento. Não anunciar o display como produto disponível no catálogo. |
-
-Os conteúdos SG-002 a SG-008 foram removidos por serem materiais de teste e não fazem parte do calendário oficial.
+| — | Nenhum conteúdo cadastrado | — | ZERADO | A próxima pauta começa em SG-001 |
 
 ## Registro de publicação e análise
-Para cada ID, preencher:
-- Data e horário planejados e efetivamente publicados.
-- Canal e link/ID confirmado.
-- Alcance/visualizações.
-- Retenção/tempo médio, quando disponível.
-- Compartilhamentos, salvamentos e comentários.
-- Visitas ao perfil, cliques e conversas.
-- Leads, orçamentos e pedidos somente quando houver atribuição verificável.
-- Aprendizado e próximo teste.
+Para cada ID, preencher data/hora planejadas e efetivas, canal, link/ID confirmado, alcance, visualizações, retenção, compartilhamentos, salvamentos, comentários, visitas ao perfil, cliques, conversas, leads/pedidos atribuíveis e aprendizado.
 
 ## Próximo ID disponível
-SG-002. A numeração segue sequencialmente a partir daqui. Não reutilizar IDs já atribuídos, mesmo que um conteúdo seja cancelado.
+**SG-001.** A numeração foi reiniciada porque os briefings anteriores foram removidos. Não reutilizar um ID depois que ele for atribuído a uma peça, mesmo se ela for cancelada.
