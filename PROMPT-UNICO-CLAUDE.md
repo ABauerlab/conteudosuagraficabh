@@ -48,7 +48,7 @@ Não exponha SKU, custo, margem, piso, fornecedor, dados internos, credenciais o
 - Leia o pedido atual do João e identifique a quantidade, tema, período, canais e entregáveis solicitados.
 - Procure conteúdos e roteiros já existentes em `conteudos/` e no calendário. Não recrie itens já prontos, publicados ou agendados.
 - Use o planejamento e os briefings produzidos pelo ChatGPT como fonte de direção criativa. Respeite os IDs `SG-XXX`.
-- Se não houver briefing registrado para algum item solicitado, desenvolva a ideia seguindo a estratégia, a pesquisa atual e o catálogo; registre antes de produzir.
+- Produza somente os IDs e entregáveis que estiverem registrados no lote atual. Não invente novas pautas, não reescreva roteiros e não crie conteúdo substituto: isso já foi feito pelo ChatGPT para reduzir retrabalho e consumo de tokens. Se faltar um briefing, arquivo ou referência essencial de um ID, marque somente esse item como pendente e continue os demais.
 - Se o pedido for uma campanha ou lote de conteúdos, execute todos os itens aptos no escopo. Use autonomia criativa para resolver detalhes de produção sem pedir decisões desnecessárias ao João.
 - Faça pesquisa adicional na internet quando a pauta depender de tendência atual, referência externa, comportamento de plataforma ou evidência de mercado. Registre URL, perfil, data, métrica e licença/status. Diferencie fato, interpretação e hipótese.
 
@@ -74,13 +74,20 @@ Antes de criar qualquer arte, consulte no Google Drive conectado:
 
 `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL`
 
-Essa pasta contém a identidade visual oficial e referências de estilo aprovadas pelo João. Use os arquivos reais como fonte da verdade. Não invente logotipo, fontes, elementos proprietários nem novas versões de identidade.
+Essa pasta contém o Brand Kit oficial e as referências de estilo aprovadas por João. Abra e inspecione os arquivos visuais reais, não se limite a ler nomes de arquivos ou uma descrição textual. Preserve logotipo, fontes, cores e elementos oficiais.
 
-Para cada campanha, mantenha consistência de marca com variedade visual. Priorize design publicitário profissional, CMYK vibrante, alto contraste, tipografia forte, fotografias realistas e produtos apresentados com fidelidade. Não use layouts genéricos, mockups artificiais, textos minúsculos ou decoração em excesso.
+Além disso, procure a **prancha visual específica deste lote** em:
 
-Painel de referência/moodboard é material de direção, não é a arte final. Carrosséis devem ser entregues como arquivos independentes, um por slide, com narrativa contínua.
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`
 
+O arquivo será nomeado com os IDs, por exemplo `SG-101-SG-115-DIRECAO-VISUAL.png`. A prancha foi criada pelo ChatGPT para orientar a linguagem visual de cada peça. Use-a junto das referências originais da identidade. Se a prancha não estiver na pasta, registre a ausência no relatório e siga as referências oficiais disponíveis; não interrompa o restante do lote.
+
+Direção aprovada: publicidade gráfica contemporânea, expressiva e de alto impacto, com energia editorial e acabamento profissional. Não basta aplicar CMYK. Trabalhe conceito e hierarquia com tipografia marcante, composições assimétricas, variação de escala, fotografia realista, recortes, camadas e contraste. Use ciano, magenta, amarelo, preto e branco de forma intencional, preservando áreas de respiro. Varie a composição entre as peças sem perder unidade de marca. Evite template genérico, excesso de formas decorativas, mockup artificial, produto deformado, texto minúsculo e estética de banco de templates.
+
+A prancha é referência de direção, não arte final. Nunca exporte um painel como se fosse um post ou carrossel. Não copie literalmente a referência: interprete a ideia e crie as peças individuais. Para detalhes completos, siga `SISTEMA-DE-PRODUCAO-VISUAL.md`.
 ## 6. Produção de vídeos e artes
+
+Execute todos os formatos previstos nos briefings do lote. Não limite a execução à edição dos vídeos.
 
 ### Vídeos
 - Leia o briefing individual e localize o bruto correspondente em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`.
@@ -91,15 +98,19 @@ Painel de referência/moodboard é material de direção, não é a arte final. 
 - Use Remotion, FFmpeg e as ferramentas instaladas quando forem apropriadas. Não instalar dependências, contratar serviços ou enviar arquivos para serviços externos pagos sem necessidade e autorização.
 - Respeite as falas gravadas. Não fabricar depoimentos, resultados, cenas ou afirmações que a gravação não sustente.
 - Adicione motion graphics, textos, legendas, gráficos e sound design para melhorar entendimento e retenção, não como decoração.
-- Se o briefing exigir vídeo externo, verifique origem e licença. Conteúdo público não significa livre de direitos. Não remova marcas d'água ou créditos. Se não houver autorização/licença clara, substitua por material próprio/licenciado ou marque pendente.
+- Se o briefing exigir vídeo externo, verifique origem e licença. Conteúdo público não significa livre de direitos. Não remova marcas d'água ou créditos. Sem autorização/licença clara, substitua por material próprio/licenciado ou marque pendente.
 
-### Artes, carrosséis e Stories
-- Crie artes finais originais alinhadas ao briefing e às referências da identidade visual.
-- Cada slide de carrossel é arquivo próprio, exportado na ordem certa.
-- Verifique ortografia, hierarquia, alinhamento, contraste, margens seguras, legibilidade em tela pequena, fidelidade do produto e identidade.
-- Use dimensões atuais adequadas a cada canal e formato; valide na documentação/ferramenta antes de exportar.
-- Não publicar preços ou condições sem consulta ao CRM atual.
+### Artes, carrosséis, Stories e capas
+- Produza a arte final original de cada peça descrita no lote, respeitando a ficha do ID, a prancha visual do lote e as referências oficiais da marca.
+- **Carrossel:** entregar um arquivo independente por slide, nomeado com ID e número de sequência, por exemplo `SG-101-SLIDE-01.png`. Manter narrativa contínua e composição variada; não exportar uma prancha como carrossel.
+- **Post estático:** entregar um arquivo final completo e independente.
+- **Stories e capas:** exportar arquivos próprios, com leitura rápida, área segura e CTA adequado.
+- Não criar textos, preços, prazos, especificações, acabamentos ou benefícios ausentes do briefing ou não confirmados no CRM.
+- Conferir ortografia, contraste, hierarquia, margens seguras, legibilidade em celular, fidelidade do produto e consistência da identidade.
+- Usar dimensões e formatos atuais adequados a cada canal. Não assumir que todos os canais aceitam as mesmas proporções.
+- Salvar também os arquivos-fonte necessários à edição, quando a ferramenta permitir.
 
+Não refaça pesquisa, estratégia, copy ou roteiro que já estejam completos no repositório. Seu papel neste fluxo é executar a produção, não reabrir o planejamento.
 ## 7. Distribuição e Trial Reels
 
 Use o Postiz e as contas já conectadas da SUA GRÁFICA BH. Confirme que o destino é o perfil correto da marca e evite postar em perfis de terceiros.
@@ -139,7 +150,7 @@ Conteúdo:
 - `02 - EM EDIÇÃO/`: projetos e versões de trabalho.
 - `03 - APROVADOS/`: exports finais verificados.
 - `04 - PUBLICADOS/`: cópias finais e registro de material publicado.
-- `05 - REFERÊNCIAS/`: somente referências e assets autorizados/licenciados.
+- `05 - REFERÊNCIAS/`: referências autorizadas/licenciadas e a prancha visual do lote enviada por João.
 
 Artes:
 - `Meu Drive/02 - SUA GRÁFICA BH/06 - ARTES/01 - CARROSSÉIS/`
@@ -149,7 +160,7 @@ Artes:
 - `.../05 - ARTES APROVADAS/`
 - `.../06 - ARTES PUBLICADAS/`
 
-Use os IDs `SG-XXX` em nomes de arquivos e subpastas. Organize por campanha/data quando ajudar a localizar. Salve os projetos-fonte necessários à edição. Mantenha a referência/licença de cada asset externo.
+Use os IDs `SG-XXX` em nomes de arquivos e subpastas. Organize por campanha/data quando ajudar a localizar. Salve os projetos-fonte necessários à edição. Mantenha a referência/licença de cada asset externo. A prancha visual do ChatGPT deve permanecer em `CONTEÚDOS/05 - REFERÊNCIAS/`; não misture esse arquivo com as artes finais.
 
 Atualize o repositório `ABauerlab/conteudosuagraficabh` quando tiver permissão de escrita:
 - status de cada item em `CALENDARIO.md`;
@@ -157,7 +168,6 @@ Atualize o repositório `ABauerlab/conteudosuagraficabh` quando tiver permissão
 - roteiro/briefing individual em `conteudos/`;
 - dados e aprendizados pós-publicação em `ANALISE-DE-DESEMPENHO.md` e no arquivo individual.
 Não duplicar conteúdos nem sobrescrever mudanças sem verificar a versão atual.
-
 ## 10. Controle de qualidade obrigatório
 
 Antes de qualquer publicação, confirmar:
@@ -186,8 +196,15 @@ No relatório final, entregar:
 4. Status de Trial Reel e horário das etapas, sem simular o prazo.
 5. Itens pendentes e motivo específico.
 6. Métricas iniciais disponíveis e próxima data de revisão, quando houver.
-7. Confirmação de que os brutos foram preservados.
+7. Confirmação de que os brutos foram preservados e de que a prancha visual do lote foi localizada (ou estava ausente).
 
 Se houver falha em integração, informar claramente e sugerir somente o passo manual mínimo. Não criar infraestrutura nova e não afirmar sucesso sem evidência.
 
 **Execute agora o pedido e o lote atual. Use sua autonomia para tomar decisões criativas e operacionais dentro dessas regras.**
+
+
+## Comando curto reutilizável
+
+Após o João colocar os vídeos brutos e a prancha visual do lote nas pastas indicadas, use este comando para iniciar a execução:
+
+> Claude, execute exclusivamente o lote de conteúdos **[INFORMAR IDs SG DO LOTE]** registrado no repositório `ABauerlab/conteudosuagraficabh`. Sincronize o repositório com segurança, leia integralmente `AGENTS.md`, `CLAUDE.md` e `PROMPT-UNICO-CLAUDE.md`, e consulte os briefings individuais desses IDs. Confira no Drive a prancha visual do lote em `CONTEÚDOS/05 - REFERÊNCIAS/`, o Brand Kit em `IDENTIDADE VISUAL/` e os brutos em `CONTEÚDOS/01 - VÍDEOS BRUTOS/`. Produza todas as artes finais (cada slide em arquivo separado), edite os vídeos com correspondência inequívoca por ID, revise, organize e agende pelo Postiz conforme calendário e instruções de cada conteúdo. Consulte o catálogo oficial antes de qualquer afirmação comercial. Não refaça estratégia, copy ou roteiros já registrados. Não invente dados, não sobrescreva brutos, não publique duplicatas e não declare ações sem confirmação. Continue com os itens aptos mesmo que algum esteja pendente. Ao final, informe IDs, arquivos e caminhos reais, agendamentos confirmados, links/IDs de publicação e pendências.
