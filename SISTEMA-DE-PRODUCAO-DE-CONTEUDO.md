@@ -7,26 +7,26 @@ Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁF
 - **CRM oficial** (`ABauerlab/crm-sua-grafica-bh`): fonte de verdade para identidade visual, catálogo ativo, especificações e informações comerciais.
 - **Este repositório**: fonte de verdade para estratégia editorial, pesquisa, pautas, roteiros, referências, briefings, padrões de edição e aprendizados.
 - **Google Drive**: armazenamento dos arquivos brutos, projetos de edição, exports finais e referências.
-- **ChatGPT:** pesquisa de mercado, estratégia, seleção de pautas e roteiros para teleprompter.
+- **ChatGPT:** pesquisa, estratégia, seleção de pautas, roteiros, copy, briefings de todas as peças e prancha visual de referência por lote.
 - **João:** grava os roteiros e envia os arquivos para a pasta de brutos.
-- **Claude Code:** consulta este repositório, edita os vídeos gravados, revisa os exports e distribui pelo Postiz.
+- **Claude Code:** consulta este repositório e o Brand Kit, produz artes finais, edita os vídeos gravados, revisa os arquivos e agenda/distribui os itens aptos pelo Postiz.
 - **Postiz:** publicação orgânica nos canais conectados da marca: Instagram, Facebook e Threads.
 
 Não adicionar n8n, banco de dados, servidores de renderização ou outros serviços ao fluxo enquanto as integrações já disponíveis no Claude forem suficientes.
 
 ## Fluxo operacional
-1. **Pesquisa:** pesquisar tendências, formatos, concorrentes, dúvidas e dores do público. Registrar fontes, datas e evidências.
-2. **Roteiro:** criar texto natural, curto e pronto para teleprompter, separado de cenas e instruções.
-3. **Registro:** atribuir ID sequencial `SG-XXX`, criar arquivo em `conteudos/` e atualizar `CALENDARIO.md`.
-4. **Gravação:** João grava cada roteiro em arquivo separado, usando o mesmo ID no nome.
-5. **Upload:** João envia os vídeos para `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`.
-6. **Comando ao Claude:** João solicita o processamento de todos os vídeos da pasta de brutos.
-7. **Correspondência:** Claude identifica cada vídeo pelo ID e localiza o roteiro/briefing correspondente. Itens ambíguos ou sem roteiro ficam pendentes.
-8. **Edição:** Claude edita conforme o briefing e `PADROES-DE-EDICAO.md`, preservando o sentido das falas e os arquivos originais.
-9. **Revisão:** Claude reproduz e confere cada export, incluindo áudio, imagem, cortes, legendas, ortografia, enquadramento e identidade visual.
-10. **Distribuição:** os vídeos que passarem na revisão são distribuídos pelo Postiz nos canais conectados: Instagram, Facebook e Threads. Adaptar legenda, CTA e formato conforme cada canal.
-11. **Registro:** Claude registra status, data, canal e links/IDs retornados pelo Postiz no calendário e no arquivo individual, quando tiver acesso de escrita.
-12. **Aprendizado:** resultados disponíveis orientam os próximos temas, ganchos e formatos.
+1. **Pesquisa e estratégia:** pesquisar oportunidades, dores, tendências e referências; definir o mix de vídeos, carrosséis, posts estáticos e Stories conforme o objetivo.
+2. **Planejamento:** escrever roteiros, copy, estrutura slide a slide, CTAs, legendas e briefings de produção.
+3. **Direção visual:** ChatGPT gera uma prancha visual de referência para o lote que inclua artes. João salva a imagem em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, com os IDs no nome do arquivo.
+4. **Registro:** atribuir ID sequencial `SG-XXX`, criar um arquivo individual por conteúdo em `conteudos/` e atualizar `CALENDARIO.md`.
+5. **Gravação:** João grava somente os conteúdos que exigem vídeo e usa o ID no nome de cada arquivo.
+6. **Upload:** João envia os brutos para `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`.
+7. **Comando ao Claude:** João envia o comando único com os IDs exatos do lote.
+8. **Produção:** Claude consulta cada briefing, confere a prancha visual e o Brand Kit, produz as artes finais e edita os vídeos cuja correspondência por ID seja clara.
+9. **Revisão:** Claude abre cada arte e cada slide; reproduz cada vídeo; confere qualidade, textos, identidade, catálogo, direitos e adequação aos canais.
+10. **Distribuição:** os materiais aptos são agendados/distribuídos pelo Postiz conforme calendário e canais que estiverem efetivamente conectados. Adaptar legenda, CTA e formato por canal.
+11. **Registro:** Claude registra status, data, canal, links/IDs e pendências no calendário e no arquivo individual, quando tiver acesso.
+12. **Aprendizado:** resultados disponíveis orientam os próximos temas, ganchos, formatos e prioridades.
 
 ## Pesquisa e integridade
 - Separar evidência, interpretação e hipótese.
@@ -46,9 +46,13 @@ Não adicionar n8n, banco de dados, servidores de renderização ou outros servi
 - Não prometer viralização, vendas ou resultados garantidos.
 
 ## Formato de entrega do ChatGPT
-Para cada vídeo, entregar:
-1. **Ficha de produção:** ID, título, objetivo, público, hipótese, duração estimada, formato, CTA, legenda, fontes e briefing para edição.
-2. **Teleprompter:** bloco isolado contendo exclusivamente as falas.
+Para cada conteúdo, entregar briefing individual com ID, formato, objetivo, público, etapa do funil, hipótese, conceito, gancho, conteúdo final, CTA, legendas por canal, fontes e instrução de execução.
+
+- **Vídeo:** incluir roteiro e teleprompter isolado (somente falas), ficha de gravação e briefing de edição.
+- **Carrossel:** incluir copy completa de cada slide, função narrativa e direção visual por página.
+- **Post estático:** incluir texto final, hierarquia e direção de arte.
+- **Stories:** incluir sequência, texto, CTA e direção visual.
+- **Prancha visual:** gerar uma por lote que contenha artes, mapear os quadros aos IDs e orientar João a colocá-la na pasta `CONTEÚDOS/05 - REFERÊNCIAS/` do Drive.
 
 ## Google Drive
 Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
@@ -96,3 +100,9 @@ O ID é permanente. Títulos podem mudar sem alterar o ID. Takes adicionais rece
 IDEIA → PESQUISA → ROTEIRO PRONTO → PRONTO PARA GRAVAR → GRAVADO → EM EDIÇÃO → FINALIZADO → AGENDADO → PUBLICADO → ANALISADO.
 
 Estados adicionais: PENDENTE DE ROTEIRO, PENDENTE DE REFERÊNCIA, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO, ERRO DE EDIÇÃO e ERRO DE PUBLICAÇÃO.
+
+
+## Regra de escopo e economia de execução
+O planejamento, a pesquisa, a copy, os roteiros e a direção criativa já são responsabilidade do ChatGPT. Claude não deve recriar essas etapas quando houver briefing completo. Ele executa os IDs informados no comando, produz as artes finais, edita os vídeos gravados, faz o controle de qualidade e agenda/distribui os itens aptos. Se faltar um arquivo essencial, pausa somente aquele ID e não inventa conteúdo substituto.
+
+A prancha visual gerada no ChatGPT precisa ser transferida por João para a pasta sincronizada do Drive indicada neste documento; não presumir que um arquivo desta conversa aparece automaticamente no ambiente do Claude.
