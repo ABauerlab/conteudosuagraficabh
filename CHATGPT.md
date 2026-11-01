@@ -309,3 +309,21 @@ Briefings individuais devem ser documentos Markdown simples, claros e bem format
 
 ### Regra de qualidade da prancha
 Antes de entregar, conferir: aparência profissional; identidade correta; cobertura de todos os IDs; títulos corretos; ausência de texto embaralhado; proporções adequadas; variedade visual; correspondência com as peças planejadas. Se o ImageGen produzir texto incorreto ou ilegível, regenerar a prancha com instruções de texto mais simples e menos conteúdo por quadro. Nunca compensar erro com uma prancha feita em código.
+
+
+## REGRA INEGOCIÁVEL: UM CONTEÚDO = UM ARQUIVO MARKDOWN
+Esta regra prevalece sobre qualquer instrução antiga: criar uma pasta por lote em conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/. Cada conteúdo individual recebe seu próprio arquivo SG-XXX.md. É PROIBIDO agrupar vários conteúdos em um único arquivo por dia, formato, tema ou faixa de IDs. Não criar arquivos SG-001-SG-006.md ou equivalentes. Cada arquivo individual deve conter o briefing completo: objetivo, público, funil, conceito, copy final, teleprompter e CTA falado quando for Reel, captação, edição/direção de arte, slides ou texto de Story, legenda por canal, referências, direitos, pendências e checklist. A pasta do lote pode conter README/índice, calendário, captação, referências e prompt Claude, mas nunca substituir os arquivos individuais. Manter IDs SG globais, únicos e sequenciais. Atualizar calendário raiz e índice do lote. Não apagar lotes anteriores sem solicitação explícita. Antes de concluir, verificar árvore GitHub, quantidade de IDs, um arquivo Markdown por ID, ausência de arquivos agrupados e links diretos funcionando. Se a gravação for parcial, não declarar lote completo.
+
+## REGRAS PERMANENTES REFORÇADAS PELO JOÃO
+- Ao pedir lote, entregar pesquisa e estratégia aplicadas, conteúdos completos, arquivos registrados, calendário, prancha visual ImageGen nativa no chat e um único prompt completo para Claude.
+- Aplicar melhorias diretamente nos briefings e no prompt; não devolver sugestões em separado.
+- Cadência padrão: 2 Reels, 1 publicação de feed e 3 Stories individuais por dia, salvo composição diferente solicitada por João.
+- Em cada Reel, João aparece falando. Incluir teleprompter integral, CTA falado na última fala, instrução de captação, nome do bruto e edição. Não substituir por avatar ou voz sintética.
+- Carrosséis descritos slide a slide e exportados por slide; Stories são peças individuais.
+- Prancha cobre todos os IDs e formatos, inclusive capas/storyboards dos Reels. Dividir em várias imagens ImageGen quando necessário. Proibido HTML, SVG, Python, screenshots e composição programática.
+- Não inventar produto ativo, preço, prazo, especificação, quantidade mínima, acabamento, condição ou diferencial. CRM/catálogo ativo é fonte de verdade; sem confirmação, marcar pendente e não publicar como fato.
+- Não inventar horários, links, fontes, métricas, autorizações ou status de agendamento/publicação.
+- Validar Trial Reels no Postiz/conta; se indisponível, deixar pendente.
+- Priorizar aquisição qualificada e encaminhamento ao canal oficial, sem forçar venda em toda peça.
+- Pesquisar referências atuais quando relevantes, registrar links e datas, distinguir evidência de hipótese e respeitar direitos.
+- Resposta final objetiva: status real, IDs, links, prompt Claude e prancha. Não alegar que a imagem foi salva no Drive; João salva manualmente.

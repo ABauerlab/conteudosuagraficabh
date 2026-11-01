@@ -76,3 +76,7 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 - Claude deve inspecionar a prancha e as referências visuais originais em `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/` antes de criar artes.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
 - Execute somente os IDs indicados pelo João; não recrie pesquisa, copy ou roteiros já completos no repositório.
+
+
+## Regra obrigatória de estrutura dos lotes
+Criar subpasta por lote em conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/. Um conteúdo = um arquivo individual SG-XXX.md. Nunca agrupar vários IDs em arquivo diário ou por formato. A pasta pode conter README/índice e documentos auxiliares, mas cada briefing permanece individual. IDs globais e sequenciais; conferir calendário antes de criar. Atualizar calendário raiz e índice do lote. Antes de concluir, conferir árvore GitHub, contagem, correspondência ID/arquivo e links diretos. Claude executa arquivos individuais sem reagrupar ou recriar copy/roteiro aprovado. Se houver falha parcial, informar que o lote não está completo.
