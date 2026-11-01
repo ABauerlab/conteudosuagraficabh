@@ -2,8 +2,14 @@
 
 Repositório oficial para estratégia, pesquisa, roteiros, referências, edição e aprendizado dos conteúdos da SUA GRÁFICA BH.
 
+## Repositórios oficiais
+- **Conteúdo e aquisição:** https://github.com/ABauerlab/conteudosuagraficabh
+- **CRM e operação comercial:** https://github.com/ABauerlab/crm-sua-grafica-bh
+
+Os repositórios são complementares. Este repositório organiza estratégia, conteúdo e distribuição. O CRM é a fonte de verdade para catálogo, disponibilidade, especificações e informações comerciais. Não duplicar dados comerciais, segredos ou credenciais aqui.
+
 ## Como funciona
-1. ChatGPT pesquisa e cria os roteiros.
+1. ChatGPT pesquisa e cria roteiros, briefings de edição e legendas específicas por canal.
 2. João grava e envia os vídeos para `01 - VÍDEOS BRUTOS/` no Google Drive.
 3. João envia um único comando ao Claude.
 4. Claude consulta este repositório, edita os vídeos, confere a qualidade e distribui os materiais aptos pelo Postiz.
