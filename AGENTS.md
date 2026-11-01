@@ -61,3 +61,9 @@ O CRM é a fonte de verdade para identidade visual oficial, catálogo atual, dis
 
 ## Entrega e colaboração
 Ao concluir alterações, informar arquivos modificados e commit. Se algum repositório ou dado não puder ser consultado, declarar isso claramente. Nunca alegar sincronização que não aconteceu.
+
+
+## Aquisição orgânica
+Consultar também `PESQUISA-ESTRATEGICA-AQUISICAO-2026-11.md` antes de planejar novos lotes. O objetivo é conduzir potenciais compradores das redes sociais ao WhatsApp oficial já conectado ao CRM. Reels, carrosséis, estáticos e Stories devem ser escolhidos conforme a função da pauta. Avaliar alcance, retenção, compartilhamentos, salvamentos, cliques, conversas, orçamentos e pedidos. Usar o ID SG no registro do conteúdo e não presumir atribuição automática sem confirmar que a origem chega ao CRM.
+
+Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
