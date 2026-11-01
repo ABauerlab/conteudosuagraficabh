@@ -81,12 +81,31 @@ São repositórios complementares, não cópias um do outro. O conteúdo consult
 
 
 ## Entrega padrão para pedidos de conteúdo
-Quando João pedir uma quantidade de conteúdos, como “15 conteúdos para a gráfica”, trate como um lote pronto para produção, não apenas uma lista de temas.
+Quando João pedir uma quantidade de conteúdos, como “15 conteúdos para a gráfica”, trate como um lote completo e pronto para produção, não como uma lista de temas. A quantidade solicitada é de conteúdos, não necessariamente de vídeos. Defina o mix entre Reels/vídeos, carrosséis, posts estáticos e Stories de acordo com o objetivo, a pesquisa, o funil e os aprendizados anteriores. Não force formatos para preencher uma cota.
 
-Consulte a pesquisa estratégica, a matriz de aquisição, o calendário, as referências, o histórico de publicações e as métricas anteriores. Pesquise tendências atuais quando fizer diferença para a pauta. Confirme no CRM que todo produto mencionado está ativo e vendável.
+Antes de planejar, consulte a pesquisa estratégica, a matriz de aquisição, o calendário, as referências, os conteúdos anteriores e as métricas disponíveis. Pesquise tendências atuais quando fizer diferença. Confirme no CRM que todo produto ou característica comercial mencionada está ativo e pode ser anunciada. Não invente preços, prazos, quantidades mínimas, especificações ou diferenciais.
 
-Para cada item, entregue ID SG, público, etapa do funil, objetivo, hipótese, gancho, formato, roteiro, teleprompter isolado (somente falas), instrução de gravação, briefing de edição/arte, CTA e legendas específicas para Instagram, Facebook e Threads. Carrosséis devem vir página por página; estáticos com texto final e direção de arte.
+Para cada item, atribua o próximo ID sequencial SG, sem reiniciar a numeração, e entregue um briefing individual completo:
+- Objetivo, público, necessidade, etapa do funil e ação desejada.
+- Conceito, gancho, formato e hipótese a testar.
+- Texto final: teleprompter isolado com somente as falas para vídeos; copy e sequência completa para carrosséis; texto final para posts estáticos e Stories.
+- Instruções de gravação quando houver vídeo.
+- Direção de arte/edição suficientemente específica para Claude produzir sem reinventar o conceito.
+- CTA, legenda individual para cada canal conectado e fontes/referências com data.
+- Pendências de catálogo, direitos ou dados, claramente sinalizadas.
+
+Carrosséis devem ser descritos slide a slide, com texto, função narrativa e direção visual de cada página. Posts estáticos e Stories devem conter o texto final e composição proposta. Não entregar roteiro de teleprompter para um conteúdo que não seja vídeo.
+
+### Prancha visual obrigatória por lote
+Quando o lote incluir artes, gerar aqui uma única prancha visual de referência com a direção criativa de todas as peças gráficas do lote. A prancha é um mapa visual, não uma arte final: deve apresentar quadros/estudos distintos para as diferentes peças ou famílias visuais, mantendo o estilo aprovado da SUA GRÁFICA BH. Evitar repetir o mesmo layout em todos os quadros. No texto que acompanha a prancha, mapear claramente cada quadro aos IDs SG correspondentes e explicar o que Claude deve preservar e o que pode adaptar.
+
+A prancha deve seguir as imagens de referência aprovadas por João e o `SISTEMA-DE-PRODUCAO-VISUAL.md`: publicidade gráfica contemporânea, CMYK usado com intenção, hierarquia tipográfica forte, composição editorial, contraste, fotografia realista e variedade. Não inventar logotipo ou ativos proprietários.
+
+**Handoff necessário:** a imagem gerada nesta conversa não é automaticamente inserida no Google Drive, no GitHub ou no ambiente do Claude. Entregar a prancha no chat com um nome de arquivo sugerido contendo os IDs e orientar João a salvá-la em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`. O Claude deve localizar essa prancha pelo ID. Não afirmar que ela foi enviada ao Drive ou ao GitHub sem confirmação real.
+
+### Arquivos e comando de execução
+Registre os briefings individuais em `conteudos/` e atualize `CALENDARIO.md` sempre que houver acesso de escrita. Não duplicar IDs nem sobrescrever conteúdos anteriores. Se não for possível gravar no GitHub, entregar os arquivos em formato pronto para serem adicionados e informar a limitação.
 
 O caminho de conversão padrão é o link oficial para o WhatsApp já conectado ao CRM. Não invente destinos nem afirme que a origem é rastreada se não estiver confirmada.
 
-Registre os conteúdos nos arquivos individuais e calendário sempre que houver acesso de escrita. Termine cada lote com um único comando para Claude Code, baseado em `PROMPT-UNICO-CLAUDE.md`, indicando os IDs e o escopo exato a produzir, organizar no Drive, revisar e distribuir. Use autonomia profissional e não peça detalhes que a pesquisa possa resolver.
+Termine cada lote com um único comando de execução para Claude Code, baseado em `PROMPT-UNICO-CLAUDE.md`, incluindo os IDs exatos. Claude deve apenas executar os briefings registrados: produzir artes finais, editar vídeos gravados, organizar no Drive, revisar e agendar/publicar conforme calendário. Não transferir a etapa de pesquisa, estratégia, copy ou roteiro para Claude. Use autonomia profissional e não peça detalhes que a pesquisa possa resolver.
