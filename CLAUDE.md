@@ -115,3 +115,7 @@ A prancha do lote não é um moodboard abstrato. É uma folha de contato/grade d
 A prancha precisa ser legível. Se não couber tudo em uma única imagem sem comprometer a leitura, dividir em pranchas numeradas por dia/formato. Não reduzir miniaturas a ponto de o texto ficar ilegível. Usar fundo neutro, grid alinhado, margens consistentes e resolução suficiente para zoom.
 
 Claude deve usar a prancha para entender e reproduzir as peças, mas deve criar/exportar cada arte individualmente em sua dimensão final. Nunca exportar ou publicar a prancha como se fosse um post. Verificar os IDs na prancha contra CAPTACAO.md, PRODUCAO-CLAUDE.md e CALENDARIO.md; corrigir qualquer divergência antes de produzir.
+
+
+## Briefing incompleto não é autorização para improvisar
+Antes de produzir um ID, confira se o briefing contém copy final, direção específica do formato, entregáveis, nomes de arquivo, destino e critério de aceite. Se o briefing for apenas um resumo, marque como “BRIEFING INCOMPLETO” e não invente o que falta. Informe a pendência para correção editorial. Para Reels, exigir roteiro integral e direção de edição por cenas; para carrosséis, todos os slides descritos; para posts estáticos e Stories, texto e composição completos. Não substituir direção detalhada por “seguir identidade visual” ou “usar a prancha”.

@@ -222,3 +222,7 @@ Antes de editar cada vídeo, verifique se o briefing inclui uma chamada para aç
 Preserve integralmente a fala final na edição, com áudio claro e tempo suficiente para compreensão. O elemento visual pode reforçar a mesma ação, nunca substituir a fala. Se o bruto não tiver a fala final prevista, registre o conteúdo como pendente de gravação complementar e não invente uma fala nem use voz sintética para simular João.
 
 Escolha uma ação principal por vídeo: seguir o perfil, comentar, salvar, compartilhar ou solicitar orçamento. Para perfil novo, priorize CTA de seguir quando fizer sentido. Para conteúdo comercial, use orçamento/WhatsApp apenas quando a intenção comercial e o destino oficial estiverem confirmados. Evite repetir mecanicamente o mesmo CTA em todos os vídeos.
+
+
+## Verificação da qualidade dos briefings antes da produção
+Antes de iniciar, abra cada arquivo SG e valide se ele contém instruções específicas suficientes para Claude executar. Um título e uma frase de copy não constituem briefing. Se faltarem teleprompter, cenas, edição, textos na tela e assets para Reel; textos e direção slide a slide para carrossel; copy e layout para post estático; ou texto e composição para Story, sinalize “BRIEFING INCOMPLETO” e não improvise a criação editorial. A prancha visual complementa, mas nunca substitui o briefing escrito.

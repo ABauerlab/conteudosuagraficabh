@@ -49,3 +49,7 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 
 ## Estrutura obrigatória dos lotes
 Cada lote fica em conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/. Cada peça tem seu próprio arquivo SG-XXX.md. É proibido agrupar conteúdos em arquivos diários. Consulte conteudos/README.md e os briefings individuais de cada lote.
+
+
+## Organização dos próximos lotes
+Cada lote em `conteudos/` terá as pastas `FEED/`, `STORIES/` e `REELS/`. Cada peça terá um único arquivo `SG-XXX.md` dentro da pasta correspondente. O índice do lote ficará em `README.md` na raiz da pasta.
