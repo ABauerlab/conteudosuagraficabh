@@ -45,7 +45,7 @@ Quando João informar os IDs SG de um lote, execute exclusivamente os conteúdos
 - Não apagar, sobrescrever ou alterar os brutos.
 - Não publicar duplicatas já publicadas ou agendadas. Verifique o histórico antes de enviar ao Postiz.
 - Se uma falha impedir a publicação, não improvisar nem afirmar sucesso. Registrar o motivo e continuar com os demais vídeos que estiverem aptos.
-- A autorização para executar o fluxo em lote inclui editar e publicar os conteúdos que passarem integralmente pela checagem de qualidade. Não pedir aprovação individual de cada peça que passou integralmente no controle de qualidade.
+- A autorização para executar o fluxo em lote inclui produzir, revisar e agendar/distribuir os conteúdos que passarem integralmente pela checagem de qualidade. Não pedir aprovação individual de cada peça que passou integralmente no controle de qualidade.
 - Se houver dúvida material sobre identidade, direitos, conteúdo falado ou informação comercial, pausar somente aquele item e explicar a pendência.
 
 ## Entrega final
