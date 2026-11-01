@@ -1,11 +1,13 @@
 # Calendário e fila de conteúdo | SUA GRÁFICA BH
 
-## Fila zerada para revisão estratégica
-- O lote anterior de 04 a 11/11/2026 foi removido a pedido do responsável e será refeito.
-- Próximo ID disponível: SG-001 (reinício autorizado pelo responsável).
-- Nenhum conteúdo deste lote está atualmente planejado, agendado ou publicado.
+## Lote atual: 04 a 11/11/2026
+- Pasta: lotes/2026-11-04_a_2026-11-11/
+- Total: 48 peças — 16 Reels, 8 Feed e 24 Stories.
+- IDs: SG-001 a SG-048.
+- Status: planejado; aguardando pranchas visuais, RAWs e produção.
+- Próximo ID: SG-049.
 
-## Regra prioritária de vídeo
-Todos os Reels devem partir de uma gravação humana real, com uma pessoa aparecendo e falando no vídeo final. Não criar Reels inteiramente em motion, com voz sintética ou gerados integralmente por IA. Motion graphics, textos animados, imagens de apoio, B-roll, efeitos e recursos de IA podem complementar a gravação humana conforme a estratégia individual de edição. Cada Reel precisa de roteiro/teleprompter e instruções claras de captação humana.
+## Cadência obrigatória
+2 Reels + 1 Feed + 3 Stories por dia. Todos os Reels exigem gravação humana real de João, roteiro completo e CTA falado. Cada Reel aparece na matriz e na prancha mesmo enquanto aguarda RAW.
 
-A cadência diária de 2 Reels, 1 publicação de feed e no mínimo 3 Stories permanece vigente, salvo nova orientação.
+Nenhum conteúdo está agendado ou publicado. Não concluir sem validar todos os IDs, briefings, calendário e pranchas.
