@@ -69,3 +69,15 @@ Para a política de Trial Reel, siga `OPERACAO-DE-CONTEUDO.md` e `PESQUISA-ESTRA
 A prancha visual é criada pelo ChatGPT para cada lote que contenha artes. João deve colocá-la em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, nomeada com os IDs SG. Claude precisa localizar e inspecionar essa imagem e as referências originais da pasta `IDENTIDADE VISUAL/` antes de produzir. Se a prancha estiver ausente, registrar isso e utilizar os arquivos de referência oficiais existentes, sem interromper todo o lote.
 
 Não refazer pesquisa, estratégia, roteiros ou copy já registrados. Executar somente os IDs listados no comando e os entregáveis previstos em cada briefing.
+
+
+## Regra obrigatória de CTA falado em vídeos
+
+Em todo vídeo com fala de apresentador ou narração, confira o briefing e o teleprompter antes de editar: a última fala precisa conter o CTA exato. O CTA não pode existir apenas na legenda ou como texto na tela.
+
+Durante a edição:
+- Preserve integralmente a última fala e não corte o CTA.
+- Garanta que a voz permaneça audível e que o encerramento tenha tempo suficiente para compreensão.
+- Use lettering/elemento visual apenas como reforço da mesma ação.
+- Se o bruto enviado não contiver o CTA falado previsto, marque o ID como pendente de gravação complementar; não substitua silenciosamente por texto na tela nem invente uma fala com IA.
+- Vídeos sem fala ou narração podem usar CTA visual conforme o briefing.
