@@ -70,27 +70,28 @@ Nunca afirmar que um Trial Reel foi graduado, que aguardou 24 horas ou que foi p
 O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João deve informar os IDs SG exatos do lote. Claude executa apenas esses briefings, produz artes finais, edita vídeos com bruto correspondente, revisa, organiza e agenda/distribui conforme os calendários e canais conectados. Não refaz pesquisa, estratégia, copy ou roteiro. Para Trial Reels, nunca manter a execução aberta aguardando 24 horas; registrar o status e tratar a avaliação/graduação como etapa posterior, somente se o recurso estiver confirmado.
 
 ## Regras para processamento em lote
-- Usar `SG-XXX` como identificador principal.
-- Antes de editar, listar arquivos encontrados e identificar brutos sem roteiro, roteiros sem bruto e nomes ambíguos.
-- Não interromper todo o lote por causa de um único arquivo com problema; processar os demais que estiverem aptos.
+- Usar `SG-XXX` como identificador principal em briefing, prancha, bruto, export e publicação.
+- Conferir briefings, artes, prancha visual e brutos; identificar IDs sem material essencial, duplicações e correspondências ambíguas.
+- Não interromper todo o lote por causa de um único item com problema; processar os demais que estiverem aptos.
 - Não inventar correspondências, falas, cenas, depoimentos ou dados comerciais.
 - Não apagar ou sobrescrever os arquivos originais.
-- Não publicar material que falhar na revisão, não tiver produto confirmado no catálogo ou tiver pendência de direitos.
+- Não produzir nem distribuir material sem briefing, confirmação comercial quando aplicável ou direitos resolvidos.
+- Agendar conforme calendário e canal efetivamente conectado; não inventar horários como se fossem dados comprovados.
 - Verificar histórico do Postiz para evitar duplicidade.
-- Se o Postiz falhar em um canal, registrar a falha e não afirmar que houve publicação naquele canal.
+- Se o Postiz falhar em um canal, registrar a falha e não afirmar que houve agendamento/publicação naquele canal.
 
 ## Controle de qualidade
-- Fala fiel à gravação e ao roteiro.
-- Gancho claro e ritmo natural.
-- Legendas corretas, legíveis e dentro da área segura.
-- Áudio limpo, sem clipping; música licenciada e abaixo da voz.
-- Cortes sem prejudicar o entendimento.
-- Identidade visual e assets oficiais respeitados.
+- Roteiro e peça final correspondem ao mesmo ID.
+- Texto revisado, legível em celular e fiel ao briefing.
+- Hierarquia, contraste, margens seguras e identidade visual conferidos.
+- Cada slide do carrossel foi aberto e revisado na ordem correta.
+- Cada vídeo foi reproduzido; áudio, cortes, legendas e enquadramento conferidos.
 - Produtos e informações comerciais confirmados no CRM/Supabase.
 - Direitos e licenças dos assets verificados.
-- Export reproduzido e conferido antes da distribuição.
+- CTA, legenda e formato adaptados ao canal.
+- Arquivos finais conferidos antes do agendamento.
 
 ## Status
-IDEIA → PESQUISA → ROTEIRO PRONTO → PRONTO PARA GRAVAR → GRAVADO → EM EDIÇÃO → FINALIZADO → AGENDADO → PUBLICADO → ANALISADO.
+IDEIA → PESQUISANDO REFERÊNCIA → BRIEFING PRONTO → PRONTO PARA GRAVAR / PRONTO PARA PRODUZIR → GRAVADO → EM PRODUÇÃO → PRONTO PARA PUBLICAR → AGENDADO → PUBLICADO → ANALISADO.
 
-Estados adicionais: PENDENTE DE ROTEIRO, PENDENTE DE REFERÊNCIA, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE EDIÇÃO e ERRO DE PUBLICAÇÃO.
+Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE ARQUIVO, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE PRODUÇÃO e ERRO DE AGENDAMENTO.
