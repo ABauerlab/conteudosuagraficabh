@@ -92,3 +92,7 @@ O arquivo SG é a ordem de produção para Claude, não um lembrete curto. Aplic
 
 ## Reinício autorizado da sequência de IDs
 João autorizou reiniciar a numeração após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Consultar `CALENDARIO.md` como fonte de verdade; não usar SG-049 como próximo ID. Manter um Markdown individual por conteúdo e separar os arquivos em FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização.
+
+
+## Regra obrigatória de variedade editorial (ler VARIEDADE-EDITORIAL.md)
+Antes de criar qualquer lote, consultar `VARIEDADE-EDITORIAL.md` e o histórico recente de conteúdos. Não concentrar a comunicação em arte-final, fechamento de arquivo, briefing ou preparação técnica. Esses temas são apenas uma pequena parte do universo editorial. Cada peça precisa ter assunto, promessa, ângulo e entrega próprios; trocar apenas o gancho ou o título não conta como variedade. Planejar pautas a partir de dúvidas, desejos, problemas e situações reais do público, equilibrando conteúdo útil, entretenimento, identificação, tendências atuais, demonstrações e conteúdo comercial. Pesquisar tendências e assuntos atuais com fontes e datas verificáveis. Antes de aprovar o lote, fazer auditoria de repetição temática e de mensagem entre todos os formatos.
