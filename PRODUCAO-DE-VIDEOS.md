@@ -138,3 +138,7 @@ Todo vídeo com apresentador, narração ou teleprompter deve terminar com uma c
 - A edição deve preservar a fala completa, dar tempo para ela ser entendida e reforçá-la visualmente sem competir com a voz.
 
 **Exceção:** vídeos puramente visuais, sem fala ou narração, não precisam inventar uma fala; devem apresentar CTA visual adequado ao formato.
+
+
+## Variedade obrigatória de temas e roteiros
+Roteiros não podem ficar concentrados em arte-final, fechamento de arquivo, briefing ou preparação técnica. Esses assuntos são apenas um território entre vários. Consultar `VARIEDADE-EDITORIAL.md`, pesquisar dúvidas e interesses reais do público e alternar temas como empreendedorismo, marketing, vendas, comportamento do consumidor, ideias de aplicação, curiosidades gráficas, tendências atuais, bastidores, entretenimento e soluções confirmadas no catálogo. Cada vídeo precisa ter assunto, promessa, desenvolvimento e conclusão próprios. Não considerar variedade apenas trocar título, gancho ou exemplo. Fazer auditoria comparativa com os roteiros recentes antes de entregar o lote.

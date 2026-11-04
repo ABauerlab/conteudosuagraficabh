@@ -22,3 +22,7 @@ Cada pauta responde: quem queremos atrair, qual situação essa pessoa reconhece
 - Aprendizado: taxa de passagem entre etapas e origem confirmada por ID SG, quando tecnicamente preservada.
 
 Reels e carrosséis cumprem papéis diferentes; os dados globais de mercado orientam hipóteses, enquanto a decisão final deve usar o desempenho real da conta da SUA GRÁFICA BH.
+
+
+## Variedade editorial obrigatória
+A estratégia de pauta deve seguir também `VARIEDADE-EDITORIAL.md`. O perfil não pode se limitar a assuntos técnicos de arte-final, fechamento de arquivo ou preparação. A pauta deve refletir o que empreendedores e compradores querem aprender, descobrir, comparar, assistir e compartilhar: negócios, marketing, comportamento do consumidor, ideias de aplicação, tendências atuais, curiosidades, bastidores, entretenimento e soluções gráficas confirmadas. Auditar repetição de assunto, promessa e conclusão entre todos os formatos antes de liberar cada lote.

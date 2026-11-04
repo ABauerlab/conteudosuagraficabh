@@ -25,6 +25,7 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 ## Documentos principais
 - [DIRETRIZES.md](DIRETRIZES.md): identidade, público, tom e confiabilidade.
 - [ESTRATEGIA.md](ESTRATEGIA.md): posicionamento e estratégia editorial.
+- [VARIEDADE-EDITORIAL.md](VARIEDADE-EDITORIAL.md): regra obrigatória de diversidade temática, formatos, pesquisa atual e prevenção de repetição.
 - [MATRIZ-DE-AQUISICAO.md](MATRIZ-DE-AQUISICAO.md): ligação entre conteúdo e aquisição.
 - [PESQUISA-DE-TENDENCIAS.md](PESQUISA-DE-TENDENCIAS.md): pesquisa e rastreamento de ideias.
 - [BANCO-DE-GANCHOS.md](BANCO-DE-GANCHOS.md): ganchos e aprendizados.
@@ -46,10 +47,8 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - Preservar os vídeos brutos.
 - Não publicar material que não tenha passado pelo controle de qualidade.
 
-
 ## Estrutura obrigatória dos lotes
 Cada lote fica em conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/. Cada peça tem seu próprio arquivo SG-XXX.md. É proibido agrupar conteúdos em arquivos diários. Consulte conteudos/README.md e os briefings individuais de cada lote.
-
 
 ## Organização dos próximos lotes
 Cada lote em `conteudos/` terá as pastas `FEED/`, `STORIES/` e `REELS/`. Cada peça terá um único arquivo `SG-XXX.md` dentro da pasta correspondente. O índice do lote ficará em `README.md` na raiz da pasta.
