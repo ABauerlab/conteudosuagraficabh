@@ -1,8 +1,13 @@
 # EXECUÇÃO DO LOTE 04–11/11/2026 | SUA GRÁFICA BH
 
-Execute o lote usando os briefings já aprovados. Não refaça planejamento, pesquisa, roteiros ou estratégia.
+Execute o lote usando exclusivamente os briefings já aprovados neste repositório e a identidade visual oficial disponível no Google Drive. Não refaça planejamento, pesquisa, roteiros ou estratégia.
 
 **Ponto de partida:** 04/11/2026, às 15h30, horário de Brasília. Os RAWs dos 16 Reels já estão na pasta de vídeos gravados.
+
+## Referências permitidas
+- **Conteúdo e execução:** os briefings individuais e as instruções deste repositório. Eles definem roteiro, objetivo, formato, legenda, CTA e entregáveis.
+- **Identidade visual:** `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/IDENTIDADE VISUAL/` (pasta disponibilizada pelo responsável com o Brand Kit e os arquivos oficiais da marca).
+- Não dependa de outras pastas de referências. Não pesquise referências externas, não crie uma identidade alternativa e não invente aplicações, logos, cores ou fontes. Se a pasta de identidade visual não estiver acessível ou estiver vazia, interrompa apenas as peças que dependem dela e informe a pendência; continue tarefas independentes.
 
 ## 1. Editar os Reels
 Edite os 16 vídeos listados em `conteudos/lote-2026-11-04-a-2026-11-11/REELS/`:
@@ -11,10 +16,10 @@ SG-001, SG-002, SG-007, SG-008, SG-013, SG-014, SG-019, SG-020, SG-025, SG-026, 
 Localize os RAWs em:
 `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`
 
-Siga cada briefing e o Brand Kit. Preserve a fala e o CTA de João, use legendas sincronizadas e edição adequada a cada roteiro. Não invente falas nem use avatar ou voz sintética. Exporte os vídeos verticais finais e suas capas para a pasta de aprovados. Preserve os brutos.
+Siga cada briefing e a identidade visual oficial da pasta indicada em **Referências permitidas**. Preserve a fala e o CTA de João, use legendas sincronizadas e edição adequada a cada roteiro. Não invente falas nem use avatar ou voz sintética. Exporte os vídeos verticais finais e suas capas para a pasta de aprovados. Preserve os brutos.
 
 ## 2. Criar as artes
-Produza as artes dos 8 conteúdos de Feed e 24 Stories, seguindo os briefings individuais nas pastas `FEED/` e `STORIES/`. Use o Brand Kit e as referências existentes. Exporte cada peça separadamente, nos formatos previstos no briefing, e organize os arquivos finais nas pastas de aprovados.
+Produza as artes dos 8 conteúdos de Feed e 24 Stories, seguindo os briefings individuais nas pastas `FEED/` e `STORIES/`. Use os briefings individuais e a identidade visual oficial da pasta indicada em **Referências permitidas**. Exporte cada peça separadamente, nos formatos previstos no briefing, e organize os arquivos finais nas pastas de aprovados.
 
 ## 3. Agendar e publicar
 Distribua os Reels, Feed e Stories do lote pelo Postiz, usando as legendas e os canais indicados nos briefings.
