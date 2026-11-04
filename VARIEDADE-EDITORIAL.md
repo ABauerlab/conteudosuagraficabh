@@ -71,3 +71,29 @@ Após a publicação, registrar quais temas geraram retenção, compartilhamento
 
 ## Regra final
 A SUA GRÁFICA BH deve ser percebida como uma marca que entende de negócios, comunicação, criatividade e soluções gráficas — não como um perfil que fala exclusivamente sobre arquivos e arte-final. Cada conteúdo deve conquistar a atenção por mérito próprio e contribuir, de forma natural, para a construção da marca e a aquisição de clientes.
+
+
+
+## Diretriz comercial central: somos uma gráfica e vendemos produtos
+A variedade editorial existe para fortalecer a aquisição de clientes e as vendas da SUA GRÁFICA BH. Não somos um perfil genérico de empreendedorismo ou marketing: somos uma gráfica online com catálogo de produtos gráficos e personalizados. O conteúdo deve deixar isso claro e criar oportunidades reais de compra.
+
+- Planejar pautas que apresentem produtos específicos do catálogo ativo, suas aplicações, ocasiões de uso, combinações, possibilidades de personalização e problemas que ajudam a resolver.
+- Em cada lote, reservar espaço editorial para conteúdo de produto e intenção comercial. A frequência e a proporção devem considerar o catálogo disponível, sazonalidade, margem/estratégia comercial autorizada e desempenho, sem impor percentuais arbitrários.
+- Mostrar o produto de forma concreta sempre que possível: fotografia real, demonstração, detalhe, escala, contexto de uso, comparação ou exemplo visual. Não ficar apenas falando abstratamente sobre comunicação.
+- Conectar o produto a um público e a uma situação: por exemplo, o que um comércio, restaurante, prestador de serviço, evento ou marca pode fazer com aquele material. Usar somente produtos confirmados como ativos e vendáveis.
+- Criar conteúdos que ajudem o público a descobrir produtos que talvez ainda não conheça, entender para que servem, imaginar como usá-los e dar o próximo passo para consultar ou comprar.
+- Variar entre conteúdo de descoberta, demonstração, comparação, inspiração de uso, orientação de compra, prova/portfólio autorizado, oferta e campanha comercial quando houver informação oficial aprovada.
+- Não transformar todos os posts em anúncio. Mesmo o conteúdo educativo ou de entretenimento deve, quando houver conexão genuína, aproximar o público de uma necessidade que a gráfica possa atender.
+- CTA comercial deve orientar para o canal oficial, catálogo ou orçamento conforme o fluxo atual. Não criar links, preços, promoções ou condições não confirmadas.
+
+### Pergunta obrigatória para cada pauta
+Antes de aprovar um conteúdo, responder:
+1. Qual público queremos atrair?
+2. Qual necessidade, desejo ou ocasião de compra existe?
+3. Qual produto ou categoria da gráfica pode atender essa necessidade, se aplicável?
+4. O produto está ativo e vendável no catálogo oficial?
+5. O que o público vai aprender, descobrir ou desejar ao ver o conteúdo?
+6. Qual próximo passo conduz a pessoa ao perfil, catálogo, WhatsApp, orçamento ou pedido?
+
+### Equilíbrio entre marca e venda
+A comunicação deve ser variada, mas comercialmente coerente. Não deixar o perfil dominado por dicas genéricas sem relação com impressão, materiais gráficos ou compra. Também não transformar tudo em catálogo seco. A meta é fazer o público descobrir a gráfica, reconhecer uma necessidade, desejar uma solução, consultar o catálogo e comprar.
