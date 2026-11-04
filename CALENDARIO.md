@@ -4,7 +4,8 @@
 - Pasta: conteudos/lote-2026-11-04-a-2026-11-11/
 - 48 briefings: 16 Reels, 8 carrosséis Feed, 24 Stories.
 - Próximo ID após o lote: SG-049.
-- Cadência: 2 Reels, 1 Feed e 3 Stories por dia. Datas não definem horário.
+- Cadência original: 2 Reels, 1 Feed e 3 Stories por dia. Datas são ordem editorial, não horários confirmados.
+- **Reprogramação operacional:** execução iniciada em 04/11/2026 às 15h30 (America/Sao_Paulo). Considerar somente horários futuros; distribuir o conteúdo restante até 11/11 sem tentar recuperar horários passados. Os horários efetivos devem ser registrados após confirmação no Postiz.
 
 | Data | Reels | Feed | Stories |
 |---|---|---|---|
@@ -16,3 +17,5 @@
 | 09/11/2026 | SG-031, SG-032 | SG-033 | SG-034 a SG-036 |
 | 10/11/2026 | SG-037, SG-038 | SG-039 | SG-040 a SG-042 |
 | 11/11/2026 | SG-043, SG-044 | SG-045 | SG-046 a SG-048 |
+
+Os dias acima preservam a ordem editorial dos conteúdos, não obrigam a publicação em horários já passados. O novo calendário de horários deve ser definido na execução e confirmado no Postiz.
