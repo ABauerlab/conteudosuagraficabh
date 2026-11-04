@@ -1,6 +1,8 @@
 # Lote editorial | 04–11/11/2026
 
-48 conteúdos individuais: 16 Reels, 8 carrosséis Feed e 24 Stories. Cadência diária: 2 Reels, 1 carrossel e 3 Stories. Cada ID tem arquivo próprio.
+48 conteúdos individuais: 16 Reels, 8 carrosséis Feed, 24 Stories. Cada ID tem arquivo próprio.
+
+**Execução:** iniciada em 04/11/2026 às 15h30 (America/Sao_Paulo). Os RAWs dos Reels já foram enviados à pasta de vídeos gravados. Reorganizar os agendamentos considerando somente horários futuros até 11/11. A tabela abaixo representa a ordem editorial, não horários confirmados.
 
 ## 04/11/2026
 - Reels: SG-001, SG-002
@@ -41,4 +43,3 @@
 - Reels: SG-043, SG-044
 - Feed: SG-045
 - Stories: SG-046 a SG-048
-Datas são ordem editorial, não horários confirmados. Reels aguardam RAW do João.
