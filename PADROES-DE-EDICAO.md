@@ -110,3 +110,43 @@ Para a direção completa de produção audiovisual, proteção do rosto, cinema
 - Revisar o início do vídeo em velocidade normal e em tela de celular, como alguém que vê o conteúdo pela primeira vez. Confirmar que o texto pode ser lido sem pausar ou voltar o vídeo.
 - Se a fala começar simultaneamente, garantir que o texto continue legível sem competir com a fala ou encobrir o apresentador.
 - **Critério de aceite:** gancho ilegível, exibido por tempo insuficiente ou removido antes da leitura completa mantém o Reel em EM REVISÃO e deve ser corrigido antes da distribuição.
+
+## Direção semântica e comercial do motion design
+
+Motion design precisa traduzir visualmente a fala, não apenas preencher a tela com animações. Antes de editar, montar um mapa simples por bloco de fala: fala exata → ideia principal → imagem/metáfora visual → elemento gráfico ou B-roll → entrada/saída e duração.
+
+- Cada elemento precisa ilustrar, explicar, provar visualmente ou enfatizar exatamente o que está sendo dito naquele momento.
+- Usar metáforas visuais somente quando forem imediatas e inequívocas para o público. Se o espectador precisar adivinhar a relação entre fala e gráfico, a solução não funciona.
+- Evitar formas, quadrados coloridos, ícones, painéis, gráficos ou animações genéricas sem função narrativa. Não inserir elementos apenas para parecer que existe motion design.
+- Manter coerência entre texto, fala, imagem, cor, movimento e ordem de leitura. Um elemento não pode sugerir uma ideia diferente da fala.
+- Priorizar recursos comerciais: produto real, aplicação, resultado demonstrável, processo pertinente, comparação honesta, benefício confirmado, situação de uso e CTA.
+- Criar storyboard/mapeamento visual antes da montagem. Revisar cada cena perguntando: O que está sendo falado? O que o público está vendo? A relação entre os dois fica clara imediatamente?
+- Se não houver imagem de apoio fiel ao assunto, usar motion tipográfico/diagrama simples e semanticamente correto em vez de foto genérica ou animação decorativa.
+- Critério de aceite: se o motion estiver desalinhado, aleatório, ambíguo ou sem relação evidente com a fala, manter EM REVISÃO e refazer a cena.
+
+## Trilha musical obrigatória e licenciamento para uso comercial
+
+Todo Reel/vídeo final deve ter trilha musical de fundo intencional, além de sound design quando adequado. A ausência de música por falta de licença não é mais uma solução final aceitável: é uma pendência de acesso/licenciamento que precisa ser resolvida antes da aprovação.
+
+- Usar biblioteca ou faixa com licença que cubra expressamente produção comercial/de marca, trabalho para cliente, publicação nos canais da SUA GRÁFICA BH e mídia paga quando houver impulsionamento/anúncios.
+- Não usar plano Social/pessoal para trabalho comercial de marca ou cliente. Verificar o escopo exato da licença e o titular/canal coberto.
+- Referência de fornecedor para avaliar: Artlist com licença Pro/Business/Creator Pro ou solução equivalente que cubra client work e paid media. A documentação oficial diferencia planos Social (pessoais) e Pro (comerciais/clientes/anúncios): https://help.artlist.io/hc/en-us/articles/29559573229725-Artlist-s-Music-and-SFX-plans-explained e https://artlist.io/help-center/privacy-terms/artlist-license.
+- Não contratar, comprar, iniciar teste pago ou assumir custos sem autorização expressa do responsável. Se não houver conta/licença válida disponível, registrar BLOQUEIO DE LICENÇA MUSICAL, solicitar ao responsável a contratação/acesso a um plano adequado e não aprovar silenciosamente vídeo sem trilha.
+- Uma vez autorizado o acesso, selecionar faixa coerente com o objetivo, energia, público, duração e identidade da peça. Evitar trilhas genéricas que disputem atenção com a fala.
+- Registrar em cada projeto: faixa, artista/compositor, URL, fornecedor, plano/licença, titular da conta, canais/perfis cobertos, uso orgânico e pago, data de download/publicação e comprovante/recibo ou certificado de licença.
+- Conferir se a licença permite continuar usando o vídeo publicado após eventual cancelamento, e se cobre novos projetos apenas durante a assinatura. Não presumir que uma licença vale para sempre ou para todos os canais.
+- Mixar a trilha abaixo da voz, com automação/ducking; preservar inteligibilidade, sem clipping. A trilha deve sustentar o ritmo, não mascarar a fala. Sound effects complementam, não substituem a música.
+- Critério de aceite: vídeo sem trilha musical fica PENDENTE DE LICENÇA MUSICAL e não pode ser marcado como finalizado/aprovado, salvo exceção autorizada expressamente por João.
+
+## B-roll e fotografia de bancos de imagem: contexto obrigatório
+
+Toda foto/vídeo de banco de imagens deve ter correspondência direta com a fala e com a cena. Não usar imagens bonitas, genéricas ou apenas relacionadas ao tema se não explicarem o que está sendo dito.
+
+- Antes de pesquisar, escrever um microbrief de asset: fala/trecho que será ilustrado, objeto/ação exatos, ambiente, enquadramento, contexto brasileiro quando relevante, função narrativa e duração prevista na tela.
+- Pesquisar por assunto + ação + contexto + enquadramento. Não buscar apenas termos amplos como gráfica; buscar a ação real descrita na fala.
+- Conferir o arquivo real antes de inserir: o que aparece, o que está escrito, equipamentos, idioma, cenário, pessoas, marcas, uniformes e coerência com o contexto da SUA GRÁFICA BH.
+- A imagem deve mostrar a ação/objeto correto. Não usar foto de impressão offset para ilustrar processo digital se a diferença for relevante; não usar embalagem genérica para afirmar um acabamento específico; não sugerir que uma instalação, máquina ou equipe retratada pertence à SUA GRÁFICA BH.
+- Preferir imagens de produção brasileira e contexto local quando o assunto exigir. Evitar fotos com textos estrangeiros visíveis, máquinas ou processos incompatíveis e marcas de terceiros em destaque.
+- Se não encontrar asset contextual, usar material próprio autorizado, criar um diagrama/motion fiel ou manter o apresentador em tela. Não preencher espaço com stock fora de contexto.
+- Registrar URL, autor, plataforma, licença e data de obtenção. A licença ampla da Unsplash permite muitos usos comerciais, mas não libera automaticamente direitos de imagem de pessoas reconhecíveis, marcas/logos ou obras protegidas retratadas. Consultar https://unsplash.com/pt-br/licença e https://unsplash.com/terms; quando esses elementos aparecerem, verificar permissões adicionais ou escolher outra imagem.
+- Critério de aceite: asset fora de contexto, contraditório ou que possa induzir o público a uma afirmação falsa deve ser removido e substituído.
