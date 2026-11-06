@@ -254,3 +254,62 @@ O gancho textual inicial precisa ser lido por inteiro em velocidade normal, sem 
 - Revisar o gancho em velocidade normal, preferencialmente em tela de celular e sem pausar o vídeo. Perguntar: uma pessoa vendo pela primeira vez consegue ler e entender antes de o texto sair?
 
 **Critério de aceite:** se o gancho não puder ser lido integralmente sem pausar ou voltar o vídeo, a edição está EM REVISÃO. Corrigir duração, divisão em blocos, tamanho, contraste ou animação antes de aprovar e distribuir.
+
+## 18. Direção semântica, comercial e coerente do motion design
+
+O motion design deve idealizar e materializar o que está sendo falado. Não basta haver animações bonitas: o público precisa entender imediatamente a relação entre a fala e o que aparece na tela.
+
+### Planejamento antes da edição
+Criar um mapa visual por cena/bloco de fala com: trecho exato da fala; ideia que precisa ser compreendida; recurso visual escolhido (produto, aplicação, processo, comparação, texto, diagrama, ícone, B-roll ou metáfora); motivo pelo qual esse recurso representa a fala; composição, hierarquia, posição e duração; movimento de entrada, ênfase e saída.
+
+### Regras de direção
+- Cada elemento deve ilustrar, explicar, demonstrar ou enfatizar o conteúdo falado naquele instante.
+- A relação semântica precisa ser clara em poucos segundos. Se for necessário explicar depois por que um ícone ou forma está na tela, escolha outra solução.
+- Não usar blocos geométricos, quadrados coloridos, painéis, ícones, gráficos ou animações genéricas só para preencher espaço ou simular complexidade.
+- Evitar elementos desconectados entre si, sem alinhamento, hierarquia ou progressão narrativa.
+- A composição deve ter unidade: grid, alinhamento, espaçamento, proporção, escala, contraste, tipografia, cores e easing coerentes.
+- Priorizar linguagem publicitária/comercial: produto real, uso, aplicação, resultado comprovável, processo pertinente, comparação honesta, benefício confirmado e CTA.
+- Metáforas visuais são bem-vindas quando simples, imediatas e diretamente relacionadas à fala; não podem criar interpretações ambíguas.
+- Motion, legenda e B-roll devem coexistir sem competir com a fala ou cobrir o rosto.
+- Se não houver asset real e contextual, preferir tipografia/diagrama simples e correto a uma fotografia genérica.
+- Cada vídeo precisa de uma direção visual própria, mas com acabamento consistente com o Brand Kit.
+
+Teste obrigatório de coerência: revisar cada cena e responder: O que João está dizendo? O que a pessoa está vendo? A imagem ajuda a entender exatamente essa fala? Se a terceira resposta não for claramente sim, refazer.
+
+Critério de aceite: motion desalinhado, decorativo, confuso, sem hierarquia ou sem relação clara com a fala permanece EM REVISÃO e não pode ser publicado.
+
+## 19. Trilha musical obrigatória, comercial e licenciada
+
+A trilha musical passa a ser componente obrigatório de todos os vídeos/Reels finalizados. Ela deve dar ritmo, identidade e acabamento, sem competir com a voz.
+
+- Não entregar vídeo final sem trilha alegando apenas que não encontrou licença. A falta de acesso/licença é um bloqueio operacional a ser resolvido, não uma justificativa para ignorar o requisito.
+- Usar apenas faixas cuja licença cubra claramente: uso comercial/de marca, produção para cliente, canais sociais da SUA GRÁFICA BH e mídia paga/impulsionamento quando aplicável.
+- Não usar plano pessoal/Social quando os termos excluírem trabalho comercial, marcas, clientes ou mídia paga.
+- Avaliar uma licença profissional como Artlist Pro/Business/Creator Pro ou fornecedor equivalente. A documentação da Artlist informa que Music & SFX Pro cobre uso comercial, client work e paid media, enquanto Social não cobre trabalho comercial/de cliente: https://help.artlist.io/hc/en-us/articles/29559573229725-Artlist-s-Music-and-SFX-plans-explained. Conferir sempre os termos atuais e o plano exato antes de usar.
+- A contratação/compra de assinatura depende de autorização expressa de João. Não realizar compras, testes pagos ou assumir custos sem autorização. Se ainda não houver licença válida, marcar BLOQUEIO DE LICENÇA MUSICAL, informar o plano necessário e solicitar acesso/autorização. Não aprovar ou agendar como finalizado.
+- Escolher a faixa pela intenção da peça: energia, emoção, ritmo, público, duração e posicionamento comercial. Evitar trilha genérica, incompatível ou excessivamente épica para o conteúdo.
+- Mixar em volume inferior à voz, aplicar ducking/automação e equalização quando necessário. A fala deve permanecer perfeitamente inteligível. Usar sound design pontual para reforçar ações e transições.
+- Registrar título, artista, URL, fornecedor, plano, titular da licença, canais cobertos, autorização para mídia paga, data de download/publicação e comprovante/certificado.
+- Verificar as condições de continuidade após cancelamento: projetos já publicados e novos projetos podem ter regras diferentes. Não presumir cobertura perpétua.
+- Uma exceção sem música só pode ocorrer com autorização expressa de João para aquele vídeo, registrada no controle do lote.
+
+## 20. B-roll e imagens de banco com contexto e pertinência
+
+Imagem de banco não é preenchimento. Cada foto ou vídeo precisa representar fielmente o que a fala descreve e ter função narrativa.
+
+Antes de buscar, definir um microbrief: fala exata, conceito, objeto/ação, ambiente, contexto geográfico/cultural quando relevante, enquadramento e função na edição.
+
+- Pesquisar por ação e contexto específicos, não apenas por palavras amplas. Exigir correspondência com a fala e com o processo/produto que está sendo demonstrado.
+- Assistir/inspecionar o asset completo antes de inserir; verificar o que realmente aparece, textos, idioma, equipamentos, marcas, pessoas, cenário e contexto.
+- Não usar imagens de processos, máquinas, acabamentos ou produtos diferentes para representar uma realidade que não correspondem. Não insinuar que um stock representa a sede, equipe, máquinas ou clientes da SUA GRÁFICA BH.
+- Priorizar imagens próprias/autorizadas e referências brasileiras quando a pauta exigir contexto nacional. Evitar textos estrangeiros ou marcas de terceiros em destaque.
+- Se não houver imagem adequada, usar motion tipográfico/diagrama fiel ou manter o apresentador em tela. Nunca inserir foto genérica apenas para preencher o espaço.
+- Registrar origem, URL, autor, licença e data. Na Unsplash, a licença permite usos comerciais em geral, mas não concede automaticamente direitos sobre pessoas reconhecíveis, marcas/logos ou obras protegidas que apareçam na foto. Verificar permissões adicionais conforme o caso: https://unsplash.com/pt-br/licença e https://unsplash.com/terms.
+
+Critério de aceite: imagem fora de contexto, contraditória ou capaz de induzir a uma afirmação falsa deve ser substituída antes da aprovação.
+
+## 21. Revisão final de coerência audiovisual
+
+Além do checklist existente, reproduzir cada vídeo integralmente e revisar em sequência: a fala e a imagem de apoio correspondem em cada trecho; o motion tem propósito e hierarquia; o ritmo e a trilha musical valorizam a mensagem; o B-roll representa o contexto real; a música está licenciada para o uso efetivo, inclusive mídia paga quando prevista; a voz permanece inteligível; gancho, legendas, rosto e CTA passam pelos critérios específicos já definidos.
+
+Se qualquer item crítico falhar, manter EM REVISÃO.

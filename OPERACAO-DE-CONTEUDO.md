@@ -111,3 +111,11 @@ Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE ARQUIVO, PENDENTE DE DI
 
 ## Padrão mestre de produção, distribuição e aprendizado
 O fluxo operacional deve aplicar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` do briefing à análise pós-publicação. Para cada Reel, validar proteção integral do rosto, narrativa, montagem, motion, áudio, legendas e capa. Para Feed/Stories, validar a função e a sequência próprias de cada formato. Distribuir Feed/Reels em todos os canais conectados elegíveis, com adaptações por plataforma, 3 a 5 hashtags relevantes em cada legenda e confirmação individual no Postiz. Após publicar, coletar métricas disponíveis de retenção, descoberta, interação e conversão para orientar os próximos lotes. Não inventar métricas nem prometer viralidade.
+
+## Direção criativa audiovisual: coerência, música e imagens de apoio
+
+- O motion deve traduzir a fala em imagem, não ser decoração. Antes da edição, mapear fala, ideia, elemento visual, motivo, duração e movimento por cena. Exigir alinhamento, hierarquia, grid e acabamento comercial.
+- Todo vídeo final deve ter trilha musical licenciada para uso comercial/de marca, trabalho para cliente e canais de distribuição; mídia paga deve estar coberta quando aplicável. Não usar licença pessoal/Social incompatível. A falta de licença é bloqueio a resolver com autorização de João, não motivo para entregar silenciosamente sem música. Não assumir custos sem autorização.
+- Artlist Pro/Business/Creator Pro é uma referência de licença profissional a avaliar, não uma contratação já autorizada. Verificar os termos e o plano vigente: https://help.artlist.io/hc/en-us/articles/29559573229725-Artlist-s-Music-and-SFX-plans-explained.
+- Fotos e vídeos de bancos devem representar a ação/contexto exatos da fala. Criar microbrief antes de pesquisar, inspecionar o asset e registrar origem/licença. Não usar stock genérico ou que sugira falsamente que a imagem é da empresa. Na Unsplash, conferir restrições e permissões adicionais para pessoas reconhecíveis, marcas e obras retratadas: https://unsplash.com/pt-br/licença e https://unsplash.com/terms.
+- Na revisão, reproduzir o vídeo integralmente e verificar correspondência fala/imagem, qualidade do motion, trilha licenciada, inteligibilidade da voz e pertinência do B-roll. Falha crítica mantém EM REVISÃO.
