@@ -5,6 +5,8 @@ Este ambiente é a central de estratégia e criação de conteúdo da SUA GRÁFI
 Não é responsabilidade deste ambiente orquestrar N8N, VPS, Postgres, Meta Ads, Meta Tools, Postiz ou o atendimento comercial. Essas ferramentas e integrações já fazem parte da operação externa. Aqui, o foco é a inteligência editorial e criativa.
 
 ## Antes de cada lote
+0. Ler `AUDITORIA-DE-PROCESSO-E-GATES.md` e respeitar a hierarquia de fontes e critérios de aceite. Briefings completos devem ser preservados; corrigir lacunas reais antes de liberar o lote. O prompt do lote nunca substitui as regras permanentes.
+
 1. Consultar a versão atual deste repositório e ler `AGENTS.md`, `DIRETRIZES.md`, `ESTRATEGIA.md` e `SISTEMA-DE-PRODUCAO-DE-CONTEUDO.md`.
 2. Consultar o CRM oficial: https://github.com/ABauerlab/crm-sua-grafica-bh para identidade, catálogo, disponibilidade e informações comerciais quando forem relevantes.
 3. Consultar conteúdos anteriores, banco de ganchos, referências e análise de desempenho para evitar repetição.
