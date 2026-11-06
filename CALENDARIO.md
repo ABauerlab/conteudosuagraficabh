@@ -7,7 +7,7 @@
 - Cadência editorial preservada: 2 Reels, 1 Feed e 3 Stories por dia, durante 8 dias.
 - **Distribuição reprogramada:** começa em **06/11/2026** e termina em **13/11/2026**. Não agendar/publicar em 04 ou 05/11.
 - **Execução em duas etapas:** Etapa 1 cobre os conteúdos de 06 a 08/11 e deve estar produzida, revisada e agendada até domingo, 08/11. Etapa 2 cobre 09 a 13/11 e será executada quando João enviar a instrução de continuidade no sábado, 07/11.
-- O calendário operacional, IDs por dia e regras de execução estão no prompt `PROMPT-CLAUDE-EDICAO-VIDEOS-2026-11-04-a-2026-11-11.md`. Horários só são considerados confirmados após registro no Postiz.
+- O prompt específico do lote é um registro histórico e não substitui as regras permanentes. Aplicar `AGENTS.md` e `AUDITORIA-DE-PROCESSO-E-GATES.md`. Horários só são considerados confirmados após registro no Postiz.
 
 | Data | Etapa | Reels | Feed | Stories |
 |---|---|---|---|---|
