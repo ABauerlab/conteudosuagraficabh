@@ -100,3 +100,17 @@ Antes de criar qualquer lote, consultar `VARIEDADE-EDITORIAL.md` e o histórico 
 
 ## Diretriz comercial obrigatória: somos uma gráfica
 A SUA GRÁFICA BH vende produtos gráficos e personalizados. A estratégia de conteúdo deve gerar aquisição de clientes e vendas, não apenas audiência. Ao planejar cada lote, selecionar produtos reais do catálogo ativo do CRM e criar conteúdos que mostrem o que são, para quem servem, como podem ser usados e em quais situações fazem sentido. Incluir demonstrações, aplicações, comparações, ideias por segmento, orientação de compra e chamadas comerciais quando pertinentes. Não deixar o calendário dominado por dicas genéricas de empreendedorismo/marketing sem ligação com soluções gráficas. Confirmar disponibilidade e informações no catálogo oficial; nunca inventar preço, prazo, condição ou especificação. Conduzir o interessado ao fluxo oficial de catálogo/orçamento/WhatsApp/CRM.
+
+
+## Pesquisa obrigatória de plataformas e carrosséis (ler PLATAFORMAS-E-CARROSSEIS-2026-11.md)
+Antes de planejar, produzir, revisar ou distribuir qualquer lote, Claude deve ler integralmente PLATAFORMAS-E-CARROSSEIS-2026-11.md, além da pesquisa de aquisição já indicada. O documento é obrigatório e complementa CLAUDE.md, PROMPT-UNICO-CLAUDE.md e os padrões editoriais.
+
+Aplicação obrigatória:
+- Planejar Instagram, Facebook e Threads como plataformas diferentes. Adaptar Feed, Reels, Stories, texto, imagens, sequência de mídia, legenda, CTA e tópicos/hashtags às capacidades reais de cada canal.
+- Não presumir que a publicação cruzada do Postiz aceite os mesmos formatos, limites ou recursos em todos os canais. Validar a conta e a integração antes de agendar e registrar falhas separadamente.
+- Carrosséis devem ser substancialmente informativos, com pesquisa, progressão narrativa, retenção legítima, exemplos/aplicações e CTA coerente. Podem ter até 20 páginas quando o assunto justificar e o canal/conector aceitar. Vinte é limite máximo editorial, nunca meta obrigatória.
+- Não preencher páginas para atingir quantidade. Cada página deve acrescentar informação. Claude deve revisar a sequência completa, legibilidade em celular, fontes, originalidade, promessa da capa, redundância semântica e CTA, corrigindo os problemas antes de entregar.
+- Para cada novo lote, estudar atualizações oficiais e tendências relevantes de mercado, registrar fontes/datas e distinguir fatos, hipóteses e recomendações. Não prometer viralização nem apresentar hacks como fatos.
+- Medir cada formato segundo seus objetivos e comparar os resultados com o histórico da própria conta. Priorizar aquisição de seguidores qualificados, conversas, orçamentos e pedidos, não métricas de vaidade isoladas.
+- Manter a auditoria antirrepetição semântica entre todos os formatos e plataformas. Mudar o texto, o gancho ou o formato não transforma uma ideia repetida em conteúdo novo.
+- Consultar a licença vigente e a página individual de cada música/asset. Pixabay é a fonte padrão gratuita para trilhas, mas “gratuito” não significa ausência de direitos ou imunidade a Content ID. Guardar evidências de origem/licença e nunca comprar serviços ou músicas sem autorização.
