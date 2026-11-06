@@ -96,3 +96,7 @@ Ao concluir:
 
 ### Critério de aceite de cada Reel
 Um Reel só pode ser marcado como finalizado quando: (1) apresenta progressão visual e motion design relevante, não apenas legenda sobre o bruto; (2) os recursos visuais reforçam trechos específicos da fala; (3) há variação intencional de enquadramento, ritmo e composição; (4) trilha e efeitos têm licença confirmada ou ausência justificada; (5) legendas Montserrat, uma linha por vez, discretas, seguras e sincronizadas após revisão com áudio; (6) existe capa gráfica original independente do vídeo; (7) vídeo completo reproduzido e revisado; (8) projeto-fonte, assets e export final organizados. Se qualquer critério essencial falhar, manter EM REVISÃO, não aprovado nem pronto para distribuição.
+
+
+## Documento mestre complementar e obrigatório
+Para a direção completa de produção audiovisual, proteção do rosto, cinematografia, montagem, storytelling, motion design, áudio, capas, formatos, revisão, publicação e critérios de aceite, consultar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md`. As regras deste arquivo permanecem válidas; o documento mestre consolida e amplia o padrão. **Nunca cortar ou encobrir o rosto do apresentador.**

@@ -101,3 +101,7 @@ Antes de agendar/publicar:
 - verificar que não existe publicação duplicada.
 
 Nunca declarar que criou, salvou, sincronizou, agendou ou publicou algo sem confirmação da ferramenta correspondente.
+
+
+## Integração com o padrão mestre
+Todas as peças audiovisuais e gráficas devem cumprir `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md`. Para Reels, proteger integralmente o rosto, construir edição cinematográfica e narrativa com motion design, utilizar legendas Montserrat em uma linha e criar capa gráfica independente. Para Feed e Stories, seguir as regras de narrativa por formato, identidade, legibilidade e CTA. Aplicar o checklist de qualidade antes de aprovar.

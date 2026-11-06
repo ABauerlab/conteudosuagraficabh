@@ -261,3 +261,7 @@ Antes de escolher, pesquisar sinais atuais de relevância e uso nas próprias pl
 Stories não precisam receber hashtags automaticamente; seguir o briefing e priorizar interação e CTA.
 
 Antes de agendar, verificar se a legenda final de cada Feed/Reel contém as hashtags selecionadas e se estão incluídas no texto efetivamente enviado ao Postiz. Não deixar hashtags apenas no arquivo de briefing ou no controle.
+
+
+## Padrão mestre de qualidade obrigatório
+Antes da execução, consulte `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` e aplique todos os requisitos pertinentes ao formato. Atenção especial à proteção integral do rosto do apresentador em todos os frames, direção cinematográfica, montagem narrativa, motion design sincronizado, tratamento de imagem e áudio, legendas Montserrat em uma linha, capas gráficas independentes, pacote completo de publicação multicanal, 3 a 5 hashtags em Feed/Reels, confirmação no Postiz e análise pós-publicação. O checklist do documento é critério de aceite, não sugestão. Não aprovar vídeo com rosto cortado/encoberto, edição apenas com legenda, capa baseada em frame ou publicação sem confirmação por canal.
