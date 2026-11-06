@@ -12,7 +12,7 @@ Você está usando Claude Haiku. Para reduzir ambiguidades e evitar decisões in
 
 1. Ler as instruções essenciais do repositório indicadas abaixo.
 2. Ler o índice do lote e os briefings individuais correspondentes à etapa em execução. Na Etapa 1, ler integralmente os 18 briefings de 06 a 08/11. Na Etapa 2, ler integralmente os 30 briefings restantes.
-3. Localizar e conferir os arquivos brutos e a identidade visual no Drive.
+3. Localizar os vídeos brutos primeiro em `midia/videos-brutos/` no repositório. Se não estiverem lá, procurar no Drive. Conferir também a identidade visual oficial no Drive.
 4. Produzir todos os vídeos e todas as artes.
 5. Fazer a revisão técnica e visual de cada arquivo.
 6. Só depois da revisão, agendar/publicar pelo Postiz conforme o calendário deste documento.
@@ -39,8 +39,15 @@ Se houver conflito: preservar o conteúdo e a direção do briefing SG individua
 
 ## 2. REFERÊNCIAS E ARQUIVOS
 
-**Vídeos brutos:**
+**Vídeos brutos prioritários (Etapa 1):**
+`midia/videos-brutos/`
+
+Arquivos esperados: `SG-001.mp4`, `SG-002.mp4`, `SG-007.mp4`, `SG-008.mp4`, `SG-013.mp4` e `SG-014.mp4`.
+
+**Backup/origem no Drive:**
 `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/01 - VÍDEOS BRUTOS/`
+
+Se os vídeos forem enviados como ZIP, extrair somente os seis arquivos necessários para a pasta acima. Para arquivos grandes, verificar se Git LFS está instalado e se os objetos foram baixados de fato; não presumir que um ponteiro LFS seja o vídeo. Se o upload pelo GitHub/Claude não aceitar o tamanho, não insistir em anexos grandes: usar a pasta do repositório com Git LFS ou o Drive como origem acessível ao ambiente.
 
 **Identidade visual oficial:**
 `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/IDENTIDADE VISUAL/`
