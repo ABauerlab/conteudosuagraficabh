@@ -145,3 +145,23 @@ Checklist adicional para vídeos:
 - [ ] Entregáveis, dimensões/proporções e nomes de arquivos estão definidos.
 - [ ] Direitos, catálogo e pendências estão verificados ou sinalizados.
 - [ ] Claude consegue executar sem criar estratégia, copy ou roteiro novo.
+
+
+## Aquisição, originalidade e execução autônoma (obrigatório)
+- Público, dor/desejo e etapa do funil:
+- Valor original entregue ao público:
+- Por que esta pauta atrai seguidores qualificados:
+- Relação com produto ativo no catálogo (se aplicável):
+- CTA principal e destino:
+- Auditoria de repetição: temas/IDs semelhantes consultados:
+- Classificação: NOVA ABORDAGEM / APROFUNDAMENTO REAL / REAPROVEITAMENTO ESTRATÉGICO
+- Diferença substantiva em relação a conteúdos anteriores:
+- Direção de gravação e edição/motion por bloco:
+- Assets/B-roll: fala exata ilustrada, ação/objeto, contexto e licença:
+- Critérios de revisão final autônoma por Claude:
+
+## Trilha musical gratuita
+- Faixa Pixabay (título/autor/URL):
+- Data de download e registro da licença:
+- Verificação de Content ID/restrições:
+- Caminho do arquivo original e IDs SG em que foi usada:
