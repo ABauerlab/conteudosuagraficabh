@@ -1,45 +1,35 @@
 # Lote editorial | 04–11/11/2026
 
-48 conteúdos individuais: 16 Reels, 8 carrosséis Feed, 24 Stories. Cada ID tem arquivo próprio.
+48 conteúdos individuais: 16 Reels, 8 carrosséis Feed, 24 Stories. Cada ID tem arquivo próprio nas subpastas de formato.
 
-**Execução:** iniciada em 04/11/2026 às 15h30 (America/Sao_Paulo). Os RAWs dos Reels já foram enviados à pasta de vídeos gravados. Reorganizar os agendamentos considerando somente horários futuros até 11/11. A tabela abaixo representa a ordem editorial, não horários confirmados.
+**Produção:** executar os 48 briefings individuais conforme os guias permanentes do repositório. Os vídeos brutos estão na pasta `CONTEÚDOS/01 - VÍDEOS BRUTOS` do Drive. A identidade visual oficial está em `CONTEÚDOS/05 - REFERÊNCIAS/IDENTIDADE VISUAL`.
 
-## 04/11/2026
-- Reels: SG-001, SG-002
-- Feed: SG-003
-- Stories: SG-004 a SG-006
+**Distribuição reprogramada:** começa em 06/11/2026 e termina em 11/11/2026. Não publicar nem agendar para 04 ou 05/11. Produzir e revisar primeiro; depois distribuir tudo pelo Postiz. A tabela de distribuição por ID e as regras de horários estão no prompt `PROMPT-CLAUDE-EDICAO-VIDEOS-2026-11-04-a-2026-11-11.md`.
 
-## 05/11/2026
-- Reels: SG-007, SG-008
-- Feed: SG-009
-- Stories: SG-010 a SG-012
+## Conteúdos do lote por ordem editorial original
 
-## 06/11/2026
-- Reels: SG-013, SG-014
-- Feed: SG-015
-- Stories: SG-016 a SG-018
+### Reels
+- SG-001, SG-002
+- SG-007, SG-008
+- SG-013, SG-014
+- SG-019, SG-020
+- SG-025, SG-026
+- SG-031, SG-032
+- SG-037, SG-038
+- SG-043, SG-044
 
-## 07/11/2026
-- Reels: SG-019, SG-020
-- Feed: SG-021
-- Stories: SG-022 a SG-024
+### Feed
+- SG-003, SG-009, SG-015, SG-021
+- SG-027, SG-033, SG-039, SG-045
 
-## 08/11/2026
-- Reels: SG-025, SG-026
-- Feed: SG-027
-- Stories: SG-028 a SG-030
+### Stories
+- SG-004 a SG-006
+- SG-010 a SG-012
+- SG-016 a SG-018
+- SG-022 a SG-024
+- SG-028 a SG-030
+- SG-034 a SG-036
+- SG-040 a SG-042
+- SG-046 a SG-048
 
-## 09/11/2026
-- Reels: SG-031, SG-032
-- Feed: SG-033
-- Stories: SG-034 a SG-036
-
-## 10/11/2026
-- Reels: SG-037, SG-038
-- Feed: SG-039
-- Stories: SG-040 a SG-042
-
-## 11/11/2026
-- Reels: SG-043, SG-044
-- Feed: SG-045
-- Stories: SG-046 a SG-048
+A distribuição efetiva só deve ser marcada como agendada/publicada após confirmação no Postiz. Cada Story deve ter status individual, inclusive quando a plataforma exigir publicação manual/notificação.
