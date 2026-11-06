@@ -3,7 +3,7 @@
 ## Lote ativo: 04/11/2026 a 11/11/2026
 - Pasta: `conteudos/lote-2026-11-04-a-2026-11-11/`
 - 48 briefings: 16 Reels, 8 carrosséis Feed, 24 Stories.
-- Próximo ID após o lote: SG-049.
+- Próximo ID conhecido antes dos posts adicionais: SG-049. A sequência deve avançar após cada novo conteúdo adicional registrado; conferir o maior ID existente antes de alocar outro.
 - Cadência editorial preservada: 2 Reels, 1 Feed e 3 Stories por dia, durante 8 dias.
 - **Distribuição reprogramada:** começa em **06/11/2026** e termina em **13/11/2026**. Não agendar/publicar em 04 ou 05/11.
 - **Execução em duas etapas:** Etapa 1 cobre os conteúdos de 06 a 08/11 e deve estar produzida, revisada e agendada até domingo, 08/11. Etapa 2 cobre 09 a 13/11 e será executada quando João enviar a instrução de continuidade no sábado, 07/11.
@@ -21,3 +21,7 @@
 | 13/11/2026 | 2 | SG-043, SG-044 | SG-045 | SG-046, SG-047, SG-048 |
 
 A tabela define o calendário-alvo, não confirma agendamentos. O status de cada item deve ser atualizado somente após confirmação no Postiz. Stories que não puderem ser publicados diretamente pela integração devem ser registrados como pendentes, sem alegar publicação.
+
+
+## Posts estáticos adicionais — impressões prontas
+A cada execução, Claude verifica a pasta `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/` e consulta `REGISTRO-IMPRESSOES-PRONTAS.md`. Cada imagem nova elegível entra como um post estático individual adicional, com ID SG global, sem substituir a cadência-base. Não havendo imagem inédita, nenhum post adicional é criado. Os registros e datas devem ser acrescentados aqui e no README do lote após a detecção; não preencher linhas hipotéticas nem declarar agendamento sem confirmação no Postiz.
