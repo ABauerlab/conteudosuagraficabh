@@ -75,7 +75,7 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 - João deve salvar a imagem em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs SG no nome.
 - Claude deve inspecionar a prancha e utilizar exclusivamente os arquivos oficiais de `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`, conforme a regra de identidade visual deste arquivo.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
-- Execute somente os IDs indicados por João. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates de AUDITORIA-DE-PROCESSO-E-GATES.md identificarem lacuna real, repetição, contradição ou risco factual, corrija ou bloqueie o item antes da produção, dentro do escopo autorizado.
+- Execute os IDs indicados por João e, como exceção permanente e delimitada, os posts estáticos adicionais gerados exclusivamente por imagens novas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, conforme REGISTRO-IMPRESSOES-PRONTAS.md. Não criar outras peças fora do escopo. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates identificarem lacuna real, corrija ou bloqueie o item antes da produção.
 
 
 ## Regra obrigatória de estrutura dos lotes

@@ -53,7 +53,7 @@ Não exponha SKU, custo, margem, piso, fornecedor, dados internos, credenciais o
 - Leia o pedido atual do João e identifique a quantidade, tema, período, canais e entregáveis solicitados.
 - Procure conteúdos e roteiros já existentes em `conteudos/` e no calendário. Não recrie itens já prontos, publicados ou agendados.
 - Use o planejamento e os briefings produzidos pelo ChatGPT como fonte de direção criativa. Respeite os IDs `SG-XXX`.
-- Produza somente os IDs e entregáveis que estiverem registrados no lote atual. Não invente novas pautas, não reescreva roteiros e não crie conteúdo substituto: isso já foi feito pelo ChatGPT para reduzir retrabalho e consumo de tokens. Se faltar um briefing, arquivo ou referência essencial de um ID, marque somente esse item como pendente e continue os demais.
+- Produza os IDs e entregáveis registrados no lote atual. A única exceção automática é criar posts estáticos adicionais, cada um com novo ID SG, para fotos inéditas e elegíveis encontradas em 07 - IMPRESSÕES PRONTAS, conforme a seção específica deste prompt e REGISTRO-IMPRESSOES-PRONTAS.md. Não invente outras pautas, não reescreva roteiros aprovados e não crie substitutos. Se faltar material essencial de um ID, marque somente esse item como pendente e continue os demais.
 - Se o pedido for uma campanha ou lote de conteúdos, execute todos os itens aptos no escopo. Use autonomia criativa para resolver detalhes de produção sem pedir decisões desnecessárias ao João.
 - Faça pesquisa adicional na internet quando a pauta depender de tendência atual, referência externa, comportamento de plataforma ou evidência de mercado. Registre URL, perfil, data, métrica e licença/status. Diferencie fato, interpretação e hipótese.
 
