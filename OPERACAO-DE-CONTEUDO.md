@@ -68,7 +68,7 @@ Regras operacionais:
 Nunca afirmar que um Trial Reel foi graduado, que aguardou 24 horas ou que foi publicado para todos sem confirmação real.
 
 ## Comando padrão para Claude
-O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João deve informar os IDs SG exatos do lote. Claude executa apenas esses briefings, produz artes finais, edita vídeos com bruto correspondente, revisa, organiza e agenda/distribui conforme os calendários e canais conectados. Não refaz pesquisa, estratégia, copy ou roteiro. Para Trial Reels, nunca manter a execução aberta aguardando 24 horas; registrar o status e tratar a avaliação/graduação como etapa posterior, somente se o recurso estiver confirmado.
+O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João deve informar os IDs SG exatos do lote. Claude audita os briefings antes de executar. Preserva os que estiverem completos e aprovados; corrige lacunas reais ou bloqueia apenas o ID afetado. Depois produz, revisa, organiza e distribui conforme AGENTS.md. Para Trial Reels, nunca manter a execução aberta aguardando 24 horas; registrar o status e tratar a avaliação/graduação como etapa posterior, somente se o recurso estiver confirmado.
 
 ## Regras para processamento em lote
 - Usar `SG-XXX` como identificador principal em briefing, prancha, bruto, export e publicação.
