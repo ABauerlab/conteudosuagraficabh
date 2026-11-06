@@ -123,3 +123,20 @@ Antes de produzir um ID, confira se o briefing contém copy final, direção esp
 
 ## Reinício autorizado da numeração SG
 João autorizou reiniciar a sequência após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Não usar SG-049 como próximo ID. Seguir sequencialmente a partir de SG-001, mantendo um arquivo Markdown individual por conteúdo nas pastas FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização explícita.
+
+
+## Escopo por etapa: não antecipar entregas
+
+Execute somente a etapa e os IDs explicitamente autorizados no comando atual de João. Em lotes divididos em etapas, não produzir, editar, exportar, agendar ou distribuir etapas futuras sem comando de continuidade. A existência de briefings na pasta não constitui autorização para executá-las. Registrar o limite de escopo no controle do lote.
+
+## Padrão audiovisual obrigatório
+
+A edição dos Reels deve ser profissional, dinâmica e construída visualmente sobre a fala. Vídeo bruto com legendas simples não atende ao padrão. Aplicar a direção completa de PADROES-DE-EDICAO.md: motion graphics sincronizado com os blocos de fala, animações, tipografia cinética, elementos visuais de apoio, composições variadas, zooms pontuais motivados e sound design. Consultar as referências fornecidas em Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/VÍDEOS/.
+
+Legendas obrigatoriamente em Montserrat, uma linha por vez, curtas, discretas, sincronizadas e dentro das margens seguras. Não usar duas linhas nem substituir a fonte por conveniência.
+
+Cada Reel deve ter capa gráfica original, criada como arte separada. É proibido usar apenas um frame ou foto do vídeo como capa.
+
+Usar trilha de fundo apenas quando a licença comercial e os canais de distribuição estiverem confirmados. Registrar fonte/licença. Se não houver faixa segura, não usar música.
+
+Um Reel só está aprovado após reprodução integral e conferência de motion, fala, sincronização, legendas, capa, áudio, export e CTA. Não confundir renderização ou agendamento com aprovação criativa.
