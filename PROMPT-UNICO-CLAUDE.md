@@ -115,7 +115,7 @@ Execute todos os formatos previstos nos briefings do lote. Não limite a execuç
 - Usar dimensões e formatos atuais adequados a cada canal. Não assumir que todos os canais aceitam as mesmas proporções.
 - Salvar também os arquivos-fonte necessários à edição, quando a ferramenta permitir.
 
-Não refaça pesquisa, estratégia, copy ou roteiro que já estejam completos no repositório. Seu papel neste fluxo é executar a produção, não reabrir o planejamento.
+Preserve pesquisa, estratégia, copy e roteiro completos e aprovados. Se a auditoria definida em AUDITORIA-DE-PROCESSO-E-GATES.md encontrar lacuna, repetição, contradição ou risco factual, corrija dentro do escopo autorizado antes de produzir. Não reescreva material aprovado por preferência pessoal.
 ## 7. Distribuição e Trial Reels
 
 Use o Postiz e as contas já conectadas da SUA GRÁFICA BH. Confirme que o destino é o perfil correto da marca e evite postar em perfis de terceiros.
@@ -216,7 +216,7 @@ Se houver falha em integração, informar claramente e sugerir somente o passo m
 
 Após o João colocar os vídeos brutos e a prancha visual do lote nas pastas indicadas, use este comando para iniciar a execução:
 
-> Claude, execute exclusivamente o lote de conteúdos **[INFORMAR IDs SG DO LOTE]** registrado no repositório `ABauerlab/conteudosuagraficabh`. Sincronize o repositório com segurança, leia integralmente `AGENTS.md`, `CLAUDE.md` e `PROMPT-UNICO-CLAUDE.md`, e consulte os briefings individuais desses IDs. Confira no Drive a prancha visual do lote em `CONTEÚDOS/05 - REFERÊNCIAS/`, o Brand Kit em `IDENTIDADE VISUAL/` e os brutos em `CONTEÚDOS/01 - VÍDEOS BRUTOS/`. Produza todas as artes finais (cada slide em arquivo separado), edite os vídeos com correspondência inequívoca por ID, revise, organize e agende pelo Postiz conforme calendário e instruções de cada conteúdo. Consulte o catálogo oficial antes de qualquer afirmação comercial. Não refaça estratégia, copy ou roteiros já registrados. Não invente dados, não sobrescreva brutos, não publique duplicatas e não declare ações sem confirmação. Continue com os itens aptos mesmo que algum esteja pendente. Ao final, informe IDs, arquivos e caminhos reais, agendamentos confirmados, links/IDs de publicação e pendências.
+> Claude, execute exclusivamente o lote de conteúdos **[INFORMAR IDs SG DO LOTE]** registrado no repositório `ABauerlab/conteudosuagraficabh`. Sincronize o repositório com segurança, leia integralmente `AGENTS.md`, `CLAUDE.md` e `PROMPT-UNICO-CLAUDE.md`, e consulte os briefings individuais desses IDs. Confira no Drive a prancha visual do lote em `CONTEÚDOS/05 - REFERÊNCIAS/`, o Brand Kit em `IDENTIDADE VISUAL/` e os brutos em `CONTEÚDOS/01 - VÍDEOS BRUTOS/`. Produza todas as artes finais (cada slide em arquivo separado), edite os vídeos com correspondência inequívoca por ID, revise, organize e agende pelo Postiz conforme calendário e instruções de cada conteúdo. Consulte o catálogo oficial antes de qualquer afirmação comercial. Preserve estratégia, copy e roteiros já registrados quando completos e aprovados; corrija lacunas reais identificadas pelos gates permanentes antes da produção. Não invente dados, não sobrescreva brutos, não publique duplicatas e não declare ações sem confirmação. Continue com os itens aptos mesmo que algum esteja pendente. Ao final, informe IDs, arquivos e caminhos reais, agendamentos confirmados, links/IDs de publicação e pendências.
 
 
 ## Regra obrigatória de CTA falado em vídeos
