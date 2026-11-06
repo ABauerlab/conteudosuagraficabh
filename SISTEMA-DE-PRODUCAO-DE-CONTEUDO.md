@@ -7,9 +7,9 @@ Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁF
 - **CRM oficial** (`ABauerlab/crm-sua-grafica-bh`): fonte de verdade para identidade visual, catálogo ativo, especificações e informações comerciais.
 - **Este repositório**: fonte de verdade para estratégia editorial, pesquisa, pautas, roteiros, referências, briefings, padrões de edição e aprendizados.
 - **Google Drive**: armazenamento dos arquivos brutos, projetos de edição, exports finais e referências.
-- **ChatGPT:** pesquisa, estratégia, seleção de pautas, roteiros, copy, briefings de todas as peças e prancha visual de referência por lote.
-- **João:** grava os roteiros e envia os arquivos para a pasta de brutos.
-- **Claude Code:** consulta este repositório e o Brand Kit, produz artes finais, edita os vídeos gravados, revisa os arquivos e agenda/distribui os itens aptos pelo Postiz.
+- **ChatGPT:** pesquisa, estratégia, pautas, roteiros, copy, briefings, prancha visual e auditoria/correção quando solicitado.
+- **João:** define escopo, grava e envia os brutos e decide autorizações/questões comerciais que dependam dele.
+- **Claude Code:** pesquisa e audita lacunas quando necessário; preserva briefings completos e corrige os incompletos dentro do escopo; produz artes, edita vídeos, revisa e distribui pelo Postiz.
 - **Postiz:** publicação orgânica nos canais conectados da marca: Instagram, Facebook e Threads.
 
 Não adicionar n8n, banco de dados, servidores de renderização ou outros serviços ao fluxo enquanto as integrações já disponíveis no Claude forem suficientes.
@@ -109,7 +109,7 @@ Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE ARQUIVO, PENDENTE DE DI
 
 
 ## Regra de escopo e economia de execução
-O planejamento, a pesquisa, a copy, os roteiros e a direção criativa já são responsabilidade do ChatGPT. Claude não deve recriar essas etapas quando houver briefing completo. Ele executa os IDs informados no comando, produz as artes finais, edita os vídeos gravados, faz o controle de qualidade e agenda/distribui os itens aptos. Se faltar um arquivo essencial, pausa somente aquele ID e não inventa conteúdo substituto.
+O planejamento, pesquisa, copy, roteiros e direção criativa podem ser produzidos pelo ChatGPT ou auditados/corrigidos por Claude conforme a tarefa. Briefing completo e aprovado deve ser preservado; briefing incompleto, repetido, contraditório ou comercialmente não confirmado deve ser corrigido antes da produção, dentro da autorização. Claude executa os IDs informados, produz, revisa e distribui pelo Postiz conforme AGENTS.md. Se faltar arquivo ou autorização essencial, pausa somente o ID afetado.
 
 A prancha visual gerada no ChatGPT precisa ser transferida por João para a pasta sincronizada do Drive indicada neste documento; não presumir que um arquivo desta conversa aparece automaticamente no ambiente do Claude.
 
