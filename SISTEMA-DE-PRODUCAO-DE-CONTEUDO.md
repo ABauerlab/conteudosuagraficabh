@@ -1,5 +1,7 @@
 # Sistema de produção de conteúdo | SUA GRÁFICA BH
 
+**Critérios obrigatórios de ponta a ponta:** consultar `AUDITORIA-DE-PROCESSO-E-GATES.md` para pesquisa, estratégia, roteiro, briefing, edição, QA, distribuição e mensuração. Em conflito, aplicar a hierarquia de `AGENTS.md`.
+
 ## Objetivo
 Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁFICA BH. O processo deve ser simples para João: receber um lote completo de conteúdos, gravar apenas os vídeos previstos, salvar a prancha visual no Drive e enviar os brutos. Claude fica responsável pela produção das artes finais, edição dos vídeos, revisão e agendamento/distribuição dos materiais aptos.
 
