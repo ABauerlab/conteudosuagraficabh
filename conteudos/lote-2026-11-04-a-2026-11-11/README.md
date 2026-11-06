@@ -4,7 +4,7 @@
 
 **Produção:** executar os 48 briefings individuais conforme os guias permanentes do repositório. Os vídeos brutos estão na pasta `CONTEÚDOS/01 - VÍDEOS BRUTOS` do Drive. A identidade visual oficial está em `CONTEÚDOS/05 - REFERÊNCIAS/IDENTIDADE VISUAL`.
 
-**Distribuição reprogramada:** começa em 06/11/2026 e termina em 11/11/2026. Não publicar nem agendar para 04 ou 05/11. Produzir e revisar primeiro; depois distribuir tudo pelo Postiz. A tabela de distribuição por ID e as regras de horários estão no prompt `PROMPT-CLAUDE-EDICAO-VIDEOS-2026-11-04-a-2026-11-11.md`.
+**Distribuição reprogramada:** começa em 06/11/2026 e termina em 13/11/2026, mantendo a cadência de 2 Reels, 1 Feed e 3 Stories por dia. Não publicar nem agendar para 04 ou 05/11. A execução está dividida em duas etapas para economizar uso do Claude: Etapa 1, conteúdos de 06 a 08/11, produzidos, revisados e agendados até domingo; Etapa 2, conteúdos de 09 a 13/11, iniciados quando João enviar a instrução de continuidade no sábado. A tabela de IDs e as regras operacionais estão no prompt `PROMPT-CLAUDE-EDICAO-VIDEOS-2026-11-04-a-2026-11-11.md`.
 
 ## Conteúdos do lote por ordem editorial original
 
