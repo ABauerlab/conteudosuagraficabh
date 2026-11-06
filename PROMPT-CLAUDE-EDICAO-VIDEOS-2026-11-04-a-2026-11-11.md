@@ -1,13 +1,13 @@
-# EXECUÇÃO DO LOTE | 06–11/11/2026 | SUA GRÁFICA BH
+# EXECUÇÃO DO LOTE | 06–13/11/2026 | SUA GRÁFICA BH
 
 ## ORDEM PRINCIPAL
 
-Execute a produção completa dos 48 conteúdos deste lote e, ao terminar a produção e a revisão, distribua-os pelo Postiz. **A distribuição deve começar em 06/11/2026 e terminar até 11/11/2026.** Não publique nem agende nada para 04 ou 05/11.
+Execute o lote em **duas etapas**, para economizar contexto e uso do Claude Haiku. A distribuição começa em 06/11/2026 e termina em 13/11/2026. Não publique nem agende nada para 04 ou 05/11.\n\n**ETAPA 1 — executar agora e concluir até domingo, 08/11:** produzir, revisar e agendar pelo Postiz somente os conteúdos destinados a 06, 07 e 08/11 (18 conteúdos: 6 Reels, 3 Feed e 9 Stories). Não comece a produção dos conteúdos da Etapa 2 nesta execução.\n\n**ETAPA 2 — iniciar somente quando João enviar a instrução de continuidade no sábado, 07/11:** retomar do estado salvo e produzir, revisar e agendar os 30 conteúdos restantes, destinados a 09, 10, 11, 12 e 13/11 (10 Reels, 5 Feed e 15 Stories). Não refazer arquivos já concluídos nem duplicar agendamentos. A data final do lote é 13/11/2026.
 
 Você está usando Claude Haiku. Para reduzir ambiguidades e evitar decisões incompletas, siga esta ordem, sem pular etapas:
 
 1. Ler as instruções essenciais do repositório indicadas abaixo.
-2. Ler o índice do lote e os 48 briefings individuais.
+2. Ler o índice do lote e os briefings individuais correspondentes à etapa em execução. Na Etapa 1, ler integralmente os 18 briefings de 06 a 08/11. Na Etapa 2, ler integralmente os 30 briefings restantes.
 3. Localizar e conferir os arquivos brutos e a identidade visual no Drive.
 4. Produzir todos os vídeos e todas as artes.
 5. Fazer a revisão técnica e visual de cada arquivo.
@@ -27,7 +27,7 @@ Antes de editar, leia integralmente estes arquivos, nesta ordem:
 5. `ESTRATEGIA.md` (somente as regras de canais, distribuição e aquisição)
 6. `conteudos/lote-2026-11-04-a-2026-11-11/README.md`
 
-Depois leia **todos os 48 arquivos SG individuais** nas pastas `REELS/`, `FEED/` e `STORIES/`. Não trabalhe por resumo, título ou amostragem. Cada briefing individual é a fonte da copy, do roteiro, do CTA, da composição e das instruções específicas daquela peça.
+Depois leia integralmente os briefings SG individuais da etapa atual, sem trabalhar por resumo, título ou amostragem. Etapa 1: SG-001 a SG-018 conforme a distribuição por formato abaixo. Etapa 2: SG-019 a SG-048 conforme a distribuição por formato. Cada briefing é a fonte da copy, roteiro, CTA, composição e instruções específicas da peça. Não é necessário reler briefings nem reprocessar materiais já concluídos na Etapa 1.
 
 Use também, quando necessário, `templates/CONTEUDO.md` para interpretar campos e entregáveis. Não gaste tempo lendo documentos de planejamento que não alterem a execução deste lote.
 
@@ -112,66 +112,70 @@ Salve fontes/arquivos editáveis e versões em `02 - EM EDIÇÃO`; exports finai
 
 ## 5. REVISÃO OBRIGATÓRIA ANTES DA DISTRIBUIÇÃO
 
-Antes de agendar qualquer publicação:
+Antes de agendar qualquer publicação da etapa atual:
 
 **Vídeos**
-- Reproduzir cada um dos 16 vídeos do início ao fim.
+- Reproduzir do início ao fim cada Reel pertencente à etapa atual (6 na Etapa 1; 10 na Etapa 2).
 - Conferir correspondência com o ID/briefing, fala integral, CTA, sincronização de legenda, áudio, enquadramento, ritmo, exportação vertical e capa.
 - Corrigir qualquer erro antes de marcar como aprovado.
 
 **Feed e Stories**
-- Abrir e inspecionar todos os arquivos exportados.
+- Abrir e inspecionar todos os arquivos exportados da etapa atual.
 - Conferir copy, ortografia, logo, cores, tipografia, legibilidade, margens, ordem dos slides, proporções, fidelidade do produto e CTA.
 - Confirmar quantidade e correspondência de cada peça com seu ID SG.
 
 Não agendar arquivos incompletos, corrompidos, não revisados ou com pendências comerciais. Uma pendência isolada não deve parar os demais conteúdos.
 
-## 6. DISTRIBUIÇÃO PELO POSTIZ | 06 A 11/11
+## 6. CALENDÁRIO E DISTRIBUIÇÃO PELO POSTIZ | 06 A 13/11
 
-**A distribuição de TODO o lote deve começar amanhã, 06/11/2026, e terminar até 11/11/2026.** Não publicar nem agendar datas anteriores.
+A cadência original está preservada: **2 Reels, 1 Feed e 3 Stories por dia**, durante oito dias. O lote começa em 06/11/2026 e termina em 13/11/2026.
 
-Distribua todos os 48 conteúdos, mantendo a sequência editorial dos IDs sempre que possível, conforme esta divisão operacional:
+| Data | Etapa | Reels | Feed | Stories |
+|---|---|---|---|---|
+| 06/11 | 1 | SG-001, SG-002 | SG-003 | SG-004, SG-005, SG-006 |
+| 07/11 | 1 | SG-007, SG-008 | SG-009 | SG-010, SG-011, SG-012 |
+| 08/11 | 1 | SG-013, SG-014 | SG-015 | SG-016, SG-017, SG-018 |
+| 09/11 | 2 | SG-019, SG-020 | SG-021 | SG-022, SG-023, SG-024 |
+| 10/11 | 2 | SG-025, SG-026 | SG-027 | SG-028, SG-029, SG-030 |
+| 11/11 | 2 | SG-031, SG-032 | SG-033 | SG-034, SG-035, SG-036 |
+| 12/11 | 2 | SG-037, SG-038 | SG-039 | SG-040, SG-041, SG-042 |
+| 13/11 | 2 | SG-043, SG-044 | SG-045 | SG-046, SG-047, SG-048 |
 
-| Data | Reels | Feed | Stories |
-|---|---|---|---|
-| 06/11 | SG-001, SG-002, SG-007 | SG-003, SG-009 | SG-004, SG-005, SG-006, SG-010 |
-| 07/11 | SG-008, SG-013, SG-014 | SG-015, SG-021 | SG-011, SG-012, SG-016, SG-017 |
-| 08/11 | SG-019, SG-020, SG-025 | SG-027 | SG-018, SG-022, SG-023, SG-024 |
-| 09/11 | SG-026, SG-031, SG-032 | SG-033 | SG-028, SG-029, SG-030, SG-034 |
-| 10/11 | SG-037, SG-038 | SG-039 | SG-035, SG-036, SG-040, SG-041 |
-| 11/11 | SG-043, SG-044 | SG-045 | SG-042, SG-046, SG-047, SG-048 |
+### Escopo da Etapa 1 — prioridade imediata
+Produzir, revisar e agendar somente os conteúdos de 06, 07 e 08/11: 6 Reels, 3 Feed e 9 Stories. A meta é deixar as publicações dos três dias confirmadamente agendadas no Postiz até domingo, 08/11. Não começar os conteúdos de 09 a 13/11 nesta etapa. Se não for possível agendar Stories diretamente, exportar, organizar e registrar como pendência de publicação manual, sem declarar agendado.
 
-A tabela define o dia de distribuição, não o horário. Para definir horários:
+### Escopo da Etapa 2 — continuidade no sábado
+Quando João enviar a instrução de continuidade, executar os conteúdos de 09 a 13/11: 10 Reels, 5 Feed e 15 Stories. Retomar a partir do inventário e dos arquivos já produzidos. Não reexportar, editar novamente ou agendar em duplicidade itens concluídos na Etapa 1. A meta é concluir produção, revisão e agendamento dos conteúdos restantes, com término da distribuição em 13/11.
+
+### Regras de agendamento
 1. Consultar insights/analytics da própria conta conectada, se disponíveis.
-2. Se não houver dados confiáveis, distribuir em horários espaçados e razoáveis ao longo do dia, evitando publicar vários conteúdos no mesmo minuto ou concentrar formatos.
+2. Se não houver dados confiáveis, distribuir em horários espaçados e razoáveis ao longo do dia.
 3. Respeitar limites, formatos e funcionalidades que o Postiz realmente oferece para cada canal.
-4. Usar os canais, legendas e CTAs especificados em cada briefing. Adaptar a legenda por canal quando o briefing trouxer versões diferentes.
-5. Conferir se o arquivo e a legenda correspondem ao ID SG antes de criar cada publicação.
-6. Não duplicar conteúdo já agendado/publicado. Verificar a fila do Postiz antes de inserir.
-7. Stories podem exigir fluxo de publicação/notificação diferente de posts e Reels. Use somente a funcionalidade realmente disponível e confirme o status; se exigir ação manual, registrar como pendente com instrução objetiva. Não declarar Story publicado se apenas exportou o arquivo.
-8. Agendar/publicar somente após terminar a produção e a revisão de todas as peças aptas.
+4. Usar os canais, legendas e CTAs especificados em cada briefing.
+5. Conferir arquivo e legenda pelo ID SG antes de criar cada publicação.
+6. Verificar a fila do Postiz para evitar duplicidade.
+7. Stories podem exigir fluxo de publicação/notificação diferente. Confirmar o status; se exigir ação manual, registrar instrução objetiva. Não declarar Story publicado se apenas exportou o arquivo.
+8. Nunca agendar arquivos incompletos, corrompidos ou não revisados.
 
-**Objetivo final: todos os materiais prontos e distribuídos pelo Postiz, sem depender de uma nova solicitação do João.** Não pare após editar/exportar. A distribuição é parte obrigatória da tarefa.
+O status de cada conteúdo deve ser registrado individualmente. A Etapa 1 não está concluída enquanto os materiais de 06 a 08/11 não estiverem produzidos, revisados e agendados (ou com pendência manual claramente registrada). A Etapa 2 só começa após a instrução de João.
 
 ## 7. EXECUÇÃO EFICIENTE PARA HAIKU
 
-- Trabalhe por lotes pequenos e previsíveis: primeiro inventário, depois Reels, depois Feed, depois Stories, revisão e Postiz.
+- Trabalhe em duas etapas para economizar uso/contexto. Na Etapa 1, limite-se aos conteúdos de 06 a 08/11 e conclua-os até domingo. Aguarde a instrução de João antes da Etapa 2. Na Etapa 2, produza somente os conteúdos de 09 a 13/11.
 - Use os briefings como especificação. Não tente reinterpretar o projeto inteiro nem reescrever documentos.
 - Evite pesquisa externa e tarefas de estratégia: não são necessárias para esta execução.
 - Reutilize componentes, templates técnicos e funções de edição quando isso acelerar o trabalho, mas varie a direção visual de acordo com cada briefing.
 - Não gaste tempo gerando versões alternativas sem necessidade. Produza uma versão final forte por peça e corrija apenas problemas identificados na revisão.
 - Não pare para pedir aprovação de cada peça. Resolva decisões técnicas com autonomia dentro dos briefings e das regras da marca.
-- Se faltar arquivo, permissão, integração ou informação essencial, marque somente o item afetado como pendente e continue os demais.
+- Salve o progresso, os caminhos dos arquivos, IDs concluídos e status do Postiz de forma clara para permitir retomada no sábado sem refazer trabalho. Se faltar arquivo, permissão, integração ou informação essencial, marque somente o item afetado como pendente e continue os demais.
 - Nunca alegue que leu, editou, salvou, revisou, agendou ou publicou sem ter confirmado a ação.
 
 ## 8. RELATÓRIO FINAL
 
 Ao concluir, informe de forma objetiva:
-- 16 Reels: IDs editados e caminhos dos vídeos/capas.
-- 8 conteúdos de Feed: IDs e arquivos de cada slide/post.
-- 24 Stories: IDs e arquivos individuais.
+- Na Etapa 1, relate os 6 Reels, 3 Feed e 9 Stories da etapa, com caminhos dos arquivos. Na Etapa 2, relate os 10 Reels, 5 Feed e 15 Stories restantes. No relatório final da Etapa 2, consolide o total dos 48 conteúdos.
 - Publicações agendadas/publicadas: ID SG, canal, data, horário e status confirmado pelo Postiz.
 - Pendências: ID SG, motivo exato e o que falta fazer.
 - Confirme separadamente qualquer conteúdo que tenha sido apenas exportado, mas não publicado/agendado.
 
-Não finalize o trabalho antes de tentar a distribuição completa. Não declare sucesso sem confirmação real no Postiz.
+Na Etapa 1, finalize somente após concluir e verificar o bloco de 06 a 08/11; não avance para a Etapa 2 sem instrução de João. Na Etapa 2, finalize após tentar a distribuição completa até 13/11. Não declare sucesso sem confirmação real no Postiz.
