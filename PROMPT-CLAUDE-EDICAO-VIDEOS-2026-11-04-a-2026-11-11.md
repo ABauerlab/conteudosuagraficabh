@@ -1,4 +1,6 @@
-# EXECUÇÃO DO LOTE | 06–13/11/2026 | SUA GRÁFICA BH
+# ARQUIVO HISTÓRICO — LOTE 06–13/11/2026 | SUA GRÁFICA BH
+
+> Este prompt é específico e datado. Não reutilizar como instrução operacional atual nem assumir que datas, etapas, IDs, contagens, arquivos ou status continuam válidos. Para qualquer nova execução, consultar CALENDARIO.md, AGENTS.md e AUDITORIA-DE-PROCESSO-E-GATES.md. As regras permanentes prevalecem.
 
 ## ORDEM PRINCIPAL
 
@@ -18,7 +20,7 @@ Você está usando Claude Haiku. Para reduzir ambiguidades e evitar decisões in
 6. Só depois da revisão, agendar/publicar pelo Postiz conforme o calendário deste documento.
 7. Conferir no Postiz se cada publicação foi realmente criada e registrar o resultado.
 
-Não refaça estratégia, pesquisa, planejamento, roteiros, copies ou briefings. O trabalho é de produção e distribuição.
+Preserve pesquisa, estratégia, roteiros, copies e briefings que estejam completos e aprovados. Se a auditoria encontrar lacunas, repetição, conflito ou informação comercial não validada, corrigir ou bloquear o ID antes da produção, conforme as regras permanentes. Este prompt histórico não substitui os gates atuais.
 
 ## 1. LEITURA OBRIGATÓRIA DO REPOSITÓRIO
 

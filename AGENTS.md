@@ -75,7 +75,7 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 - João deve salvar a imagem em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs SG no nome.
 - Claude deve inspecionar a prancha e as referências visuais originais em `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/` antes de criar artes.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
-- Execute somente os IDs indicados pelo João; não recrie pesquisa, copy ou roteiros já completos no repositório.
+- Execute somente os IDs indicados por João. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates de AUDITORIA-DE-PROCESSO-E-GATES.md identificarem lacuna real, repetição, contradição ou risco factual, corrija ou bloqueie o item antes da produção, dentro do escopo autorizado.
 
 
 ## Regra obrigatória de estrutura dos lotes
@@ -219,3 +219,7 @@ A execução de cada ID SG deve seguir esta ordem, sem pular etapas:
 Ao concluir cada etapa/lote, apresentar uma matriz com ID SG, formato, canal, data/hora prevista e status confirmado no Postiz. Informar links/identificadores disponíveis, falhas e pendências. Distinguir claramente o que foi produzido, revisado, aprovado, enviado, agendado e publicado. Nunca declarar distribuição concluída sem confirmação por destino.
 
 Esta regra complementa as regras específicas de distribuição multicanal e hashtags abaixo. Em caso de conflito de execução, prevalecem as capacidades reais do Postiz, as permissões das contas, o calendário autorizado e a obrigação de reportar qualquer bloqueio sem inventar sucesso.
+
+
+## Auditoria de processo e resolução de conflitos
+Antes de iniciar planejamento, produção, edição ou distribuição, consultar `AUDITORIA-DE-PROCESSO-E-GATES.md`. Este documento define os gates ponta a ponta, os papéis e a precedência entre instruções. Guias antigos e prompts datados não podem revogar os controles permanentes. Briefings completos são preservados; lacunas reais devem ser corrigidas antes da execução autorizada.

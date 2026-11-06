@@ -1,14 +1,14 @@
 # Operação de conteúdo | SUA GRÁFICA BH
 
 ## Objetivo
-Manter uma rotina simples: ChatGPT pesquisa, planeja e entrega lotes multimodais com roteiros, artes e direção visual; João grava os vídeos e coloca os brutos e a prancha visual no Drive; Claude produz as artes finais, edita os vídeos, revisa e agenda/distribui os materiais aptos pelo Postiz.
+Manter um fluxo integrado: ChatGPT e Claude podem pesquisar, planejar, criar e auditar conforme a tarefa. João grava e fornece materiais. Claude também pode corrigir estratégia, copy ou roteiro quando a auditoria encontrar lacunas; depois executa produção, QA e distribuição pelo Postiz. Aplicar os gates de AUDITORIA-DE-PROCESSO-E-GATES.md.
 
 Não criar etapas, serviços ou ferramentas adicionais quando as integrações já disponíveis no ambiente do Claude forem suficientes.
 
 ## Papéis
-- **ChatGPT:** pesquisa, estratégia editorial, roteiros, copy, briefings de todas as peças, prancha visual e organização do repositório.
-- **João:** grava os roteiros e envia os vídeos para a pasta de brutos. Quando solicitar o processamento em lote, autoriza a edição e a publicação dos conteúdos que passarem no controle de qualidade.
-- **Claude Code:** consulta este repositório, o CRM e o Brand Kit; localiza os brutos e a prancha visual no Drive; produz artes finais, edita, revisa e agenda/distribui pelo Postiz.
+- **ChatGPT:** pesquisa, estratégia, roteiros, copy, briefings, direção visual e organização do repositório; também audita e corrige quando solicitado.
+- **João:** define escopo/etapas, grava e fornece materiais, e decide apenas questões comerciais, autorizações e acessos que dependam dele.
+- **Claude Code:** pesquisa e audita lacunas quando necessário; consulta este repositório, o CRM e o Brand Kit; localiza brutos e referências; corrige briefings incompletos dentro da autorização; produz, edita, revisa e distribui pelo Postiz.
 - **Google Drive:** armazenamento dos arquivos.
 - **Postiz:** distribuição nos canais configurados: Instagram, Facebook e Threads.
 
@@ -46,9 +46,9 @@ Não apagar nem sobrescrever brutos. Não alterar a estrutura de pastas sem auto
 5. **Upload:** João envia os arquivos brutos para `01 - VÍDEOS BRUTOS/`.
 6. **Comando ao Claude:** João informa os IDs exatos do lote usando o comando único de `PROMPT-UNICO-CLAUDE.md`.
 7. **Correspondência:** Claude identifica cada briefing, prancha e bruto pelo ID. Itens ambíguos ou sem material essencial ficam pendentes.
-8. **Produção:** Claude cria as artes finais, carrosséis slide a slide, Stories e capas previstas; edita os vídeos com bruto correspondente. Não refaz pesquisa, estratégia, copy ou roteiro já concluídos.
-9. **Revisão:** Claude abre e confere cada arte/slide e reproduz cada vídeo, verificando textos, áudio, imagem, formato, catálogo, direitos e identidade visual.
-10. **Distribuição:** Claude agenda/publica os materiais aptos via Postiz conforme calendário e canais efetivamente conectados. Legendas, CTA e formato devem ser adaptados por canal.
+8. **Auditoria e correção:** antes da produção, Claude confere estratégia, originalidade, roteiro, briefing, catálogo, direitos e referências. Preserva material completo/aprovado; corrige lacunas reais dentro do escopo autorizado.
+9. **Produção e QA:** Claude produz as artes, carrosséis, Stories e capas; edita vídeos; reproduz cada vídeo e inspeciona cada arquivo em tamanho real e celular, corrigindo falhas.
+10. **Distribuição:** Claude executa pelo Postiz a distribuição de todos os formatos em todos os destinos conectados, autorizados e compatíveis, com confirmação individual por canal conforme AGENTS.md.
 11. **Registro:** Claude registra status, data, canal, links/IDs e pendências no calendário e nos arquivos individuais, quando tiver acesso de escrita.
 
 ## Regra especial: Reels do Instagram como Trial Reel
@@ -68,7 +68,7 @@ Regras operacionais:
 Nunca afirmar que um Trial Reel foi graduado, que aguardou 24 horas ou que foi publicado para todos sem confirmação real.
 
 ## Comando padrão para Claude
-O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João deve informar os IDs SG exatos do lote. Claude executa apenas esses briefings, produz artes finais, edita vídeos com bruto correspondente, revisa, organiza e agenda/distribui conforme os calendários e canais conectados. Não refaz pesquisa, estratégia, copy ou roteiro. Para Trial Reels, nunca manter a execução aberta aguardando 24 horas; registrar o status e tratar a avaliação/graduação como etapa posterior, somente se o recurso estiver confirmado.
+O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João deve informar os IDs SG exatos do lote. Claude audita os briefings antes de executar. Preserva os que estiverem completos e aprovados; corrige lacunas reais ou bloqueia apenas o ID afetado. Depois produz, revisa, organiza e distribui conforme AGENTS.md. Para Trial Reels, nunca manter a execução aberta aguardando 24 horas; registrar o status e tratar a avaliação/graduação como etapa posterior, somente se o recurso estiver confirmado.
 
 ## Regras para processamento em lote
 - Usar `SG-XXX` como identificador principal em briefing, prancha, bruto, export e publicação.

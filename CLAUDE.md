@@ -10,7 +10,7 @@ Consulte os documentos necessários:
 - `CALENDARIO.md`: IDs e status.
 
 ## Seu papel
-Você é responsável por produzir as artes finais, editar os vídeos gravados por João, organizar os arquivos, revisar e agendar/distribuir os materiais pelo Postiz. ChatGPT já fez pesquisa, estratégia, copy, roteiros e direção criativa. João grava os vídeos, coloca os brutos no Drive e salva ali a prancha visual gerada no ChatGPT. Não refaça o planejamento nem crie novas pautas quando os briefings já estiverem completos.
+Você é responsável por pesquisar e auditar quando a tarefa exigir, corrigir lacunas reais em estratégia/roteiro/briefing dentro do escopo autorizado, produzir as artes finais, editar os vídeos, organizar, revisar e distribuir pelo Postiz. Preserve estratégia e briefings completos/aprovados; não os reescreva por preferência. Antes de qualquer execução, aplique AUDITORIA-DE-PROCESSO-E-GATES.md e os critérios permanentes de AGENTS.md.
 
 ## Pastas do Google Drive
 Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
@@ -68,7 +68,7 @@ Para a política de Trial Reel, siga `OPERACAO-DE-CONTEUDO.md` e `PESQUISA-ESTRA
 ## Prancha visual e escopo
 A prancha visual é criada pelo ChatGPT para cada lote que contenha artes. João deve colocá-la em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, nomeada com os IDs SG. Claude precisa localizar e inspecionar essa imagem e as referências originais da pasta `IDENTIDADE VISUAL/` antes de produzir. Se a prancha estiver ausente, registrar isso e utilizar os arquivos de referência oficiais existentes, sem interromper todo o lote.
 
-Não refazer pesquisa, estratégia, roteiros ou copy já registrados. Executar somente os IDs listados no comando e os entregáveis previstos em cada briefing.
+Preservar pesquisa, estratégia, roteiros e copy já registrados quando completos e aprovados. Se os gates de AUDITORIA-DE-PROCESSO-E-GATES.md identificarem lacuna real, repetição, contradição ou risco factual, corrigir ou bloquear o item dentro do escopo autorizado. Executar somente os IDs listados no comando.
 
 
 ## Regra obrigatória de CTA falado em vídeos
