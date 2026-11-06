@@ -23,6 +23,7 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - Claude Code: siga também [CLAUDE.md](CLAUDE.md).
 
 ## Documentos principais
+- [AUDITORIA-DE-PROCESSO-E-GATES.md](AUDITORIA-DE-PROCESSO-E-GATES.md): gates de qualidade de ponta a ponta e precedência entre instruções.
 - [DIRETRIZES.md](DIRETRIZES.md): identidade, público, tom e confiabilidade.
 - [ESTRATEGIA.md](ESTRATEGIA.md): posicionamento e estratégia editorial.
 - [VARIEDADE-EDITORIAL.md](VARIEDADE-EDITORIAL.md): diversidade temática, formatos, pesquisa atual e prevenção de repetição.
