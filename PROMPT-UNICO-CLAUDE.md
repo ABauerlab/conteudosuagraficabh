@@ -230,3 +230,18 @@ Antes de iniciar, abra cada arquivo SG e valide se ele contém instruções espe
 
 ## Reinício autorizado da numeração SG
 João autorizou reiniciar a sequência após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Não usar SG-049 como próximo ID. Seguir sequencialmente a partir de SG-001, mantendo um arquivo Markdown individual por conteúdo nas pastas FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização explícita.
+
+
+## 12. Regra de escopo por etapa e direção audiovisual obrigatória
+
+**Escopo:** executar somente os IDs e a etapa expressamente solicitados por João no comando atual. Se o lote estiver dividido em Etapa 1 e Etapa 2, não iniciar, editar, exportar, agendar ou distribuir a Etapa 2 antes de João enviar o comando de continuidade. A existência de briefings ou arquivos no repositório não é autorização para executar todas as etapas. Antes de agir, identificar os IDs autorizados e o limite da etapa.
+
+**Padrão dos Reels:** seguir integralmente a seção de direção audiovisual obrigatória em PADROES-DE-EDICAO.md. Vídeo bruto com legenda sobreposta não é edição final. Criar motion graphics e progressão visual por blocos de fala, com tipografia cinética, elementos animados, imagens/vídeos de apoio, composições, máscaras, tracking, split screen/PIP e zooms pontuais motivados pela narrativa. Variar a linguagem de cada Reel e estudar obrigatoriamente as referências de motion na pasta do Drive CONTEÚDOS/05 - REFERÊNCIAS/VÍDEOS/.
+
+**Trilha:** usar música de fundo quando houver faixa cuja licença comercial e permissão para redes sociais/canais previstos tenham sido verificadas. Registrar fonte e licença. Não presumir que música gratuita ou em alta é liberada. Se não houver faixa licenciada confirmada, não usar e registrar a razão.
+
+**Legendas:** Montserrat; uma única linha por vez; blocos curtos; tamanho moderado e discreto; dentro das margens seguras; sem cobrir rosto, produto ou elementos importantes; sincronização conferida ouvindo o vídeo completo. Não usar duas linhas nem substituir Montserrat por Segoe UI.
+
+**Capas:** cada Reel exige capa gráfica original, criada como arte independente com a identidade oficial. Não usar frame ou foto extraída do vídeo como capa. Entregar arquivo próprio, legível em miniatura e revisado no recorte do grid.
+
+**Não aprovar por quantidade:** não marcar como concluído só porque renderizou ou agendou. Aplicar todos os critérios de aceite em PADROES-DE-EDICAO.md. Se o vídeo estiver cru, com motion insuficiente, legenda fora do padrão ou capa baseada em frame, manter EM REVISÃO e corrigir antes de distribuir.
