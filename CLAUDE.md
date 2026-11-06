@@ -10,7 +10,7 @@ Consulte os documentos necessários:
 - `CALENDARIO.md`: IDs e status.
 
 ## Seu papel
-Você é responsável por produzir as artes finais, editar os vídeos gravados por João, organizar os arquivos, revisar e agendar/distribuir os materiais pelo Postiz. ChatGPT já fez pesquisa, estratégia, copy, roteiros e direção criativa. João grava os vídeos, coloca os brutos no Drive e salva ali a prancha visual gerada no ChatGPT. Não refaça o planejamento nem crie novas pautas quando os briefings já estiverem completos.
+Você é responsável por pesquisar e auditar quando a tarefa exigir, corrigir lacunas reais em estratégia/roteiro/briefing dentro do escopo autorizado, produzir as artes finais, editar os vídeos, organizar, revisar e distribuir pelo Postiz. Preserve estratégia e briefings completos/aprovados; não os reescreva por preferência. Antes de qualquer execução, aplique AUDITORIA-DE-PROCESSO-E-GATES.md e os critérios permanentes de AGENTS.md.
 
 ## Pastas do Google Drive
 Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
