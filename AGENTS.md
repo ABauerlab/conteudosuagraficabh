@@ -219,3 +219,7 @@ A execução de cada ID SG deve seguir esta ordem, sem pular etapas:
 Ao concluir cada etapa/lote, apresentar uma matriz com ID SG, formato, canal, data/hora prevista e status confirmado no Postiz. Informar links/identificadores disponíveis, falhas e pendências. Distinguir claramente o que foi produzido, revisado, aprovado, enviado, agendado e publicado. Nunca declarar distribuição concluída sem confirmação por destino.
 
 Esta regra complementa as regras específicas de distribuição multicanal e hashtags abaixo. Em caso de conflito de execução, prevalecem as capacidades reais do Postiz, as permissões das contas, o calendário autorizado e a obrigação de reportar qualquer bloqueio sem inventar sucesso.
+
+
+## Auditoria de processo e resolução de conflitos
+Antes de iniciar planejamento, produção, edição ou distribuição, consultar `AUDITORIA-DE-PROCESSO-E-GATES.md`. Este documento define os gates ponta a ponta, os papéis e a precedência entre instruções. Guias antigos e prompts datados não podem revogar os controles permanentes. Briefings completos são preservados; lacunas reais devem ser corrigidas antes da execução autorizada.
