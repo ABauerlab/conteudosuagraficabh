@@ -1,3 +1,7 @@
+## Distribuição via Postiz: etapa obrigatória de todo lote
+
+A distribuição não é opcional nem uma tarefa que João precise solicitar separadamente. Aplicar integralmente a seção **“Regra operacional permanente: distribuição obrigatória de TODO conteúdo via Postiz”** do AGENTS.md a cada ID SG e a todos os formatos, incluindo Feed/carrosséis, Reels, posts estáticos e Stories. Produzir, revisar e aprovar não encerra o trabalho: depois do controle de qualidade, preparar as versões por canal, verificar agendamentos existentes e executar o envio/agendamento pelo Postiz em todos os destinos previstos, conectados, autorizados e compatíveis. Confirmar cada destino individualmente e atualizar o calendário somente com estados comprovados. Não duplicar agendamentos, não publicar fora do Postiz e não declarar concluído o que estiver pendente. Se houver limitação de canal/formato ou falha, registrar a pendência por ID e destino e informar o bloqueio. Todo prompt de execução deve herdar esta regra automaticamente; não exigir que João a repita.
+
 # Padrão mestre de conteúdo profissional e distribuição | SUA GRÁFICA BH
 
 Este documento é a referência operacional central para transformar briefings em conteúdos audiovisuais e gráficos de alto padrão, distribuí-los corretamente e aprender com os resultados. Deve ser lido junto do briefing individual, Brand Kit, calendário, CRM e diretrizes técnicas. Em caso de conflito, não inventar: preservar os fatos oficiais e sinalizar a inconsistência.
