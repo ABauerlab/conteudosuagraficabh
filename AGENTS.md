@@ -179,3 +179,43 @@ A autonomia de Claude é operacional, não autorização para inventar fatos, as
 Ao concluir um lote, apresentar um relatório curto e factual: conteúdos e arquivos concluídos, revisões realizadas, canais e agendamentos confirmados, pendências externas e aprendizados relevantes. Distinguir claramente produzido, revisado, agendado e publicado. Nunca declarar sucesso de publicação, distribuição ou conversão sem evidência.
 
 **Esta seção é uma diretriz permanente e deve ser lida antes de qualquer planejamento, criação, edição, revisão ou distribuição de conteúdo. Em caso de conflito, prevalecem as regras de segurança do CRM, direitos autorais, permissões e integridade factual; dentro desses limites, a prioridade é construir uma audiência qualificada e gerar vendas de forma inteligente.**
+
+## Regra operacional permanente: distribuição obrigatória de TODO conteúdo via Postiz
+
+**Produção aprovada não significa trabalho concluído. Todo conteúdo de qualquer formato — Reel, Feed/carrossel, post estático e cada peça/sequência de Stories — deve passar pelo Postiz para distribuição, conforme o calendário, os canais conectados e as capacidades reais das integrações.** Esta regra é obrigatória para todos os lotes e etapas autorizados. Não depende de João repetir a instrução em cada prompt.
+
+### Fluxo obrigatório por conteúdo
+A execução de cada ID SG deve seguir esta ordem, sem pular etapas:
+
+1. Produzir e exportar os arquivos finais.
+2. Fazer o controle de qualidade completo exigido pelo briefing e pelos padrões do projeto.
+3. Corrigir os problemas encontrados e repetir a revisão. Somente materiais aprovados podem avançar.
+4. Preparar a publicação: legenda/copy, CTA, hashtags quando aplicáveis, links, mídia e adaptações específicas por plataforma.
+5. Consultar o calendário e o Postiz para identificar canais conectados/autorizados, horários definidos e publicações já existentes daquele ID. **Não criar agendamento duplicado.**
+6. Enviar/agendar o conteúdo pelo Postiz em cada canal previsto e tecnicamente compatível.
+7. Conferir no próprio Postiz o resultado de cada destino: conteúdo/mídia anexados, canal correto, data, horário e status retornado.
+8. Atualizar CALENDARIO.md, README/índice do lote e controles de produção somente com os estados efetivamente confirmados.
+
+### Cobertura por formato e canal
+- Aplicar o fluxo a **todos os formatos**, inclusive Stories. Não presumir que Stories estejam dispensados da distribuição.
+- Para Feed e Reels, distribuir em todas as redes previstas no calendário que estejam conectadas, autorizadas e aceitem aquele formato.
+- Para carrosséis, conferir se a sequência completa de imagens foi enviada na ordem correta e se o canal/conector aceita a quantidade e o formato.
+- Para Stories, enviar pelo Postiz cada peça ou sequência conforme a estrutura e os recursos efetivamente suportados pela integração. Conferir ordem, mídia, destino e agendamento.
+- Adaptar copy, legenda, CTA, hashtags, proporção, mídia e sequência para cada rede. Não fazer publicação cruzada cega.
+- Não presumir suporte de um formato em um canal. Verificar a integração e a capacidade real no Postiz antes de agendar.
+
+### Confirmação, falhas e estados
+- A distribuição deve ser executada pelo Postiz. Não substituir silenciosamente o fluxo por publicação manual em outra ferramenta ou diretamente na rede social.
+- Se um canal não estiver conectado/autorizado, se o formato não for suportado ou se o Postiz retornar erro, registrar o bloqueio por ID e por canal, preservar o material aprovado e tentar resolver dentro das permissões disponíveis.
+- Quando o Postiz não oferecer suporte ao formato/canal, não alegar que o conteúdo foi distribuído. Marcar como **PENDENTE DE DISTRIBUIÇÃO VIA POSTIZ**, explicar a limitação e solicitar somente a intervenção necessária.
+- Diferenciar rigorosamente: **PRODUZIDO**, **EM REVISÃO**, **APROVADO**, **ENVIADO AO POSTIZ**, **AGENDADO/CONFIRMADO**, **PUBLICADO/CONFIRMADO** e **PENDENTE/BLOQUEADO**.
+- Só marcar como AGENDADO após confirmação visível no Postiz para aquele canal, com data e horário corretos. Só marcar como PUBLICADO após evidência de publicação.
+- Se houver falha parcial, manter o status separado por canal. O sucesso no Instagram, por exemplo, não confirma distribuição no Facebook, Threads ou Stories.
+- Antes de criar qualquer agendamento, verificar se já existe uma publicação correspondente para evitar duplicidade. Não alterar nem duplicar conteúdos previamente agendados sem autorização.
+- Não publicar imediatamente algo que o calendário determina agendar para outra data. Não inventar horários nem alterar o calendário sem autorização.
+- Não considerar um lote operacionalmente concluído enquanto houver conteúdo aprovado sem tentativa de distribuição ou pendência de Postiz não documentada.
+
+### Relatório obrigatório
+Ao concluir cada etapa/lote, apresentar uma matriz com ID SG, formato, canal, data/hora prevista e status confirmado no Postiz. Informar links/identificadores disponíveis, falhas e pendências. Distinguir claramente o que foi produzido, revisado, aprovado, enviado, agendado e publicado. Nunca declarar distribuição concluída sem confirmação por destino.
+
+Esta regra complementa as regras específicas de distribuição multicanal e hashtags abaixo. Em caso de conflito de execução, prevalecem as capacidades reais do Postiz, as permissões das contas, o calendário autorizado e a obrigação de reportar qualquer bloqueio sem inventar sucesso.
