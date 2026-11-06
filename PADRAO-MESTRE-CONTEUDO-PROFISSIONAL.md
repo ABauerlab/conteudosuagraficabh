@@ -241,3 +241,16 @@ Ordem de prioridade:
 3. Briefing individual e calendário aprovados.
 4. Documentação oficial das plataformas e ferramentas.
 5. Referências externas apenas para inspiração e análise, nunca como fonte de fatos comerciais da marca.
+
+## 17. Tempo de exposição e legibilidade do gancho na tela
+
+O gancho textual inicial precisa ser lido por inteiro em velocidade normal, sem exigir pausa ou replay. A duração da animação deve servir à leitura, nunca apenas ao ritmo visual.
+
+- Manter o gancho visível por **3 a 5 segundos como referência inicial**. Aumentar esse tempo conforme o comprimento, a complexidade e a familiaridade do texto.
+- Não existe duração fixa que substitua o teste de leitura: o critério é o espectador conseguir terminar de ler confortavelmente em celular.
+- Se o texto for extenso, organizar em blocos sequenciais com tempo suficiente para cada um, preservando o sentido e a promessa do briefing. Não exibir todos os blocos simultaneamente.
+- Não retirar o texto antes da leitura completa, nem usar animações rápidas, fonte pequena, contraste insuficiente ou excesso de elementos que dificultem a compreensão.
+- Se houver fala simultânea, equilibrar hierarquia e tempo para que a leitura não concorra com a compreensão do áudio. Preservar a zona de proteção do rosto.
+- Revisar o gancho em velocidade normal, preferencialmente em tela de celular e sem pausar o vídeo. Perguntar: uma pessoa vendo pela primeira vez consegue ler e entender antes de o texto sair?
+
+**Critério de aceite:** se o gancho não puder ser lido integralmente sem pausar ou voltar o vídeo, a edição está EM REVISÃO. Corrigir duração, divisão em blocos, tamanho, contraste ou animação antes de aprovar e distribuir.

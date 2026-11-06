@@ -265,3 +265,8 @@ Antes de agendar, verificar se a legenda final de cada Feed/Reel contém as hash
 
 ## Padrão mestre de qualidade obrigatório
 Antes da execução, consulte `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` e aplique todos os requisitos pertinentes ao formato. Atenção especial à proteção integral do rosto do apresentador em todos os frames, direção cinematográfica, montagem narrativa, motion design sincronizado, tratamento de imagem e áudio, legendas Montserrat em uma linha, capas gráficas independentes, pacote completo de publicação multicanal, 3 a 5 hashtags em Feed/Reels, confirmação no Postiz e análise pós-publicação. O checklist do documento é critério de aceite, não sugestão. Não aprovar vídeo com rosto cortado/encoberto, edição apenas com legenda, capa baseada em frame ou publicação sem confirmação por canal.
+
+
+## Correção obrigatória: tempo de leitura dos ganchos na tela
+
+Em todos os Reels, dê tempo real para o público ler o gancho textual inicial. Use 3 a 5 segundos como referência, aumentando conforme o tamanho e a complexidade da frase. Não retire o texto antes da leitura completa. Se necessário, divida o gancho em blocos sequenciais, cada um com tempo suficiente, sem alterar sua promessa ou sentido. Não sacrifique legibilidade por animação rápida, fonte pequena ou ritmo acelerado. Revise em velocidade normal e em tela de celular, sem pausar: uma pessoa vendo pela primeira vez precisa conseguir ler e entender o gancho. Se não conseguir, corrija antes de aprovar ou agendar. Aplicar também aos ganchos já produzidos que forem revisados; não reabrir peças aprovadas sem relação com esta correção.

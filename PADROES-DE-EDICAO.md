@@ -100,3 +100,13 @@ Um Reel só pode ser marcado como finalizado quando: (1) apresenta progressão v
 
 ## Documento mestre complementar e obrigatório
 Para a direção completa de produção audiovisual, proteção do rosto, cinematografia, montagem, storytelling, motion design, áudio, capas, formatos, revisão, publicação e critérios de aceite, consultar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md`. As regras deste arquivo permanecem válidas; o documento mestre consolida e amplia o padrão. **Nunca cortar ou encobrir o rosto do apresentador.**
+
+## Tempo mínimo de leitura do gancho na tela
+
+- O texto do gancho inicial deve permanecer visível tempo suficiente para ser lido integralmente em velocidade normal, especialmente em celular. Não remover, trocar ou animar para fora antes de o espectador conseguir concluir a leitura.
+- Usar **3 a 5 segundos como referência inicial**, ajustando para mais quando a frase for longa, tiver termos menos familiares ou exigir interpretação. O tempo é definido pela legibilidade real, não por uma duração rígida.
+- Se o gancho não couber confortavelmente nesse intervalo, simplificar apenas a apresentação visual ou dividir o texto em blocos sequenciais sem alterar a promessa e o sentido do briefing. Cada bloco precisa ter tempo próprio de leitura.
+- Não acelerar a entrada/saída, reduzir excessivamente o tamanho da fonte ou acumular elementos que prejudiquem a leitura.
+- Revisar o início do vídeo em velocidade normal e em tela de celular, como alguém que vê o conteúdo pela primeira vez. Confirmar que o texto pode ser lido sem pausar ou voltar o vídeo.
+- Se a fala começar simultaneamente, garantir que o texto continue legível sem competir com a fala ou encobrir o apresentador.
+- **Critério de aceite:** gancho ilegível, exibido por tempo insuficiente ou removido antes da leitura completa mantém o Reel em EM REVISÃO e deve ser corrigido antes da distribuição.
