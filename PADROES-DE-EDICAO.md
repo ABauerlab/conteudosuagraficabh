@@ -200,3 +200,16 @@ Procedimento obrigatório por faixa:
 8. Não usar trilha de origem, licença ou página individual incerta. Buscar outra opção no Pixabay. Não comprar nada nem recorrer a Artlist, Epidemic Sound ou biblioteca paga.
 
 Trilha musical de fundo é requisito normal de acabamento dos vídeos. A falta de licença de uma biblioteca paga não é justificativa para deixar o vídeo sem música, pois a estratégia padrão é utilizar Pixabay conforme os controles acima. Exceção: se nenhuma faixa adequada puder ser validada para um vídeo específico, registrar a razão e pedir decisão apenas para aquele item; não inventar licença.
+
+
+## Motion design com fonte JavaScript/TypeScript obrigatória quando houver animação programática
+Quando o motion gráfico for produzido programaticamente, a fonte principal deve ser um projeto editável em JavaScript/TypeScript, preferencialmente React + Remotion quando disponível no ambiente. Não entregar somente o MP4 renderizado, um conjunto de imagens ou um script FFmpeg opaco como substituto do projeto de motion.
+
+- Construir cenas, composições, componentes, keyframes, transições, textos e elementos animados no código JS/TS; Remotion é a opção preferencial para composição e renderização por frames.
+- Organizar o código por Reel/cena ou por componentes reutilizáveis, mantendo cada vídeo com identidade narrativa própria. Reutilizar componentes técnicos é permitido; repetir a mesma direção criativa mecanicamente não.
+- O código deve refletir o mapa de motion aprovado: fala/trecho → ideia → elemento visual → movimento/entrada/saída → duração.
+- Manter projeto-fonte, assets referenciados, configurações e instruções mínimas de execução junto aos arquivos de trabalho. Não incluir segredos, tokens, arquivos pesados desnecessários ou dependências sem autorização.
+- Verificar o ambiente e as dependências antes de escolher a implementação. Não instalar pacotes pagos nem enviar mídia a serviços externos sem autorização.
+- FFmpeg pode ser usado para montagem final, conformação, áudio e export, mas não substitui a fonte JS/TS das animações programáticas.
+- Validar que o projeto abre/renderiza no ambiente disponível. Se Remotion não estiver disponível ou não for tecnicamente adequado, documentar a limitação e escolher alternativa editável em JS/TS; escalar somente se não houver caminho viável.
+- QA deve conferir o render final e a correspondência com o código-fonte. Entregar caminhos reais do projeto e do vídeo exportado.
