@@ -121,9 +121,6 @@ Claude deve usar a prancha para entender e reproduzir as peças, mas deve criar/
 Antes de produzir um ID, confira se o briefing contém copy final, direção específica do formato, entregáveis, nomes de arquivo, destino e critério de aceite. Se o briefing for apenas um resumo, marque como “BRIEFING INCOMPLETO” e não invente o que falta. Informe a pendência para correção editorial. Para Reels, exigir roteiro integral e direção de edição por cenas; para carrosséis, todos os slides descritos; para posts estáticos e Stories, texto e composição completos. Não substituir direção detalhada por “seguir identidade visual” ou “usar a prancha”.
 
 
-## Reinício autorizado da numeração SG
-João autorizou reiniciar a sequência após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Não usar SG-049 como próximo ID. Seguir sequencialmente a partir de SG-001, mantendo um arquivo Markdown individual por conteúdo nas pastas FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização explícita.
-
 
 ## Escopo por etapa: não antecipar entregas
 
