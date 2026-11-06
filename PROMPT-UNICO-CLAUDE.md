@@ -1,3 +1,7 @@
+## Distribuição via Postiz: etapa obrigatória de todo lote
+
+A distribuição não é opcional nem uma tarefa que João precise solicitar separadamente. Aplicar integralmente a seção **“Regra operacional permanente: distribuição obrigatória de TODO conteúdo via Postiz”** do AGENTS.md a cada ID SG e a todos os formatos, incluindo Feed/carrosséis, Reels, posts estáticos e Stories. Produzir, revisar e aprovar não encerra o trabalho: depois do controle de qualidade, preparar as versões por canal, verificar agendamentos existentes e executar o envio/agendamento pelo Postiz em todos os destinos previstos, conectados, autorizados e compatíveis. Confirmar cada destino individualmente e atualizar o calendário somente com estados comprovados. Não duplicar agendamentos, não publicar fora do Postiz e não declarar concluído o que estiver pendente. Se houver limitação de canal/formato ou falha, registrar a pendência por ID e destino e informar o bloqueio. Todo prompt de execução deve herdar esta regra automaticamente; não exigir que João a repita.
+
 # Prompt único de execução | Claude Code | SUA GRÁFICA BH
 
 > **Uso:** copie este prompt para o Claude Code depois que o ChatGPT entregar o planejamento e registrar os conteúdos no repositório. Ele pode ser reutilizado em cada campanha. O comando autoriza execução completa dos itens que passarem pelas verificações, sem pedir aprovação individual.
