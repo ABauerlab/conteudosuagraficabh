@@ -96,3 +96,14 @@ O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João deve in
 IDEIA → PESQUISANDO REFERÊNCIA → BRIEFING PRONTO → PRONTO PARA GRAVAR / PRONTO PARA PRODUZIR → GRAVADO → EM PRODUÇÃO → PRONTO PARA PUBLICAR → AGENDADO → PUBLICADO → ANALISADO.
 
 Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE ARQUIVO, PENDENTE DE DIREITOS, PENDENTE DE CATÁLOGO, PENDENTE DE RECURSO TRIAL REEL, ERRO DE PRODUÇÃO e ERRO DE AGENDAMENTO.
+
+
+## Hashtags e distribuição multicanal: regra operacional
+
+- **Feed e Reels:** toda legenda publicada deve incluir de 3 a 5 hashtags relevantes. Nunca ultrapassar cinco.
+- Selecionar hashtags com base no assunto real do conteúdo, público-alvo, produto/serviço confirmado e intenção de descoberta. Combinar alcance amplo com especificidade; não usar listas genéricas copiadas para todas as peças.
+- Verificar sinais atuais de uso e relevância nas plataformas ou fontes confiáveis. Não inventar volume, ranking ou alcance. Hashtags não garantem viralidade; são apenas um dos fatores de descoberta.
+- Adaptar hashtags e legenda para Instagram, Facebook, Threads e demais canais conectados. Respeitar diferenças de formato e práticas de cada plataforma.
+- **Distribuição:** Feed e Reels devem ser enviados a todos os canais conectados e autorizados que aceitem aquele formato, conforme calendário. Verificar no Postiz cada canal individualmente. Se o canal não aceitar o formato ou falhar, registrar a exceção sem declarar distribuição total.
+- Não aplicar hashtags automaticamente a Stories; seguir briefing.
+- No controle do lote, registrar a legenda final por canal ou, no mínimo, confirmar que cada legenda enviada contém as hashtags apropriadas.

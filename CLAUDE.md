@@ -140,3 +140,12 @@ Cada Reel deve ter capa gráfica original, criada como arte separada. É proibid
 Usar trilha de fundo apenas quando a licença comercial e os canais de distribuição estiverem confirmados. Registrar fonte/licença. Se não houver faixa segura, não usar música.
 
 Um Reel só está aprovado após reprodução integral e conferência de motion, fala, sincronização, legendas, capa, áudio, export e CTA. Não confundir renderização ou agendamento com aprovação criativa.
+
+
+## Distribuição obrigatória de Feed e Reels em todos os canais conectados
+
+Toda publicação de Feed e Reel deve ser distribuída em todas as redes sociais conectadas e autorizadas da SUA GRÁFICA BH, respeitando calendário, formato aceito e adaptações específicas de cada canal. Não publicar somente no Instagram se houver outros canais previstos e conectados no Postiz. Adaptar legenda, CTA, formato e links por rede. Conferir os destinos no Postiz e registrar separadamente sucesso ou falha por canal. Não afirmar distribuição completa quando algum canal não recebeu a publicação.
+
+## Hashtags obrigatórias em Feed e Reels
+
+Cada legenda de Feed e Reel deve conter **de 3 a 5 hashtags**, nunca mais de cinco. Escolher hashtags atuais, relevantes e relacionadas ao tema, público, produto confirmado e intenção de descoberta. Combinar termos amplos do segmento com termos específicos e, quando pertinente, marca/campanha. Pesquisar relevância/uso atual antes de escolher; não inventar números de alcance nem dizer que são as maiores sem evidência. Evitar hashtags genéricas, irrelevantes, repetidas mecanicamente ou potencialmente banidas. Adaptar hashtags por conteúdo e canal. Não prometer viralidade. Confirmar que as hashtags estão na legenda efetivamente enviada ao Postiz. Stories seguem o briefing e não exigem hashtags por padrão.
