@@ -107,3 +107,7 @@ Estados adicionais: PRANCHA VISUAL PENDENTE, PENDENTE DE ARQUIVO, PENDENTE DE DI
 - **Distribuição:** Feed e Reels devem ser enviados a todos os canais conectados e autorizados que aceitem aquele formato, conforme calendário. Verificar no Postiz cada canal individualmente. Se o canal não aceitar o formato ou falhar, registrar a exceção sem declarar distribuição total.
 - Não aplicar hashtags automaticamente a Stories; seguir briefing.
 - No controle do lote, registrar a legenda final por canal ou, no mínimo, confirmar que cada legenda enviada contém as hashtags apropriadas.
+
+
+## Padrão mestre de produção, distribuição e aprendizado
+O fluxo operacional deve aplicar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` do briefing à análise pós-publicação. Para cada Reel, validar proteção integral do rosto, narrativa, montagem, motion, áudio, legendas e capa. Para Feed/Stories, validar a função e a sequência próprias de cada formato. Distribuir Feed/Reels em todos os canais conectados elegíveis, com adaptações por plataforma, 3 a 5 hashtags relevantes em cada legenda e confirmação individual no Postiz. Após publicar, coletar métricas disponíveis de retenção, descoberta, interação e conversão para orientar os próximos lotes. Não inventar métricas nem prometer viralidade.
