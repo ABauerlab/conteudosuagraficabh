@@ -68,7 +68,7 @@ Para a política de Trial Reel, siga `OPERACAO-DE-CONTEUDO.md` e `PESQUISA-ESTRA
 ## Prancha visual e escopo
 A prancha visual é criada pelo ChatGPT para cada lote que contenha artes. João deve colocá-la em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, nomeada com os IDs SG. Claude precisa localizar e inspecionar essa imagem e as referências originais da pasta `IDENTIDADE VISUAL/` antes de produzir. Se a prancha estiver ausente, registrar isso e utilizar os arquivos de referência oficiais existentes, sem interromper todo o lote.
 
-Não refazer pesquisa, estratégia, roteiros ou copy já registrados. Executar somente os IDs listados no comando e os entregáveis previstos em cada briefing.
+Preservar pesquisa, estratégia, roteiros e copy já registrados quando completos e aprovados. Se os gates de AUDITORIA-DE-PROCESSO-E-GATES.md identificarem lacuna real, repetição, contradição ou risco factual, corrigir ou bloquear o item dentro do escopo autorizado. Executar somente os IDs listados no comando.
 
 
 ## Regra obrigatória de CTA falado em vídeos
