@@ -23,7 +23,7 @@ Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
 Não apagar nem sobrescrever os arquivos brutos. Não reorganizar ou renomear pastas sem autorização.
 
 ## Comando em lote: produzir, editar e distribuir
-Quando João informar os IDs SG de um lote, execute exclusivamente os conteúdos desses IDs, incluindo artes e vídeos previstos nos briefings. Não processar itens fora do escopo nem inventar conteúdo substituto.
+Quando João informar os IDs SG de um lote, execute esses conteúdos e seus entregáveis. A única inclusão automática fora desses IDs são os posts estáticos adicionais gerados por imagens inéditas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, seguindo REGISTRO-IMPRESSOES-PRONTAS.md. Não processar outros itens nem inventar conteúdo substituto.
 
 1. Leia `PROMPT-UNICO-CLAUDE.md` integralmente e os briefings individuais dos IDs informados.
 2. Liste os brutos de vídeo e localize a prancha visual do lote em `CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs no nome.
