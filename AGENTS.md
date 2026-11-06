@@ -73,7 +73,7 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 ## Produção visual por lote
 - A prancha visual de referência é criada pelo ChatGPT para cada lote que contenha artes.
 - João deve salvar a imagem em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs SG no nome.
-- Claude deve inspecionar a prancha e as referências visuais originais em `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/` antes de criar artes.
+- Claude deve inspecionar a prancha e utilizar exclusivamente os arquivos oficiais de `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`, conforme a regra de identidade visual deste arquivo.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
 - Execute somente os IDs indicados por João. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates de AUDITORIA-DE-PROCESSO-E-GATES.md identificarem lacuna real, repetição, contradição ou risco factual, corrija ou bloqueie o item antes da produção, dentro do escopo autorizado.
 
@@ -89,9 +89,6 @@ Cada pasta de lote em `conteudos/lote-AAAA-MM-DD-a-AAAA-MM-DD/` deve conter `FEE
 ## Padrão mínimo de qualidade dos briefings individuais
 O arquivo SG é a ordem de produção para Claude, não um lembrete curto. Aplicar integralmente a seção “REGRA DE BRIEFING COMPLETO — NÃO ACEITAR RESUMOS” de `CHATGPT.md`. Briefing com apenas título, uma frase ou instrução genérica não está pronto. Exigir teleprompter e direção de edição completos para Reels; roteiro slide a slide e direção de arte para carrosséis; copy e composição para estáticos; texto e layout individual para Stories. Validar todos os campos aplicáveis do `templates/CONTEUDO.md` antes de abrir PR.
 
-
-## Reinício autorizado da sequência de IDs
-João autorizou reiniciar a numeração após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Consultar `CALENDARIO.md` como fonte de verdade; não usar SG-049 como próximo ID. Manter um Markdown individual por conteúdo e separar os arquivos em FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização.
 
 
 ## Regra obrigatória de variedade editorial (ler VARIEDADE-EDITORIAL.md)
@@ -223,3 +220,38 @@ Esta regra complementa as regras específicas de distribuição multicanal e has
 
 ## Auditoria de processo e resolução de conflitos
 Antes de iniciar planejamento, produção, edição ou distribuição, consultar `AUDITORIA-DE-PROCESSO-E-GATES.md`. Este documento define os gates ponta a ponta, os papéis e a precedência entre instruções. Guias antigos e prompts datados não podem revogar os controles permanentes. Briefings completos são preservados; lacunas reais devem ser corrigidas antes da execução autorizada.
+
+
+## Identidade visual oficial: uso exclusivo do Brand Kit
+A única fonte oficial de arquivos de identidade visual para qualquer criação é a pasta do Google Drive:
+
+`Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`
+
+- Sempre abrir e inspecionar os arquivos reais dessa pasta antes de criar ou editar peças que utilizem a identidade.
+- Utilizar diretamente os arquivos oficiais disponíveis: logotipo, variações, fontes, paleta, grafismos, padrões e demais ativos.
+- É proibido recriar, redesenhar, vetorizar por aproximação, reinterpretar, gerar por IA ou substituir logotipo, símbolos, fontes proprietárias, grafismos e elementos oficiais.
+- Não reconstruir a identidade com base em capturas, posts antigos, memória, descrição textual ou paleta aproximada. Não usar outra pasta como fonte substituta.
+- É permitido compor os ativos oficiais em novos layouts, ajustar tamanho proporcional, posição e aplicação sem alterar sua integridade. Não alterar desenho, proporção, cores oficiais ou espaçamento protegido.
+- Se o Brand Kit estiver inacessível, incompleto ou sem o ativo necessário, registrar PENDENTE DE IDENTIDADE VISUAL e continuar somente as peças que possam ser feitas sem improvisar o ativo ausente.
+- Referências de campanhas e pranchas orientam a composição, mas nunca substituem nem autorizam recriar a identidade oficial.
+
+## Rotina recorrente: fotos de produtos prontos
+Em toda execução do prompt único de Claude, verificar a pasta do Google Drive:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`
+
+Cada imagem nova elegível dessa pasta gera exatamente um post estático adicional de Feed. Não transformar a foto em carrossel, não agrupar várias fotos em um post e não criar uma peça se não houver imagem nova elegível.
+
+A rotina é incremental e deve seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS.md`:
+- Comparar todos os arquivos da pasta com o registro persistente antes de produzir.
+- Usar ID SG global e sequencial; consultar `CALENDARIO.md` para o próximo ID. Nunca reutilizar IDs nem assumir que a pasta vazia ou a ausência de arquivo no lote atual libera numeração.
+- Cada foto inédita recebe um SG próprio, briefing Markdown individual em FEED/ do lote vigente e uma publicação estática individual no calendário como conteúdo ADICIONAL, sem substituir nem remover a cadência editorial regular.
+- Uma nova execução com as mesmas fotos não gera novos posts, novos briefings, novos IDs nem nova publicação. Foto já registrada como processada, publicada, agendada, pendente ou rejeitada não é reprocessada automaticamente.
+- Registrar a identidade do arquivo e seu estado no ledger persistente. Priorizar ID imutável do Drive e SHA-256 dos bytes; usar comparação visual/perceptual quando disponível para detectar cópias redimensionadas/comprimidas. Nome do arquivo isolado não é prova suficiente de novidade.
+- Não renomear, mover, apagar ou alterar os arquivos originais da pasta de entrada.
+- Se houver dúvida de duplicidade, autoria, autorização de uso, privacidade ou integridade da imagem, manter pendente e não publicar.
+- A foto deve continuar fiel ao produto real. Não remover, substituir ou alterar a arte impressa para simular outro produto/resultado.
+- Consultar o CRM para confirmar qualquer afirmação sobre produto, material, acabamento, aplicação, prazo ou disponibilidade. Não inferir dados comerciais pela foto.
+- O post adicional precisa de copy, contexto, CTA e adaptação por canal. Não usar somente “mais um trabalho pronto” nem inventar cliente, resultado ou depoimento.
+- Definir data de publicação futura compatível com o calendário e a capacidade operacional. Registrar explicitamente como adicional. Não alterar datas/status de conteúdos regulares nem criar agendamento retroativo.
+- Atualizar o ledger somente após registrar o ID, briefing, origem/fingerprint, data planejada e status real. Status de agendamento/publicação depende de confirmação do Postiz.

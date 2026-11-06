@@ -169,3 +169,11 @@ Procedimento obrigatório por faixa:
 8. Não usar trilha de origem, licença ou página individual incerta. Buscar outra opção no Pixabay. Não comprar nada nem recorrer a Artlist, Epidemic Sound ou biblioteca paga.
 
 Trilha musical de fundo é requisito normal de acabamento dos vídeos. A falta de licença de uma biblioteca paga não é justificativa para deixar o vídeo sem música, pois a estratégia padrão é utilizar Pixabay conforme os controles acima. Exceção: se nenhuma faixa adequada puder ser validada para um vídeo específico, registrar a razão e pedir decisão apenas para aquele item; não inventar licença.
+
+
+## Fonte única de identidade visual
+A pasta oficial e exclusiva de ativos de marca é `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`. Abrir e inspecionar os arquivos reais antes de criar qualquer peça. Utilizar os ativos oficiais diretamente. É proibido recriar, redesenhar, vetorizar por aproximação, gerar por IA ou substituir logotipo, símbolo, fontes e grafismos. Não usar outra pasta, post antigo, memória ou descrição como fonte substituta. Se faltar um ativo, registrar pendência em vez de improvisar.
+
+
+## Rotina recorrente de posts estáticos: 07 - IMPRESSÕES PRONTAS
+Em toda execução do prompt, Claude deve verificar `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`. Cada imagem inédita e elegível gera um post estático adicional individual (uma foto = uma publicação, nunca carrossel ou agrupamento). A rotina é incremental: consultar e atualizar `REGISTRO-IMPRESSOES-PRONTAS.md`, comparar ID do Drive, SHA-256 e similaridade visual quando disponível, e nunca republicar imagem já registrada. Se não houver imagem nova, não criar conteúdo estático adicional. Não renomear, mover, apagar ou alterar originais. Cada post recebe ID SG global sequencial, briefing individual em FEED/ e entrada própria no calendário como ADICIONAL, sem substituir a cadência regular. Confirmar privacidade, autorização de uso e catálogo antes de fazer afirmações. Manter pendências no ledger; não reprocessar automaticamente itens bloqueados.

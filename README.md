@@ -38,6 +38,7 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - [ANALISE-DE-DESEMPENHO.md](ANALISE-DE-DESEMPENHO.md): métricas e melhoria contínua.
 - [REFERENCIAS.md](REFERENCIAS.md): fontes audiovisuais.
 - [CALENDARIO.md](CALENDARIO.md): fila e status.
+- [REGISTRO-IMPRESSOES-PRONTAS.md](REGISTRO-IMPRESSOES-PRONTAS.md): rotina incremental e ledger anti-repetição das fotos de produtos prontos.
 - [templates/ROTEIRO.md](templates/ROTEIRO.md): modelo de cada conteúdo.
 - [conteudos/](conteudos/): roteiros e briefings individuais de cada lote.
 

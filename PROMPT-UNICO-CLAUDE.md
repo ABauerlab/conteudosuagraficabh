@@ -77,7 +77,7 @@ Use o mix de atração, conexão e conversão como orientação flexível dos do
 
 Antes de criar qualquer arte, consulte no Google Drive conectado:
 
-`Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL`
+`Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT`
 
 Essa pasta contém o Brand Kit oficial e as referências de estilo aprovadas por João. Abra e inspecione os arquivos visuais reais, não se limite a ler nomes de arquivos ou uma descrição textual. Preserve logotipo, fontes, cores e elementos oficiais.
 
@@ -100,7 +100,7 @@ Execute todos os formatos previstos nos briefings do lote. Não limite a execuç
 - Não alterar nem excluir arquivos brutos.
 - Escolha o formato pela ideia: apresentador direto para a câmera com motion; tela dividida; apresentador sobre vídeo; react com comentário original; voice-over; demonstração; storytelling; vídeo sem apresentador; chroma/PIP quando realmente fizer sentido.
 - Não fazer todos os vídeos com a mesma fórmula. Tela dividida e apresentador sobre vídeo são recursos, não obrigação.
-- Use Remotion, FFmpeg e as ferramentas instaladas quando forem apropriadas. Não instalar dependências, contratar serviços ou enviar arquivos para serviços externos pagos sem necessidade e autorização.
+- Para motion programático, desenvolva primeiro o projeto editável em JavaScript/TypeScript, preferencialmente React + Remotion. O código-fonte é entregável obrigatório junto do render. Use FFmpeg para montagem final/conformação quando necessário, não como substituto do código das animações. Siga PADROES-DE-EDICAO.md. Não instalar dependências, contratar serviços ou enviar arquivos para serviços externos pagos sem necessidade e autorização.
 - Respeite as falas gravadas. Não fabricar depoimentos, resultados, cenas ou afirmações que a gravação não sustente.
 - Adicione motion graphics, textos, legendas, gráficos e sound design para melhorar entendimento e retenção, não como decoração.
 - Se o briefing exigir vídeo externo, verifique origem e licença. Conteúdo público não significa livre de direitos. Não remova marcas d'água ou créditos. Sem autorização/licença clara, substitua por material próprio/licenciado ou marque pendente.
@@ -232,9 +232,6 @@ Escolha uma ação principal por vídeo: seguir o perfil, comentar, salvar, comp
 Antes de iniciar, abra cada arquivo SG e valide se ele contém instruções específicas suficientes para Claude executar. Um título e uma frase de copy não constituem briefing. Se faltarem teleprompter, cenas, edição, textos na tela e assets para Reel; textos e direção slide a slide para carrossel; copy e layout para post estático; ou texto e composição para Story, sinalize “BRIEFING INCOMPLETO” e não improvise a criação editorial. A prancha visual complementa, mas nunca substitui o briefing escrito.
 
 
-## Reinício autorizado da numeração SG
-João autorizou reiniciar a sequência após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Não usar SG-049 como próximo ID. Seguir sequencialmente a partir de SG-001, mantendo um arquivo Markdown individual por conteúdo nas pastas FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização explícita.
-
 
 ## 12. Regra de escopo por etapa e direção audiovisual obrigatória
 
@@ -334,3 +331,31 @@ Procedimento obrigatório por faixa:
 8. Não usar trilha de origem, licença ou página individual incerta. Buscar outra opção no Pixabay. Não comprar nada nem recorrer a Artlist, Epidemic Sound ou biblioteca paga.
 
 Trilha musical de fundo é requisito normal de acabamento dos vídeos. A falta de licença de uma biblioteca paga não é justificativa para deixar o vídeo sem música, pois a estratégia padrão é utilizar Pixabay conforme os controles acima. Exceção: se nenhuma faixa adequada puder ser validada para um vídeo específico, registrar a razão e pedir decisão apenas para aquele item; não inventar licença.
+
+
+## 8. Rotina automática de impressões prontas (obrigatória em toda execução)
+
+Verifique a pasta do Drive:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`
+
+Cada imagem nova e elegível deve virar **um post estático adicional individual**. Uma foto corresponde a uma publicação. Não agrupar fotos, não criar carrossel com elas e não substituir nenhum conteúdo regular do lote.
+
+Procedimento obrigatório:
+1. Listar todos os arquivos da pasta, incluindo subpastas somente se fizerem parte da organização real da entrada; não presumir.
+2. Consultar `REGISTRO-IMPRESSOES-PRONTAS.md` antes de produzir.
+3. Deduplicar por ID imutável do Drive e SHA-256 dos bytes. Quando disponível, comparar também hash perceptual/visual para detectar cópias renomeadas, redimensionadas ou comprimidas. Se a ferramenta não expuser bytes ou identificador estável, não declarar novidade com base apenas no nome: comparar visualmente e registrar a limitação.
+4. Ignorar imagens já registradas, inclusive itens já produzidos, agendados, publicados, pendentes ou rejeitados. Só reabrir item pendente quando houver mudança concreta no arquivo, no acesso, na autorização ou na instrução do responsável.
+5. Para cada nova foto elegível, alocar o próximo ID SG global livre, criar briefing individual em `FEED/SG-XXX.md` no lote vigente e incluir no calendário como **POST ESTÁTICO ADICIONAL — IMPRESSÕES PRONTAS**. Consultar a sequência real do calendário e do repositório; não reutilizar IDs. Se o lote vigente já estiver encerrado, incluir no próximo lote aberto/futuro, sem inserir datas retroativas.
+6. Criar uma peça estática por foto. A foto do produto real é o elemento central; não alterar a arte impressa, não inventar acabamento, material, cliente, depoimento, resultado ou condição comercial. Não criar mockup que substitua a fotografia original.
+7. Antes de publicar, conferir se a imagem contém dados pessoais, informações confidenciais, marca de cliente ou conteúdo cujo uso público dependa de autorização. Se a autorização não estiver coberta, registrar PENDENTE DE AUTORIZAÇÃO e não publicar.
+8. Consultar o CRM para confirmar qualquer nome de produto, especificação, material, acabamento, aplicação, prazo ou disponibilidade mencionado. A imagem não é fonte suficiente para afirmação comercial.
+9. Preparar legenda e CTA originais, com contexto verdadeiro e sem repetir a mesma copy em posts de fotos diferentes. Adaptar por canal.
+10. Não mover, renomear, apagar, recortar de forma destrutiva ou modificar o original na pasta de entrada. Salvar derivados e artes finais nas pastas de produção/aprovados.
+11. Registrar no ledger: ID SG, nome original, Drive file ID quando houver, SHA-256, fingerprint visual quando houver, data da primeira detecção, lote, status, destino dos arquivos, data planejada e confirmação Postiz. Atualizar o ledger em cada mudança de estado.
+12. Se a pasta estiver vazia ou só contiver imagens já registradas, não criar post estático adicional e declarar no relatório: “nenhuma imagem nova elegível encontrada”.
+
+Os posts adicionais entram na agenda como itens independentes e não alteram a cadência regular de Reels, carrosséis e Stories. Escolher datas futuras com espaço no calendário; não inventar horários e não agendar duas vezes.
+
+## 9. Motion programático: código-fonte JavaScript/TypeScript obrigatório
+Quando criar motion por código, construir as cenas e animações em JavaScript/TypeScript, preferencialmente React + Remotion, seguindo `PADROES-DE-EDICAO.md`. Entregar projeto editável, componentes, composição, configuração e assets necessários junto do vídeo renderizado. O código deve implementar o mapa visual fala → ideia → elemento → movimento → duração. FFmpeg pode finalizar vídeo e áudio, mas não substitui a fonte JS/TS do motion. Verificar dependências existentes e não instalar serviços/pacotes pagos sem autorização.

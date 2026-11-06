@@ -43,7 +43,7 @@ Aceite: Claude consegue executar sem inventar copy, roteiro, dados, cena ou dire
 Conferir ID, correspondência com briefing, integridade, áudio, orientação, enquadramento e inteligibilidade. Preservar brutos. Bloquear somente o ID sem material essencial e registrar a ação necessária.
 
 ## Gate 5 — Edição e design
-Vídeo: narrativa audiovisual progressiva; motion que ilustra a fala; B-roll contextual e licenciado; rosto preservado em todos os frames; legendas Montserrat, uma linha, sincronizadas e em área segura; gancho legível; capa gráfica independente; voz inteligível e mixagem sem clipping; export compatível. Trilha conforme a política de licença vigente do projeto, sem compras não autorizadas.
+Vídeo: narrativa audiovisual progressiva; motion que ilustra a fala; quando programático, projeto-fonte JS/TS editável (preferencialmente Remotion); B-roll contextual e licenciado; rosto preservado em todos os frames; legendas Montserrat, uma linha, sincronizadas e em área segura; gancho legível; capa gráfica independente; voz inteligível e mixagem sem clipping; export compatível. Trilha conforme a política de licença vigente do projeto, sem compras não autorizadas.
 
 Feed/carrossel/Stories: identidade oficial, texto revisado, sequência lógica, arquivos individuais na ordem, legibilidade em celular, contraste, margens seguras, representação honesta do produto e CTA claro.
 
@@ -63,3 +63,10 @@ Bloqueios: PENDENTE DE CATÁLOGO, ARQUIVO, DIREITOS, ACESSO, LICENÇA, RECURSO D
 
 ## Encerramento
 Lote só é concluído quando todos os IDs autorizados têm briefings e arquivos conferidos, QA realizado, distribuição confirmada por canal ou bloqueio documentado, calendário atualizado e relatório factual. Não publicar fora do escopo, comprar serviços, inventar dados, usar assets sem direitos ou sobrescrever brutos.
+
+
+## Rotina adicional: impressões prontas
+Aplicar em toda execução do prompt único o procedimento de `REGISTRO-IMPRESSOES-PRONTAS.md`: varrer a pasta de entrada, detectar apenas imagens inéditas, deduplicar por identificadores e fingerprint, criar um post estático por foto nova com ID SG global, registrar no calendário como adicional e persistir o ledger. Se não houver foto nova, não criar post estático adicional. A rotina nunca substitui a cadência regular.
+
+## Identidade visual não recriável
+A fonte oficial e exclusiva de ativos é `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`. É proibido recriar ou aproximar logotipo, símbolos, fontes e grafismos oficiais. Se faltar o ativo, bloquear apenas a aplicação que dependa dele.
