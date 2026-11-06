@@ -2,7 +2,7 @@
 
 Cada lote fica em uma subpasta `lote-AAAA-MM-DD-a-AAAA-MM-DD/`. Dentro de cada lote, separar obrigatoriamente os conteúdos por formato:
 
-- `FEED/`: carrosséis e posts estáticos. Um arquivo Markdown por publicação.
+- `FEED/`: carrosséis e posts estáticos regulares ou adicionais (incluindo uma publicação individual por foto inédita da pasta 07 - IMPRESSÕES PRONTAS). Um arquivo Markdown por publicação.
 - `STORIES/`: um arquivo Markdown por Story individual.
 - `REELS/`: um arquivo Markdown por Reel.
 - `README.md`: índice do lote, calendário resumido, totais, IDs e status.
