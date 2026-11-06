@@ -149,3 +149,7 @@ Toda publicação de Feed e Reel deve ser distribuída em todas as redes sociais
 ## Hashtags obrigatórias em Feed e Reels
 
 Cada legenda de Feed e Reel deve conter **de 3 a 5 hashtags**, nunca mais de cinco. Escolher hashtags atuais, relevantes e relacionadas ao tema, público, produto confirmado e intenção de descoberta. Combinar termos amplos do segmento com termos específicos e, quando pertinente, marca/campanha. Pesquisar relevância/uso atual antes de escolher; não inventar números de alcance nem dizer que são as maiores sem evidência. Evitar hashtags genéricas, irrelevantes, repetidas mecanicamente ou potencialmente banidas. Adaptar hashtags por conteúdo e canal. Não prometer viralidade. Confirmar que as hashtags estão na legenda efetivamente enviada ao Postiz. Stories seguem o briefing e não exigem hashtags por padrão.
+
+
+## Padrão mestre obrigatório
+Antes de produzir qualquer lote, consulte integralmente `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md`. Ele é a referência central para proteção do rosto, direção cinematográfica, motion design, storytelling, áudio, legendas, capas, Feed, Stories, distribuição multicanal, hashtags, pós-publicação e critérios de aprovação. Em caso de conflito, não improvisar: preservar os fatos oficiais e sinalizar a divergência. Nenhum vídeo com rosto cortado/encoberto ou edição limitada a legendas pode ser aprovado.
