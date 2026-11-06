@@ -245,3 +245,19 @@ João autorizou reiniciar a sequência após apagar a pasta do lote anterior dir
 **Capas:** cada Reel exige capa gráfica original, criada como arte independente com a identidade oficial. Não usar frame ou foto extraída do vídeo como capa. Entregar arquivo próprio, legível em miniatura e revisado no recorte do grid.
 
 **Não aprovar por quantidade:** não marcar como concluído só porque renderizou ou agendou. Aplicar todos os critérios de aceite em PADROES-DE-EDICAO.md. Se o vídeo estiver cru, com motion insuficiente, legenda fora do padrão ou capa baseada em frame, manter EM REVISÃO e corrigir antes de distribuir.
+
+
+## Distribuição multicanal e hashtags obrigatórias para Feed e Reels
+
+Para cada publicação de **Feed ou Reel**, distribuir em todas as redes sociais conectadas e autorizadas da SUA GRÁFICA BH, conforme o calendário e as capacidades reais do Postiz. Não limitar a publicação ao Instagram quando Facebook, Threads ou outros canais previstos estiverem conectados. Adaptar texto, CTA, formato e link ao contexto de cada rede; não copiar cegamente a mesma legenda quando o canal exigir adaptação. Confirmar cada destino e cada agendamento no Postiz. Se um canal não aceitar o formato, registrar a limitação e não declarar distribuição nele.
+
+**Hashtags:** toda legenda de Feed e Reel deve conter de 3 a 5 hashtags, nunca mais de 5. Selecionar hashtags relevantes ao assunto, público, produto confirmado e intenção de busca/descoberta. Priorizar hashtags com alcance e uso atuais comprováveis, mas combinar:
+- 1 ou 2 hashtags amplas do segmento, se ainda forem pertinentes;
+- 1 ou 2 hashtags específicas do tema/produto/necessidade;
+- 1 hashtag de marca ou campanha quando fizer sentido.
+
+Antes de escolher, pesquisar sinais atuais de relevância e uso nas próprias plataformas ou fontes públicas confiáveis. Não afirmar que uma hashtag é “a de maior alcance” sem métrica verificável. Evitar hashtags genéricas, irrelevantes, repetidas mecanicamente em todas as publicações, banidas ou que possam atrair público desalinhado. Usar no máximo cinco hashtags no total por publicação e adaptar a seleção por canal e conteúdo. Não inventar volume de alcance nem prometer viralização: o objetivo é aumentar descoberta qualificada e potencial de compartilhamento, não garantir viralidade.
+
+Stories não precisam receber hashtags automaticamente; seguir o briefing e priorizar interação e CTA.
+
+Antes de agendar, verificar se a legenda final de cada Feed/Reel contém as hashtags selecionadas e se estão incluídas no texto efetivamente enviado ao Postiz. Não deixar hashtags apenas no arquivo de briefing ou no controle.
