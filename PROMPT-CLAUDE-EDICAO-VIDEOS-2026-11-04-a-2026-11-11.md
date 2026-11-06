@@ -2,7 +2,11 @@
 
 ## ORDEM PRINCIPAL
 
-Execute o lote em **duas etapas**, para economizar contexto e uso do Claude Haiku. A distribuição começa em 06/11/2026 e termina em 13/11/2026. Não publique nem agende nada para 04 ou 05/11.\n\n**ETAPA 1 — executar agora e concluir até domingo, 08/11:** produzir, revisar e agendar pelo Postiz somente os conteúdos destinados a 06, 07 e 08/11 (18 conteúdos: 6 Reels, 3 Feed e 9 Stories). Não comece a produção dos conteúdos da Etapa 2 nesta execução.\n\n**ETAPA 2 — iniciar somente quando João enviar a instrução de continuidade no sábado, 07/11:** retomar do estado salvo e produzir, revisar e agendar os 30 conteúdos restantes, destinados a 09, 10, 11, 12 e 13/11 (10 Reels, 5 Feed e 15 Stories). Não refazer arquivos já concluídos nem duplicar agendamentos. A data final do lote é 13/11/2026.
+Execute o lote em **duas etapas**, para economizar contexto e uso do Claude Haiku. A distribuição começa em 06/11/2026 e termina em 13/11/2026. Não publique nem agende nada para 04 ou 05/11.
+
+**ETAPA 1 — executar agora e concluir até domingo, 08/11:** produzir, revisar e agendar pelo Postiz somente os conteúdos destinados a 06, 07 e 08/11 (18 conteúdos: 6 Reels, 3 Feed e 9 Stories). Não comece a produção dos conteúdos da Etapa 2 nesta execução.
+
+**ETAPA 2 — iniciar somente quando João enviar a instrução de continuidade no sábado, 07/11:** retomar do estado salvo e produzir, revisar e agendar os 30 conteúdos restantes, destinados a 09, 10, 11, 12 e 13/11 (10 Reels, 5 Feed e 15 Stories). Não refazer arquivos já concluídos nem duplicar agendamentos. A data final do lote é 13/11/2026.
 
 Você está usando Claude Haiku. Para reduzir ambiguidades e evitar decisões incompletas, siga esta ordem, sem pular etapas:
 
