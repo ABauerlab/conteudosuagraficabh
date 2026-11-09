@@ -21,6 +21,10 @@ Canais orgânicos iniciais: Instagram, Facebook e Threads.
 Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - ChatGPT: siga também [CHATGPT.md](CHATGPT.md).
 - Claude Code: siga também [CLAUDE.md](CLAUDE.md).
+- [PROMPT-UNICO-CLAUDE.md](PROMPT-UNICO-CLAUDE.md): porta de entrada com comandos curtos; os requisitos completos ficam nos documentos especializados.
+- [DORES-REAIS-CLIENTES.md](DORES-REAIS-CLIENTES.md): matriz de dores, dúvidas e necessidades reais do público para pautas úteis e tecnicamente verificadas.
+
+
 
 ## Documentos principais
 - [AUDITORIA-DE-PROCESSO-E-GATES.md](AUDITORIA-DE-PROCESSO-E-GATES.md): gates de qualidade de ponta a ponta e precedência entre instruções.

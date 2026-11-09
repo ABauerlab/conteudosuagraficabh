@@ -97,3 +97,7 @@ Antes de aprovar um conteúdo, responder:
 
 ### Equilíbrio entre marca e venda
 A comunicação deve ser variada, mas comercialmente coerente. Não deixar o perfil dominado por dicas genéricas sem relação com impressão, materiais gráficos ou compra. Também não transformar tudo em catálogo seco. A meta é fazer o público descobrir a gráfica, reconhecer uma necessidade, desejar uma solução, consultar o catálogo e comprar.
+
+
+## Obrigatoriedade de dores reais
+Toda pauta deve partir de uma dor, dúvida, desejo, objeção ou situação concreta do público comprador. Consultar `DORES-REAIS-CLIENTES.md` para territórios e critérios. Os exemplos (economia na impressão, tipos de papel, sangria, margens, resolução, cores, fosco versus brilho e aplicações) são pontos de partida para pesquisa, não um calendário pronto. Cada conteúdo deve entregar orientação prática validada e uma abordagem diferente do histórico.

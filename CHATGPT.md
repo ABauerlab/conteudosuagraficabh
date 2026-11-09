@@ -7,12 +7,12 @@ Não é responsabilidade deste ambiente orquestrar N8N, VPS, Postgres, Meta Ads,
 ## Antes de cada lote
 0. Ler `AUDITORIA-DE-PROCESSO-E-GATES.md` e respeitar a hierarquia de fontes e critérios de aceite. Briefings completos devem ser preservados; corrigir lacunas reais antes de liberar o lote. O prompt do lote nunca substitui as regras permanentes.
 
-1. Consultar a versão atual deste repositório e ler `AGENTS.md`, `DIRETRIZES.md`, `ESTRATEGIA.md` e `SISTEMA-DE-PRODUCAO-DE-CONTEUDO.md`.
+1. Consultar a versão atual deste repositório e ler `AGENTS.md`, `DIRETRIZES.md`, `ESTRATEGIA.md`, `SISTEMA-DE-PRODUCAO-DE-CONTEUDO.md` e `DORES-REAIS-CLIENTES.md`.
 2. Consultar o CRM oficial: https://github.com/ABauerlab/crm-sua-grafica-bh para identidade, catálogo, disponibilidade e informações comerciais quando forem relevantes.
 3. Consultar conteúdos anteriores, banco de ganchos, referências e análise de desempenho para evitar repetição.
 4. Pesquisar exemplos recentes de conteúdos de alto desempenho, especialmente no Instagram e em plataformas relevantes ao formato.
 5. Registrar links, perfis, datas, formatos e evidências observáveis. Distinguir fato, interpretação e hipótese. Não chamar um conteúdo de viral sem evidência.
-6. Escolher oportunidades que possam atrair empreendedores e potenciais clientes para a gráfica, sem forçar a marca em trends sem conexão real.
+6. Escolher oportunidades que possam atrair empreendedores e potenciais clientes para a gráfica, sem forçar a marca em trends sem conexão real. Partir de dores, dúvidas e decisões concretas do público; validar o tema técnico e entregar orientação prática. Consultar `DORES-REAIS-CLIENTES.md`.
 
 ## Pesquisa de formatos e referências
 A pesquisa não deve ficar limitada a ideias genéricas ou listas de tendências. Procurar exemplos concretos de conteúdos que estejam performando ou apresentem sinais verificáveis de alcance e engajamento:
@@ -88,7 +88,7 @@ Quando João pedir uma quantidade de conteúdos, como “15 conteúdos para a gr
 Antes de planejar, consulte a pesquisa estratégica, a matriz de aquisição, o calendário, as referências, os conteúdos anteriores e as métricas disponíveis. Pesquise tendências atuais quando fizer diferença. Confirme no CRM que todo produto ou característica comercial mencionada está ativo e pode ser anunciada. Não invente preços, prazos, quantidades mínimas, especificações ou diferenciais.
 
 Para cada item, atribua o próximo ID sequencial SG, sem reiniciar a numeração, e entregue um briefing individual completo:
-- Objetivo, público, necessidade, etapa do funil e ação desejada.
+- Objetivo, público, dor/dúvida/desejo real, situação concreta, evidência/fonte, orientação prática entregue, etapa do funil e ação desejada.
 - Conceito, gancho, formato e hipótese a testar.
 - Texto final: teleprompter isolado com somente as falas para vídeos; copy e sequência completa para carrosséis; texto final para posts estáticos e Stories.
 - Instruções de gravação quando houver vídeo.
@@ -110,7 +110,7 @@ Registre cada briefing individual em `conteudos/` usando `templates/CONTEUDO.md`
 
 O caminho de conversão padrão é o link oficial para o WhatsApp já conectado ao CRM. Não invente destinos nem afirme que a origem é rastreada se não estiver confirmada.
 
-Termine cada lote com um único comando de execução para Claude Code, baseado em `PROMPT-UNICO-CLAUDE.md`, incluindo os IDs exatos. Claude deve apenas executar os briefings registrados: produzir artes finais, editar vídeos gravados, organizar no Drive, revisar e agendar/publicar conforme calendário. Não transferir a etapa de pesquisa, estratégia, copy ou roteiro para Claude. Use autonomia profissional e não peça detalhes que a pesquisa possa resolver.
+Termine cada lote com um comando curto para Claude Code, baseado em `PROMPT-UNICO-CLAUDE.md`, informando apenas tarefa, período e/ou IDs. Não reproduza as regras do repositório no prompt: Claude deve consultar os documentos permanentes e especializados e executar o fluxo aplicável. Exemplo: `Finalize o lote SG-025 a SG-048.`
 
 
 ## Protocolo obrigatório de entrega: direto para execução
@@ -141,7 +141,7 @@ Execute, nesta ordem, sem pedir autorização para cada etapa:
 - **Entrega:** resumo mínimo do que foi criado e registrado.
 - **IDs/arquivos:** links diretos para os briefings e calendário atualizado.
 - **Prancha visual:** quando houver, indicar o nome de arquivo e a pasta do Drive onde João deve salvá-la.
-- **Prompt para Claude:** um único comando completo, pronto para copiar, com os IDs exatos.
+- **Comando curto para Claude:** uma instrução de uma ou duas linhas com a tarefa e os IDs/período. As regras completas ficam no repositório.
 - **Pendências:** somente bloqueios reais que dependem de João ou de acesso externo.
 
 
@@ -366,3 +366,7 @@ Antes de gravar no GitHub, conferir cada SG individualmente: (1) copy final comp
 
 ## Reinício autorizado da numeração SG
 João autorizou reiniciar a sequência após apagar a pasta do lote anterior diretamente no repositório. O próximo lote começa em SG-001. Não usar SG-049 como próximo ID. Seguir sequencialmente a partir de SG-001, mantendo um arquivo Markdown individual por conteúdo nas pastas FEED/, STORIES/ e REELS/. Não reiniciar novamente sem autorização explícita.
+
+
+## Dores reais e áudio na execução
+Toda pauta, roteiro ou conteúdo deve responder a uma necessidade concreta do público comprador e entregar uma orientação prática, conforme `DORES-REAIS-CLIENTES.md`. Não repetir explicações apenas mudando gancho ou formato. Em vídeos, tratar o áudio com moderação, preservar a voz original e comparar antes/depois; se o processamento piorar a gravação, reverter. Seguir `PADROES-DE-EDICAO.md`.

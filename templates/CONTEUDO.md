@@ -44,7 +44,7 @@
 - Imagens/assets:
 - Textos na tela:
 - Motion/efeitos:
-- Áudio/sound design:
+- Áudio/sound design: [diagnóstico do bruto, correções realmente necessárias, tratamento moderado, comparação antes/depois e preservação da voz natural]
 - Restrições:
 - Exportação:
 
@@ -79,7 +79,11 @@
 - **Capa/título:**
 
 ## Conexão comercial
-- **Necessidade do público:**
+- **Dor/dúvida/desejo real do público:**
+- **Situação concreta em que aparece:**
+- **Evidência/fonte da oportunidade:**
+- **Orientação prática ou decisão que o conteúdo entrega:**
+- **Ressalvas/validações técnicas necessárias:**
 - **Produto relacionado:** [confirmar no catálogo; não inferir]
 - **Status de catálogo:** CONFIRMADO / PENDENTE / NÃO SE APLICA
 - **CTA:**
@@ -95,6 +99,8 @@
 ## Checklist de produção
 - [ ] ID SG único e sequencial.
 - [ ] Pesquisa e fontes registradas.
+- [ ] Dor real e situação concreta identificadas.
+- [ ] Orientação prática entregue e validada tecnicamente.
 - [ ] Produto e informação comercial conferidos no CRM, se citados.
 - [ ] Direção visual mapeada na prancha do lote, quando houver arte.
 - [ ] Texto revisado em português do Brasil.

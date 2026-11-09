@@ -25,6 +25,11 @@ Consultar histórico editorial, calendário, ganchos, publicações, comentário
 
 Aceite: pauta relevante para público comprador, valor claro, hipótese identificável e ação/métrica coerentes. Não deixar o perfil virar catálogo repetitivo nem conteúdo genérico de empreendedorismo.
 
+### Complemento obrigatório do Gate 1 — dores reais do público
+Toda pauta deve partir de uma dúvida, dor, desejo, objeção ou situação concreta de quem compra materiais gráficos. Consultar `DORES-REAIS-CLIENTES.md`. Exemplos incluem economia e desperdício, tipos de papel, sangria, margem de segurança, resolução, cor, fosco versus brilho, acabamentos e aplicações por segmento. Não usar esses exemplos sem pesquisa: validar fatos técnicos em fontes confiáveis e informações do produto no CRM. O briefing deve mostrar o problema, a orientação prática entregue e a fonte/evidência. Se não houver valor concreto, reformular.
+
+
+
 ## Gate 2 — Antirrepetição semântica
 Comparar tema, problema/desejo, promessa, argumento, informação entregue, exemplo/produto, conclusão, CTA e estrutura entre todos os formatos e plataformas. Classificar como NOVA ABORDAGEM, APROFUNDAMENTO REAL ou REAPROVEITAMENTO ESTRATÉGICO. Reaproveitamento exige motivo e diferença substantiva. Trocar título, gancho, palavras, exemplo superficial ou formato não cria conteúdo novo. Manter inventário com ID SG, tema, público, promessa, argumento, produto, funil, formato, CTA e status.
 
@@ -43,7 +48,7 @@ Aceite: Claude consegue executar sem inventar copy, roteiro, dados, cena ou dire
 Conferir ID, correspondência com briefing, integridade, áudio, orientação, enquadramento e inteligibilidade. Preservar brutos. Bloquear somente o ID sem material essencial e registrar a ação necessária.
 
 ## Gate 5 — Edição e design
-Vídeo: narrativa audiovisual progressiva; motion que ilustra a fala; quando programático, projeto-fonte JS/TS editável (preferencialmente Remotion); B-roll contextual e licenciado; rosto preservado em todos os frames; legendas Montserrat, uma linha, sincronizadas e em área segura; gancho legível; capa gráfica independente; voz inteligível e mixagem sem clipping; export compatível. Trilha conforme a política de licença vigente do projeto, sem compras não autorizadas.
+Vídeo: narrativa audiovisual progressiva; motion que ilustra a fala; quando programático, projeto-fonte JS/TS editável (preferencialmente Remotion); B-roll contextual e licenciado; rosto preservado em todos os frames; legendas Montserrat, uma linha, sincronizadas e em área segura; gancho legível; capa gráfica independente; tratamento de áudio moderado e não destrutivo, com comparação antes/depois; voz natural e inteligível, sem artefatos ou clipping; export compatível. Trilha conforme a política de licença vigente do projeto, sem compras não autorizadas.
 
 Feed/carrossel/Stories: identidade oficial, texto revisado, sequência lógica, arquivos individuais na ordem, legibilidade em celular, contraste, margens seguras, representação honesta do produto e CTA claro.
 

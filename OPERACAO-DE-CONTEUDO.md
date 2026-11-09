@@ -51,6 +51,11 @@ Não apagar nem sobrescrever brutos. Não alterar a estrutura de pastas sem auto
 10. **Distribuição:** Claude executa pelo Postiz a distribuição de todos os formatos em todos os destinos conectados, autorizados e compatíveis, com confirmação individual por canal conforme AGENTS.md.
 11. **Registro:** Claude registra status, data, canal, links/IDs e pendências no calendário e nos arquivos individuais, quando tiver acesso de escrita.
 
+## Conteúdo a partir de dores reais
+Toda pesquisa, criação e revisão deve consultar `DORES-REAIS-CLIENTES.md`. Pautas devem responder a necessidades concretas de compradores de materiais gráficos, como economizar sem desperdiçar, escolher papéis, preparar sangria e margem de segurança, evitar erros de arquivo, entender cores e comparar fosco/brilho ou outros acabamentos disponíveis. Pesquisar e validar os fatos técnicos; não transformar exemplos em afirmações universais. Cada conteúdo deve entregar orientação prática e ser semanticamente diferente do histórico.
+
+
+
 ## Regra especial: Reels do Instagram como Trial Reel
 A Meta informa que os insights de um Trial Reel costumam ficar disponíveis aproximadamente 24 horas após a publicação. A graduação manual (“share with everyone”) é uma ação posterior e não significa que o Reel será publicado automaticamente ao completar 24 horas. A Meta também oferece uma opção de graduação automática baseada no desempenho observado nos primeiros 72 horas. [Fonte oficial](https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/).
 
@@ -115,8 +120,8 @@ O fluxo operacional deve aplicar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` do bri
 ## Direção criativa audiovisual: coerência, música e imagens de apoio
 
 - O motion deve traduzir a fala em imagem, não ser decoração. Antes da edição, mapear fala, ideia, elemento visual, motivo, duração e movimento por cena. Exigir alinhamento, hierarquia, grid e acabamento comercial.
-- Todo vídeo final deve ter trilha musical licenciada para uso comercial/de marca, trabalho para cliente e canais de distribuição; mídia paga deve estar coberta quando aplicável. Não usar licença pessoal/Social incompatível. A falta de licença é bloqueio a resolver com autorização de João, não motivo para entregar silenciosamente sem música. Não assumir custos sem autorização.
-- Artlist Pro/Business/Creator Pro é uma referência de licença profissional a avaliar, não uma contratação já autorizada. Verificar os termos e o plano vigente: https://help.artlist.io/hc/en-us/articles/29559573229725-Artlist-s-Music-and-SFX-plans-explained.
+- A fonte padrão gratuita para trilhas é o Pixabay, conforme `PADROES-DE-EDICAO.md`. Verificar a página individual e os termos vigentes de cada faixa, registrar evidências e nunca comprar músicas ou serviços sem autorização.
+- Tratar o áudio original de forma moderada e não destrutiva: diagnosticar antes, preservar a voz natural, comparar antes/depois e reverter qualquer processamento que piore o resultado. Aplicar o procedimento detalhado de `PADROES-DE-EDICAO.md`.
 - Fotos e vídeos de bancos devem representar a ação/contexto exatos da fala. Criar microbrief antes de pesquisar, inspecionar o asset e registrar origem/licença. Não usar stock genérico ou que sugira falsamente que a imagem é da empresa. Na Unsplash, conferir restrições e permissões adicionais para pessoas reconhecíveis, marcas e obras retratadas: https://unsplash.com/pt-br/licença e https://unsplash.com/terms.
 - Na revisão, reproduzir o vídeo integralmente e verificar correspondência fala/imagem, qualidade do motion, trilha licenciada, inteligibilidade da voz e pertinência do B-roll. Falha crítica mantém EM REVISÃO.
 
@@ -177,3 +182,7 @@ A pasta oficial e exclusiva de ativos de marca é `Meu Drive/02 - SUA GRÁFICA B
 
 ## Rotina recorrente de posts estáticos: 07 - IMPRESSÕES PRONTAS
 Em toda execução do prompt, Claude deve verificar `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`. Cada imagem inédita e elegível gera um post estático adicional individual (uma foto = uma publicação, nunca carrossel ou agrupamento). A rotina é incremental: consultar e atualizar `REGISTRO-IMPRESSOES-PRONTAS.md`, comparar ID do Drive, SHA-256 e similaridade visual quando disponível, e nunca republicar imagem já registrada. Se não houver imagem nova, não criar conteúdo estático adicional. Não renomear, mover, apagar ou alterar originais. Cada post recebe ID SG global sequencial, briefing individual em FEED/ e entrada própria no calendário como ADICIONAL, sem substituir a cadência regular. Confirmar privacidade, autorização de uso e catálogo antes de fazer afirmações. Manter pendências no ledger; não reprocessar automaticamente itens bloqueados.
+
+
+## Comandos curtos de operação
+João não precisa enviar novamente as regras de produção. Exemplos: `Finalize o lote de [datas/IDs].`; `Edite os vídeos [IDs].`; `Produza as artes [IDs].`; `Audite os briefings [IDs].` Claude deve interpretar o tipo de tarefa e seguir `PROMPT-UNICO-CLAUDE.md` como roteador, lendo os documentos especializados aplicáveis. `Finalize o lote` inclui QA, organização, Postiz e atualização dos registros; `Edite` limita-se aos IDs/formato solicitados e não autoriza distribuição por si só.

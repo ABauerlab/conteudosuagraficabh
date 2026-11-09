@@ -85,14 +85,14 @@ Preservar a identidade oficial: ciano, magenta, amarelo, preto e branco; símbol
 
 ## 6. Áudio, música e sound design
 
-- Voz sempre inteligível e protagonista. Corrigir ruído, equalizar e controlar dinâmica quando as ferramentas disponíveis permitirem.
-- Usar trilha de fundo quando houver faixa licenciada para uso comercial, edição e canais de distribuição pretendidos.
-- Pesquisar e confirmar a licença e suas condições. Registrar título, autor, URL, tipo de licença, uso comercial permitido, atribuição exigida e eventuais restrições.
-- Não presumir que áudio em tendência, música gratuita ou biblioteca de uma plataforma autoriza reutilização em outras redes, anúncios ou distribuição multicanal.
-- Se a licença não puder ser comprovada, não usar a faixa. Não contornar direitos autorais. Entregar sem trilha e registrar a limitação.
-- Mixar a música abaixo da voz, usar ducking quando necessário e evitar clipping.
-- Usar sound design pontual: impactos, whooshes, clicks, transições, ambiências e sons de produto quando agregarem valor. Evitar excesso e sons genéricos sem função.
-- Não sintetizar a voz de João nem inventar falas.
+- A voz original é protagonista: natural, inteligível e fiel à gravação. Ouvir o bruto integralmente e diagnosticar ruído, eco, clipping, plosivas, sibilância e variações de volume antes de processar.
+- Aplicar somente correções necessárias e moderadas. Redução agressiva de ruído, gate que corta sílabas, compressão excessiva, EQ exagerado, som metálico/robótico ou alteração artificial de timbre são falhas.
+- Preservar o bruto, trabalhar em cópia e comparar original/tratado em volume equivalente. Se o resultado não melhorar claramente ou soar artificial, reduzir/reverter. Não processar por rotina quando o áudio já estiver bom.
+- Usar trilha de fundo da biblioteca oficial do Pixabay como fonte gratuita padrão, conforme a política detalhada deste repositório. Verificar a página individual e os termos atuais para o uso comercial pretendido; registrar URL, autor, título, data e evidência. Não usar reuploads ou fontes sem origem comprovada.
+- Não comprar música, assinatura ou serviço sem autorização. A licença não garante ausência de reivindicação automatizada; manter evidências e verificar qualquer ocorrência antes de contestar.
+- Mixar música e efeitos abaixo da voz, com ducking/automação quando necessário, preservando inteligibilidade e evitando clipping.
+- Usar sound design pontual somente quando reforçar ação, transição ou ideia. Não inserir efeitos genéricos por decoração.
+- Não sintetizar, clonar, substituir ou alterar a voz de João.
 
 ## 7. Gancho, storytelling e retenção
 
@@ -282,20 +282,10 @@ Teste obrigatório de coerência: revisar cada cena e responder: O que João est
 
 Critério de aceite: motion desalinhado, decorativo, confuso, sem hierarquia ou sem relação clara com a fala permanece EM REVISÃO e não pode ser publicado.
 
-## 19. Trilha musical obrigatória, comercial e licenciada
+## 19. Trilha musical gratuita e verificável
 
-A trilha musical passa a ser componente obrigatório de todos os vídeos/Reels finalizados. Ela deve dar ritmo, identidade e acabamento, sem competir com a voz.
+A biblioteca oficial do Pixabay é a fonte padrão para trilhas: https://pixabay.com/pt/music/. Não comprar assinaturas, faixas ou serviços sem autorização. Para cada faixa, abrir a página individual, verificar os termos vigentes para o uso comercial pretendido, registrar URL, autor, título, data de download e evidência da licença. Baixar somente do site oficial; não usar reuploads ou arquivos de origem incerta. A licença não elimina possíveis reivindicações automatizadas de Content ID. Guardar evidências, verificar qualquer reivindicação e não contestar automaticamente. Se não houver faixa adequada e verificável, documentar a exceção e seguir o critério de aceite de `PADROES-DE-EDICAO.md`.
 
-- Não entregar vídeo final sem trilha alegando apenas que não encontrou licença. A falta de acesso/licença é um bloqueio operacional a ser resolvido, não uma justificativa para ignorar o requisito.
-- Usar apenas faixas cuja licença cubra claramente: uso comercial/de marca, produção para cliente, canais sociais da SUA GRÁFICA BH e mídia paga/impulsionamento quando aplicável.
-- Não usar plano pessoal/Social quando os termos excluírem trabalho comercial, marcas, clientes ou mídia paga.
-- Avaliar uma licença profissional como Artlist Pro/Business/Creator Pro ou fornecedor equivalente. A documentação da Artlist informa que Music & SFX Pro cobre uso comercial, client work e paid media, enquanto Social não cobre trabalho comercial/de cliente: https://help.artlist.io/hc/en-us/articles/29559573229725-Artlist-s-Music-and-SFX-plans-explained. Conferir sempre os termos atuais e o plano exato antes de usar.
-- A contratação/compra de assinatura depende de autorização expressa de João. Não realizar compras, testes pagos ou assumir custos sem autorização. Se ainda não houver licença válida, marcar BLOQUEIO DE LICENÇA MUSICAL, informar o plano necessário e solicitar acesso/autorização. Não aprovar ou agendar como finalizado.
-- Escolher a faixa pela intenção da peça: energia, emoção, ritmo, público, duração e posicionamento comercial. Evitar trilha genérica, incompatível ou excessivamente épica para o conteúdo.
-- Mixar em volume inferior à voz, aplicar ducking/automação e equalização quando necessário. A fala deve permanecer perfeitamente inteligível. Usar sound design pontual para reforçar ações e transições.
-- Registrar título, artista, URL, fornecedor, plano, titular da licença, canais cobertos, autorização para mídia paga, data de download/publicação e comprovante/certificado.
-- Verificar as condições de continuidade após cancelamento: projetos já publicados e novos projetos podem ter regras diferentes. Não presumir cobertura perpétua.
-- Uma exceção sem música só pode ocorrer com autorização expressa de João para aquele vídeo, registrada no controle do lote.
 
 ## 20. B-roll e imagens de banco com contexto e pertinência
 
@@ -314,7 +304,7 @@ Critério de aceite: imagem fora de contexto, contraditória ou capaz de induzir
 
 ## 21. Revisão final de coerência audiovisual
 
-Além do checklist existente, reproduzir cada vídeo integralmente e revisar em sequência: a fala e a imagem de apoio correspondem em cada trecho; o motion tem propósito e hierarquia; o ritmo e a trilha musical valorizam a mensagem; o B-roll representa o contexto real; a música está licenciada para o uso efetivo, inclusive mídia paga quando prevista; a voz permanece inteligível; gancho, legendas, rosto e CTA passam pelos critérios específicos já definidos.
+Além do checklist existente, reproduzir cada vídeo integralmente e revisar em sequência: a fala e a imagem de apoio correspondem em cada trecho; o motion tem propósito e hierarquia; o ritmo e a trilha musical valorizam a mensagem; o B-roll representa o contexto real; a música tem origem e licença verificadas para o uso pretendido; o tratamento melhora a voz sem degradá-la; a fala permanece natural e inteligível; gancho, legendas, rosto e CTA passam pelos critérios específicos já definidos.
 
 Se qualquer item crítico falhar, manter EM REVISÃO.
 
@@ -351,19 +341,6 @@ Não entregar como final uma peça que ainda precise de ajustes evidentes. Não 
 
 Relatório final conciso e factual: itens concluídos, arquivos/caminhos, agendamentos confirmados, pendências externas e evidências do controle de qualidade. Distinguir produzido, revisado, aprovado, agendado e publicado.
 
-### Estratégia de trilha sonora gratuita: Pixabay
-Não comprar assinatura, licença paga, música, pacote ou serviço de áudio. A fonte padrão para trilhas é a biblioteca oficial de música do Pixabay: https://pixabay.com/pt/music/ . Usar somente faixas baixadas diretamente do site oficial e cuja página/termos vigentes permitam o uso comercial pretendido.
 
-A licença Pixabay permite, em regra, uso comercial e adaptação sem atribuição obrigatória, desde que a música esteja incorporada a uma obra criativa maior e não seja redistribuída isoladamente. A licença não elimina direitos de terceiros eventualmente presentes, nem garante ausência de reivindicações automatizadas de Content ID. Consultar sempre os termos atuais: https://pixabay.com/service/license-summary/ e https://pixabay.com/service/faq/ .
-
-Procedimento obrigatório por faixa:
-1. Buscar música que combine com intenção, ritmo, público, fala e identidade do vídeo.
-2. Abrir a página individual da faixa e verificar autor, título, duração, tags e informações disponíveis sobre licença/Content ID/restrições.
-3. Baixar diretamente do Pixabay. Não usar reuploads, conversores, canais de terceiros ou arquivos sem origem comprovada.
-4. Guardar no projeto o arquivo original, URL da página, nome/título, autor, data do download, cópia ou captura da página/licença vigente e IDs SG dos vídeos em que foi usado. Manter registro central de trilhas.
-5. Usar a música sincronizada como parte da edição final, com voz inteligível, volume automatizado/ducking e sem clipping. Não publicar a faixa isolada nem disponibilizá-la como download independente.
-6. Como o Pixabay informa que algumas faixas podem gerar reivindicações de Content ID, verificar página/FAQ e manter evidências. Se houver informação de Content ID ou histórico de reivindicação, preferir outra faixa quando possível. Não prometer que a faixa nunca terá reivindicação.
-7. Se surgir reivindicação, não ignorar nem contestar automaticamente. Conferir faixa, uso e documentação; seguir procedimento oficial de disputa somente quando houver evidência suficiente de licença e uso permitido. Registrar ocorrência e substituir a música em publicações futuras se necessário.
-8. Não usar trilha de origem, licença ou página individual incerta. Buscar outra opção no Pixabay. Não comprar nada nem recorrer a Artlist, Epidemic Sound ou biblioteca paga.
-
-Trilha musical de fundo é requisito normal de acabamento dos vídeos. A falta de licença de uma biblioteca paga não é justificativa para deixar o vídeo sem música, pois a estratégia padrão é utilizar Pixabay conforme os controles acima. Exceção: se nenhuma faixa adequada puder ser validada para um vídeo específico, registrar a razão e pedir decisão apenas para aquele item; não inventar licença.
+## 22. Conteúdo baseado em dores reais do cliente
+Consultar obrigatoriamente `DORES-REAIS-CLIENTES.md` antes de criar ou auditar pautas. Cada peça deve partir de uma dor, dúvida, desejo, objeção ou decisão concreta de quem compra materiais gráficos e entregar orientação prática. Exemplos: economizar sem desperdício, escolher tipos de papel, gramatura e aplicação, preparar sangria e margem de segurança, evitar erros de arquivo, entender cores e comparar fosco/brilho. São territórios de pesquisa, não fatos técnicos prontos nem uma lista para repetir. Validar afirmações em fontes confiáveis e no CRM/fornecedor quando depender de produto ou processo da gráfica. Comparar semanticamente com o histórico.
