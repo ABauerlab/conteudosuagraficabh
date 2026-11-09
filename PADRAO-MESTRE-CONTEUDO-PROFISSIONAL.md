@@ -341,23 +341,6 @@ Não entregar como final uma peça que ainda precise de ajustes evidentes. Não 
 
 Relatório final conciso e factual: itens concluídos, arquivos/caminhos, agendamentos confirmados, pendências externas e evidências do controle de qualidade. Distinguir produzido, revisado, aprovado, agendado e publicado.
 
-### Estratégia de trilha sonora gratuita: Pixabay
-Não comprar assinatura, licença paga, música, pacote ou serviço de áudio. A fonte padrão para trilhas é a biblioteca oficial de música do Pixabay: https://pixabay.com/pt/music/ . Usar somente faixas baixadas diretamente do site oficial e cuja página/termos vigentes permitam o uso comercial pretendido.
-
-A licença Pixabay permite, em regra, uso comercial e adaptação sem atribuição obrigatória, desde que a música esteja incorporada a uma obra criativa maior e não seja redistribuída isoladamente. A licença não elimina direitos de terceiros eventualmente presentes, nem garante ausência de reivindicações automatizadas de Content ID. Consultar sempre os termos atuais: https://pixabay.com/service/license-summary/ e https://pixabay.com/service/faq/ .
-
-Procedimento obrigatório por faixa:
-1. Buscar música que combine com intenção, ritmo, público, fala e identidade do vídeo.
-2. Abrir a página individual da faixa e verificar autor, título, duração, tags e informações disponíveis sobre licença/Content ID/restrições.
-3. Baixar diretamente do Pixabay. Não usar reuploads, conversores, canais de terceiros ou arquivos sem origem comprovada.
-4. Guardar no projeto o arquivo original, URL da página, nome/título, autor, data do download, cópia ou captura da página/licença vigente e IDs SG dos vídeos em que foi usado. Manter registro central de trilhas.
-5. Usar a música sincronizada como parte da edição final, com voz inteligível, volume automatizado/ducking e sem clipping. Não publicar a faixa isolada nem disponibilizá-la como download independente.
-6. Como o Pixabay informa que algumas faixas podem gerar reivindicações de Content ID, verificar página/FAQ e manter evidências. Se houver informação de Content ID ou histórico de reivindicação, preferir outra faixa quando possível. Não prometer que a faixa nunca terá reivindicação.
-7. Se surgir reivindicação, não ignorar nem contestar automaticamente. Conferir faixa, uso e documentação; seguir procedimento oficial de disputa somente quando houver evidência suficiente de licença e uso permitido. Registrar ocorrência e substituir a música em publicações futuras se necessário.
-8. Não usar trilha de origem, licença ou página individual incerta. Buscar outra opção no Pixabay. Não comprar nada nem recorrer a Artlist, Epidemic Sound ou biblioteca paga.
-
-Trilha musical de fundo é requisito normal de acabamento dos vídeos. A falta de licença de uma biblioteca paga não é justificativa para deixar o vídeo sem música, pois a estratégia padrão é utilizar Pixabay conforme os controles acima. Exceção: se nenhuma faixa adequada puder ser validada para um vídeo específico, registrar a razão e pedir decisão apenas para aquele item; não inventar licença.
-
 
 ## 22. Conteúdo baseado em dores reais do cliente
 Consultar obrigatoriamente `DORES-REAIS-CLIENTES.md` antes de criar ou auditar pautas. Cada peça deve partir de uma dor, dúvida, desejo, objeção ou decisão concreta de quem compra materiais gráficos e entregar orientação prática. Exemplos: economizar sem desperdício, escolher tipos de papel, gramatura e aplicação, preparar sangria e margem de segurança, evitar erros de arquivo, entender cores e comparar fosco/brilho. São territórios de pesquisa, não fatos técnicos prontos nem uma lista para repetir. Validar afirmações em fontes confiáveis e no CRM/fornecedor quando depender de produto ou processo da gráfica. Comparar semanticamente com o histórico.
