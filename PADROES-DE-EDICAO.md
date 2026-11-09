@@ -115,7 +115,7 @@ O áudio original deve ser preservado. O objetivo do tratamento é aumentar clar
 - Exportar a capa separadamente do vídeo e conferir o recorte no formato de exibição do perfil.
 
 ### Critério de aceite de cada Reel
-Um Reel só pode ser marcado como finalizado quando: (1) apresenta progressão visual e motion design relevante, não apenas legenda sobre o bruto; (2) os recursos visuais reforçam trechos específicos da fala; (3) há variação intencional de enquadramento, ritmo e composição; (4) trilha e efeitos têm licença confirmada ou ausência justificada; (5) legendas Montserrat, uma linha por vez, discretas, seguras e sincronizadas após revisão com áudio; (6) existe capa gráfica original independente do vídeo; (7) vídeo completo reproduzido e revisado; (8) projeto-fonte, assets e export final organizados. Se qualquer critério essencial falhar, manter EM REVISÃO, não aprovado nem pronto para distribuição.
+Um Reel só pode ser marcado como finalizado quando: (1) apresenta progressão visual e motion design relevante, não apenas legenda sobre o bruto; (2) os recursos visuais reforçam trechos específicos da fala; (3) há variação intencional de enquadramento, ritmo e composição; (4) trilha e efeitos têm licença confirmada ou exceção documentada; o tratamento de áudio melhora a clareza sem alterar a voz natural, sem artefatos e com comparação antes/depois; (5) legendas Montserrat, uma linha por vez, discretas, seguras e sincronizadas após revisão com áudio; (6) existe capa gráfica original independente do vídeo; (7) vídeo completo reproduzido e revisado; (8) projeto-fonte, assets e export final organizados. Se qualquer critério essencial falhar, manter EM REVISÃO, não aprovado nem pronto para distribuição.
 
 
 ## Documento mestre complementar e obrigatório
@@ -144,29 +144,9 @@ Motion design precisa traduzir visualmente a fala, não apenas preencher a tela 
 - Se não houver imagem de apoio fiel ao assunto, usar motion tipográfico/diagrama simples e semanticamente correto em vez de foto genérica ou animação decorativa.
 - Critério de aceite: se o motion estiver desalinhado, aleatório, ambíguo ou sem relação evidente com a fala, manter EM REVISÃO e refazer a cena.
 
-### Tratamento de áudio: melhorar sem degradar a gravação
-
-O áudio original deve ser preservado. O objetivo do tratamento é aumentar clareza, inteligibilidade, consistência e conforto de escuta, mantendo a voz natural e fiel à gravação. **Não aplicar processamento por rotina se o original já estiver bom.**
-
-1. Ouvir o bruto integralmente antes de editar, preferencialmente com fones e também em reprodução comum. Identificar ruído constante, eco/reverberação, vento, estalos, plosivas, sibilância, clipping, volume irregular e problemas de inteligibilidade.
-2. Criar uma cópia de trabalho e manter o arquivo original intocado. Escolher somente os tratamentos necessários para os problemas realmente identificados.
-3. Fazer limpeza de ruído de forma moderada. Redução agressiva, artefatos metálicos/robóticos, som subaquático, cortes de sílabas ou perda de ambiência são sinais de piora. Se isso ocorrer, reduzir ou remover o processamento.
-4. Usar equalização corretiva sutil, quando necessária, para reduzir ressonâncias ou excesso de graves e melhorar a compreensão. Não alterar o timbre natural nem exagerar agudos/graves.
-5. Aplicar compressão leve/moderada somente quando ajudar a controlar variações de volume. Evitar voz esmagada, bombeamento, respiração artificialmente elevada ou perda de dinâmica.
-6. Usar de-esser, gate/expander, de-click, de-plosive e de-reverb apenas quando o defeito estiver presente e a ferramenta produzir melhora audível. Não cortar finais de palavras, respirações naturais ou consoantes.
-7. Ajustar ganho e loudness de forma consistente com a plataforma e o material, preservando headroom e evitando clipping. Limiter é proteção final, não correção para áudio distorcido.
-8. Mixar música e efeitos abaixo da voz. Automatizar/baixar a trilha nos trechos falados; a fala deve permanecer sempre inteligível, sem competir com a música ou os efeitos.
-9. Fazer comparação A/B entre original e tratado em volume de reprodução equivalente. Conferir em fones, alto-falante comum e celular. O tratado deve ser claramente mais confortável/limpo sem soar artificial.
-10. Se o processamento não melhorar de forma inequívoca, voltar à versão anterior ou manter o original. Não “forçar” tratamento para demonstrar trabalho.
-
-**Não fazer:** denoise extremo, gate que corta sílabas, compressão excessiva, EQ agressivo, normalização que amplifica ruído, remoção artificial de respirações, alteração de pitch/timbre, clonagem de voz ou substituição da fala. Não usar serviços pagos ou enviar gravações a serviços externos sem autorização.
-
-**Critério de aceite:** voz natural, compreensível e estável; sem clipping introduzido, artefatos perceptíveis ou cortes de fala; música/efeitos discretos; comparação antes/depois aprovada pela escuta crítica. Registrar no projeto o que foi tratado e manter o bruto preservado.
-
 ## Música gratuita e licenciamento
 A estratégia padrão é utilizar a biblioteca oficial do Pixabay: https://pixabay.com/pt/music/. Antes de usar cada faixa, abrir a página individual, conferir os termos vigentes e verificar se o uso comercial pretendido é permitido. Registrar URL, título, autor, data de download e evidência de licença. Não usar reuploads ou faixas sem origem comprovada. Não comprar músicas, assinaturas ou serviços sem autorização. A licença não garante ausência de reivindicações automatizadas; guardar evidências e tratar qualquer reivindicação com verificação, nunca contestação automática. Se não houver faixa adequada e verificável, documentar a exceção.
 
-## B-roll e fotografia de bancos de imagem: contexto obrigatório
 ## B-roll e fotografia de bancos de imagem: contexto obrigatório
 
 Toda foto/vídeo de banco de imagens deve ter correspondência direta com a fala e com a cena. Não usar imagens bonitas, genéricas ou apenas relacionadas ao tema se não explicarem o que está sendo dito.
@@ -213,22 +193,8 @@ Não entregar como final uma peça que ainda precise de ajustes evidentes. Não 
 
 Relatório final conciso e factual: itens concluídos, arquivos/caminhos, agendamentos confirmados, pendências externas e evidências do controle de qualidade. Distinguir produzido, revisado, aprovado, agendado e publicado.
 
-### Estratégia de trilha sonora gratuita: Pixabay
-Não comprar assinatura, licença paga, música, pacote ou serviço de áudio. A fonte padrão para trilhas é a biblioteca oficial de música do Pixabay: https://pixabay.com/pt/music/ . Usar somente faixas baixadas diretamente do site oficial e cuja página/termos vigentes permitam o uso comercial pretendido.
-
-A licença Pixabay permite, em regra, uso comercial e adaptação sem atribuição obrigatória, desde que a música esteja incorporada a uma obra criativa maior e não seja redistribuída isoladamente. A licença não elimina direitos de terceiros eventualmente presentes, nem garante ausência de reivindicações automatizadas de Content ID. Consultar sempre os termos atuais: https://pixabay.com/service/license-summary/ e https://pixabay.com/service/faq/ .
-
-Procedimento obrigatório por faixa:
-1. Buscar música que combine com intenção, ritmo, público, fala e identidade do vídeo.
-2. Abrir a página individual da faixa e verificar autor, título, duração, tags e informações disponíveis sobre licença/Content ID/restrições.
-3. Baixar diretamente do Pixabay. Não usar reuploads, conversores, canais de terceiros ou arquivos sem origem comprovada.
-4. Guardar no projeto o arquivo original, URL da página, nome/título, autor, data do download, cópia ou captura da página/licença vigente e IDs SG dos vídeos em que foi usado. Manter registro central de trilhas.
-5. Usar a música sincronizada como parte da edição final, com voz inteligível, volume automatizado/ducking e sem clipping. Não publicar a faixa isolada nem disponibilizá-la como download independente.
-6. Como o Pixabay informa que algumas faixas podem gerar reivindicações de Content ID, verificar página/FAQ e manter evidências. Se houver informação de Content ID ou histórico de reivindicação, preferir outra faixa quando possível. Não prometer que a faixa nunca terá reivindicação.
-7. Se surgir reivindicação, não ignorar nem contestar automaticamente. Conferir faixa, uso e documentação; seguir procedimento oficial de disputa somente quando houver evidência suficiente de licença e uso permitido. Registrar ocorrência e substituir a música em publicações futuras se necessário.
-8. Não usar trilha de origem, licença ou página individual incerta. Buscar outra opção no Pixabay. Não comprar nada nem recorrer a Artlist, Epidemic Sound ou biblioteca paga.
-
-Trilha musical de fundo é requisito normal de acabamento dos vídeos. A falta de licença de uma biblioteca paga não é justificativa para deixar o vídeo sem música, pois a estratégia padrão é utilizar Pixabay conforme os controles acima. Exceção: se nenhuma faixa adequada puder ser validada para um vídeo específico, registrar a razão e pedir decisão apenas para aquele item; não inventar licença.
+### Política de trilha
+A política detalhada de uso gratuito do Pixabay está consolidada em `## Música gratuita e licenciamento` neste documento. Não manter regras paralelas ou contratar serviços sem autorização.
 
 
 ## Motion design com fonte JavaScript/TypeScript obrigatória quando houver animação programática
