@@ -263,3 +263,7 @@ A rotina é incremental e deve seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS
 
 ## Tratamento de áudio com preservação da gravação
 Todo áudio deve ser avaliado antes do processamento. Tratar somente problemas reais e de forma moderada para melhorar inteligibilidade, clareza e consistência sem alterar o timbre natural. Comparar original e tratado em volume equivalente; se houver artefatos, voz artificial, sílabas cortadas ou piora, reduzir/reverter. O original nunca deve ser sobrescrito. Aplicar integralmente a seção de tratamento de áudio de `PADROES-DE-EDICAO.md`.
+
+
+## Execução resiliente de edição e distribuição (obrigatório)
+Para qualquer finalização de lote, Claude deve seguir EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md. O fluxo padrão é: João grava e envia os brutos; Claude localiza, edita, produz artes, revisa e distribui pelo Postiz MCP conectado. Não exigir login manual no navegador, links públicos, upload manual repetido ou novas credenciais antes de verificar as integrações existentes. Usar alternativas autorizadas por etapa, persistir checkpoints e isolar falhas por ID/canal; nunca interromper o lote inteiro por uma falha localizada.
