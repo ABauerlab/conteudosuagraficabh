@@ -20,6 +20,12 @@
 | 12/11/2026 | 2 | SG-037, SG-038 | SG-039 | SG-040, SG-041, SG-042 |
 | 13/11/2026 | 2 | SG-043, SG-044 | SG-045 | SG-046, SG-047, SG-048 |
 
+### Status da Etapa 2, dias 10 a 13/11 (execução de 09/11/2026)
+Detalhes em `conteudos/lote-2026-11-04-a-2026-11-11/AUDITORIA-SG-025-a-SG-048.md`.
+- Feed SG-027, SG-033, SG-039 e SG-045, e Stories SG-028 a 030, 034 a 036, 040 a 042 e 046 a 048: briefings reescritos (a copy anterior era repetida), artes PRODUZIDAS e revisadas. **PENDENTE DE DISTRIBUIÇÃO VIA POSTIZ** (falta chave da API pública para hospedar mídia e checar duplicidade).
+- Reels SG-025, 026, 031, 032, 037, 038, 043 e 044: brutos presentes no Drive, capas PRODUZIDAS. Edição **PENDENTE DE ACESSO AO BRUTO** (arquivos acima do limite de 10 MB do conector).
+- Nada foi agendado nem publicado.
+
 A tabela define o calendário-alvo, não confirma agendamentos. O status de cada item deve ser atualizado somente após confirmação no Postiz. Stories que não puderem ser publicados diretamente pela integração devem ser registrados como pendentes, sem alegar publicação.
 
 

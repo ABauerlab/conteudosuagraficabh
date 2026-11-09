@@ -33,3 +33,6 @@
 - SG-046 a SG-048
 
 A distribuição efetiva só deve ser marcada como agendada/publicada após confirmação no Postiz. Cada Story deve ter status individual, inclusive quando a plataforma exigir publicação manual/notificação.
+
+## Etapa 2: SG-025 a SG-048 (10 a 13/11)
+Ver `AUDITORIA-SG-025-a-SG-048.md`. Temas de Feed e Stories reescritos: 10/11 cartão fidelidade, 11/11 calendário 2027 como brinde, 12/11 cardápio, 13/11 tag de roupa. Status: artes produzidas e revisadas; Reels pendentes de acesso ao bruto; distribuição pendente (Postiz).

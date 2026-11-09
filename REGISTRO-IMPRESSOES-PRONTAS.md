@@ -87,7 +87,9 @@ Adicionar cada post como linha própria na seção **Posts estáticos adicionais
 
 ## Ledger inicial
 
-Nenhuma imagem foi inspecionada ou registrada por esta alteração documental. Claude deve fazer a primeira varredura da pasta de entrada na próxima execução e inserir cada arquivo encontrado nesta tabela.
+Primeira varredura em 09/11/2026 (lote SG-025 a SG-048): 2 arquivos, ambos PENDENTE DE AUTORIZAÇÃO. Nenhum ID SG consumido e nenhum post adicional criado.
 
 | Drive file ID | Nome original | SHA-256 | Fingerprint visual | Primeira detecção | ID SG | Lote/briefing | Status | Data planejada | Postiz / observações |
 |---|---|---|---|---|---|---|---|---|---|
+| 1yY8TnfbeHEIWrQ4yn6Fb7D_QkigkI1pF | Tags (HEIC) | 33e644c2d2c82dd0e7a92b6c3fa900fe4af3d84d02cafde7d2b3617903a70ce0 | pHash c63f609b96640dba / dHash faea32e968f182c2 | 2026-11-09 | (não atribuído) | (sem briefing) | PENDENTE DE AUTORIZAÇÃO | (sem data) | Duas tags em mão: marca de roupa de cliente identificável (logotipo e nome) e tabela de tamanhos. Falta confirmar a autorização do cliente para expor a marca. Produto corresponde ao grupo TAGS ativo no CRM. |
+| 1avXOVIev7p62Y4GcYyNc93f8NnjG0b7V | Cartão de visita (HEIC) | c9cad4ba1065c2a9581ac1ebd53ebeb345d32a78fd61682f5dd1392b2fa56f08 | pHash bfe4c04d3c31e4e2 / dHash 15630d1f33335b19 | 2026-11-09 | (não atribuído) | (sem briefing) | PENDENTE DE AUTORIZAÇÃO | (sem data) | Cartão de visita de cliente identificável (nome da empresa, site, QR code e trecho de endereço visíveis). Falta autorização do cliente; se aprovado, avaliar desfocar QR e endereço. Produto corresponde ao grupo CARTÕES DE VISITA ativo. |
