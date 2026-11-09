@@ -73,11 +73,31 @@ Ao concluir:
 - A edição deve parecer uma peça audiovisual de campanha feita por editor profissional, não um vídeo cru com legenda automática.
 
 ### Música e sound design
-- Incluir trilha de fundo quando houver música adequada e licenciada para uso comercial e publicação nas redes da marca.
-- Claude deve pesquisar, verificar a licença aplicável ao uso comercial, redes sociais, edição e distribuição, registrar URL/fonte e condições relevantes e guardar comprovante ou referência da licença junto ao projeto.
-- Priorizar bibliotecas com licença comercial clara ou faixas cuja licença permita expressamente o uso pretendido. Não presumir que música encontrada gratuitamente, em tendências ou em plataformas sociais pode ser usada em anúncios ou em todos os canais.
-- Se não for possível confirmar a licença, não usar a faixa. Selecionar outra opção licenciada; se nenhuma estiver disponível, entregar sem música e registrar a limitação.
-- Mixar a música abaixo da voz, com ducking quando necessário. Voz sempre inteligível. Adicionar efeitos sonoros pontuais para acentuar animações, transições e entradas, sem excesso.
+- A fonte padrão gratuita é a biblioteca oficial do Pixabay, conforme a seção de licenciamento deste documento. Não comprar músicas, assinaturas ou serviços.
+- Verificar a página individual da faixa e os termos vigentes para o uso comercial pretendido; registrar URL, autor, título, data e evidência de licença junto ao projeto.
+- Não presumir que qualquer arquivo gratuito ou áudio em tendência pode ser reutilizado. Não usar reuploads, faixas sem origem comprovada ou áudio cuja licença não cubra o uso.
+- Se não houver faixa adequada com licença verificável, documentar a exceção; não improvisar nem usar áudio de terceiros por conveniência.
+- Mixar a música abaixo da voz, com ducking quando necessário. Voz sempre inteligível. Efeitos sonoros pontuais e discretos.
+
+### Tratamento de áudio: melhorar sem degradar a gravação
+
+O áudio original deve ser preservado. O objetivo do tratamento é aumentar clareza, inteligibilidade, consistência e conforto de escuta, mantendo a voz natural e fiel à gravação. **Não aplicar processamento por rotina se o original já estiver bom.**
+
+1. Ouvir o bruto integralmente antes de editar, preferencialmente com fones e também em reprodução comum. Identificar ruído constante, eco/reverberação, vento, estalos, plosivas, sibilância, clipping, volume irregular e problemas de inteligibilidade.
+2. Criar uma cópia de trabalho e manter o arquivo original intocado. Escolher somente os tratamentos necessários para os problemas realmente identificados.
+3. Fazer limpeza de ruído de forma moderada. Redução agressiva, artefatos metálicos/robóticos, som subaquático, cortes de sílabas ou perda de ambiência são sinais de piora. Se isso ocorrer, reduzir ou remover o processamento.
+4. Usar equalização corretiva sutil, quando necessária, para reduzir ressonâncias ou excesso de graves e melhorar a compreensão. Não alterar o timbre natural nem exagerar agudos/graves.
+5. Aplicar compressão leve/moderada somente quando ajudar a controlar variações de volume. Evitar voz esmagada, bombeamento, respiração artificialmente elevada ou perda de dinâmica.
+6. Usar de-esser, gate/expander, de-click, de-plosive e de-reverb apenas quando o defeito estiver presente e a ferramenta produzir melhora audível. Não cortar finais de palavras, respirações naturais ou consoantes.
+7. Ajustar ganho e loudness de forma consistente com a plataforma e o material, preservando headroom e evitando clipping. Limiter é proteção final, não correção para áudio distorcido.
+8. Mixar música e efeitos abaixo da voz. Automatizar/baixar a trilha nos trechos falados; a fala deve permanecer sempre inteligível, sem competir com a música ou os efeitos.
+9. Fazer comparação A/B entre original e tratado em volume de reprodução equivalente. Conferir em fones, alto-falante comum e celular. O tratado deve ser claramente mais confortável/limpo sem soar artificial.
+10. Se o processamento não melhorar de forma inequívoca, voltar à versão anterior ou manter o original. Não “forçar” tratamento para demonstrar trabalho.
+
+**Não fazer:** denoise extremo, gate que corta sílabas, compressão excessiva, EQ agressivo, normalização que amplifica ruído, remoção artificial de respirações, alteração de pitch/timbre, clonagem de voz ou substituição da fala. Não usar serviços pagos ou enviar gravações a serviços externos sem autorização.
+
+**Critério de aceite:** voz natural, compreensível e estável; sem clipping introduzido, artefatos perceptíveis ou cortes de fala; música/efeitos discretos; comparação antes/depois aprovada pela escuta crítica. Registrar no projeto o que foi tratado e manter o bruto preservado.
+
 
 ### Legendas: padrão fixo
 - Fonte obrigatória: **Montserrat**, usando os arquivos oficiais da identidade visual quando disponíveis. Não substituir por Segoe UI ou outra fonte por conveniência. Se Montserrat não estiver acessível, procurar no Brand Kit; não instalar fontes sem autorização.
@@ -124,20 +144,29 @@ Motion design precisa traduzir visualmente a fala, não apenas preencher a tela 
 - Se não houver imagem de apoio fiel ao assunto, usar motion tipográfico/diagrama simples e semanticamente correto em vez de foto genérica ou animação decorativa.
 - Critério de aceite: se o motion estiver desalinhado, aleatório, ambíguo ou sem relação evidente com a fala, manter EM REVISÃO e refazer a cena.
 
-## Trilha musical obrigatória e licenciamento para uso comercial
+### Tratamento de áudio: melhorar sem degradar a gravação
 
-Todo Reel/vídeo final deve ter trilha musical de fundo intencional, além de sound design quando adequado. A ausência de música por falta de licença não é mais uma solução final aceitável: é uma pendência de acesso/licenciamento que precisa ser resolvida antes da aprovação.
+O áudio original deve ser preservado. O objetivo do tratamento é aumentar clareza, inteligibilidade, consistência e conforto de escuta, mantendo a voz natural e fiel à gravação. **Não aplicar processamento por rotina se o original já estiver bom.**
 
-- Usar biblioteca ou faixa com licença que cubra expressamente produção comercial/de marca, trabalho para cliente, publicação nos canais da SUA GRÁFICA BH e mídia paga quando houver impulsionamento/anúncios.
-- Não usar plano Social/pessoal para trabalho comercial de marca ou cliente. Verificar o escopo exato da licença e o titular/canal coberto.
-- Referência de fornecedor para avaliar: Artlist com licença Pro/Business/Creator Pro ou solução equivalente que cubra client work e paid media. A documentação oficial diferencia planos Social (pessoais) e Pro (comerciais/clientes/anúncios): https://help.artlist.io/hc/en-us/articles/29559573229725-Artlist-s-Music-and-SFX-plans-explained e https://artlist.io/help-center/privacy-terms/artlist-license.
-- Não contratar, comprar, iniciar teste pago ou assumir custos sem autorização expressa do responsável. Se não houver conta/licença válida disponível, registrar BLOQUEIO DE LICENÇA MUSICAL, solicitar ao responsável a contratação/acesso a um plano adequado e não aprovar silenciosamente vídeo sem trilha.
-- Uma vez autorizado o acesso, selecionar faixa coerente com o objetivo, energia, público, duração e identidade da peça. Evitar trilhas genéricas que disputem atenção com a fala.
-- Registrar em cada projeto: faixa, artista/compositor, URL, fornecedor, plano/licença, titular da conta, canais/perfis cobertos, uso orgânico e pago, data de download/publicação e comprovante/recibo ou certificado de licença.
-- Conferir se a licença permite continuar usando o vídeo publicado após eventual cancelamento, e se cobre novos projetos apenas durante a assinatura. Não presumir que uma licença vale para sempre ou para todos os canais.
-- Mixar a trilha abaixo da voz, com automação/ducking; preservar inteligibilidade, sem clipping. A trilha deve sustentar o ritmo, não mascarar a fala. Sound effects complementam, não substituem a música.
-- Critério de aceite: vídeo sem trilha musical fica PENDENTE DE LICENÇA MUSICAL e não pode ser marcado como finalizado/aprovado, salvo exceção autorizada expressamente por João.
+1. Ouvir o bruto integralmente antes de editar, preferencialmente com fones e também em reprodução comum. Identificar ruído constante, eco/reverberação, vento, estalos, plosivas, sibilância, clipping, volume irregular e problemas de inteligibilidade.
+2. Criar uma cópia de trabalho e manter o arquivo original intocado. Escolher somente os tratamentos necessários para os problemas realmente identificados.
+3. Fazer limpeza de ruído de forma moderada. Redução agressiva, artefatos metálicos/robóticos, som subaquático, cortes de sílabas ou perda de ambiência são sinais de piora. Se isso ocorrer, reduzir ou remover o processamento.
+4. Usar equalização corretiva sutil, quando necessária, para reduzir ressonâncias ou excesso de graves e melhorar a compreensão. Não alterar o timbre natural nem exagerar agudos/graves.
+5. Aplicar compressão leve/moderada somente quando ajudar a controlar variações de volume. Evitar voz esmagada, bombeamento, respiração artificialmente elevada ou perda de dinâmica.
+6. Usar de-esser, gate/expander, de-click, de-plosive e de-reverb apenas quando o defeito estiver presente e a ferramenta produzir melhora audível. Não cortar finais de palavras, respirações naturais ou consoantes.
+7. Ajustar ganho e loudness de forma consistente com a plataforma e o material, preservando headroom e evitando clipping. Limiter é proteção final, não correção para áudio distorcido.
+8. Mixar música e efeitos abaixo da voz. Automatizar/baixar a trilha nos trechos falados; a fala deve permanecer sempre inteligível, sem competir com a música ou os efeitos.
+9. Fazer comparação A/B entre original e tratado em volume de reprodução equivalente. Conferir em fones, alto-falante comum e celular. O tratado deve ser claramente mais confortável/limpo sem soar artificial.
+10. Se o processamento não melhorar de forma inequívoca, voltar à versão anterior ou manter o original. Não “forçar” tratamento para demonstrar trabalho.
 
+**Não fazer:** denoise extremo, gate que corta sílabas, compressão excessiva, EQ agressivo, normalização que amplifica ruído, remoção artificial de respirações, alteração de pitch/timbre, clonagem de voz ou substituição da fala. Não usar serviços pagos ou enviar gravações a serviços externos sem autorização.
+
+**Critério de aceite:** voz natural, compreensível e estável; sem clipping introduzido, artefatos perceptíveis ou cortes de fala; música/efeitos discretos; comparação antes/depois aprovada pela escuta crítica. Registrar no projeto o que foi tratado e manter o bruto preservado.
+
+## Música gratuita e licenciamento
+A estratégia padrão é utilizar a biblioteca oficial do Pixabay: https://pixabay.com/pt/music/. Antes de usar cada faixa, abrir a página individual, conferir os termos vigentes e verificar se o uso comercial pretendido é permitido. Registrar URL, título, autor, data de download e evidência de licença. Não usar reuploads ou faixas sem origem comprovada. Não comprar músicas, assinaturas ou serviços sem autorização. A licença não garante ausência de reivindicações automatizadas; guardar evidências e tratar qualquer reivindicação com verificação, nunca contestação automática. Se não houver faixa adequada e verificável, documentar a exceção.
+
+## B-roll e fotografia de bancos de imagem: contexto obrigatório
 ## B-roll e fotografia de bancos de imagem: contexto obrigatório
 
 Toda foto/vídeo de banco de imagens deve ter correspondência direta com a fala e com a cena. Não usar imagens bonitas, genéricas ou apenas relacionadas ao tema se não explicarem o que está sendo dito.
