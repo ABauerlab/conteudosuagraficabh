@@ -113,6 +113,10 @@ Aplicação obrigatória:
 - Consultar a licença vigente e a página individual de cada música/asset. Pixabay é a fonte padrão gratuita para trilhas, mas “gratuito” não significa ausência de direitos ou imunidade a Content ID. Guardar evidências de origem/licença e nunca comprar serviços ou músicas sem autorização.
 
 
+## Conteúdo baseado em dores reais do cliente (obrigatório)
+Antes de criar ou aprovar pautas, consultar `DORES-REAIS-CLIENTES.md`. Partir de dúvidas, desejos, objeções e situações concretas de quem compra materiais gráficos. Priorizar orientações úteis sobre economia e desperdício, tipos de papel, gramatura, sangria, margem de segurança, resolução, cores, acabamentos (como fosco versus brilho), aplicações por segmento e decisões de compra. Esses exemplos não são fatos técnicos nem uma lista para repetir: pesquisar cada assunto, validar afirmações com fontes confiáveis e com o CRM/fornecedor quando aplicável. Cada peça deve entregar uma orientação ou descoberta prática, não apenas mencionar a dor. Fazer auditoria semântica para não repetir a mesma explicação em outro formato.
+
+
 ## Diretriz estratégica central: perfil que as pessoas querem acompanhar e que gera vendas
 
 Esta diretriz orienta todas as decisões editoriais e operacionais. O objetivo não é transformar a SUA GRÁFICA BH em um perfil que apenas anuncia produtos, nem acumular visualizações sem valor comercial. Queremos construir um perfil relevante para empreendedores, comerciantes, profissionais e empresas: as pessoas acompanham porque aprendem, encontram ideias, se identificam, se inspiram e confiam na marca. Quando surge uma necessidade gráfica, lembram da SUA GRÁFICA BH e têm um caminho simples para comprar.
@@ -255,3 +259,7 @@ A rotina é incremental e deve seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS
 - O post adicional precisa de copy, contexto, CTA e adaptação por canal. Não usar somente “mais um trabalho pronto” nem inventar cliente, resultado ou depoimento.
 - Definir data de publicação futura compatível com o calendário e a capacidade operacional. Registrar explicitamente como adicional. Não alterar datas/status de conteúdos regulares nem criar agendamento retroativo.
 - Atualizar o ledger somente após registrar o ID, briefing, origem/fingerprint, data planejada e status real. Status de agendamento/publicação depende de confirmação do Postiz.
+
+
+## Tratamento de áudio com preservação da gravação
+Todo áudio deve ser avaliado antes do processamento. Tratar somente problemas reais e de forma moderada para melhorar inteligibilidade, clareza e consistência sem alterar o timbre natural. Comparar original e tratado em volume equivalente; se houver artefatos, voz artificial, sílabas cortadas ou piora, reduzir/reverter. O original nunca deve ser sobrescrito. Aplicar integralmente a seção de tratamento de áudio de `PADROES-DE-EDICAO.md`.
