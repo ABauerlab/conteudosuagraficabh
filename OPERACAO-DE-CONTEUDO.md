@@ -186,3 +186,7 @@ Em toda execução do prompt, Claude deve verificar `Meu Drive/02 - SUA GRÁFICA
 
 ## Comandos curtos de operação
 João não precisa enviar novamente as regras de produção. Exemplos: `Finalize o lote de [datas/IDs].`; `Edite os vídeos [IDs].`; `Produza as artes [IDs].`; `Audite os briefings [IDs].` Claude deve interpretar o tipo de tarefa e seguir `PROMPT-UNICO-CLAUDE.md` como roteador, lendo os documentos especializados aplicáveis. `Finalize o lote` inclui QA, organização, Postiz e atualização dos registros; `Edite` limita-se aos IDs/formato solicitados e não autoriza distribuição por si só.
+
+
+## Execução resiliente: Drive, edição e Postiz MCP
+A operação padrão não depende de navegador aberto nem de links públicos. João grava e envia os brutos ao Drive; Claude acessa pelo Drive MCP, edita e produz todas as peças aptas, faz QA e distribui pelo Postiz MCP conectado. Para limites de tamanho, falhas de transcrição, compatibilidade de CPU, upload e consulta de fila, seguir a árvore de alternativas e checkpoints em EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md. Não solicitar nova credencial ou ação manual antes de verificar as integrações já configuradas. Uma falha deve ser isolada no ID/canal afetado; o restante do lote continua. O Postiz MCP é a interface primária de consulta, upload e agendamento; navegador e APIs paralelas não são o fluxo normal.
