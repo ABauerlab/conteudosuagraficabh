@@ -91,7 +91,7 @@ O comando reutilizável oficial está em `PROMPT-UNICO-CLAUDE.md`. João deve in
 - Texto revisado, legível em celular e fiel ao briefing.
 - Hierarquia, contraste, margens seguras e identidade visual conferidos.
 - Cada slide do carrossel foi aberto e revisado na ordem correta.
-- Cada vídeo foi reproduzido; áudio, cortes, legendas e enquadramento conferidos.
+- Cada vídeo foi reproduzido; cortes, enquadramento, texto na tela e correspondência com o briefing conferidos. Preservar o áudio original, sem transcrição ou processamento.
 - Produtos e informações comerciais confirmados no CRM/Supabase.
 - Direitos e licenças dos assets verificados.
 - CTA, legenda e formato adaptados ao canal.
@@ -121,9 +121,8 @@ O fluxo operacional deve aplicar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` do bri
 
 - O motion deve traduzir a fala em imagem, não ser decoração. Antes da edição, mapear fala, ideia, elemento visual, motivo, duração e movimento por cena. Exigir alinhamento, hierarquia, grid e acabamento comercial.
 - A fonte padrão gratuita para trilhas é o Pixabay, conforme `PADROES-DE-EDICAO.md`. Verificar a página individual e os termos vigentes de cada faixa, registrar evidências e nunca comprar músicas ou serviços sem autorização.
-- Tratar o áudio original de forma moderada e não destrutiva: diagnosticar antes, preservar a voz natural, comparar antes/depois e reverter qualquer processamento que piore o resultado. Aplicar o procedimento detalhado de `PADROES-DE-EDICAO.md`.
 - Fotos e vídeos de bancos devem representar a ação/contexto exatos da fala. Criar microbrief antes de pesquisar, inspecionar o asset e registrar origem/licença. Não usar stock genérico ou que sugira falsamente que a imagem é da empresa. Na Unsplash, conferir restrições e permissões adicionais para pessoas reconhecíveis, marcas e obras retratadas: https://unsplash.com/pt-br/licença e https://unsplash.com/terms.
-- Na revisão, reproduzir o vídeo integralmente e verificar correspondência fala/imagem, qualidade do motion, trilha licenciada, inteligibilidade da voz e pertinência do B-roll. Falha crítica mantém EM REVISÃO.
+- Na revisão, reproduzir o vídeo integralmente e verificar correspondência fala/imagem, qualidade do motion, trilha licenciadae pertinência do B-roll. Falha crítica mantém EM REVISÃO.
 
 
 ## Diretriz permanente: aquisição inteligente, originalidade e autonomia de produção
@@ -150,9 +149,9 @@ Todo novo lote preparado para João gravar deve conter, em cada conteúdo: rotei
 O lote deve vir acompanhado de auditoria antirrepetição, mapa do funil e síntese mostrando como as peças trabalham em conjunto para atrair seguidores qualificados e gerar oportunidades de venda. Não pedir a João que invente direção ou complete roteiro: entregar tudo pronto para gravar.
 
 ### Autonomia total de produção e revisão de Claude
-João entrega os vídeos brutos e materiais disponíveis. A partir daí, Claude é responsável por localizar arquivos, conferir correspondências, editar, criar motion, selecionar B-roll contextual, tratar áudio, inserir trilha permitida, legendar, criar capas, finalizar artes, revisar, corrigir, organizar e agendar/distribuir conforme autorização do lote.
+João entrega os vídeos brutos e materiais disponíveis. A partir daí, Claude é responsável por localizar arquivos, conferir correspondências, editar, criar motion, selecionar B-roll contextual inserir trilha permitida quando prevista, aplicar texto na tela apenas quando o roteiro já fornecer a fala, criar capas, finalizar artes, revisar, corrigir, organizar e agendar/distribuir conforme autorização do lote.
 
-Claude deve fazer sua própria revisão profissional antes de apresentar o resultado. Assistir/reproduzir integralmente cada vídeo final em velocidade normal; revisar cada arte, slide, capa e Story em tamanho real e em visualização de celular; verificar áudio, ortografia, enquadramento, rosto, ritmo, coerência semântica, tempo de leitura do gancho, sincronização, licença, CTA, formato e destino. Corrigir os problemas encontrados e repetir a revisão. Não transferir ao João a tarefa de detectar erros que Claude consegue identificar.
+Claude deve fazer sua própria revisão profissional antes de apresentar o resultado. Assistir/reproduzir integralmente cada vídeo final em velocidade normal; revisar cada arte, slide, capa e Story em tamanho real e em visualização de celular; verificar fala original, ortografia, enquadramento, rosto, ritmo, coerência semântica, tempo de leitura do gancho, sincronização, licença, CTA, formato e destino. Corrigir os problemas encontrados e repetir a revisão. Não transferir ao João a tarefa de detectar erros que Claude consegue identificar.
 
 Não entregar como final uma peça que ainda precise de ajustes evidentes. Não perguntar se João gostou antes de realizar o próprio controle de qualidade. A aprovação individual não é necessária quando a execução foi autorizada e todos os critérios objetivos foram cumpridos. Só escalar problemas que dependam de decisão, gravação, acesso ou autorização de João (bruto ausente/ininteligível, dado comercial sem confirmação, licença/permissão impossível de validar, falha de integração). Agrupar dúvidas indispensáveis em uma única mensagem objetiva; continuar os demais itens aptos.
 
@@ -189,4 +188,4 @@ João não precisa enviar novamente as regras de produção. Exemplos: `Finalize
 
 
 ## Execução resiliente: Drive, edição e Postiz MCP
-A operação padrão não depende de navegador aberto nem de links públicos. João grava e envia os brutos ao Drive; Claude acessa pelo Drive MCP, edita e produz todas as peças aptas, faz QA e distribui pelo Postiz MCP conectado. Para limites de tamanho, falhas de transcrição, compatibilidade de CPU, upload e consulta de fila, seguir a árvore de alternativas e checkpoints em EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md. Não solicitar nova credencial ou ação manual antes de verificar as integrações já configuradas. Uma falha deve ser isolada no ID/canal afetado; o restante do lote continua. O Postiz MCP é a interface primária de consulta, upload e agendamento; navegador e APIs paralelas não são o fluxo normal.
+A operação padrão não depende de navegador aberto nem de links públicos. João grava e envia os brutos ao Drive; Claude acessa pelo Drive MCP, edita os vídeos de forma objetiva, produz artes, faz QA e distribui pelo Postiz MCP conectado. Não executar transcrição, Whisper ou qualquer processamento/melhoria de áudio; preservar a faixa original. Priorizar edição rápida, consistente e profissional, sem criar etapas técnicas que não agreguem valor. Não solicitar nova credencial ou ação manual antes de verificar as integrações já configuradas. Uma falha deve ser isolada no ID/canal afetado; o restante do lote continua. O Postiz MCP é a interface primária de consulta, upload e agendamento.
