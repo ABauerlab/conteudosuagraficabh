@@ -66,6 +66,7 @@ const Presenter: React.FC<{data: ReelData; t: number}> = ({data, t}) => {
     >
       <OffthreadVideo
         src={staticFile(`media/${data.video}`)}
+        startFrom={Math.round(data.start * FPS)}
         style={{position: 'absolute', left, top, width: W * k, height: H * k}}
       />
     </div>
@@ -100,7 +101,7 @@ const Hook: React.FC<{b: Extract<Beat, {kind: 'hook'}>; t: number}> = ({b, t}) =
   const o = window01(t, b.from, b.to, 0.2);
   if (o <= 0) return null;
   return (
-    <div style={{position: 'absolute', left: 70, right: 70, top: 1010, zIndex: 8, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 14, opacity: o}}>
+    <div style={{position: 'absolute', left: 70, right: 70, top: 200, zIndex: 8, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 14, opacity: o}}>
       {b.lines.map((line, i) => {
         const s = spring({frame: Math.round((t - b.from) * fps) - i * 5, fps, config: {damping: 14, stiffness: 140}});
         const words = line.split(' ');
@@ -114,7 +115,7 @@ const Hook: React.FC<{b: Extract<Beat, {kind: 'hook'}>; t: number}> = ({b, t}) =
               color: C.preto,
               fontFamily: INTER,
               fontWeight: 900,
-              fontSize: 66,
+              fontSize: 58,
               letterSpacing: '-0.02em',
               lineHeight: 1.05,
               padding: '14px 26px',
@@ -143,7 +144,7 @@ const KeyWord: React.FC<{b: Extract<Beat, {kind: 'word'}>; t: number}> = ({b, t}
   const s = spring({frame: Math.round((t - b.from) * fps), fps, config: {damping: 11, stiffness: 160}});
   const bg = b.color ?? C.amarelo;
   return (
-    <div style={{position: 'absolute', left: 0, right: 0, top: b.y ?? 1120, display: 'flex', justifyContent: 'center', zIndex: 8, opacity: o}}>
+    <div style={{position: 'absolute', left: 0, right: 0, top: b.y ?? 330, display: 'flex', justifyContent: 'center', zIndex: 8, opacity: o}}>
       <div
         style={{
           transform: `scale(${0.6 + 0.4 * s}) rotate(${(1 - s) * -4}deg)`,
@@ -341,7 +342,8 @@ const Captions: React.FC<{caps: Caption[]; t: number}> = ({caps, t}) => {
 
 /* ---------------- Assinatura discreta ---------------- */
 const Signature: React.FC<{t: number; data: ReelData}> = ({t, data}) => {
-  const panelOn = data.beats.some((b) => b.kind === 'panel' && t >= b.from - 0.3 && t <= b.to + 0.3);
+  // Some durante cenas de motion, gancho e palavras-chave (mesma área superior).
+  const panelOn = data.beats.some((b) => (b.kind === 'panel' || b.kind === 'hook' || b.kind === 'word') && t >= b.from - 0.3 && t <= b.to + 0.3);
   return (
     <Img
       src={staticFile('brand/sua_grafica_bh_logo_horizontal_colorido_fundo_claro.png')}

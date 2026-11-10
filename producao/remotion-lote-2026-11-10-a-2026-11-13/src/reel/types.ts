@@ -30,7 +30,8 @@ export type Beat =
 
 export type ReelData = {
   id: string;
-  video: string; // arquivo em public/media
+  video: string; // arquivo em public/media (cópia de trabalho do bruto)
+  start: number; // segundos cortados do início do bruto (silêncio antes da primeira fala)
   duration: number; // segundos da montagem
   tail: number; // segundos extras de encerramento
   face: {x: number; y: number}; // âncora do rosto no quadro 1080x1920
