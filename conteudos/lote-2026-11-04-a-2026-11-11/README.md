@@ -21,6 +21,7 @@
 ### Feed
 - SG-003, SG-009, SG-015, SG-021
 - SG-027, SG-033, SG-039, SG-045
+- ADICIONAIS (impressões prontas): SG-049 (12/11, tags) e SG-050 (13/11, cartão de visita)
 
 ### Stories
 - SG-004 a SG-006
@@ -33,3 +34,14 @@
 - SG-046 a SG-048
 
 A distribuição efetiva só deve ser marcada como agendada/publicada após confirmação no Postiz. Cada Story deve ter status individual, inclusive quando a plataforma exigir publicação manual/notificação.
+
+## Etapa 2: SG-025 a SG-048 (10 a 13/11)
+Ver `AUDITORIA-SG-025-a-SG-048.md` e a tabela com IDs de post do Postiz em `CALENDARIO.md`. Temas de Feed e Stories: 10/11 cartão fidelidade, 11/11 calendário 2027 como brinde, 12/11 cardápio, 13/11 tag de roupa.
+
+| ID | Data | Formato | Status (09/11/2026) |
+|---|---|---|---|
+| SG-027, SG-033, SG-039, SG-045 | 10 a 13/11 | Carrossel | AGENDADO/CONFIRMADO no Postiz: Instagram, Facebook e Threads |
+| SG-028 a 030, 034 a 036, 040 a 042, 046 a 048 | 10 a 13/11 | Story | AGENDADO/CONFIRMADO no Instagram; Facebook PENDENTE DE RECURSO DE PLATAFORMA |
+| SG-025, 026, 031, 032, 037, 038, 043, 044 | 10 a 13/11 | Reel | EDITADOS em 10/11 e AGENDADOS/CONFIRMADOS no Postiz (IG, FB, Threads). SG-025 reencaixado para 10/11 21:00 BRT. Ver CALENDARIO.md |
+| SG-049 | 12/11 | Post estático ADICIONAL | AGENDADO/CONFIRMADO 16:30 BRT (IG, FB, Threads) |
+| SG-050 | 13/11 | Post estático ADICIONAL | AGENDADO/CONFIRMADO 16:30 BRT (IG, FB, Threads) |

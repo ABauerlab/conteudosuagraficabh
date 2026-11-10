@@ -1,0 +1,10 @@
+import type {ReelData} from '../reel/types';
+import {SG025} from './SG-025';
+import {SG026} from './SG-026';
+import {SG031} from './SG-031';
+import {SG032} from './SG-032';
+import {SG037} from './SG-037';
+import {SG038} from './SG-038';
+import {SG043} from './SG-043';
+import {SG044} from './SG-044';
+export const reels: ReelData[] = [SG025, SG026, SG031, SG032, SG037, SG038, SG043, SG044];
