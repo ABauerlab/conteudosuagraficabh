@@ -1,5 +1,11 @@
 # Comando operacional curto | Claude Code | SUA GRÁFICA BH
 
+# Repositório oficial e fonte de instruções
+
+**Repositório GitHub:** https://github.com/ABauerlab/conteudosuagraficabh
+
+Antes de executar qualquer comando, confirme que está trabalhando neste repositório. Atualize a referência da branch `main` com segurança, preserve alterações locais e leia as instruções vigentes diretamente dos arquivos do projeto. A `main` é a fonte oficial das regras operacionais; não usar cópias antigas, prompts salvos fora do repositório ou instruções de branches desatualizadas como referência principal. Se o repositório não estiver disponível no ambiente local, clone-o para o workspace autorizado ou solicite apenas o acesso que realmente estiver faltando. Nunca presumir que uma versão local está atualizada.
+
 Este arquivo é a porta de entrada para executar tarefas. **O comando enviado por João define somente a tarefa, o escopo e os IDs. Todos os requisitos de pesquisa, estratégia, conteúdo, identidade, edição, QA, distribuição, segurança e organização estão documentados no repositório e devem ser consultados automaticamente.** Não exigir que João copie novamente essas regras em cada solicitação.
 
 ## Comandos que João pode usar
