@@ -50,3 +50,32 @@ Datas: os briefings indicavam 08 a 11/11, mas o calendário vigente (`CALENDARIO
 ## Para desbloquear
 1. **Brutos:** adicionar os 8 MP4 ao repositório via Git LFS, em `midia/videos-brutos/` (rota já documentada no README da pasta), **ou** compartilhar temporariamente `02 - GRAVADOS` como “qualquer pessoa com o link”, para download direto.
 2. **Postiz:** criar uma chave da API pública em Postiz (Configurações → API) e salvá-la como segredo de rede do ambiente para o host `postiz.bauerlab.com.br`, no header `Authorization` **sem** prefixo. Com ela é possível subir as mídias, checar duplicidade e agendar.
+
+## Execução de 10/11/2026 (terceira execução): Reels e adicionais
+Comando: “Finalize o lote SG-025 a SG-048”. Feed e Stories já estavam agendados desde 09/11 e foram preservados (nenhum reenvio). Uma sessão local paralela que rodava transcrição na pasta CONTEÚDOS foi sinalizada a João; a partir daí esta sessão assumiu o lote (decisão de João).
+
+### Acessos
+- Brutos: lidos pelo computador de João (Drive sincronizado), copiados para o ambiente sem alterar os originais. Os 8 brutos são HEVC 1080x1920, 32,6 a 35,5 s, tomada única, sem objetos de apoio (as ações de captação com folhas/post-its não foram gravadas; o apoio visual veio do motion).
+- Brand Kit oficial: logotipos horizontais, faixa CMYK, fundo gradiente, canto de círculos e ícones coloridos, usados sem alteração.
+- Postiz: integrações IG, FB e Threads da SUA GRÁFICA BH. A leitura da fila (`ask_postiz`) continua falhando no servidor; a duplicidade foi controlada pelos registros do repositório (nenhum Reel destes IDs havia sido enviado). Mídia por URL raw do GitHub (cópias de distribuição em `midia/exports/...`), rota autorizada por João em 10/11/2026.
+
+### Edição dos 8 Reels
+- Projeto-fonte React + Remotion (`producao/remotion-lote-2026-11-10-a-2026-11-13/`), um mapa fala → motion por Reel em `src/data/`, gerado por `scripts/gen.py`.
+- **Sem transcrição e sem processamento de áudio** (PROMPT-UNICO-CLAUDE.md). O teleprompter foi distribuído pela fala real usando só a detecção de pausas e a contagem de sílabas; a taxa medida (6,1 a 6,9 sílabas/s em todos) é compatível com a leitura do roteiro integral. Corte apenas do silêncio inicial (0,3 a 0,6 s) e final; a fala, incluindo o CTA final, não foi cortada.
+- Legendas Montserrat, uma linha: SG-026, 031, 037 e 043 (finais de frase ancorados em pausas reais). **Omitidas** em SG-025, 032, 038 e 044: fala contínua sem pausas suficientes para garantir a sincronia; o motion tipográfico foi mantido.
+- Motion por bloco de fala: gancho em texto nos primeiros 2,6 s (acima do rosto), cenas de lista, passos, comparação, afirmação e risco (strike), palavras-chave, punch-ins motivados e cena de CTA com logotipo. O apresentador vai para janela circular nas cenas, rosto sempre visível.
+- Trilha Pixabay a volume 0,07 sob a voz (registro em `TRILHAS-PIXABAY.md`). Duas das três faixas aparecem como “AI generated” no Pixabay; licença conferida em 09/11.
+- Capas: as artes originais produzidas em 09/11 (não são frames do vídeo).
+
+### QA realizado
+- Cada export: 1080x1920, H.264/AAC, 30 fps, duração 33,1 a 36,0 s; nível médio de áudio igual ao do bruto (±0,1 dB), confirmando voz preservada e trilha abaixo dela.
+- Folha de quadros a cada 1 s de cada Reel revisada. Problemas encontrados e corrigidos antes de aprovar: gancho sobreposto à primeira cena (SG-025/031), palavra-chave invadindo a transição para cena, itens de strike/afirmação colados na mesma linha, ganchos quebrando palavra no meio (SG-031/038/043) e palavra-chave longa saindo da tela (SG-044).
+- **Limite declarado:** esta sessão não ouve áudio. Fala e CTA foram conferidos por métricas (pausas, taxa silábica, nível), não por escuta. Recomenda-se assistir a um Reel com som antes do primeiro horário.
+
+### Distribuição confirmada (IDs retornados pelo Postiz)
+Ver tabela em `CALENDARIO.md`. 24 publicações de Reels (8 IDs x IG, FB, Threads) e 6 dos adicionais SG-049/SG-050 (16:30 BRT de 12 e 13/11). SG-025 reencaixado para 10/11 21:00 BRT (00:00 UTC de 11/11), horário aprovado por João, porque o slot das 08:00 já tinha passado.
+
+### Pendências
+- Capas dos Reels não foram anexadas no Postiz (o conector não oferece campo de capa); escolher a capa manualmente no Instagram se desejado.
+- Facebook Story continua sem suporte no conector (Stories só no Instagram).
+- Leitura da fila do Postiz indisponível (chave OpenAI do agente de consulta ausente no servidor).

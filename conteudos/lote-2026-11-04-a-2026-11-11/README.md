@@ -42,6 +42,6 @@ Ver `AUDITORIA-SG-025-a-SG-048.md` e a tabela com IDs de post do Postiz em `CALE
 |---|---|---|---|
 | SG-027, SG-033, SG-039, SG-045 | 10 a 13/11 | Carrossel | AGENDADO/CONFIRMADO no Postiz: Instagram, Facebook e Threads |
 | SG-028 a 030, 034 a 036, 040 a 042, 046 a 048 | 10 a 13/11 | Story | AGENDADO/CONFIRMADO no Instagram; Facebook PENDENTE DE RECURSO DE PLATAFORMA |
-| SG-025, 026, 031, 032, 037, 038, 043, 044 | 10 a 13/11 | Reel | Capa PRODUZIDA; edição PENDENTE (transcrição bloqueada pela permissão do ambiente) |
-| SG-049 | 12/11 | Post estático ADICIONAL | APROVADA; horário a definir |
-| SG-050 | 13/11 | Post estático ADICIONAL | APROVADA; horário a definir |
+| SG-025, 026, 031, 032, 037, 038, 043, 044 | 10 a 13/11 | Reel | EDITADOS em 10/11 e AGENDADOS/CONFIRMADOS no Postiz (IG, FB, Threads). SG-025 reencaixado para 10/11 21:00 BRT. Ver CALENDARIO.md |
+| SG-049 | 12/11 | Post estático ADICIONAL | AGENDADO/CONFIRMADO 16:30 BRT (IG, FB, Threads) |
+| SG-050 | 13/11 | Post estático ADICIONAL | AGENDADO/CONFIRMADO 16:30 BRT (IG, FB, Threads) |
