@@ -46,26 +46,9 @@ Ordem de acesso:
 
 Preservar o original. Baixar para pasta de trabalho identificada por lote/SG, validar tamanho e, quando possível, checksum. Não sobrescrever nem mover o bruto original.
 
-## 3. Transcrição e compatibilidade de CPU
+## 3. Áudio e velocidade de edição
+Não executar transcrição, Whisper, diarização ou qualquer processamento/melhoria de áudio. Não instalar ferramentas, baixar modelos, compilar binários ou usar serviços externos para essas tarefas. Preservar a faixa de áudio original exatamente como recebida. Não fazer denoise, equalização, compressão, normalização, restauração ou tratamento automático. Legendas não são bloqueio: usar o teleprompter/roteiro já fornecido somente quando corresponder claramente à fala; se houver divergência, não inventar transcrição nem atrasar a edição. Omitir legendas duvidosas e seguir com o vídeo. Priorizar cortes visuais, ritmo, motion objetivo, capa e exportação. Se o áudio original estiver incompreensível, sinalizar somente aquele ID e continuar o restante do lote.
 
-Transcrição serve para conferir o que foi realmente falado e sincronizar legendas. Não pode virar bloqueio global de todo o lote.
-
-Ordem de tentativa:
-
-1. Reutilizar ferramenta/modelo de transcrição já instalado e funcional.
-2. Detectar CPU e recursos suportados antes de escolher binário. Não presumir AVX2. Em processadores sem AVX2, selecionar build compatível com a arquitetura (por exemplo, baseline/SSE/AVX apropriado) ou compilar a ferramenta a partir do código-fonte oficial com flags compatíveis, se os compiladores já estiverem disponíveis.
-3. Para Whisper local, começar por modelo multilíngue leve (tiny ou base) para validar o fluxo e o idioma; só aumentar o modelo se a qualidade estiver insuficiente. Não baixar automaticamente modelos gigantes (por exemplo, 1,5 GB) antes de testar uma opção menor.
-4. Se o download do modelo for interrompido, retomar do ponto existente quando suportado; não apagar e reiniciar nem manter processos em espera indefinida.
-5. Se a execução automática bloquear um binário baixado, não repetir downloads da mesma build. Preferir ferramenta já instalada ou build reproduzível a partir de fonte oficial. Validar origem e checksum quando fornecidos.
-6. Se houver serviço de transcrição externo já autorizado e configurado, confirmar que o uso e o envio de gravações estão cobertos pela autorização existente. Não enviar vídeos privados a serviço novo nem criar conta/chave sem autorização.
-
-Após transcrever, comparar a transcrição com o teleprompter/briefing e ouvir trechos relevantes. Corrigir nomes, números, negações, CTA e palavras que mudem o sentido. Não usar o roteiro como se fosse transcrição literal sem conferência.
-
-Se nenhum método de transcrição funcionar:
-- Continuar artes, carrosséis, Stories, organização e distribuição dos itens já aprovados.
-- Para cada Reel, tentar revisão por reprodução/escuta em blocos menores com as ferramentas disponíveis.
-- Não inventar fala nem sincronizar legenda por estimativa. Se não for possível confirmar o texto falado, marcar somente aquele Reel como PENDENTE DE TRANSCRIÇÃO, registrar o motivo e seguir os demais.
-- Não transformar essa pendência localizada em motivo para interromper o lote inteiro.
 
 ## 4. Edição de vídeo e execução por etapas
 
@@ -77,7 +60,7 @@ Antes de instalar qualquer pacote, modelo ou binário:
 4. Renderizar em lotes pequenos, salvar logs e validar saída antes de avançar.
 5. Se Remotion falhar, diagnosticar a causa e corrigir; não trocar automaticamente por um fluxo opaco que descarte a fonte JS/TS.
 6. Se um efeito, asset ou dependência não funcionar, substituir por solução visual equivalente e fiel à fala. Não inserir elementos genéricos apenas para preencher.
-7. Tratar áudio conforme PADROES-DE-EDICAO.md: diagnóstico primeiro, processamento moderado, A/B em volume equivalente, preservar a voz natural e reverter o que piorar.
+7. Preservar o áudio original sem processamento.
 
 Não manter downloads ou renders longos sem checkpoint. Não deixar um processo em segundo plano sem registrar PID/saída, finalidade e forma de retomada.
 
@@ -140,7 +123,7 @@ Campos mínimos:
 - lote e IDs do escopo;
 - branch e último commit;
 - arquivos brutos encontrados/baixados e método;
-- status de transcrição por Reel;
+- status de edição por Reel;
 - status de edição/render por Reel;
 - artes produzidas e QA;
 - mídias enviadas ao Postiz e IDs/URLs retornados;
@@ -151,7 +134,7 @@ Campos mínimos:
 Ao retomar:
 1. Ler o estado e o último commit antes de agir.
 2. Verificar se os arquivos e agendamentos já existem.
-3. Reutilizar downloads, transcrições, renders e uploads válidos.
+3. Reutilizar downloads, renders e uploads válidos.
 4. Não repetir uploads/agendamentos já confirmados.
 5. Continuar do primeiro item incompleto.
 6. Não recomeçar o lote por causa de limite de contexto, sessão ou ferramenta.
@@ -164,7 +147,7 @@ Só escalar quando a ação realmente depender do responsável:
 - acesso/credencial inexistente ou revogada, depois de verificar as conexões existentes;
 - conflito de calendário que não possa ser resolvido pelas regras já aprovadas.
 
-Não pedir login no navegador, link público, instalação de ferramenta, transcrição manual, escolha de trilha, revisão básica ou geração de chave se Claude puder resolver com os recursos conectados.
+Não pedir login no navegador, link público, instalação de ferramenta, escolha de trilha, revisão básica ou geração de chave se Claude puder resolver com os recursos conectados.
 
 Se houver bloqueio real, informar o ID afetado, a evidência, o que já foi tentado, o impacto e a única ação necessária. Continuar o restante do lote.
 
