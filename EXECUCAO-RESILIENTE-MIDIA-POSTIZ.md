@@ -163,3 +163,18 @@ O lote só é concluído quando todos os IDs do escopo estão classificados e to
 - publicado.
 
 O relatório final deve ser curto, com contagens, links/caminhos reais, IDs de agendamento, destinos confirmados e bloqueios restantes. Nunca chamar “agendado” de “publicado” nem “upload” de “agendamento”.
+
+## 11. Modo rápido: qualidade sem burocracia
+
+O objetivo é entregar vídeos e artes bons, consistentes e prontos para publicar com o menor tempo operacional possível.
+
+- Reutilizar templates, componentes, fontes, presets visuais e estruturas já aprovados. Não reconstruir pipeline, motor de motion ou identidade a cada lote.
+- Priorizar cortes objetivos, ritmo, enquadramento, textos curtos na tela, imagens de apoio pertinentes e uma capa clara. Motion deve explicar ou valorizar a mensagem, sem animações complexas por obrigação.
+- Não criar storyboard técnico, mapa de transcrição, análise de waveform, render de teste excessivo ou etapas que não alterem materialmente a qualidade final.
+- Não executar transcrição, Whisper, geração automática de legendas ou revisão de fala por ferramenta. Usar o roteiro fornecido apenas se ele corresponder claramente ao vídeo; caso contrário, omitir legendas duvidosas.
+- Não processar o áudio original em hipótese alguma. Preservar a faixa como recebida. Não denoise, EQ, compressão, normalização, limiter, restauração ou comparação antes/depois.
+- Não instalar dependências ou baixar modelos para tarefas de áudio. Não esperar downloads. Se uma ferramenta opcional falhar, substituí-la por uma solução visual simples já disponível e continuar.
+- Fazer uma revisão final objetiva: assistir ao vídeo, conferir cortes, texto, enquadramento, capa, formato e reprodução; corrigir erros evidentes sem transformar QA em uma nova etapa de produção.
+- Quando houver conflito entre refinamento opcional e prazo, escolher a solução mais simples que cumpra o padrão profissional e seguir para o próximo ID.
+
+**Definição de pronto:** vídeo visualmente bem editado, fala original preservada, texto/capa corretos, export válido e pronto para Postiz. Não exigir transcrição nem tratamento de áudio como gate de aprovação.
