@@ -8,4 +8,9 @@ Download em 09/11/2026, direto do CDN oficial do Pixabay a partir da página ind
 | kulakovka-corporate-background-609167.mp3 | Corporate Background | Kulakovka | https://pixabay.com/music/corporate-corporate-background-609167/ | 2:18 | 56d35d3f8f17a451 | — |
 | alex-morgan-light-airy-soft-daylight-578475.mp3 | Light Airy Soft Daylight | alex-morgan | https://pixabay.com/music/soft-house-light-airy-soft-daylight-578475/ | 1:27 | d8c604c3a539c5ef | Página marcada "AI generated" |
 
-Uso: **nenhuma faixa foi usada ainda**, porque os Reels não foram montados (ver auditoria). Os arquivos ficam em `02 - EM EDIÇÃO/_trilhas-pixabay/` no Drive e não são publicados isoladamente.
+Uso (10/11/2026): faixas incorporadas como fundo discreto (volume 0,07 sob a voz, fade de entrada e saída), nunca publicadas isoladamente.
+- kulakovka-corporate-background-609167.mp3: SG-025, SG-032, SG-043
+- the_mountain-corporate-background-576564.mp3: SG-026, SG-037, SG-044
+- alex-morgan-light-airy-soft-daylight-578475.mp3: SG-031, SG-038
+
+Os arquivos ficam em `02 - EM EDIÇÃO/_trilhas-pixabay/` no Drive e em `public/music/` (não versionado).

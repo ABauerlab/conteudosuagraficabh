@@ -152,8 +152,11 @@ const KeyWord: React.FC<{b: Extract<Beat, {kind: 'word'}>; t: number}> = ({b, t}
           color: bg === C.amarelo ? C.preto : C.branco,
           fontFamily: INTER,
           fontWeight: 900,
-          fontSize: 84,
+          fontSize: b.text.length > 14 ? 64 : 84,
           letterSpacing: '-0.02em',
+          maxWidth: 940,
+          textAlign: 'center',
+          lineHeight: 1.05,
           padding: '12px 34px',
           borderRadius: 18,
           boxShadow: '0 14px 40px rgba(0,0,0,.3)',
@@ -245,7 +248,7 @@ const Panel: React.FC<{b: Extract<Beat, {kind: 'panel'}>; t: number}> = ({b, t})
           const strike = b.variant === 'strike' && i < (b.items?.length ?? 0) - 1;
           const cut = interpolate(t, [it.at + 0.5, it.at + 0.85], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
           return (
-            <div key={i} style={{position: 'relative', display: 'inline-block', marginBottom: 18, marginRight: 18, transform: `scale(${0.7 + 0.3 * s})`, opacity: s, transformOrigin: 'left center'}}>
+            <div key={i} style={{position: 'relative', display: 'table', marginBottom: 18, transform: `scale(${0.7 + 0.3 * s})`, opacity: s, transformOrigin: 'left center'}}>
               <span
                 style={{
                   fontFamily: INTER,

@@ -31,7 +31,7 @@ export const SG044: ReelData = {
   {
    "kind": "word",
    "from": 3.07,
-   "to": 5.359999999999999,
+   "to": 5.22,
    "text": "Improviso = problema",
    "color": "#E6007E"
   },
@@ -92,7 +92,7 @@ export const SG044: ReelData = {
   {
    "kind": "word",
    "from": 24.86,
-   "to": 28.99,
+   "to": 28.49,
    "text": "Consistência",
    "color": "#00A6D6"
   },

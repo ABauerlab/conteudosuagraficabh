@@ -139,7 +139,8 @@ export const SG043: ReelData = {
    "to": 2.6,
    "lines": [
     "Muitos erros se evitam",
-    "com uma aprovação bem feita."
+    "com uma aprovação",
+    "bem feita."
    ],
    "mark": "aprovação"
   },
@@ -147,7 +148,7 @@ export const SG043: ReelData = {
    "kind": "panel",
    "variant": "statement",
    "theme": "escuro",
-   "from": -0.08000000000000002,
+   "from": 3.1,
    "to": 5.88,
    "items": [
     {
@@ -224,7 +225,7 @@ export const SG043: ReelData = {
   {
    "kind": "word",
    "from": 27.82,
-   "to": 30.7,
+   "to": 30.2,
    "text": "Menos retrabalho",
    "color": "#00A6D6"
   },

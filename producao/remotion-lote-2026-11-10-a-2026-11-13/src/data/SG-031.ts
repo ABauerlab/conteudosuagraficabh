@@ -144,7 +144,8 @@ export const SG031: ReelData = {
    "to": 2.6,
    "lines": [
     "A mesma mensagem não",
-    "funciona igual para todo mundo."
+    "funciona igual",
+    "para todo mundo."
    ],
    "mark": "todo"
   },
@@ -152,7 +153,7 @@ export const SG031: ReelData = {
    "kind": "panel",
    "variant": "list",
    "theme": "claro",
-   "from": 1.47,
+   "from": 3.1,
    "to": 8.37,
    "title": "Cada público lê diferente",
    "items": [
@@ -194,12 +195,6 @@ export const SG031: ReelData = {
      "at": 11.28
     }
    ]
-  },
-  {
-   "kind": "word",
-   "from": 14.17,
-   "to": 15.1,
-   "text": "Antes de criar"
   },
   {
    "kind": "panel",

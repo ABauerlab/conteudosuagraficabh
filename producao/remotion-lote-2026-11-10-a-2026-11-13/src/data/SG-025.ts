@@ -26,7 +26,7 @@ export const SG025: ReelData = {
    "kind": "panel",
    "variant": "strike",
    "theme": "claro",
-   "from": 2.3499999999999996,
+   "from": 3.1,
    "to": 6.49,
    "title": "Não precisa de:",
    "items": [
@@ -79,7 +79,7 @@ export const SG025: ReelData = {
   {
    "kind": "word",
    "from": 18.42,
-   "to": 19.8,
+   "to": 19.37,
    "text": "Com intenção",
    "color": "#00A6D6"
   },
@@ -106,7 +106,7 @@ export const SG025: ReelData = {
   },
   {
    "kind": "word",
-   "from": 25.66,
+   "from": 26.06,
    "to": 30.64,
    "text": "Tire 1 elemento",
    "color": "#E6007E"
@@ -120,7 +120,7 @@ export const SG025: ReelData = {
   {
    "kind": "word",
    "from": 31.84,
-   "to": 33.21,
+   "to": 32.61,
    "text": "Simplificar"
   },
   {

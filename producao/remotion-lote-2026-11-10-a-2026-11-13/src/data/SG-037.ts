@@ -152,7 +152,7 @@ export const SG037: ReelData = {
    "kind": "panel",
    "variant": "steps",
    "theme": "claro",
-   "from": 1.53,
+   "from": 3.1,
    "to": 6.58,
    "title": "Antes do editor, anote",
    "items": [
@@ -179,7 +179,7 @@ export const SG037: ReelData = {
   {
    "kind": "word",
    "from": 7.67,
-   "to": 12.08,
+   "to": 11.48,
    "text": "Formato + local"
   },
   {
@@ -239,7 +239,7 @@ export const SG037: ReelData = {
   {
    "kind": "word",
    "from": 21.8,
-   "to": 24.37,
+   "to": 24.15,
    "text": "Olhar de fora",
    "color": "#E6007E"
   },

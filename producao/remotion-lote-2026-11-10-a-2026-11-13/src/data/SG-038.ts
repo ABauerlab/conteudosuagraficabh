@@ -17,8 +17,9 @@ export const SG038: ReelData = {
    "from": 0,
    "to": 2.6,
    "lines": [
-    "O menor orçamento nem sempre",
-    "é a necessidade certa."
+    "O menor orçamento",
+    "nem sempre responde",
+    "à necessidade certa."
    ],
    "mark": "certa."
   },
@@ -31,7 +32,7 @@ export const SG038: ReelData = {
   {
    "kind": "word",
    "from": 2.75,
-   "to": 4.1,
+   "to": 3.4,
    "text": "Não só o valor",
    "color": "#E6007E"
   },
@@ -63,8 +64,8 @@ export const SG038: ReelData = {
   },
   {
    "kind": "word",
-   "from": 11.75,
-   "to": 15.87,
+   "from": 12.15,
+   "to": 15.27,
    "text": "Mesma coisa?",
    "color": "#00A6D6"
   },

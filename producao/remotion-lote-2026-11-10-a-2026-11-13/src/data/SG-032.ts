@@ -26,7 +26,7 @@ export const SG032: ReelData = {
    "kind": "panel",
    "variant": "compare",
    "theme": "claro",
-   "from": -0.08000000000000002,
+   "from": 3.1,
    "to": 7.16,
    "title": "Não é a mesma coisa",
    "left": {
@@ -57,7 +57,7 @@ export const SG032: ReelData = {
   {
    "kind": "word",
    "from": 8.7,
-   "to": 10.700000000000001,
+   "to": 10.25,
    "text": "Todo dia, e dúvidas",
    "color": "#E6007E"
   },
