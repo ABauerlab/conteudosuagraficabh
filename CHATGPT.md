@@ -369,4 +369,4 @@ João autorizou reiniciar a sequência após apagar a pasta do lote anterior dir
 
 
 ## Dores reais e áudio na execução
-Toda pauta, roteiro ou conteúdo deve responder a uma necessidade concreta do público comprador e entregar uma orientação prática, conforme `DORES-REAIS-CLIENTES.md`. Não repetir explicações apenas mudando gancho ou formato. Em vídeos, tratar o áudio com moderação, preservar a voz original e comparar antes/depois; se o processamento piorar a gravação, reverter. Seguir `PADROES-DE-EDICAO.md`.
+Toda pauta, roteiro ou conteúdo deve responder a uma necessidade concreta do público comprador e entregar uma orientação prática, conforme DORES-REAIS-CLIENTES.md. Não repetir explicações apenas mudando gancho ou formato. Na edição, preservar o áudio original sem transcrição ou processamento/melhoria de áudio. Priorizar uma finalização rápida, consistente e profissional.

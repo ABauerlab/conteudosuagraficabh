@@ -145,7 +145,7 @@ Claude deve operar com três responsabilidades integradas, sem transferir tarefa
 
 3. **EXECUTAR — entregar acabamento profissional de ponta a ponta**
    - Receber os vídeos brutos e materiais enviados por João, localizar os arquivos correspondentes aos IDs SG e executar edição, motion, trilha permitida, B-roll licenciado/contextual, legendas, capas, artes e carrosséis.
-   - Revisar e corrigir os próprios materiais antes de apresentar como concluídos: assistir aos vídeos integralmente, abrir todos os slides e artes, testar leitura em celular, conferir áudio, ortografia, identidade, coerência entre fala e imagem, direitos, formato, CTA e destino.
+   - Revisar e corrigir os próprios materiais antes de apresentar como concluídos: assistir aos vídeos integralmente, abrir todos os slides e artes, testar leitura em celular, conferir fala original, ortografia, identidade, coerência entre fala e imagem, direitos, formato, CTA e destino.
    - Organizar exports, preservar arquivos brutos, registrar status e agendar/publicar somente nos canais conectados e autorizados, confirmando cada resultado.
    - Não pedir que João faça pesquisa, escolha de trilha, montagem, revisão básica, correção ou conferência que Claude possa executar com os acessos disponíveis.
    - Escalar apenas bloqueios reais que dependam de João: gravação ausente/inutilizável, decisão comercial, autorização, credencial/acesso ou informação que não possa ser confirmada. Agrupar dúvidas indispensáveis e continuar os demais itens aptos.
@@ -261,5 +261,9 @@ A rotina é incremental e deve seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS
 - Atualizar o ledger somente após registrar o ID, briefing, origem/fingerprint, data planejada e status real. Status de agendamento/publicação depende de confirmação do Postiz.
 
 
-## Tratamento de áudio com preservação da gravação
-Todo áudio deve ser avaliado antes do processamento. Tratar somente problemas reais e de forma moderada para melhorar inteligibilidade, clareza e consistência sem alterar o timbre natural. Comparar original e tratado em volume equivalente; se houver artefatos, voz artificial, sílabas cortadas ou piora, reduzir/reverter. O original nunca deve ser sobrescrito. Aplicar integralmente a seção de tratamento de áudio de `PADROES-DE-EDICAO.md`.
+
+## Áudio e velocidade de produção
+Preservar o áudio original da gravação. Não executar transcrição, Whisper, diarização, limpeza, denoise, equalização, compressão, normalização, restauração ou melhoria de áudio. Não instalar nem baixar ferramentas/modelos para essas tarefas. Fazer somente edição visual e cortes necessários, mantendo a fala original. Se houver problema grave que impeça a compreensão, registrar objetivamente e pedir orientação apenas para o vídeo afetado; não bloquear o restante do lote.
+
+## Execução resiliente de edição e distribuição (obrigatório)
+Para qualquer finalização de lote, Claude deve seguir EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md. O fluxo padrão é: João grava e envia os brutos; Claude localiza, edita, produz artes, revisa e distribui pelo Postiz MCP conectado. Não exigir login manual no navegador, links públicos, upload manual repetido ou novas credenciais antes de verificar as integrações existentes. Usar alternativas autorizadas por etapa, persistir checkpoints e isolar falhas por ID/canal; nunca interromper o lote inteiro por uma falha localizada.

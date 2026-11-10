@@ -39,6 +39,7 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - [PRODUCAO-DE-VIDEOS.md](PRODUCAO-DE-VIDEOS.md): regras de roteiro e referências.
 - [PADROES-DE-EDICAO.md](PADROES-DE-EDICAO.md): direção de edição e qualidade.
 - [OPERACAO-DE-CONTEUDO.md](OPERACAO-DE-CONTEUDO.md): fluxo simples e comando para Claude.
+- [EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md](EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md): procedimento de fallback para Drive, edição rápida, upload e agendamento via Postiz MCP, com checkpoints e retomada.
 - [ANALISE-DE-DESEMPENHO.md](ANALISE-DE-DESEMPENHO.md): métricas e melhoria contínua.
 - [REFERENCIAS.md](REFERENCIAS.md): fontes audiovisuais.
 - [CALENDARIO.md](CALENDARIO.md): fila e status.

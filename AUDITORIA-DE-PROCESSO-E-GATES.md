@@ -48,12 +48,12 @@ Aceite: Claude consegue executar sem inventar copy, roteiro, dados, cena ou dire
 Conferir ID, correspondência com briefing, integridade, áudio, orientação, enquadramento e inteligibilidade. Preservar brutos. Bloquear somente o ID sem material essencial e registrar a ação necessária.
 
 ## Gate 5 — Edição e design
-Vídeo: narrativa audiovisual progressiva; motion que ilustra a fala; quando programático, projeto-fonte JS/TS editável (preferencialmente Remotion); B-roll contextual e licenciado; rosto preservado em todos os frames; legendas Montserrat, uma linha, sincronizadas e em área segura; gancho legível; capa gráfica independente; tratamento de áudio moderado e não destrutivo, com comparação antes/depois; voz natural e inteligível, sem artefatos ou clipping; export compatível. Trilha conforme a política de licença vigente do projeto, sem compras não autorizadas.
+Vídeo: narrativa audiovisual progressiva; motion que ilustra a fala; quando programático, projeto-fonte JS/TS editável (preferencialmente Remotion); B-roll contextual e licenciado; rosto preservado em todos os frames; legendas Montserrat, uma linha, sincronizadas e em área segura; gancho legível; capa gráfica independente; áudio original preservado sem processamento; export compatível. Trilha conforme a política de licença vigente do projeto, sem compras não autorizadas.
 
 Feed/carrossel/Stories: identidade oficial, texto revisado, sequência lógica, arquivos individuais na ordem, legibilidade em celular, contraste, margens seguras, representação honesta do produto e CTA claro.
 
 ## Gate 6 — QA independente
-Não confiar apenas no render ou no briefing. Reproduzir cada vídeo integralmente em velocidade normal; abrir cada slide, arte, capa e Story; simular leitura em celular; conferir texto, fala, rosto, áudio, motion, B-roll, direitos, marca, formato, CTA, links e destino. Corrigir e revisar novamente. Falha crítica mantém EM REVISÃO/BLOQUEADO.
+Não confiar apenas no render ou no briefing. Reproduzir cada vídeo integralmente em velocidade normal; abrir cada slide, arte, capa e Story; simular leitura em celular; conferir texto, fala, rosto, motion, B-roll, direitos, marca, formato, CTA, links e destino. Corrigir e revisar novamente. Falha crítica mantém EM REVISÃO/BLOQUEADO.
 
 ## Gate 7 — Distribuição
 Aplicar integralmente a regra Postiz de AGENTS.md a todos os formatos. Consultar fila e calendário antes de enviar; evitar duplicidade; adaptar por canal; confirmar cada destino individualmente. Status só muda com evidência. Registrar bloqueio por ID/canal se houver falha ou formato incompatível.
