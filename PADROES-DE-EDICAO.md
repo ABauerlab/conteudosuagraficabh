@@ -6,9 +6,9 @@ Claude atua como editor, diretor de pós-produção e motion designer. O respons
 ## Liberdade técnica
 Quando disponível no projeto e adequado à tarefa, Claude pode usar:
 - Remotion para motion graphics, composições, animações, templates e vídeos programáticos.
-- FFmpeg para montagem, cortes, tratamento de áudio, composição, legendas e exportação.
+- FFmpeg para montagem, cortes visuais, composição e exportação. Não usar para processamento ou melhoria de áudio.
 - JavaScript/TypeScript e ferramentas instaladas para automatizar tarefas.
-- Ferramentas de IA para remoção de fundo, limpeza de áudio, transcrição, tracking e recursos visuais, respeitando licenças e privacidade.
+- Ferramentas visuais já disponíveis para composição, tracking e recursos gráficos, respeitando licenças e privacidade. Não instalar ferramentas de transcrição ou áudio.
 
 Não assumir que uma dependência está instalada. Verificar o ambiente e usar a solução estável mais simples. Não instalar pacotes, acessar serviços pagos ou enviar arquivos a serviços externos sem autorização quando isso implicar custo, credenciais ou exposição de dados.
 
@@ -31,7 +31,7 @@ Não assumir que uma dependência está instalada. Verificar o ambiente e usar a
 - Contraste alto e tipografia consistente.
 - Destacar poucas palavras por vez.
 - Efeitos sonoros devem reforçar ações, não competir com a fala.
-- Música em volume abaixo da voz e com licença adequada.
+- Se houver trilha prevista e licenciada, mantê-la discreta sem processar a voz original.
 - Evitar templates genéricos, excesso de zoom, transições e elementos decorativos.
 - Não criar uma edição que faça parecer que alguém disse algo que não disse.
 
@@ -47,7 +47,7 @@ Se a referência de terceiro tiver legendas:
 - Formato principal: vertical 9:16.
 - Resolução de referência: 1080 × 1920, salvo especificação diferente da plataforma ou do briefing.
 - Conferir codec, bitrate, taxa de quadros e tamanho conforme o material de origem e as exigências atuais das plataformas.
-- Conferir áudio, sincronização, safe zones, legibilidade e cortes antes da entrega.
+- Conferir cortes, safe zones, legibilidade e reprodução do vídeo antes da entrega. O áudio original deve permanecer intacto.
 - Manter uma cópia do projeto/fonte quando a edição for programática e isso fizer parte do fluxo do projeto.
 
 ## Entrega do Claude
@@ -79,44 +79,8 @@ Ao concluir:
 - Se não houver faixa adequada com licença verificável, documentar a exceção; não improvisar nem usar áudio de terceiros por conveniência.
 - Mixar a música abaixo da voz, com ducking quando necessário. Voz sempre inteligível. Efeitos sonoros pontuais e discretos.
 
-### Tratamento de áudio: melhorar sem degradar a gravação
-
-O áudio original deve ser preservado. O objetivo do tratamento é aumentar clareza, inteligibilidade, consistência e conforto de escuta, mantendo a voz natural e fiel à gravação. **Não aplicar processamento por rotina se o original já estiver bom.**
-
-1. Ouvir o bruto integralmente antes de editar, preferencialmente com fones e também em reprodução comum. Identificar ruído constante, eco/reverberação, vento, estalos, plosivas, sibilância, clipping, volume irregular e problemas de inteligibilidade.
-2. Criar uma cópia de trabalho e manter o arquivo original intocado. Escolher somente os tratamentos necessários para os problemas realmente identificados.
-3. Fazer limpeza de ruído de forma moderada. Redução agressiva, artefatos metálicos/robóticos, som subaquático, cortes de sílabas ou perda de ambiência são sinais de piora. Se isso ocorrer, reduzir ou remover o processamento.
-4. Usar equalização corretiva sutil, quando necessária, para reduzir ressonâncias ou excesso de graves e melhorar a compreensão. Não alterar o timbre natural nem exagerar agudos/graves.
-5. Aplicar compressão leve/moderada somente quando ajudar a controlar variações de volume. Evitar voz esmagada, bombeamento, respiração artificialmente elevada ou perda de dinâmica.
-6. Usar de-esser, gate/expander, de-click, de-plosive e de-reverb apenas quando o defeito estiver presente e a ferramenta produzir melhora audível. Não cortar finais de palavras, respirações naturais ou consoantes.
-7. Ajustar ganho e loudness de forma consistente com a plataforma e o material, preservando headroom e evitando clipping. Limiter é proteção final, não correção para áudio distorcido.
-8. Mixar música e efeitos abaixo da voz. Automatizar/baixar a trilha nos trechos falados; a fala deve permanecer sempre inteligível, sem competir com a música ou os efeitos.
-9. Fazer comparação A/B entre original e tratado em volume de reprodução equivalente. Conferir em fones, alto-falante comum e celular. O tratado deve ser claramente mais confortável/limpo sem soar artificial.
-10. Se o processamento não melhorar de forma inequívoca, voltar à versão anterior ou manter o original. Não “forçar” tratamento para demonstrar trabalho.
-
-**Não fazer:** denoise extremo, gate que corta sílabas, compressão excessiva, EQ agressivo, normalização que amplifica ruído, remoção artificial de respirações, alteração de pitch/timbre, clonagem de voz ou substituição da fala. Não usar serviços pagos ou enviar gravações a serviços externos sem autorização.
-
-**Critério de aceite:** voz natural, compreensível e estável; sem clipping introduzido, artefatos perceptíveis ou cortes de fala; música/efeitos discretos; comparação antes/depois aprovada pela escuta crítica. Registrar no projeto o que foi tratado e manter o bruto preservado.
-
-
-### Legendas: padrão fixo
-- Fonte obrigatória: **Montserrat**, usando os arquivos oficiais da identidade visual quando disponíveis. Não substituir por Segoe UI ou outra fonte por conveniência. Se Montserrat não estiver acessível, procurar no Brand Kit; não instalar fontes sem autorização.
-- Legenda em **uma única linha por vez**, nunca duas linhas. Dividir a fala em blocos curtos e temporizados; não reduzir a fonte excessivamente para forçar frases longas em uma linha.
-- Exibir apenas a frase curta ou trecho efetivamente falado naquele momento. Destacar poucas palavras-chave, sem ocupar grande parte da tela.
-- Posicionar dentro das margens seguras do vídeo, com distância suficiente das bordas e das áreas ocupadas pelos controles e descrição da plataforma. Não cortar letras nem encostar a legenda no limite inferior/lateral.
-- Tamanho moderado, alto contraste, leitura imediata em celular e fundo/contorno discreto quando necessário. A legenda não pode dominar a composição nem cobrir rosto, produto ou motion importante.
-- Sincronização precisa com o áudio. Conferir ouvindo o vídeo completo; estimar por sílabas/pausas sem escuta ou transcrição confiável não atende ao controle de qualidade.
-
-### Capa de Reel: arte própria obrigatória
-- A capa NÃO deve ser um frame extraído do vídeo nem uma fotografia do apresentador retirada do bruto.
-- Criar uma arte gráfica exclusiva para cada Reel, alinhada à identidade visual oficial e ao conceito do roteiro.
-- A capa deve funcionar como peça de campanha no grid do Instagram: título curto e forte, hierarquia tipográfica, composição própria, contraste, elementos gráficos e imagem/recorte de apoio quando pertinente.
-- Usar Montserrat conforme o Brand Kit, respeitar área segura e garantir leitura em miniatura.
-- Exportar a capa separadamente do vídeo e conferir o recorte no formato de exibição do perfil.
-
-### Critério de aceite de cada Reel
-Um Reel só pode ser marcado como finalizado quando: (1) apresenta progressão visual e motion design relevante, não apenas legenda sobre o bruto; (2) os recursos visuais reforçam trechos específicos da fala; (3) há variação intencional de enquadramento, ritmo e composição; (4) trilha e efeitos têm licença confirmada ou exceção documentada; (5) o tratamento de áudio melhora a clareza sem alterar a voz natural, sem artefatos e com comparação antes/depois; (6) legendas Montserrat, uma linha por vez, discretas, seguras e sincronizadas após revisão com áudio; (7) existe capa gráfica original independente do vídeo; (8) vídeo completo reproduzido e revisado; (9) projeto-fonte, assets e export final organizados. Se qualquer critério essencial falhar, manter EM REVISÃO, não aprovado nem pronto para distribuição.
-
+### Áudio: preservar e não processar
+Não executar transcrição, Whisper, diarização, limpeza, denoise, de-reverb, equalização, compressão, normalização, limiter, restauração ou qualquer melhoria/processamento da voz. Não instalar pacotes, baixar modelos ou iniciar serviços para essas tarefas. Manter a faixa original da gravação sem alterações. A edição pode cortar trechos visuais, mas não deve reconstruir, regravar, sintetizar ou alterar a fala. Se o áudio de um bruto estiver realmente incompreensível, sinalizar somente aquele ID e continuar os demais conteúdos.
 
 ## Documento mestre complementar e obrigatório
 Para a direção completa de produção audiovisual, proteção do rosto, cinematografia, montagem, storytelling, motion design, áudio, capas, formatos, revisão, publicação e critérios de aceite, consultar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md`. As regras deste arquivo permanecem válidas; o documento mestre consolida e amplia o padrão. **Nunca cortar ou encobrir o rosto do apresentador.**
@@ -185,9 +149,9 @@ Todo novo lote preparado para João gravar deve conter, em cada conteúdo: rotei
 O lote deve vir acompanhado de auditoria antirrepetição, mapa do funil e síntese mostrando como as peças trabalham em conjunto para atrair seguidores qualificados e gerar oportunidades de venda. Não pedir a João que invente direção ou complete roteiro: entregar tudo pronto para gravar.
 
 ### Autonomia total de produção e revisão de Claude
-João entrega os vídeos brutos e materiais disponíveis. A partir daí, Claude é responsável por localizar arquivos, conferir correspondências, editar, criar motion, selecionar B-roll contextual, tratar áudio, inserir trilha permitida, legendar, criar capas, finalizar artes, revisar, corrigir, organizar e agendar/distribuir conforme autorização do lote.
+João entrega os vídeos brutos e materiais disponíveis. A partir daí, Claude é responsável por localizar arquivos, conferir correspondências, editar, criar motion, selecionar B-roll contextual inserir trilha permitida quando prevista, aplicar textos fornecidos no briefing quando úteis, criar capas, finalizar artes, revisar, corrigir, organizar e agendar/distribuir conforme autorização do lote.
 
-Claude deve fazer sua própria revisão profissional antes de apresentar o resultado. Assistir/reproduzir integralmente cada vídeo final em velocidade normal; revisar cada arte, slide, capa e Story em tamanho real e em visualização de celular; verificar áudio, ortografia, enquadramento, rosto, ritmo, coerência semântica, tempo de leitura do gancho, sincronização, licença, CTA, formato e destino. Corrigir os problemas encontrados e repetir a revisão. Não transferir ao João a tarefa de detectar erros que Claude consegue identificar.
+Claude deve fazer sua própria revisão profissional antes de apresentar o resultado. Assistir/reproduzir integralmente cada vídeo final em velocidade normal; revisar cada arte, slide, capa e Story em tamanho real e em visualização de celular; verificar fala original, ortografia, enquadramento, rosto, ritmo, coerência semântica, tempo de leitura do gancho, sincronização, licença, CTA, formato e destino. Corrigir os problemas encontrados e repetir a revisão. Não transferir ao João a tarefa de detectar erros que Claude consegue identificar.
 
 Não entregar como final uma peça que ainda precise de ajustes evidentes. Não perguntar se João gostou antes de realizar o próprio controle de qualidade. A aprovação individual não é necessária quando a execução foi autorizada e todos os critérios objetivos foram cumpridos. Só escalar problemas que dependam de decisão, gravação, acesso ou autorização de João (bruto ausente/ininteligível, dado comercial sem confirmação, licença/permissão impossível de validar, falha de integração). Agrupar dúvidas indispensáveis em uma única mensagem objetiva; continuar os demais itens aptos.
 
@@ -208,3 +172,5 @@ Quando o motion gráfico for produzido programaticamente, a fonte principal deve
 - FFmpeg pode ser usado para montagem final, conformação, áudio e export, mas não substitui a fonte JS/TS das animações programáticas.
 - Validar que o projeto abre/renderiza no ambiente disponível. Se Remotion não estiver disponível ou não for tecnicamente adequado, documentar a limitação e escolher alternativa editável em JS/TS; escalar somente se não houver caminho viável.
 - QA deve conferir o render final e a correspondência com o código-fonte. Entregar caminhos reais do projeto e do vídeo exportado.
+
+

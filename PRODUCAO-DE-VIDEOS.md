@@ -44,7 +44,7 @@ Claude pode propor soluções visuais originais quando o roteiro permitir, mas d
 
 ## Exemplo de direção: vídeo direto para a câmera com motion
 Quando João grava apenas falando:
-- A gravação deve priorizar áudio limpo, boa luz, enquadramento estável e espaço visual para cortes.
+- A gravação deve priorizar boa luz, enquadramento estável e espaço visual para cortes. Não criar exigências técnicas de áudio para a pós-produção.
 - Claude deve mapear a fala em blocos de ideias e criar uma progressão visual correspondente.
 - Criar cenas, animações, tipografia cinética, gráficos, ilustrações ou imagens de apoio que expliquem ou reforcem cada ponto.
 - Usar cortes, aproximações, transições e efeitos sonoros com intenção, sem poluir.
@@ -151,5 +151,5 @@ A SUA GRÁFICA BH é uma gráfica que vende produtos. Os roteiros devem, em part
 ## Pautas ancoradas em dores reais de quem compra materiais gráficos
 Antes de escrever roteiro, consultar `DORES-REAIS-CLIENTES.md` e pesquisar a situação concreta do público. Trabalhar dúvidas como economizar na impressão sem gerar desperdício, escolher tipos de papel, entender gramatura e aplicação, preparar sangria e margem de segurança, evitar erros de arquivo, compreender variações de cor e comparar acabamentos como fosco e brilho. São territórios de pesquisa, não afirmações prontas nem uma sequência para repetir. Validar toda orientação técnica em documentação confiável e especificações atuais do fornecedor/CRM quando depender do produto da gráfica. O roteiro precisa entregar um passo prático, critério de decisão, demonstração ou erro evitável; não apenas citar o problema. Comparar o ângulo e a informação entregue com o histórico para impedir repetição semântica.
 
-## Tratamento de áudio
-Seguir o procedimento não destrutivo de `PADROES-DE-EDICAO.md`. Ouvir o bruto primeiro, identificar defeitos reais, tratar apenas o necessário, preservar o timbre e comparar original/tratado. A meta é melhorar inteligibilidade e conforto sem deixar a voz artificial, esmagada, metálica ou cortada. Se o tratamento piorar o áudio, reduzir ou reverter. Nunca sobrescrever o bruto.
+## Áudio original
+Preservar a faixa de áudio exatamente como gravada. Não transcrever, limpar, melhorar, normalizar, equalizar, comprimir ou processar a voz. Não instalar ferramentas nem baixar modelos para essas tarefas. Priorizar cortes visuais, ritmo, motion e finalização rápida. Se um bruto estiver incompreensível, registrar somente o ID afetado e seguir com o restante do lote.

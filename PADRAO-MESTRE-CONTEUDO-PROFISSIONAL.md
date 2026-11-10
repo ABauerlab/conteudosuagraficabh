@@ -80,19 +80,14 @@ Preservar a identidade oficial: ciano, magenta, amarelo, preto e branco; símbol
 - Não encostar no rodapé ou nas laterais; não cortar letras.
 - Não cobrir rosto, boca, produtos ou informações importantes.
 - Destacar poucas palavras-chave, com parcimônia.
-- Conferir a transcrição com o áudio integral. Estimativas por sílabas/pausas sem escuta não são suficientes.
+- Não transcrever o áudio. Usar o roteiro/teleprompter fornecido apenas quando a fala corresponder claramente; se houver divergência, não inventar legendas.
 - Se Montserrat não estiver acessível, procurar no Brand Kit. Não instalar fontes nem substituir sem autorização; sinalizar bloqueio.
 
 ## 6. Áudio, música e sound design
-
-- A voz original é protagonista: natural, inteligível e fiel à gravação. Ouvir o bruto integralmente e diagnosticar ruído, eco, clipping, plosivas, sibilância e variações de volume antes de processar.
-- Aplicar somente correções necessárias e moderadas. Redução agressiva de ruído, gate que corta sílabas, compressão excessiva, EQ exagerado, som metálico/robótico ou alteração artificial de timbre são falhas.
-- Preservar o bruto, trabalhar em cópia e comparar original/tratado em volume equivalente. Se o resultado não melhorar claramente ou soar artificial, reduzir/reverter. Não processar por rotina quando o áudio já estiver bom.
-- Usar trilha de fundo da biblioteca oficial do Pixabay como fonte gratuita padrão, conforme a política detalhada deste repositório. Verificar a página individual e os termos atuais para o uso comercial pretendido; registrar URL, autor, título, data e evidência. Não usar reuploads ou fontes sem origem comprovada.
-- Não comprar música, assinatura ou serviço sem autorização. A licença não garante ausência de reivindicação automatizada; manter evidências e verificar qualquer ocorrência antes de contestar.
-- Mixar música e efeitos abaixo da voz, com ducking/automação quando necessário, preservando inteligibilidade e evitando clipping.
-- Usar sound design pontual somente quando reforçar ação, transição ou ideia. Não inserir efeitos genéricos por decoração.
-- Não sintetizar, clonar, substituir ou alterar a voz de João.
+- Preservar integralmente o áudio original do vídeo. Não executar transcrição, Whisper, limpeza, denoise, equalização, compressão, normalização, restauração ou qualquer melhoria/processamento da voz.
+- Não instalar ferramentas, baixar modelos ou contratar serviços para transcrição ou processamento de áudio.
+- Não alterar, sintetizar, clonar, substituir ou reconstruir a voz.
+- Quando houver trilha licenciada prevista, mantê-la discreta e sem processamento da voz original.
 
 ## 7. Gancho, storytelling e retenção
 
@@ -333,7 +328,7 @@ Todo novo lote preparado para João gravar deve conter, em cada conteúdo: rotei
 O lote deve vir acompanhado de auditoria antirrepetição, mapa do funil e síntese mostrando como as peças trabalham em conjunto para atrair seguidores qualificados e gerar oportunidades de venda. Não pedir a João que invente direção ou complete roteiro: entregar tudo pronto para gravar.
 
 ### Autonomia total de produção e revisão de Claude
-João entrega os vídeos brutos e materiais disponíveis. A partir daí, Claude é responsável por localizar arquivos, conferir correspondências, editar, criar motion, selecionar B-roll contextual, tratar áudio, inserir trilha permitida, legendar, criar capas, finalizar artes, revisar, corrigir, organizar e agendar/distribuir conforme autorização do lote.
+João entrega os vídeos brutos e materiais disponíveis. A partir daí, Claude é responsável por localizar arquivos, conferir correspondências, editar, criar motion, selecionar B-roll contextual inserir trilha permitida quando prevista, usar textos fornecidos no briefing quando aplicável, criar capas, finalizar artes, revisar, corrigir, organizar e agendar/distribuir conforme autorização do lote.
 
 Claude deve fazer sua própria revisão profissional antes de apresentar o resultado. Assistir/reproduzir integralmente cada vídeo final em velocidade normal; revisar cada arte, slide, capa e Story em tamanho real e em visualização de celular; verificar áudio, ortografia, enquadramento, rosto, ritmo, coerência semântica, tempo de leitura do gancho, sincronização, licença, CTA, formato e destino. Corrigir os problemas encontrados e repetir a revisão. Não transferir ao João a tarefa de detectar erros que Claude consegue identificar.
 
