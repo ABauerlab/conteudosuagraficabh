@@ -1,19 +1,26 @@
 # Registro incremental | 07 - Impressões prontas
 
-Este arquivo é o ledger persistente da rotina recorrente de posts estáticos adicionais. Claude deve consultá-lo **antes** de criar qualquer publicação a partir da pasta do Drive e atualizá-lo durante cada execução.
+Este arquivo é o ledger persistente da rotina recorrente de conteúdos adicionais produzidos a partir das mídias da pasta do Drive. Claude deve consultá-lo **antes** de criar qualquer publicação e atualizá-lo durante cada execução.
 
 ## Pasta de entrada oficial
 
 `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`
 
-## Regra editorial
+## Regra editorial e escolha do formato
 
-- Uma imagem nova elegível = um post estático individual.
-- Nunca agrupar várias fotos em um post ou carrossel.
-- Os posts são **adicionais** à cadência regular do lote; não substituem Reels, carrosséis ou Stories planejados.
-- Se não houver imagem nova elegível, não criar post adicional.
-- Não modificar, mover, renomear ou apagar o arquivo original.
-- Cada publicação recebe um ID SG global, sequencial e não reutilizável, e um briefing individual em `FEED/SG-XXX.md` do lote vigente.
+- A pasta pode conter fotos, imagens de frente e verso, detalhes e vídeos do mesmo produto/trabalho.
+- Inspecionar os arquivos e identificar relações entre eles antes de criar conteúdo. Nome, contexto visual e metadados são pistas, não prova isolada de relação.
+- Frente e verso do mesmo item podem compor um carrossel.
+- Fotos diferentes do mesmo trabalho podem compor carrossel quando cada mídia acrescentar ângulo, detalhe ou informação.
+- Vídeo pode ser publicado sozinho como Reel/vídeo ou integrado a um carrossel com fotos e/ou outros vídeos, se o canal e o Postiz aceitarem essa combinação.
+- Foto e vídeo do mesmo trabalho podem ser combinados em um conteúdo ou publicados separadamente, conforme narrativa e valor de cada mídia. Evitar duplicação desnecessária.
+- Uma imagem isolada pode virar post estático quando esse for o melhor formato.
+- Não agrupar materiais sem relação, não forçar carrossel e não criar automaticamente um post por arquivo.
+- Um conjunto coerente pode gerar um único conteúdo SG com várias mídias. Cada arquivo de origem continua com registro individual no ledger para deduplicação e rastreabilidade.
+- Os conteúdos são **adicionais** à cadência regular do lote; não substituem Reels, carrosséis ou Stories planejados.
+- Se não houver mídia nova elegível, não criar conteúdo adicional.
+- Não modificar, mover, renomear ou apagar os arquivos originais.
+- Cada conteúdo recebe um ID SG global, sequencial e não reutilizável, com briefing individual em `FEED/SG-XXX.md` ou `REELS/SG-XXX.md`, conforme o formato principal.
 - Consultar `CALENDARIO.md` e a árvore completa do repositório para descobrir o próximo ID livre. O valor “próximo ID” no calendário é atualizado após cada novo registro. Não presumir que um lote encerrado libera IDs.
 
 ## Procedimento de detecção e deduplicação
@@ -57,6 +64,17 @@ Manter uma linha por imagem, inclusive para itens bloqueados ou rejeitados. Não
 | Postiz | Canal, identificador/link e confirmação por destino |
 | Observações | Pendência, motivo, licença/autorização ou correção necessária |
 
+## Agrupamento e rastreabilidade de conjuntos
+
+Manter uma linha para cada arquivo de origem, mesmo quando vários arquivos formarem um único conteúdo. Acrescentar aos registros, quando aplicável:
+- **Grupo/conjunto:** identificador interno para relacionar frente/verso, fotos e vídeos do mesmo trabalho.
+- **Conteúdo SG associado:** ID do conteúdo que utiliza o arquivo. Vários arquivos podem apontar para o mesmo ID SG.
+- **Formato escolhido:** estático, carrossel de imagens, vídeo/Reel ou carrossel misto de fotos e vídeos.
+- **Relação/ordem:** frente, verso, detalhe, ângulo, vídeo principal, vídeo complementar e ordem prevista.
+- **Motivo da escolha:** por que o formato apresenta melhor o trabalho e quais limitações de canal/Postiz foram verificadas.
+
+Não atribuir um SG separado para cada arquivo que integra o mesmo carrossel. A rastreabilidade é por arquivo; o briefing e a publicação são por conjunto editorial coerente.
+
 ## Estados permitidos
 
 - `DETECTADA`: arquivo novo encontrado, ainda em triagem.
@@ -87,7 +105,7 @@ Adicionar cada post como linha própria na seção **Posts estáticos adicionais
 
 ## Ledger inicial
 
-Nenhuma imagem foi inspecionada ou registrada por esta alteração documental. Claude deve fazer a primeira varredura da pasta de entrada na próxima execução e inserir cada arquivo encontrado nesta tabela.
+Nenhuma mídia foi inspecionada ou registrada por esta alteração documental. Claude deve fazer a próxima varredura da pasta de entrada, identificar arquivos relacionados e inserir cada arquivo encontrado nesta tabela, relacionando conjuntos quando aplicável.
 
 | Drive file ID | Nome original | SHA-256 | Fingerprint visual | Primeira detecção | ID SG | Lote/briefing | Status | Data planejada | Postiz / observações |
 |---|---|---|---|---|---|---|---|---|---|
