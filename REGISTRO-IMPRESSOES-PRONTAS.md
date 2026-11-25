@@ -68,7 +68,7 @@ A pasta `POSTADOS` é o arquivo de mídias já publicadas e uma segunda barreira
 
 ## Registro de cada arquivo
 
-Manter uma linha por imagem, inclusive para itens bloqueados ou rejeitados. Não apagar linhas antigas.
+Manter uma linha por arquivo de origem (imagem ou vídeo), inclusive para itens bloqueados ou rejeitados. Não apagar linhas antigas.
 
 | Campo | O que registrar |
 |---|---|
@@ -119,7 +119,7 @@ Itens pendentes ou rejeitados não devem ser recriados em execuções seguintes.
 
 ## Como inserir no calendário
 
-Adicionar cada post como linha própria na seção **Posts estáticos adicionais — impressões prontas** de `CALENDARIO.md` e no README do lote que contém seu briefing.
+Adicionar cada conteúdo adicional como linha própria na seção de conteúdos adicionais — impressões prontas de `CALENDARIO.md` e no README do lote que contém seu briefing. Registrar o formato real (estático, carrossel, Reel/vídeo ou misto), sem presumir que todo item é post estático.
 
 - Marcar explicitamente como adicional, sem substituir a grade regular.
 - Usar somente datas futuras compatíveis com o calendário vigente e com espaço de publicação.
