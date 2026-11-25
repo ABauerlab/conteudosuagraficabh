@@ -59,6 +59,18 @@ Ao concluir:
 - Não afirmar que exportou ou publicou se isso não ocorreu.
 
 
+## Biblioteca externa de skills de motion graphics
+
+Antes de iniciar a edição de qualquer vídeo, verificar se as skills do repositório oficial `https://github.com/Barty-Bart/motion-graphics` já estão instaladas no ambiente Claude Code. Conferir a instalação existente no workspace/ambiente de skills; não reinstalar se já estiver disponível. Se estiver ausente, instalar a partir da fonte oficial com:
+
+```bash
+npx skills add Barty-Bart/motion-graphics
+```
+
+Selecionar apenas as skills que tenham utilidade para o trabalho, confirmar a instalação e ler o README/instruções de cada skill antes de executá-la. Usar a biblioteca como recurso de apoio, não como obrigação de aplicar efeitos em todo vídeo. Preservar a prioridade de edição rápida, objetiva e profissional.
+
+**Restrições obrigatórias:** não executar fluxos que exijam transcrição, Whisper ou geração automática de legendas. Não usar `motion-broll` quando depender de transcrição. A instalação da biblioteca não autoriza transcrever, tratar, limpar, equalizar, comprimir, normalizar ou restaurar a voz. Preservar o áudio original.
+
 ## Direção audiovisual obrigatória: edição dinâmica com motion design
 
 **Uma edição que apenas coloca legendas sobre o vídeo bruto NÃO é considerada edição concluída.** O bruto com apresentador falando é a matéria-prima. Claude atua como editor e motion designer e deve construir uma narrativa visual profissional por cima da fala.
