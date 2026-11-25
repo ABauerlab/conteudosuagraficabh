@@ -43,7 +43,9 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - [ANALISE-DE-DESEMPENHO.md](ANALISE-DE-DESEMPENHO.md): métricas e melhoria contínua.
 - [REFERENCIAS.md](REFERENCIAS.md): fontes audiovisuais.
 - [CALENDARIO.md](CALENDARIO.md): fila e status.
-- [REGISTRO-IMPRESSOES-PRONTAS.md](REGISTRO-IMPRESSOES-PRONTAS.md): rotina incremental e ledger anti-repetição das fotos de produtos prontos.
+- [REGISTRO-IMPRESSOES-PRONTAS.md](REGISTRO-IMPRESSOES-PRONTAS.md): rotina incremental e ledger de fotos, frente/verso e vídeos de impressões prontas, com agrupamento por conjunto e deduplicação.
+- Motion graphics: skills de apoio do repositório [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics), a verificar/instalar no ambiente Claude Code antes da edição de vídeos.
+- Guia de carrosséis: referência obrigatória no Google Drive em `CONTEÚDOS/05 - REFERÊNCIAS/CARROSSEIS/`.
 - [templates/ROTEIRO.md](templates/ROTEIRO.md): modelo de cada conteúdo.
 - [conteudos/](conteudos/): roteiros e briefings individuais de cada lote.
 
