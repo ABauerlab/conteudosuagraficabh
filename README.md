@@ -44,7 +44,8 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - [REFERENCIAS.md](REFERENCIAS.md): fontes audiovisuais.
 - [CALENDARIO.md](CALENDARIO.md): fila e status.
 - [REGISTRO-IMPRESSOES-PRONTAS.md](REGISTRO-IMPRESSOES-PRONTAS.md): rotina incremental e ledger de fotos, frente/verso e vídeos de impressões prontas, com agrupamento por conjunto e deduplicação.
-- Motion graphics: skills de apoio do repositório [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics), a verificar/instalar no ambiente Claude Code antes da edição de vídeos.
+- Motion/video skills: HyperFrames ([heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)), Remotion oficial ([remotion-dev/skills](https://github.com/remotion-dev/skills)), [Barty-Bart/motion-graphics](https://github.com/Barty-Bart/motion-graphics) e skill complementar opcional [Liamrjohnston/remotion-motion-graphics-skill](https://github.com/Liamrjohnston/remotion-motion-graphics-skill). Critérios de instalação, avaliação e restrições em `PADROES-DE-EDICAO.md`.
+- Arquivamento de impressões prontas: após publicação confirmada em todos os destinos, mover os arquivos originais para `07 - IMPRESSÕES PRONTAS/POSTADOS/`; essa pasta fica excluída das varreduras futuras.
 - Guia de carrosséis: referência obrigatória no Google Drive em `CONTEÚDOS/05 - REFERÊNCIAS/CARROSSEIS/`.
 - [templates/ROTEIRO.md](templates/ROTEIRO.md): modelo de cada conteúdo.
 - [conteudos/](conteudos/): roteiros e briefings individuais de cada lote.
