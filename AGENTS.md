@@ -77,7 +77,7 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
 - Antes de editar vídeos, conferir se as skills do repositório `https://github.com/Barty-Bart/motion-graphics` já estão instaladas no ambiente Claude Code. Se não estiverem, instalar as skills adequadas com `npx skills add Barty-Bart/motion-graphics`, confirmar a instalação e ler as instruções antes de usar.
 - Não executar skills ou fluxos que exijam transcrição, Whisper ou processamento de voz. Não usar `motion-broll` quando depender de transcrição. A instalação dessa biblioteca não revoga a regra de preservar o áudio original.
-- Execute os IDs indicados por João e, como exceção permanente e delimitada, os posts estáticos adicionais gerados exclusivamente por imagens novas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, conforme REGISTRO-IMPRESSOES-PRONTAS.md. Não criar outras peças fora do escopo. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates identificarem lacuna real, corrija ou bloqueie o item antes da produção.
+- Execute os IDs indicados por João e, como exceção permanente e delimitada, os conteúdos adicionais gerados a partir de mídias novas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, conforme REGISTRO-IMPRESSOES-PRONTAS.md. Não criar outras peças fora do escopo. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates identificarem lacuna real, corrija ou bloqueie o item antes da produção.
 
 
 ## Regra obrigatória de estrutura dos lotes
