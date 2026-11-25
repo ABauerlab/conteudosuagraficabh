@@ -115,11 +115,17 @@ Antes de agendar/publicar, Claude deve verificar documentação oficial atual da
 12. Fontes, direitos, limites verificados e pendências.
 13. Checklist de conclusão.
 
-## Biblioteca de motion graphics para Claude Code
+## Stack de skills para produção audiovisual
 
-Antes de editar vídeos, conferir se as skills do repositório `https://github.com/Barty-Bart/motion-graphics` já estão instaladas. Se não estiverem, instalar as skills relevantes com `npx skills add Barty-Bart/motion-graphics`, confirmar a instalação e consultar as instruções da skill escolhida antes de usar. Não reinstalar se já estiverem disponíveis.
+Antes de editar, conferir a instalação e a versão das skills de HyperFrames, Remotion e motion graphics definidas em `PADROES-DE-EDICAO.md`. Usar as instalações oficiais:
+- HyperFrames: `npx skills add heygen-com/hyperframes` (selecionar Core Skills) e atualizar com `npx hyperframes skills update`.
+- Remotion: `npx skills add remotion-dev/skills` ou, dentro de projeto Remotion, `npx remotion skills add`.
+- Motion graphics complementar: `npx skills add Barty-Bart/motion-graphics`.
+- Skill especializada opcional, se houver ganho comprovado e baixa sobreposição: `npx skills add Liamrjohnston/remotion-motion-graphics-skill`.
 
-A biblioteca é um recurso para enriquecer a edição quando houver ganho real; não deve criar complexidade ou atrasar o fluxo. Selecionar somente skills adequadas ao briefing. Não usar fluxos que dependam de transcrição, Whisper ou processamento de voz; em especial, não executar `motion-broll` quando exigir transcrição. Preservar integralmente o áudio original.
+Ler primeiro as instruções de cada skill selecionada. Claude deve pesquisar e avaliar novas skills úteis para edição, animação e motion graphics, seguindo os critérios de licença, manutenção, compatibilidade, dependências, sobreposição e velocidade descritos em `PADROES-DE-EDICAO.md`. Não instalar candidatos sem avaliação.
+
+Não executar transcrição, Whisper, captions automáticas, voiceover, limpeza, processamento ou mixagem de áudio. Não usar módulos que dependam dessas etapas. Preservar integralmente a faixa de áudio original.
 
 ## Briefing para Claude
 Claude pode usar Remotion, FFmpeg, JavaScript/TypeScript, chroma key, split screen, picture-in-picture, tracking, máscaras, motion graphics, animações, legendas e efeitos, conforme disponibilidade e adequação. O briefing deste repositório define a direção criativa. Claude executa tecnicamente, sem reinventar o conceito nem substituir o formato indicado sem necessidade. Se houver limitação técnica real, deve informar e propor a alternativa mais próxima.
