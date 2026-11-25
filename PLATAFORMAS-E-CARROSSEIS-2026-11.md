@@ -70,6 +70,14 @@ Cada publicação deve ter uma função principal no funil. Nem todo conteúdo d
 
 A mesma ideia pode ser adaptada, mas não simplesmente replicada sem revisão. Ajustar abertura, legenda, CTA, proporção, quantidade de mídia, hashtags/tópicos e linguagem. Verificar individualmente no Postiz o formato aceito por cada canal.
 
+## Guia complementar obrigatório no Google Drive
+
+Além deste documento, antes de planejar, criar, editar ou revisar qualquer carrossel, consultar o guia atualizado em:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/CARROSSEIS/`
+
+Localizar e ler o material aplicável dessa pasta em cada tarefa. As orientações do guia complementam, mas não substituem, os padrões deste documento, o briefing individual e a validação técnica por canal. Se o Drive estiver inacessível, registrar a pendência e não afirmar que o guia foi consultado.
+
 ## 4. Padrão profissional de carrossel
 
 ### Limite e decisão de quantidade
