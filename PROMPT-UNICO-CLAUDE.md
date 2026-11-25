@@ -31,9 +31,10 @@ Se o período for informado sem IDs, consultar `CALENDARIO.md` e o README do lot
 3. Ler os documentos especializados aplicáveis:
    - Criação: `DORES-REAIS-CLIENTES.md`, `VARIEDADE-EDITORIAL.md`, `MATRIZ-DE-AQUISICAO.md`, pesquisas estratégicas/tendências e `PLATAFORMAS-E-CARROSSEIS-2026-11.md`.
    - Vídeo/áudio: `PRODUCAO-DE-VIDEOS.md`, `PADROES-DE-EDICAO.md` e `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md`.
-   - Artes: `SISTEMA-DE-PRODUCAO-VISUAL.md` e os ativos oficiais do Brand Kit.
+   - Artes/carrosséis: `SISTEMA-DE-PRODUCAO-VISUAL.md`, os ativos oficiais do Brand Kit e o guia atualizado em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/CARROSSEIS/`. A consulta ao guia do Drive é obrigatória antes de criar, editar ou revisar carrosséis.
+   - Vídeos: antes de editar, conferir se as skills de `https://github.com/Barty-Bart/motion-graphics` já estão instaladas; se não estiverem, instalar as skills adequadas com `npx skills add Barty-Bart/motion-graphics`, confirmar a instalação e ler as instruções antes de usar. Não executar skills que exijam transcrição/Whisper ou processamento de voz; preservar integralmente o áudio original.
    - Operação: `OPERACAO-DE-CONTEUDO.md`, `CALENDARIO.md`, `REFERENCIAS.md`, `ANALISE-DE-DESEMPENHO.md` e `REGISTRO-IMPRESSOES-PRONTAS.md`, quando pertinentes.
-4. Ler o README do lote e todos os briefings individuais SG do escopo. Consultar o histórico editorial necessário para evitar repetição.
+4. Ler o README do lote e todos os briefings individuais SG do escopo. Consultar o histórico editorial necessário para evitar repetição. Se houver carrossel, abrir e consultar também o guia do Drive indicado acima.
 5. Consultar o CRM oficial e o catálogo atual sempre que a tarefa envolver marca, produto, disponibilidade, características, preços, prazos, acabamentos ou condições.
 6. Consultar e inspecionar os arquivos reais do Brand Kit oficial antes de criar peças com identidade. Nunca recriar ou aproximar ativos oficiais.
 
