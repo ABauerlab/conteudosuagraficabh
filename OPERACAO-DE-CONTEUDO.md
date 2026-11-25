@@ -179,9 +179,35 @@ Trilha musical de fundo é requisito normal de acabamento dos vídeos. A falta d
 A pasta oficial e exclusiva de ativos de marca é `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`. Abrir e inspecionar os arquivos reais antes de criar qualquer peça. Utilizar os ativos oficiais diretamente. É proibido recriar, redesenhar, vetorizar por aproximação, gerar por IA ou substituir logotipo, símbolo, fontes e grafismos. Não usar outra pasta, post antigo, memória ou descrição como fonte substituta. Se faltar um ativo, registrar pendência em vez de improvisar.
 
 
-## Rotina recorrente de posts estáticos: 07 - IMPRESSÕES PRONTAS
-Em toda execução do prompt, Claude deve verificar `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`. Cada imagem inédita e elegível gera um post estático adicional individual (uma foto = uma publicação, nunca carrossel ou agrupamento). A rotina é incremental: consultar e atualizar `REGISTRO-IMPRESSOES-PRONTAS.md`, comparar ID do Drive, SHA-256 e similaridade visual quando disponível, e nunca republicar imagem já registrada. Se não houver imagem nova, não criar conteúdo estático adicional. Não renomear, mover, apagar ou alterar originais. Cada post recebe ID SG global sequencial, briefing individual em FEED/ e entrada própria no calendário como ADICIONAL, sem substituir a cadência regular. Confirmar privacidade, autorização de uso e catálogo antes de fazer afirmações. Manter pendências no ledger; não reprocessar automaticamente itens bloqueados.
+## Rotina recorrente de conteúdo: 07 - IMPRESSÕES PRONTAS
 
+Em toda execução do prompt único, Claude deve verificar:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`
+
+A pasta recebe continuamente fotos, imagens de frente e verso e vídeos de produtos/trabalhos gráficos. Fazer uma varredura incremental e identificar arquivos relacionados antes de produzir.
+
+### Escolha do formato
+- Frente e verso do mesmo produto podem compor um carrossel, com ordem e identificação claras.
+- Fotos de ângulos ou detalhes diferentes podem compor carrossel quando cada mídia acrescentar valor.
+- Vídeo pode ser usado sozinho como Reel/vídeo ou integrado a um carrossel com fotos e/ou outros vídeos, se o canal e o Postiz aceitarem a combinação.
+- Foto e vídeo do mesmo trabalho podem ficar juntos ou ser publicados separadamente. Escolher conforme a narrativa, a qualidade do material e o objetivo, evitando duplicação desnecessária.
+- Imagem única pode virar post estático quando for a melhor apresentação.
+- Não agrupar materiais sem relação, não forçar carrossel e não criar automaticamente um post por arquivo.
+- Um conjunto coerente pode gerar um único conteúdo SG com várias mídias. Cada arquivo de origem permanece registrado individualmente no ledger.
+- Confirmar compatibilidade de formato por canal/Postiz antes de distribuir. Se a combinação não for suportada, adaptar e registrar a limitação.
+
+A rotina é adicional à cadência regular e não substitui os conteúdos planejados. Não renomear, mover, apagar ou alterar os arquivos originais. Cada conteúdo aprovado recebe um ID SG global sequencial e briefing individual em FEED/ ou REELS/, conforme o formato principal. Consultar calendário e árvore do repositório para descobrir o próximo ID livre.
+
+Seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS.md`: deduplicação por Drive ID, SHA-256 e comparação visual quando disponíveis; proteção de privacidade; autorização de exposição; confirmação de dados comerciais no CRM; status real; calendário; Postiz; e registro de pendências. Não afirmar que uma mídia é nova ou que foi distribuída sem evidência.
+
+## Guia obrigatório de carrosséis no Google Drive
+
+Antes de planejar, criar, editar ou revisar qualquer carrossel, Claude deve consultar o guia atualizado em:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/CARROSSEIS/`
+
+Localizar e ler o guia e os materiais aplicáveis dessa pasta em cada tarefa. Aplicar suas orientações em conjunto com as diretrizes deste repositório, o briefing SG e os limites técnicos reais de cada canal/Postiz. Se não conseguir acessar a pasta, registrar a pendência e não presumir o conteúdo do guia.
 
 ## Comandos curtos de operação
 João não precisa enviar novamente as regras de produção. Exemplos: `Finalize o lote de [datas/IDs].`; `Edite os vídeos [IDs].`; `Produza as artes [IDs].`; `Audite os briefings [IDs].` Claude deve interpretar o tipo de tarefa e seguir `PROMPT-UNICO-CLAUDE.md` como roteador, lendo os documentos especializados aplicáveis. `Finalize o lote` inclui QA, organização, Postiz e atualização dos registros; `Edite` limita-se aos IDs/formato solicitados e não autoriza distribuição por si só.
