@@ -75,9 +75,9 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 - João deve salvar a imagem em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs SG no nome.
 - Claude deve inspecionar a prancha e utilizar exclusivamente os arquivos oficiais de `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`, conforme a regra de identidade visual deste arquivo.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
-- Antes de editar vídeos, conferir se as skills do repositório `https://github.com/Barty-Bart/motion-graphics` já estão instaladas no ambiente Claude Code. Se não estiverem, instalar as skills adequadas com `npx skills add Barty-Bart/motion-graphics`, confirmar a instalação e ler as instruções antes de usar.
-- Não executar skills ou fluxos que exijam transcrição, Whisper ou processamento de voz. Não usar `motion-broll` quando depender de transcrição. A instalação dessa biblioteca não revoga a regra de preservar o áudio original.
-- Execute os IDs indicados por João e, como exceção permanente e delimitada, os posts estáticos adicionais gerados exclusivamente por imagens novas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, conforme REGISTRO-IMPRESSOES-PRONTAS.md. Não criar outras peças fora do escopo. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates identificarem lacuna real, corrija ou bloqueie o item antes da produção.
+- Antes de editar vídeos, seguir e verificar o stack de skills de HyperFrames, Remotion e motion graphics definido em `PADROES-DE-EDICAO.md`. Auditar o que já está instalado, instalar somente as skills recomendadas que estiverem ausentes e ler suas instruções antes do uso.
+- Não executar skills ou fluxos que exijam transcrição, Whisper, captions automáticas ou processamento/mixagem de voz. Não usar `motion-broll` quando depender de transcrição. A instalação de qualquer biblioteca não revoga a regra de preservar integralmente o áudio original.
+- Execute os IDs indicados por João e, como exceção permanente e delimitada, os conteúdos adicionais gerados a partir de mídias novas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, conforme REGISTRO-IMPRESSOES-PRONTAS.md. Não criar outras peças fora do escopo. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates identificarem lacuna real, corrija ou bloqueie o item antes da produção.
 
 
 ## Regra obrigatória de estrutura dos lotes
@@ -259,14 +259,20 @@ A pasta pode conter fotos, imagens de frente e verso, conjuntos do mesmo produto
 A rotina é incremental e deve seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS.md`:
 - Comparar todos os arquivos da pasta com o registro persistente antes de produzir.
 - Usar ID SG global e sequencial; consultar `CALENDARIO.md` para o próximo ID. Nunca reutilizar IDs nem assumir que a pasta vazia ou a ausência de arquivo no lote atual libera numeração.
-- Cada foto inédita recebe um SG próprio, briefing Markdown individual em FEED/ do lote vigente e uma publicação estática individual no calendário como conteúdo ADICIONAL, sem substituir nem remover a cadência editorial regular.
-- Uma nova execução com as mesmas fotos não gera novos posts, novos briefings, novos IDs nem nova publicação. Foto já registrada como processada, publicada, agendada, pendente ou rejeitada não é reprocessada automaticamente.
-- Registrar a identidade do arquivo e seu estado no ledger persistente. Priorizar ID imutável do Drive e SHA-256 dos bytes; usar comparação visual/perceptual quando disponível para detectar cópias redimensionadas/comprimidas. Nome do arquivo isolado não é prova suficiente de novidade.
-- Não renomear, mover, apagar ou alterar os arquivos originais da pasta de entrada.
-- Se houver dúvida de duplicidade, autoria, autorização de uso, privacidade ou integridade da imagem, manter pendente e não publicar.
-- A foto deve continuar fiel ao produto real. Não remover, substituir ou alterar a arte impressa para simular outro produto/resultado.
-
-- Registrar a relação entre arquivos do mesmo trabalho/conjunto no ledger. Cada arquivo de origem continua rastreável, mas vários arquivos podem compor um único conteúdo SG. Não atribuir IDs separados a cada lado/foto de um mesmo carrossel.
+- Cada conjunto editorial coerente recebe um ID SG global e sequencial, com briefing individual em FEED/ ou REELS/, conforme o formato principal. Vários arquivos de frente/verso, fotos e vídeos do mesmo trabalho podem estar associados ao mesmo conteúdo SG; não atribuir IDs separados a cada mídia de um mesmo carrossel.
+- Uma nova execução com as mesmas mídias não gera novos conteúdos, briefings, IDs nem publicações. Arquivo já registrado como processado, publicado, agendado, pendente ou rejeitado não é reprocessado automaticamente.
+- Registrar a identidade de cada arquivo e seu estado no ledger persistente. Priorizar ID imutável do Drive e SHA-256 dos bytes; usar comparação visual/perceptual quando disponível para detectar cópias redimensionadas/comprimidas. Nome de arquivo isolado não é prova suficiente.
+- A pasta `POSTADOS` é destino de arquivo, não fonte de entrada. Excluir integralmente seu conteúdo de toda varredura de novas mídias.
+- Mover os arquivos originais relacionados para `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/POSTADOS/` somente depois de confirmar que a publicação foi efetivamente concluída em todos os destinos previstos. Agendamento, upload, rascunho ou status incerto não autorizam mover.
+- Depois da confirmação de publicação, atualizar primeiro o ledger com os IDs/links de publicação e o estado de movimentação; então mover os arquivos de origem para POSTADOS, preservando nomes e conteúdo. Registrar o ID/localização de destino e confirmar a movimentação.
+- Se a publicação estiver confirmada, mas a movimentação falhar, manter o registro como PUBLICADA/CONFIRMADA com movimentação PENDENTE, não republicar e tentar somente concluir a movimentação na próxima execução.
+- Se houver falha de publicação em algum destino, não mover o conjunto inteiro. Registrar os destinos confirmados e pendentes; retomar somente a distribuição que falta, sem duplicar nos destinos já confirmados.
+- Para conjuntos com várias fotos/vídeos, mover cada arquivo de origem associado ao SG somente após a confirmação completa da publicação daquele conteúdo. Registrar movimentação por arquivo para lidar com falhas parciais.
+- Se a pasta POSTADOS não existir, criá-la somente se a integração tiver permissão; caso contrário, registrar bloqueio e solicitar apenas a intervenção necessária.
+- Nunca sobrescrever um arquivo de mesmo nome no destino. Em caso de colisão, verificar se é o mesmo Drive ID/arquivo; se for outro arquivo, preservar ambos e registrar a ocorrência sem renomear automaticamente.
+- Se houver dúvida de duplicidade, autoria, autorização de uso, privacidade ou integridade da mídia, manter pendente e não publicar.
+- A mídia deve continuar fiel ao produto real. Não remover, substituir ou alterar a arte impressa para simular outro produto/resultado.
+- Registrar a relação entre arquivos do mesmo trabalho/conjunto no ledger, inclusive pasta de origem e destino, mantendo rastreabilidade individual.
 
 ## Referência obrigatória para carrosséis no Google Drive
 

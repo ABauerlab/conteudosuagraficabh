@@ -6,6 +6,12 @@ Este arquivo é o ledger persistente da rotina recorrente de conteúdos adiciona
 
 `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`
 
+Pasta de arquivo após publicação confirmada:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/POSTADOS/`
+
+A subpasta `POSTADOS` nunca deve ser incluída na varredura de novas mídias.
+
 ## Regra editorial e escolha do formato
 
 - A pasta pode conter fotos, imagens de frente e verso, detalhes e vídeos do mesmo produto/trabalho.
@@ -19,7 +25,7 @@ Este arquivo é o ledger persistente da rotina recorrente de conteúdos adiciona
 - Um conjunto coerente pode gerar um único conteúdo SG com várias mídias. Cada arquivo de origem continua com registro individual no ledger para deduplicação e rastreabilidade.
 - Os conteúdos são **adicionais** à cadência regular do lote; não substituem Reels, carrosséis ou Stories planejados.
 - Se não houver mídia nova elegível, não criar conteúdo adicional.
-- Não modificar, mover, renomear ou apagar os arquivos originais.
+- Não modificar, renomear ou apagar os arquivos originais. A movimentação para POSTADOS é permitida somente após publicação confirmada, conforme o protocolo abaixo.
 - Cada conteúdo recebe um ID SG global, sequencial e não reutilizável, com briefing individual em `FEED/SG-XXX.md` ou `REELS/SG-XXX.md`, conforme o formato principal.
 - Consultar `CALENDARIO.md` e a árvore completa do repositório para descobrir o próximo ID livre. O valor “próximo ID” no calendário é atualizado após cada novo registro. Não presumir que um lote encerrado libera IDs.
 
@@ -45,9 +51,24 @@ Antes de criar o post, conferir:
 - A legenda deve contextualizar o trabalho sem inventar cliente, depoimento, resultado, quantidade ou benefício.
 - O post usa a identidade oficial exclusivamente a partir de `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`.
 
+## Protocolo obrigatório de movimentação para POSTADOS
+
+A pasta `POSTADOS` é o arquivo de mídias já publicadas e uma segunda barreira contra duplicidade. O ledger continua sendo o registro principal: mover um arquivo não substitui o controle por Drive ID, hash e histórico.
+
+1. Na varredura, ler somente a pasta raiz `07 - IMPRESSÕES PRONTAS` e suas pastas de entrada pertinentes. Excluir `POSTADOS` e todo o seu conteúdo da descoberta de novos itens.
+2. Antes de produzir, cruzar os arquivos da entrada com o ledger e com os briefings, exports e confirmações do Postiz.
+3. Depois da publicação, confirmar cada destino previsto. Só considerar elegível para movimentação quando todos os destinos previstos estiverem com publicação efetivamente confirmada. Não mover por upload, rascunho, aprovação, agendamento ou confirmação parcial.
+4. Atualizar o ledger com o status `PUBLICADA/CONFIRMADA`, IDs/links do Postiz por destino e movimentação `PENDENTE`; depois mover os arquivos originais correspondentes para `POSTADOS`, preservando nome e conteúdo.
+5. Após mover, confirmar que cada arquivo está no destino, registrar seu Drive ID/localização de destino e marcar movimentação `CONCLUÍDA`.
+6. Se a publicação estiver confirmada e o move falhar, manter `PUBLICADA/CONFIRMADA` e `movimentação PENDENTE`. Na próxima execução, não criar outra publicação; tentar somente finalizar a movimentação.
+7. Se houver falha de publicação em algum destino, não mover o conjunto inteiro. Registrar os destinos confirmados e pendentes; retomar somente a distribuição que falta, sem duplicar nos destinos já confirmados.
+8. Para conjuntos com várias fotos/vídeos, mover cada arquivo de origem associado ao SG somente após a confirmação completa da publicação daquele conteúdo. Registrar movimentação por arquivo para lidar com falhas parciais.
+9. Se `POSTADOS` não existir, criá-la somente se o Drive MCP permitir. Se não houver permissão, manter o conteúdo publicado, registrar bloqueio de movimentação e não solicitar ações desnecessárias.
+10. Nunca sobrescrever um arquivo de mesmo nome no destino. Em caso de colisão, verificar se é o mesmo Drive ID/arquivo; se for outro arquivo, preservar ambos e registrar a ocorrência sem renomear automaticamente.
+
 ## Registro de cada arquivo
 
-Manter uma linha por imagem, inclusive para itens bloqueados ou rejeitados. Não apagar linhas antigas.
+Manter uma linha por arquivo de origem (imagem ou vídeo), inclusive para itens bloqueados ou rejeitados. Não apagar linhas antigas.
 
 | Campo | O que registrar |
 |---|---|
@@ -62,6 +83,9 @@ Manter uma linha por imagem, inclusive para itens bloqueados ou rejeitados. Não
 | Status | Estado atual conforme a lista abaixo |
 | Data planejada | Data futura incluída no calendário, se definida |
 | Postiz | Canal, identificador/link e confirmação por destino |
+| Origem | Localização e ID imutável do arquivo na pasta de entrada |
+| Destino POSTADOS | Localização e ID do arquivo após a movimentação |
+| Movimentação | NÃO APLICÁVEL, PENDENTE, CONCLUÍDA ou BLOQUEADA |
 | Observações | Pendência, motivo, licença/autorização ou correção necessária |
 
 ## Agrupamento e rastreabilidade de conjuntos
@@ -95,7 +119,7 @@ Itens pendentes ou rejeitados não devem ser recriados em execuções seguintes.
 
 ## Como inserir no calendário
 
-Adicionar cada post como linha própria na seção **Posts estáticos adicionais — impressões prontas** de `CALENDARIO.md` e no README do lote que contém seu briefing.
+Adicionar cada conteúdo adicional como linha própria na seção de conteúdos adicionais — impressões prontas de `CALENDARIO.md` e no README do lote que contém seu briefing. Registrar o formato real (estático, carrossel, Reel/vídeo ou misto), sem presumir que todo item é post estático.
 
 - Marcar explicitamente como adicional, sem substituir a grade regular.
 - Usar somente datas futuras compatíveis com o calendário vigente e com espaço de publicação.
@@ -107,5 +131,5 @@ Adicionar cada post como linha própria na seção **Posts estáticos adicionais
 
 Nenhuma mídia foi inspecionada ou registrada por esta alteração documental. Claude deve fazer a próxima varredura da pasta de entrada, identificar arquivos relacionados e inserir cada arquivo encontrado nesta tabela, relacionando conjuntos quando aplicável.
 
-| Drive file ID | Nome original | SHA-256 | Fingerprint visual | Primeira detecção | ID SG | Lote/briefing | Status | Data planejada | Postiz / observações |
-|---|---|---|---|---|---|---|---|---|---|
+| Drive file ID | Nome original | SHA-256 | Fingerprint visual | Primeira detecção | ID SG | Lote/briefing | Status | Data planejada | Postiz / observações | Origem | Destino POSTADOS | Movimentação |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|

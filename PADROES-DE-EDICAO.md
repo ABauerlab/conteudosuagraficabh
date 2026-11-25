@@ -59,17 +59,55 @@ Ao concluir:
 - Não afirmar que exportou ou publicou se isso não ocorreu.
 
 
-## Biblioteca externa de skills de motion graphics
+## Stack de skills para vídeo, animação e motion graphics
 
-Antes de iniciar a edição de qualquer vídeo, verificar se as skills do repositório oficial `https://github.com/Barty-Bart/motion-graphics` já estão instaladas no ambiente Claude Code. Conferir a instalação existente no workspace/ambiente de skills; não reinstalar se já estiver disponível. Se estiver ausente, instalar a partir da fonte oficial com:
+Antes de editar qualquer vídeo, Claude deve auditar o ambiente, verificar versões e skills já instaladas e seguir esta ordem de referência. Não reinstalar o que já estiver disponível; confirmar instalação e ler as instruções de cada skill antes do uso.
 
-```bash
-npx skills add Barty-Bart/motion-graphics
-```
+### Instalações-base
 
-Selecionar apenas as skills que tenham utilidade para o trabalho, confirmar a instalação e ler o README/instruções de cada skill antes de executá-la. Usar a biblioteca como recurso de apoio, não como obrigação de aplicar efeitos em todo vídeo. Preservar a prioridade de edição rápida, objetiva e profissional.
+1. **HyperFrames (HTML + GSAP):** instalar o conjunto Core Skills oficial:
+   ```bash
+   npx skills add heygen-com/hyperframes
+   ```
+   No seletor, escolher **Core Skills**. Atualizar o conjunto instalado com `npx hyperframes skills update`. Usar `/hyperframes` como entrada para projetos de animação/renderização em HyperFrames. O núcleo inclui ferramentas de composição, animação, registry e validação.
 
-**Restrições obrigatórias:** não executar fluxos que exijam transcrição, Whisper ou geração automática de legendas. Não usar `motion-broll` quando depender de transcrição. A instalação da biblioteca não autoriza transcrever, tratar, limpar, equalizar, comprimir, normalizar ou restaurar a voz. Preservar o áudio original.
+2. **Remotion oficial (React):**
+   ```bash
+   npx skills add remotion-dev/skills
+   ```
+   Em projetos que já usam Remotion, preferir `npx remotion skills add` quando disponível. Ler `/remotion-best-practices` primeiro e usar skills específicas como create, markup, studio, render, elements e docs conforme a tarefa. Não usar a skill de captions se ela depender de transcrição/legendas automáticas.
+
+3. **Motion graphics complementar já selecionado:**
+   ```bash
+   npx skills add Barty-Bart/motion-graphics
+   ```
+   Inspecionar a lista de skills e selecionar apenas as adequadas. Não usar `motion-broll` quando depender de transcrição.
+
+4. **Remotion motion design especializado (opcional, após auditoria de sobreposição):**
+   ```bash
+   npx skills add Liamrjohnston/remotion-motion-graphics-skill
+   ```
+   Usar somente se acrescentar recursos concretos não cobertos pelas skills oficiais do Remotion. Evitar duplicar instruções, componentes ou dependências sem benefício.
+
+### Pesquisa contínua de skills
+
+Claude deve pesquisar periodicamente skills recentes e relevantes para edição de vídeo, animação, motion graphics, composição, keyframes, tipografia cinética, edição de talking head, transições, templates e QA de render. Pode avaliar, entre outras, referências como `haidrrrry/claude-remotion-skill`, `Jakeschincariol/video-production-skills` e outras descobertas atuais. Elas são candidatas para avaliação, não instalações automáticas.
+
+Antes de instalar uma nova skill, verificar:
+- Repositório original, atividade/manutenção, documentação e presença de `SKILL.md` válido.
+- Compatibilidade com Claude Code, sistema operacional e stack existente.
+- Licença, dependências, comandos de instalação e necessidade de rede/API/chaves.
+- Qualidade demonstrável, exemplos, QA e capacidade de gerar fonte editável.
+- Sobreposição com HyperFrames, Remotion e Barty-Bart/motion-graphics.
+- Risco de alterar áudio, transcrever, gerar voz, instalar modelos pesados ou aumentar muito o tempo de produção.
+
+Instalar apenas skills que tragam ganho prático claro, sejam compatíveis e não contrariem as restrições deste projeto. Registrar no repositório o nome, URL, licença, função, data de verificação, comando de instalação e decisão (instalar, testar depois ou rejeitar). Não instalar tudo indiscriminadamente nem transformar pesquisa em etapa que atrase a produção. Não instalar pacotes globais sem necessidade; preferir o escopo do projeto/workspace quando viável.
+
+### Restrições obrigatórias
+
+Skills e ferramentas podem sugerir recursos de transcrição, captions automáticas, voiceover, limpeza de áudio, denoise, equalização, compressão, normalização, restauração ou mixagem. **Esses recursos estão proibidos neste projeto.** Não executar fluxos que exijam transcrição, Whisper ou geração automática de legendas. Não tratar nem modificar a faixa de áudio original. Preservar o áudio como recebido. Não usar skills que exijam essas etapas como dependência obrigatória; escolher somente módulos visuais/animação compatíveis.
+
+A instalação dessas skills não autoriza criar uma nova pipeline pesada nem substituir a edição rápida e profissional. Reutilizar templates e componentes existentes; selecionar a ferramenta mais simples e adequada ao vídeo. Toda saída de motion programático deve manter projeto-fonte editável e passar por inspeção visual real antes de ser aprovada.
 
 ## Direção audiovisual obrigatória: edição dinâmica com motion design
 

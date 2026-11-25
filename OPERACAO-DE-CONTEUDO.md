@@ -201,6 +201,14 @@ A rotina é adicional à cadência regular e não substitui os conteúdos planej
 
 Seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS.md`: deduplicação por Drive ID, SHA-256 e comparação visual quando disponíveis; proteção de privacidade; autorização de exposição; confirmação de dados comerciais no CRM; status real; calendário; Postiz; e registro de pendências. Não afirmar que uma mídia é nova ou que foi distribuída sem evidência.
 
+### Arquivamento após publicação confirmada
+
+Depois de publicar e confirmar todos os destinos previstos, Claude deve atualizar o ledger e mover os arquivos originais utilizados para:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/POSTADOS/`
+
+A pasta `POSTADOS` deve ser ignorada em todas as varreduras futuras. Não mover arquivos apenas agendados, enviados ao Postiz ou publicados parcialmente. Se a publicação estiver confirmada, mas o movimento falhar, não republicar: registrar a pendência e tentar somente concluir o arquivamento na próxima execução. Preservar nomes e conteúdo, confirmar cada movimentação e registrar a localização/ID de destino no ledger.
+
 ## Guia obrigatório de carrosséis no Google Drive
 
 Antes de planejar, criar, editar ou revisar qualquer carrossel, Claude deve consultar o guia atualizado em:
