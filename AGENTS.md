@@ -75,6 +75,8 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 - João deve salvar a imagem em `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/`, usando os IDs SG no nome.
 - Claude deve inspecionar a prancha e utilizar exclusivamente os arquivos oficiais de `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`, conforme a regra de identidade visual deste arquivo.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
+- Antes de editar vídeos, conferir se as skills do repositório `https://github.com/Barty-Bart/motion-graphics` já estão instaladas no ambiente Claude Code. Se não estiverem, instalar as skills adequadas com `npx skills add Barty-Bart/motion-graphics`, confirmar a instalação e ler as instruções antes de usar.
+- Não executar skills ou fluxos que exijam transcrição, Whisper ou processamento de voz. Não usar `motion-broll` quando depender de transcrição. A instalação dessa biblioteca não revoga a regra de preservar o áudio original.
 - Execute os IDs indicados por João e, como exceção permanente e delimitada, os posts estáticos adicionais gerados exclusivamente por imagens novas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, conforme REGISTRO-IMPRESSOES-PRONTAS.md. Não criar outras peças fora do escopo. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates identificarem lacuna real, corrija ou bloqueie o item antes da produção.
 
 
@@ -244,7 +246,15 @@ Em toda execução do prompt único de Claude, verificar a pasta do Google Drive
 
 `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/07 - IMPRESSÕES PRONTAS/`
 
-Cada imagem nova elegível dessa pasta gera exatamente um post estático adicional de Feed. Não transformar a foto em carrossel, não agrupar várias fotos em um post e não criar uma peça se não houver imagem nova elegível.
+A pasta pode conter fotos, imagens de frente e verso, conjuntos do mesmo produto e vídeos. Inspecionar os arquivos e identificar quais pertencem ao mesmo trabalho antes de escolher a apresentação:
+- Frente e verso do mesmo item podem formar um carrossel, com sequência coerente e identificação clara.
+- Fotos de ângulos ou detalhes diferentes podem formar carrossel quando acrescentarem valor visual ou informação.
+- Vídeos podem ser usados separadamente como Reel/vídeo ou integrados a um carrossel com fotos e/ou outros vídeos, quando o canal e o Postiz aceitarem essa combinação.
+- Foto e vídeo do mesmo trabalho podem ficar juntos ou ser publicados separadamente, conforme narrativa, qualidade, objetivo e compatibilidade técnica. Evitar duplicações desnecessárias.
+- Uma imagem isolada pode continuar como post estático quando essa for a melhor solução.
+- Não agrupar arquivos sem relação, não forçar carrossel e não criar automaticamente um post por arquivo.
+- Um conjunto coerente pode gerar um único conteúdo SG com várias mídias; cada arquivo de origem continua rastreável no ledger.
+- Confirmar os recursos reais de cada canal/Postiz. Se um formato misto não for aceito, adaptar e registrar a limitação.
 
 A rotina é incremental e deve seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS.md`:
 - Comparar todos os arquivos da pasta com o registro persistente antes de produzir.
@@ -255,6 +265,16 @@ A rotina é incremental e deve seguir integralmente `REGISTRO-IMPRESSOES-PRONTAS
 - Não renomear, mover, apagar ou alterar os arquivos originais da pasta de entrada.
 - Se houver dúvida de duplicidade, autoria, autorização de uso, privacidade ou integridade da imagem, manter pendente e não publicar.
 - A foto deve continuar fiel ao produto real. Não remover, substituir ou alterar a arte impressa para simular outro produto/resultado.
+
+- Registrar a relação entre arquivos do mesmo trabalho/conjunto no ledger. Cada arquivo de origem continua rastreável, mas vários arquivos podem compor um único conteúdo SG. Não atribuir IDs separados a cada lado/foto de um mesmo carrossel.
+
+## Referência obrigatória para carrosséis no Google Drive
+
+Antes de planejar, criar, editar ou revisar qualquer carrossel, consultar o guia atualizado em:
+
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/05 - REFERÊNCIAS/CARROSSEIS/`
+
+Localizar e ler o guia e os materiais aplicáveis dessa pasta em cada tarefa de carrossel. Aplicar suas orientações em conjunto com `PLATAFORMAS-E-CARROSSEIS-2026-11.md`, o briefing SG e as regras de identidade visual. Se a pasta ou o guia estiver indisponível, registrar o bloqueio e não afirmar que a consulta foi feita.
 - Consultar o CRM para confirmar qualquer afirmação sobre produto, material, acabamento, aplicação, prazo ou disponibilidade. Não inferir dados comerciais pela foto.
 - O post adicional precisa de copy, contexto, CTA e adaptação por canal. Não usar somente “mais um trabalho pronto” nem inventar cliente, resultado ou depoimento.
 - Definir data de publicação futura compatível com o calendário e a capacidade operacional. Registrar explicitamente como adicional. Não alterar datas/status de conteúdos regulares nem criar agendamento retroativo.
