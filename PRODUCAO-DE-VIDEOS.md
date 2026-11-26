@@ -1,5 +1,8 @@
 # Produção de vídeos curtos | SUA GRÁFICA BH
 
+> **Norma obrigatória:** antes de planejar, editar ou revisar qualquer vídeo, ler integralmente [`DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`](DIRECAO-AUDIOVISUAL-PROFISSIONAL.md). O padrão exige direção visual por cena, storyboard completo, motion graphics narrativo/desenhado, B-roll contextual, legendas incorporadas obrigatórias, capa e projeto-fonte. Talking head com cortes simples não é entrega concluída. Legendas manuais devem ser baseadas no teleprompter aprovado; a proibição de Whisper/transcrição automática não autoriza omiti-las.
+
+
 ## Objetivo
 Transformar pesquisa de formatos e conteúdos de alto desempenho em roteiros originais, fáceis de gravar e acompanhados de instruções de edição suficientemente claras para Claude executar sem precisar decidir a direção criativa do zero.
 
@@ -20,7 +23,7 @@ João deve ter o mínimo de trabalho operacional: abrir a pasta de roteiros, gra
 Não basta listar trends. Procurar exemplos reais, recentes e rastreáveis de conteúdos com sinais de desempenho:
 - Vídeo direto para a câmera com narrativa visual construída na edição.
 - Tela dividida com apresentador e conteúdo visual/motion.
-- React, comentário, chroma key e picture-in-picture.
+- React, comentário, chroma key e picture-in-picture, quando o briefing e os materiais autorizados permitirem.
 - Motion graphics, animação, storytelling visual e sound design.
 - Demonstração, transformação, comparação e antes/depois.
 - Formatos que criem curiosidade, surpresa, identificação ou utilidade.
@@ -36,7 +39,7 @@ Possibilidades:
 - **React/comentário:** reação ou análise com referência identificada e direitos verificados.
 - **Chroma key:** João aparece integrado a um cenário ou conteúdo de apoio quando isso realmente melhora a explicação.
 - **Picture-in-picture:** apresentador em janela sobre o conteúdo principal.
-- **Voice-over:** narração conduz a sequência visual.
+- Não usar voice-over neste fluxo; preservar a fala original de João.
 - **Sem apresentador:** demonstração, storytelling visual, produto, processo ou animação.
 - **Demonstração/comparação:** mostrar materiais, acabamentos, aplicações e diferenças confirmadas pelo catálogo.
 
@@ -47,7 +50,7 @@ Quando João grava apenas falando:
 - A gravação deve priorizar boa luz, enquadramento estável e espaço visual para cortes. Não criar exigências técnicas de áudio para a pós-produção.
 - Claude deve mapear a fala em blocos de ideias e criar uma progressão visual correspondente.
 - Criar cenas, animações, tipografia cinética, gráficos, ilustrações ou imagens de apoio que expliquem ou reforcem cada ponto.
-- Usar cortes, aproximações, transições e efeitos sonoros com intenção, sem poluir.
+- Usar cortes, aproximações e transições visuais com intenção, sem poluir. Não inserir efeitos sonoros nem processar/mixar áudio.
 - Introduzir mudanças visuais para renovar a atenção, sem sacrificar a compreensão.
 - O final deve concluir a história e conduzir ao CTA.
 
@@ -165,3 +168,7 @@ Antes de escrever roteiro, consultar `DORES-REAIS-CLIENTES.md` e pesquisar a sit
 
 ## Áudio original
 Preservar a faixa de áudio exatamente como gravada. Não transcrever, limpar, melhorar, normalizar, equalizar, comprimir ou processar a voz. Não instalar ferramentas nem baixar modelos para essas tarefas. Priorizar cortes visuais, ritmo, motion e finalização rápida. Se um bruto estiver incompreensível, registrar somente o ID afetado e seguir com o restante do lote.
+
+
+## Critério de produção e aceite
+O vídeo deve ser concebido como narrativa audiovisual, não como gravação de câmera com acabamento superficial. Para cada bloco de fala, Claude precisa definir o que será visto e como esse visual explica o assunto. Ilustrações desenhadas na tela, objetos construídos em camadas, diagramas, ícones em ação, comparações e B-roll contextual devem ser utilizados quando o roteiro os comportar. Todo Reel recebe legendas incorporadas e capa independente. O aceite depende da lista de verificação e das reprovações automáticas de `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`.

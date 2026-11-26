@@ -36,8 +36,9 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - [PESQUISA-ESTRATEGICA-AQUISICAO-2026-11.md](PESQUISA-ESTRATEGICA-AQUISICAO-2026-11.md): funil, canais, conversão e evidências de aquisição.
 - [PLATAFORMAS-E-CARROSSEIS-2026-11.md](PLATAFORMAS-E-CARROSSEIS-2026-11.md): pesquisa comparativa de Instagram, Facebook e Threads; diretrizes por formato; carrosséis de até 20 páginas; métricas e revisão.
 - [BANCO-DE-GANCHOS.md](BANCO-DE-GANCHOS.md): ganchos e aprendizados.
-- [PRODUCAO-DE-VIDEOS.md](PRODUCAO-DE-VIDEOS.md): regras de roteiro e referências.
-- [PADROES-DE-EDICAO.md](PADROES-DE-EDICAO.md): direção de edição e qualidade.
+- [PRODUCAO-DE-VIDEOS.md](PRODUCAO-DE-VIDEOS.md): regras de roteiro, formatos e referências.
+- [DIRECAO-AUDIOVISUAL-PROFISSIONAL.md](DIRECAO-AUDIOVISUAL-PROFISSIONAL.md): norma obrigatória de ponta a ponta para storyboard, motion graphics narrativo/desenhado, B-roll contextual, legendas incorporadas, stack, pacote de entrega e critérios objetivos de reprovação/aceite.
+- [PADROES-DE-EDICAO.md](PADROES-DE-EDICAO.md): direção de edição, ferramentas e padrões complementares; deve ser aplicado junto da norma audiovisual.
 - [OPERACAO-DE-CONTEUDO.md](OPERACAO-DE-CONTEUDO.md): fluxo simples e comando para Claude.
 - [EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md](EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md): procedimento de fallback para Drive, edição rápida, upload e agendamento via Postiz MCP, com checkpoints e retomada.
 - [ANALISE-DE-DESEMPENHO.md](ANALISE-DE-DESEMPENHO.md): métricas e melhoria contínua.
@@ -56,7 +57,8 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - Não inventar informações comerciais; consultar o CRM oficial.
 - Respeitar direitos de terceiros e créditos.
 - Não prometer viralização; trabalhar com hipóteses e testes.
-- Preservar os vídeos brutos.
+- Preservar os vídeos brutos e o áudio original sem processamento.
+- Todo Reel precisa de motion graphics narrativo e B-roll contextual quando pertinente, storyboard completo e legendas incorporadas. Talking head com cortes simples ou sem legendas não é entrega concluída; consultar a norma audiovisual.
 - Não publicar material que não tenha passado pelo controle de qualidade.
 
 ## Estrutura obrigatória dos lotes

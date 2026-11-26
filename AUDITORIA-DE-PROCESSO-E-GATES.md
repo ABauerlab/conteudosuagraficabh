@@ -9,9 +9,10 @@ Este documento é obrigatório para pesquisa, estratégia, criação de roteiros
 2. CRM oficial: identidade, catálogo ativo, disponibilidade e dados comerciais.
 3. AGENTS.md: regras permanentes.
 4. Este documento: gates de qualidade e precedência.
-5. Guias especializados.
-6. Briefing individual SG aprovado.
-7. Prompt de lote: IDs, datas, etapa e escopo.
+5. Norma audiovisual específica `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md` para todo Reel/vídeo.
+6. Guias especializados.
+7. Briefing individual SG aprovado.
+8. Prompt de lote: IDs, datas, etapa e escopo.
 
 Conflitos não podem ser resolvidos silenciosamente. Registrar e corrigir a instrução obsoleta. Um prompt antigo ou datado nunca revoga regra permanente.
 
@@ -48,7 +49,7 @@ Aceite: Claude consegue executar sem inventar copy, roteiro, dados, cena ou dire
 Conferir ID, correspondência com briefing, integridade, áudio, orientação, enquadramento e inteligibilidade. Preservar brutos. Bloquear somente o ID sem material essencial e registrar a ação necessária.
 
 ## Gate 5 — Edição e design
-Vídeo: narrativa audiovisual progressiva; motion que ilustra a fala; quando programático, projeto-fonte JS/TS editável (preferencialmente Remotion); B-roll contextual e licenciado; rosto preservado em todos os frames; legendas Montserrat, uma linha, sincronizadas e em área segura; gancho legível; capa gráfica independente; áudio original preservado sem processamento; export compatível. Trilha conforme a política de licença vigente do projeto, sem compras não autorizadas.
+Vídeo: aplicar integralmente `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`, que detalha storyboard por bloco, motion graphics narrativo/desenhado, B-roll contextual, legendas incorporadas obrigatórias, projeto-fonte, áudio original intacto, pacote de entrega e reprovação automática. O gate não é atendido por talking head com cortes simples nem por vídeo sem legendas.
 
 Feed/carrossel/Stories: identidade oficial, texto revisado, sequência lógica, arquivos individuais na ordem, legibilidade em celular, contraste, margens seguras, representação honesta do produto e CTA claro.
 
@@ -75,3 +76,7 @@ Aplicar em toda execução do prompt único o procedimento de `REGISTRO-IMPRESSO
 
 ## Identidade visual não recriável
 A fonte oficial e exclusiva de ativos é `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`. É proibido recriar ou aproximar logotipo, símbolos, fontes e grafismos oficiais. Se faltar o ativo, bloquear apenas a aplicação que dependa dele.
+
+
+## Gate audiovisual específico e obrigatório
+A norma `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md` é o critério executável de aceite para Reels. Ela prevalece sobre qualquer resumo ou instrução antiga que sugira edição simplificada ou permita omitir legendas por padrão. Todo vídeo precisa de storyboard completo, construção visual semântica, motion/B-roll pertinente, legendas manuais sincronizadas a partir do teleprompter, capa, fonte editável quando programático e reprodução integral para QA. Ausência de qualquer item crítico reprova o ID.
