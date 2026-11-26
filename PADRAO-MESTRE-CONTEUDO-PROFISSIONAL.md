@@ -4,6 +4,8 @@ A distribuição não é opcional nem uma tarefa que João precise solicitar sep
 
 # Padrão mestre de conteúdo profissional e distribuição | SUA GRÁFICA BH
 
+> **Norma audiovisual executável:** todo Reel/vídeo também deve cumprir integralmente `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Em caso de divergência sobre storyboard, motion, B-roll, legendas, áudio ou aceite, prevalece a norma audiovisual específica. A restrição a transcrição automática não permite omitir legendas manuais baseadas no teleprompter aprovado.
+
 Este documento é a referência operacional central para transformar briefings em conteúdos audiovisuais e gráficos de alto padrão, distribuí-los corretamente e aprender com os resultados. Deve ser lido junto do briefing individual, Brand Kit, calendário, CRM e diretrizes técnicas. Em caso de conflito, não inventar: preservar os fatos oficiais e sinalizar a inconsistência.
 
 ## 1. Objetivo e princípio editorial
@@ -84,10 +86,12 @@ Preservar a identidade oficial: ciano, magenta, amarelo, preto e branco; símbol
 - Se Montserrat não estiver acessível, procurar no Brand Kit. Não instalar fontes nem substituir sem autorização; sinalizar bloqueio.
 
 ## 6. Áudio, música e sound design
-- Preservar integralmente o áudio original do vídeo. Não executar transcrição, Whisper, limpeza, denoise, equalização, compressão, normalização, restauração ou qualquer melhoria/processamento da voz.
+- Preservar integralmente o áudio original do vídeo, sem qualquer processamento, mixagem ou alteração da voz.
+- Não executar transcrição, Whisper, diarização, limpeza, denoise, equalização, compressão, normalização, restauração ou melhoria de áudio.
 - Não instalar ferramentas, baixar modelos ou contratar serviços para transcrição ou processamento de áudio.
-- Não alterar, sintetizar, clonar, substituir ou reconstruir a voz.
-- Quando houver trilha licenciada prevista, mantê-la discreta e sem processamento da voz original.
+- Não alterar, sintetizar, clonar, substituir, reconstruir, acelerar, desacelerar ou regravar a voz.
+- Não adicionar efeitos sonoros, voiceover ou trilha se isso exigir mixagem ou processamento da faixa original. Música é opcional e só pode ser usada se for possível preservar a faixa original intacta.
+- Para legendar, usar o teleprompter aprovado e sincronizar manualmente, conforme `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Não usar speech-to-text ou captions automáticas. A proibição de transcrição automática não significa ausência de legendas.
 
 ## 7. Gancho, storytelling e retenção
 
@@ -339,3 +343,7 @@ Relatório final conciso e factual: itens concluídos, arquivos/caminhos, agenda
 
 ## 22. Conteúdo baseado em dores reais do cliente
 Consultar obrigatoriamente `DORES-REAIS-CLIENTES.md` antes de criar ou auditar pautas. Cada peça deve partir de uma dor, dúvida, desejo, objeção ou decisão concreta de quem compra materiais gráficos e entregar orientação prática. Exemplos: economizar sem desperdício, escolher tipos de papel, gramatura e aplicação, preparar sangria e margem de segurança, evitar erros de arquivo, entender cores e comparar fosco/brilho. São territórios de pesquisa, não fatos técnicos prontos nem uma lista para repetir. Validar afirmações em fontes confiáveis e no CRM/fornecedor quando depender de produto ou processo da gráfica. Comparar semanticamente com o histórico.
+
+
+## Norma específica de produção audiovisual
+Para execução e aceite de Reels, a referência normativa é `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`: storyboard completo por blocos, motion graphics semântico e ilustrativo, B-roll contextual, legendas incorporadas obrigatórias, projeto-fonte editável e QA integral. Talking head com cortes simples ou vídeo sem legendas não pode ser aprovado. Este documento mestre complementa a norma audiovisual nos demais temas.
