@@ -132,8 +132,8 @@ A instalação dessas skills não autoriza criar uma nova pipeline pesada nem su
 ### Áudio: preservar e não processar
 Não executar transcrição, Whisper, diarização, limpeza, denoise, de-reverb, equalização, compressão, normalização, limiter, restauração ou qualquer melhoria/processamento da voz. Não instalar pacotes, baixar modelos ou iniciar serviços para essas tarefas. Manter a faixa original da gravação sem alterações. A edição pode cortar trechos visuais, mas não deve reconstruir, regravar, sintetizar ou alterar a fala. Se o áudio de um bruto estiver realmente incompreensível, sinalizar somente aquele ID e continuar os demais conteúdos.
 
-## Documento mestre complementar e obrigatório
-Para a direção completa de produção audiovisual, proteção do rosto, cinematografia, montagem, storytelling, motion design, áudio, capas, formatos, revisão, publicação e critérios de aceite, consultar `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md`. As regras deste arquivo permanecem válidas; o documento mestre consolida e amplia o padrão. **Nunca cortar ou encobrir o rosto do apresentador.**
+## Norma audiovisual complementar e obrigatória
+Para todo Reel/vídeo, ler primeiro `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Ele é a norma executável de produção e aceite: exige storyboard cobrindo o vídeo inteiro, motion graphics narrativo (incluindo ilustrações desenhadas/animadas quando pertinentes), B-roll contextual, legendas incorporadas obrigatórias, capa, projeto-fonte e QA integral. Em caso de divergência entre instruções de velocidade/edição simples deste arquivo e a norma audiovisual, prevalece `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. O `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` continua complementar para proteção do rosto, cinematografia, storytelling, identidade, distribuição e critérios gerais. **Nunca cortar ou encobrir o rosto do apresentador.**
 
 ## Tempo mínimo de leitura do gancho na tela
 
@@ -224,3 +224,7 @@ Quando o motion gráfico for produzido programaticamente, a fonte principal deve
 - QA deve conferir o render final e a correspondência com o código-fonte. Entregar caminhos reais do projeto e do vídeo exportado.
 
 
+
+
+## Regra explícita de aceite audiovisual
+A ausência de legendas ou a entrega de talking head com cortes simples não pode ser tratada como conclusão. Todo Reel precisa cumprir o storyboard, motion narrativo, B-roll contextual, legendas e pacote de entrega descritos em `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. A restrição de não usar transcrição/Whisper/captions automáticas proíbe automação de áudio, não legendas manuais baseadas no teleprompter aprovado.
