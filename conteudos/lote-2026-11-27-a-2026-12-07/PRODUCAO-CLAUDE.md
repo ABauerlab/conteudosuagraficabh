@@ -12,13 +12,16 @@ Produzir as artes dos 11 carrosséis e 33 Stories, editar os 22 Reels após rece
 6. Conferir Trial Reels no Postiz/conta; se não houver suporte, marcar bloqueio por ID. Não publicar como Reel comum sem autorização.
 
 ## Produção de Reels
+- **Norma completa e obrigatória:** executar integralmente `../../DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Ela prevalece sobre qualquer orientação resumida deste arquivo.
 - 22 Reels, todos com João visível e falando. Nenhum pode ser motion-only.
-- Usar o teleprompter integral dos arquivos SG e CAPTACAO.md. Não reescrever copy/CTA sem apontar falha factual ou repetição.
-- Preservar faixa original do áudio. Proibidos transcrição, Whisper, legendas automáticas, limpeza, denoise, equalização, compressão, normalização, restauração, voiceover e mixagem.
-- Cortes de imagem e ritmo são permitidos sem alterar a fala. Legendas somente a partir do roteiro fornecido e quando a correspondência for clara; omitir quando houver divergência.
-- Motion deve ilustrar a fala, sem cobrir rosto. Reenquadramentos suaves e cortes visuais. B-roll apenas próprio/licenciado e com evidência.
-- Criar capa independente para cada Reel e 2–4 quadros-chave de storyboard. Usar copy verdadeira do briefing.
-- Fonte editável em JavaScript/TypeScript/Remotion ou HyperFrames, conforme stack já instalado. Não entregar apenas render final.
+- Usar o teleprompter integral dos arquivos SG e `CAPTACAO.md`. Não reescrever copy/CTA sem apontar falha factual ou repetição.
+- Cada Reel exige storyboard/motion map cobrindo o vídeo inteiro, bloco a bloco. Não limitar a 2–4 quadros genéricos.
+- Construir narrativa visual profissional: motion graphics semânticos, ilustrações desenhadas/animadas, objetos em camadas, diagramas, ícones em ação, tipografia cinética e B-roll contextual real/licenciado ou desenhado. A fala deve determinar o visual; não usar animação decorativa ou stock genérico.
+- **Legendas incorporadas obrigatórias em todos os Reels**, Montserrat, uma linha por vez, sincronizadas manualmente a partir do teleprompter aprovado. Conferir correspondência ouvindo o bruto; não usar Whisper, speech-to-text, transcrição ou captions automáticas. A proibição de transcrição automática não autoriza entregar sem legendas. Tratar divergências pontuais conforme a norma audiovisual.
+- Preservar faixa original do áudio sem limpeza, denoise, equalização, compressão, normalização, restauração, voiceover ou mixagem. Cortes visuais não podem alterar palavras ou sentido.
+- Preservar o rosto integralmente; motion nunca pode encobri-lo.
+- Criar capa exclusiva independente e projeto-fonte editável em JavaScript/TypeScript, preferencialmente Remotion ou HyperFrames. Não entregar apenas render final.
+- Reproduzir cada vídeo integralmente em velocidade normal e revisar em celular. Talking head cru, ausência de legendas, motion decorativo, storyboard incompleto ou projeto-fonte ausente reprovam o Reel.
 
 ## Produção de Feed
 - 11 carrosséis, com todos os slides individualmente descritos no briefing SG.
