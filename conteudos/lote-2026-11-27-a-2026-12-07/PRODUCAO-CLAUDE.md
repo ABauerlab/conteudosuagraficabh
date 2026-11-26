@@ -22,6 +22,7 @@ Produzir as artes dos 11 carrosséis e 33 Stories, editar os 22 Reels após rece
 - Preservar o rosto integralmente; motion nunca pode encobri-lo.
 - Criar capa exclusiva independente e projeto-fonte editável em JavaScript/TypeScript, preferencialmente Remotion ou HyperFrames. Não entregar apenas render final.
 - Reproduzir cada vídeo integralmente em velocidade normal e revisar em celular. Talking head cru, ausência de legendas, motion decorativo, storyboard incompleto ou projeto-fonte ausente reprovam o Reel.
+- **Retrabalho obrigatório:** localizar e auditar quaisquer versões editadas anteriormente desses 22 IDs. Se uma versão tiver apenas cortes simples, não tiver legendas ou não cumprir a direção visual, classificá-la como REPROVADA e refazer a partir do RAW original. Preservar versões anteriores como histórico até validar a nova entrega; não pedir nova gravação se o RAW correspondente estiver íntegro e disponível.
 
 ## Produção de Feed
 - 11 carrosséis, com todos os slides individualmente descritos no briefing SG.
