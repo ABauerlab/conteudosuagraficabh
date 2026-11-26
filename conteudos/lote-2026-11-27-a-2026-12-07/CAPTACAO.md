@@ -27,7 +27,7 @@
 - [ ] Os RAWs estão completos e sem cortes; não substituir o original pelo arquivo editado.
 - [ ] Enviar os 22 RAWs na pasta compartilhada do lote, mantendo os nomes originais.
 
-**Pasta de entrega:** `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/06 - VÍDEOS BRUTOS/SG-051-SG-112/` (criar somente se ainda não existir e se houver permissão).
+**Pasta de entrega:** usar a pasta sincronizada de vídeos brutos já definida na operação. O caminho exato não foi confirmado nesta sessão; não criar uma nova pasta nem mover arquivos sem validar o destino oficial.
 
 ## Organização da sessão
 - Gravar vertical 9:16, câmera na altura dos olhos, plano médio/fechado, luz frontal suave e ambiente silencioso.
