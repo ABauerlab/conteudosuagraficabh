@@ -1,5 +1,8 @@
 # Produção de vídeos curtos | SUA GRÁFICA BH
 
+> **Norma obrigatória:** antes de planejar, editar ou revisar qualquer vídeo, ler integralmente [`DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`](DIRECAO-AUDIOVISUAL-PROFISSIONAL.md). O padrão exige direção visual por cena, storyboard completo, motion graphics narrativo/desenhado, B-roll contextual, legendas incorporadas obrigatórias, capa e projeto-fonte. Talking head com cortes simples não é entrega concluída. Legendas manuais devem ser baseadas no teleprompter aprovado; a proibição de Whisper/transcrição automática não autoriza omiti-las.
+
+
 ## Objetivo
 Transformar pesquisa de formatos e conteúdos de alto desempenho em roteiros originais, fáceis de gravar e acompanhados de instruções de edição suficientemente claras para Claude executar sem precisar decidir a direção criativa do zero.
 
@@ -165,3 +168,7 @@ Antes de escrever roteiro, consultar `DORES-REAIS-CLIENTES.md` e pesquisar a sit
 
 ## Áudio original
 Preservar a faixa de áudio exatamente como gravada. Não transcrever, limpar, melhorar, normalizar, equalizar, comprimir ou processar a voz. Não instalar ferramentas nem baixar modelos para essas tarefas. Priorizar cortes visuais, ritmo, motion e finalização rápida. Se um bruto estiver incompreensível, registrar somente o ID afetado e seguir com o restante do lote.
+
+
+## Critério de produção e aceite
+O vídeo deve ser concebido como narrativa audiovisual, não como gravação de câmera com acabamento superficial. Para cada bloco de fala, Claude precisa definir o que será visto e como esse visual explica o assunto. Ilustrações desenhadas na tela, objetos construídos em camadas, diagramas, ícones em ação, comparações e B-roll contextual devem ser utilizados quando o roteiro os comportar. Todo Reel recebe legendas incorporadas e capa independente. O aceite depende da lista de verificação e das reprovações automáticas de `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`.
