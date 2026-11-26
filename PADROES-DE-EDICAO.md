@@ -17,7 +17,6 @@ Não assumir que uma dependência está instalada. Verificar o ambiente e usar a
 - Tela dividida.
 - Chroma key / fundo verde.
 - Picture-in-picture.
-- Voice-over (não permitido neste fluxo enquanto a regra de áudio original integralmente preservado estiver vigente).
 - Vídeo tipográfico.
 - Motion explicativo.
 - Demonstração de produto ou aplicação.
