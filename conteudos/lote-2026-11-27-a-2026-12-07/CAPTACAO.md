@@ -34,7 +34,7 @@
 - Teleprompter com ritmo de conversa, sem acelerar. Uma tomada integral por roteiro; repetir gancho e CTA isolados se necessário.
 - Objetos/demonstrações descritos em cada briefing individual. Não é necessário gravar B-roll adicional além do que está indicado.
 - Preservar os brutos. Áudio original intacto: não transcrever, não usar Whisper, não gerar legendas automáticas, não limpar, equalizar, comprimir, normalizar, restaurar, fazer voiceover ou mixar áudio.
-- Legenda manual só a partir do teleprompter se corresponder claramente à fala. Se houver divergência, omitir.
+- Legendas incorporadas são obrigatórias no Reel final. Criá-las manualmente a partir do teleprompter aprovado e sincronizar com a fala. Se houver divergência pontual, não inventar: omitir apenas o trecho não confirmado e registrar; seguir `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`.
 - Arquivos RAW com o nome exato abaixo.
 
 ## Teleprompters integrais
