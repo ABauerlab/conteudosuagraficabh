@@ -2,6 +2,33 @@
 
 **22 vídeos | 22 falas completas | 22 arquivos RAW.** Todos os Reels exigem João visível e falando no vídeo final. Não usar avatar, voz sintética, react com material de terceiros ou Reel apenas em motion.
 
+## Guia rápido para gravar sem retrabalho
+
+### Antes de começar
+- Grave em vertical 9:16, câmera na altura dos olhos, plano médio/fechado e lente limpa.
+- Use luz frontal suave e ambiente silencioso. Deixe os objetos de demonstração já separados.
+- Abra o teleprompter do ID correspondente e grave uma tomada integral. Não precisa decorar.
+- Faça uma segunda tomada apenas se houver erro, interrupção ou problema técnico. Se quiser, grave gancho e CTA isolados como takes extras.
+- Deixe 1–2 segundos de silêncio visual no início e no fim da gravação, sem falar nada adicional.
+- Não coloque música, filtros de voz ou efeitos no arquivo bruto. O áudio original será preservado integralmente.
+
+### Ordem recomendada da sessão
+1. **Bloco A — 27/11 a 29/11:** SG-051, 052, 057, 058, 063, 064.
+2. **Bloco B — 30/11 a 02/12:** SG-069, 070, 075, 076, 081, 082.
+3. **Bloco C — 03/12 a 05/12:** SG-087, 088, 093, 094, 099, 100.
+4. **Bloco D — 06/12 a 07/12:** SG-105, 106, 111, 112.
+
+### Conferência antes de enviar
+- [ ] Os 22 arquivos estão em vertical 9:16.
+- [ ] Cada arquivo corresponde ao ID e ao nome indicado abaixo.
+- [ ] João aparece e fala de forma natural, com o roteiro integral.
+- [ ] Os objetos mostrados correspondem ao briefing; não usar produtos de terceiros identificáveis.
+- [ ] Áudio original está preservado, sem tratamento.
+- [ ] Os RAWs estão completos e sem cortes; não substituir o original pelo arquivo editado.
+- [ ] Enviar os 22 RAWs na pasta compartilhada do lote, mantendo os nomes originais.
+
+**Pasta de entrega:** `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/06 - VÍDEOS BRUTOS/SG-051-SG-112/` (criar somente se ainda não existir e se houver permissão).
+
 ## Organização da sessão
 - Gravar vertical 9:16, câmera na altura dos olhos, plano médio/fechado, luz frontal suave e ambiente silencioso.
 - Teleprompter com ritmo de conversa, sem acelerar. Uma tomada integral por roteiro; repetir gancho e CTA isolados se necessário.
