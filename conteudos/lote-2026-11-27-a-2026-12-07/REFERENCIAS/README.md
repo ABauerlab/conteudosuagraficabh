@@ -1,0 +1,23 @@
+# Referências | histórico editorial e lote 27/11–07/12/2026
+
+## Pesquisa do lote 27/11–07/12/2026
+Consulta realizada em 26/11/2026. Fontes externas orientam hipóteses editoriais; não substituem dados da audiência própria nem o CRM.
+
+- **Sebrae RS — Black Friday 2026: o que o consumidor espera e como preparar seu negócio**, publicado em 23/10/2026: https://digital.sebraers.com.br/blog/marketing-e-vendas/black-friday-2026-o-que-o-consumidor-espera-e-como-preparar-seu-negocio/ — confirma a data de 27/11/2026; apresenta pesquisa Google/Offerwise e aponta que 70% dos consumidores ainda não escolheram onde comprar; destaca comparação, confiança e preço honesto. Dado nacional citado pelo Sebrae RS, não previsão específica para a audiência da marca.
+- **Sebrae RJ — Black Friday, Natal e Ano Novo: temporada de fim de ano 2026**, consultado em 26/11/2026: https://inteligenciademercado.rj.sebrae.com.br/multissetorial/Temporada-de-fim-de-ano-2026-comportamentos-tendencias-e-oportunidades — aponta consumidores atentos a preço, conveniência, confiança, experiência, personalização e integração entre canais; relatório de inteligência para contexto brasileiro.
+- **Sebrae RN — Ideias para vender no Natal: guia prático para o MEI**, publicado em novembro de 2026: https://blog.rn.sebrae.com.br/ideias-para-vender-no-natal-mei/ — aborda presentes personalizados, lembranças corporativas, kits, pré-venda, catálogo enxuto, datas-limite e uso de fotos reais. Referência de boas práticas para pequenos negócios, não evidência específica de Minas Gerais.
+- **Meta — Trial Reels**, publicado em 10/12/2024 e atualizado em 26/06/2025: https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/ — descreve teste inicial de Reels com não seguidores e métricas após cerca de 24 horas. Disponibilidade no perfil e no Postiz deve ser verificada na execução.
+- **Meta — Inspiring Creativity That Brings People Together**, junho de 2025: https://about.fb.com/news/2025/06/inspiring-creativity-that-brings-people-together/ — reforça distribuição de conteúdo original e disponibilidade global de Trial Reels; estatísticas citadas são dados agregados da Meta, não previsão para esta conta.
+- **Metricool — Instagram Trends / estudo 2026**, 16/06/2026: https://metricool.com/press-release-instagram-study-2026/ e https://metricool.com/instagram-trends/ — pesquisa agregada de contas e publicações, usada apenas para orientar hipóteses de formato e objetivos (Reels para descoberta; carrosséis para salvamentos). Não há métricas próprias recentes no arquivo ANALISE-DE-DESEMPENHO.md para validar uma previsão.
+- **Sebrae — Tendências de consumo 2026**, atualizado em 15/08/2026: https://meuatendimento.sebrae.com.br/sites/PortalSebrae/tendencias-de-consumo-2026-caminhos-para-pequenos-negocios%2C3380aa1408bfb910VgnVCM1000001b00320aRCRD — contexto sobre utilidade, relações humanas, transparência, personalização e sustentabilidade. Não usar para fazer alegações ambientais sem evidência do produto.
+
+## Verificação interna de catálogo e marca
+- CRM oficial: https://github.com/ABauerlab/crm-sua-grafica-bh — categorias ativas e vendáveis consultadas no banco CRM em 26/11/2026. Foram confirmadas categorias relacionadas a cartões de visita, panfletos, adesivos, rótulos, tags, sacolas, caixas/embalagens, calendários e folhinhas 2027, agendas/cadernetas, canecas/copos, canetas promocionais, cardápios, crachás, credenciais, banners/lonas e displays. O briefing não publica preços, prazos, gramaturas, quantidades mínimas ou especificações particulares.
+- Planilha enviada pelo responsável: `Tabela_Precos_Venda_Sua_Grafica_BH_REVISADA.xlsx`, recebida em 26/11/2026. Consultadas as abas de resumo, catálogo, regras de precificação, kits e fontes de mercado. Usada apenas para conferir coerência de categorias e possíveis linhas de produto. Nenhum custo, margem, markup, SKU ou dado interno foi copiado para os briefings.
+- Identidade técnica: CRM `src/lib/brand.ts` — ciano #00A6D6, magenta #E6007E, amarelo #FFD500, preto #171717; logo e demais ativos devem vir exclusivamente do Brand Kit no Drive.
+
+## Referências visuais e direitos
+- Todos os roteiros são originais e não dependem de reutilização de vídeos de terceiros.
+- Fotografias e assets adicionais devem ser próprios ou licenciados. Claude deve registrar URL, licença e evidência de cada asset externo antes de publicar.
+- Guia de carrosséis no Drive e Brand Kit oficial não foram acessados nesta sessão; Claude deve consultá-los no Drive antes de executar artes e carrosséis. A prancha do ChatGPT é referência criativa, não arquivo final nem substituto do Brand Kit.
+
