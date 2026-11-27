@@ -3,7 +3,7 @@
 **Critérios obrigatórios de ponta a ponta:** consultar `AUDITORIA-DE-PROCESSO-E-GATES.md` para pesquisa, estratégia, roteiro, briefing, edição, QA, distribuição e mensuração. Em conflito, aplicar a hierarquia de `AGENTS.md`.
 
 ## Objetivo
-Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁFICA BH. O processo deve ser simples para João: receber um lote completo de conteúdos, gravar apenas os vídeos previstos, salvar a prancha visual no Drive e enviar os brutos. Claude fica responsável pela produção das artes finais, edição dos vídeos, revisão e agendamento/distribuição dos materiais aptos.
+Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁFICA BH. O processo deve ser simples para João: receber um lote completo de conteúdos, gravar apenas os vídeos previstos, salvar a prancha visual no Drive e enviar os brutos. Claude fica responsável pela pesquisa, planejamento, produção das artes finais, edição dos vídeos, revisão e organização dos materiais em uma pasta plana no Drive. João faz upload em lote para Media do Postiz; depois do comando explícito, Claude agenda.
 
 ## Fontes oficiais e responsabilidades
 - **CRM oficial** (`ABauerlab/crm-sua-grafica-bh`): fonte de verdade para identidade visual, catálogo ativo, especificações e informações comerciais.
@@ -11,7 +11,7 @@ Criar conteúdo que atraia empreendedores e potenciais clientes para a SUA GRÁF
 - **Google Drive**: armazenamento dos arquivos brutos, projetos de edição, exports finais e referências.
 - **ChatGPT:** pesquisa, estratégia, pautas, roteiros, copy, briefings, prancha visual e auditoria/correção quando solicitado.
 - **João:** define escopo, grava e envia os brutos e decide autorizações/questões comerciais que dependam dele.
-- **Claude Code:** pesquisa e audita lacunas quando necessário; preserva briefings completos e corrige os incompletos dentro do escopo; produz artes, edita vídeos, revisa e distribui pelo Postiz.
+- **Claude Code:** pesquisa tendências e assuntos atuais; planeja, produz, edita, revisa, organiza exports e manifesto; após o comando de João, associa mídias existentes no Postiz e agenda.
 - **Postiz:** publicação orgânica nos canais conectados da marca: Instagram, Facebook e Threads.
 
 Não adicionar n8n, banco de dados, servidores de renderização ou outros serviços ao fluxo enquanto as integrações já disponíveis no Claude forem suficientes.
@@ -26,9 +26,10 @@ Não adicionar n8n, banco de dados, servidores de renderização ou outros servi
 7. **Comando ao Claude:** João envia o comando único com os IDs exatos do lote.
 8. **Produção:** Claude consulta cada briefing, confere a prancha visual e o Brand Kit, produz as artes finais e edita os vídeos cuja correspondência por ID seja clara.
 9. **Revisão:** Claude abre cada arte e cada slide; reproduz cada vídeo; confere qualidade, textos, identidade, catálogo, direitos e adequação aos canais.
-10. **Distribuição:** os materiais aptos são agendados/distribuídos pelo Postiz conforme calendário e canais que estiverem efetivamente conectados. Adaptar legenda, CTA e formato por canal.
-11. **Registro:** Claude registra status, data, canal, links/IDs e pendências no calendário e no arquivo individual, quando tiver acesso.
-12. **Aprendizado:** resultados disponíveis orientam os próximos temas, ganchos, formatos e prioridades.
+10. **Entrega:** Claude coloca exports finais aprovados em pasta plana por lote em 06 - PARA POSTIZ/ e atualiza o manifesto.
+11. **Upload manual único:** João envia em lote os arquivos para Media do Postiz.
+12. **Comando de agendamento:** João envia “Pode programar todos os conteúdos”. Claude localiza mídias existentes, agenda cada destino e confirma.
+13. **Registro e aprendizado:** Claude registra status, datas, canais, IDs e pendências; resultados orientam próximos lotes.
 
 ## Pesquisa e integridade
 - Separar evidência, interpretação e hipótese.
