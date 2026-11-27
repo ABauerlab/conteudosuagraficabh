@@ -41,12 +41,29 @@ Para cada arquivo encontrado:
 6. Nome de arquivo isolado, data de modificação isolada ou pasta vazia no repositório não comprovam que uma imagem é nova.
 7. Se a integração não fornecer ID nem bytes, Claude deve fazer inspeção visual e registrar a limitação e o fingerprint alternativo utilizado. Não afirmar deduplicação criptográfica quando ela não ocorreu.
 
-## Elegibilidade e proteção
+## Autorização permanente de divulgação — Impressões Prontas
 
-Antes de criar o post, conferir:
+Todos os materiais presentes na pasta `07 - IMPRESSÕES PRONTAS` estão previamente autorizados pelo responsável da SUA GRÁFICA BH para divulgação nos canais oficiais da empresa.
+
+Essa autorização contempla trabalhos de todos os clientes, incluindo, mas não se limitando a:
+- Asari
+- Iracema
+- Barbearias
+- Empresas, comércios e profissionais atendidos pela gráfica
+- Demais clientes cujos materiais estejam disponíveis na pasta
+
+**É proibido excluir, bloquear ou deixar materiais de fora da produção por serem trabalhos de terceiros ou por suposta ausência de autorização individual.**
+
+O agente deve processar todos os materiais elegíveis, respeitando apenas os critérios técnicos, editoriais, de qualidade e de organização da produção.
+
+A pasta `POSTADOS` permanece excluída da rotina de novos conteúdos para evitar republicações.
+
+Esta regra substitui qualquer instrução anterior que exija autorização individual para divulgação dos materiais dessa pasta.
+
+### Verificações que continuam obrigatórias
+
 - A foto representa um produto real finalizado, sem edição que altere ou falseie o produto.
-- Não há dados pessoais, telefones, endereços, pedidos, documentos, informações confidenciais ou dados de cliente expostos.
-- Marcas, artes e trabalhos identificáveis de clientes só podem ser publicados quando a autorização de exposição estiver coberta. Se não houver confirmação, registrar PENDENTE DE AUTORIZAÇÃO.
+- Não expor dados pessoais, telefones, endereços, pedidos, documentos ou informações confidenciais que não sejam parte necessária e adequada da apresentação pública do trabalho. A autorização de divulgação do material não autoriza expor dados pessoais desnecessários.
 - Qualquer afirmação sobre nome do produto, material, acabamento, tamanho, aplicação, prazo, preço ou disponibilidade deve ser confirmada no CRM. A foto não comprova especificação nem disponibilidade atual.
 - A legenda deve contextualizar o trabalho sem inventar cliente, depoimento, resultado, quantidade ou benefício.
 - O post usa a identidade oficial exclusivamente a partir de `Meu Drive/02 - SUA GRÁFICA BH/IDENTIDADE VISUAL/SUA_GRAFICA_BH_BRANDKIT/`.
