@@ -17,6 +17,7 @@ Raiz: `Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/`
 - Entrada: `01 - VÍDEOS BRUTOS/`
 - Trabalho: `02 - EM EDIÇÃO/`
 - Aprovados/finais: `03 - APROVADOS/`
+- Pacote final plano para upload manual no Postiz: `06 - PARA POSTIZ/LOTE-AAAA-MM-DD-a-AAAA-MM-DD/`
 - Publicados: `04 - PUBLICADOS/`
 - Referências e prancha visual de cada lote: `05 - REFERÊNCIAS/`
 
@@ -33,8 +34,10 @@ Quando João informar os IDs SG de um lote, execute esses conteúdos e seus entr
 6. Consulte o CRM/Supabase antes de incluir produto, especificação ou informação comercial.
 7. Salve projetos e versões de trabalho em `02 - EM EDIÇÃO/` e exports finais em `03 - APROVADOS/`. Preserve os brutos.
 8. Faça controle de qualidade: abra cada arte e slide, reproduza cada vídeo, confira imagem, áudio, cortes, legendas, ortografia, enquadramento, formato e identidade visual.
-9. Confira legenda, CTA, identificação e adequação por canal. Agende/distribua pelo Postiz somente nos canais efetivamente conectados e conforme o calendário e os briefings.
-10. Só considere concluído quando a ferramenta confirmar salvamento, agendamento ou publicação. Atualize `CALENDARIO.md` e os arquivos individuais, quando tiver acesso.
+9. Confira legenda, CTA, identificação e adequação por canal. Entregue exports aprovados em pasta plana `06 - PARA POSTIZ/LOTE-AAAA-MM-DD-a-AAAA-MM-DD/` e atualize o manifesto.
+10. Não faça upload ao Postiz nem agende antes do comando de João. João fará upload em lote para Media e enviará “Pode programar todos os conteúdos”.
+11. Após o comando, localize arquivos existentes em Media, associe-os ao manifesto, consulte duplicidade, agende por canal e confirme cada resultado.
+12. Atualize `CALENDARIO.md` e arquivos individuais somente com status confirmados.
 11. Ao final, informe conteúdos produzidos, arquivos e caminhos reais, agendamentos/publicações confirmados, pendências e falhas específicas.
 
 ## Regras de segurança e qualidade
