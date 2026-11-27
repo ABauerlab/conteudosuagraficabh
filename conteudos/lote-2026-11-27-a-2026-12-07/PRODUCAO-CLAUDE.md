@@ -13,13 +13,13 @@ Produzir as artes dos 11 carrosséis e 33 Stories, editar os 22 Reels após rece
 
 ## Produção de Reels
 - **Norma completa e obrigatória:** executar integralmente `../../DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Ela prevalece sobre qualquer orientação resumida deste arquivo.
-- 22 Reels, todos com João visível e falando. Nenhum pode ser motion-only.
+- 22 Reels usam a fala original de João como camada narrativa. Ele pode sair completamente da tela durante cenas de motion/B-roll em tela cheia; não é obrigatório mantê-lo visível durante todo o vídeo.
 - Usar o teleprompter integral dos arquivos SG e `CAPTACAO.md`. Não reescrever copy/CTA sem apontar falha factual ou repetição.
 - Cada Reel exige storyboard/motion map cobrindo o vídeo inteiro, bloco a bloco. Não limitar a 2–4 quadros genéricos.
 - Construir narrativa visual profissional: motion graphics semânticos, ilustrações desenhadas/animadas, objetos em camadas, diagramas, ícones em ação, tipografia cinética e B-roll contextual real/licenciado ou desenhado. A fala deve determinar o visual; não usar animação decorativa ou stock genérico.
-- **Legendas incorporadas obrigatórias em todos os Reels**, Montserrat, uma linha por vez, sincronizadas manualmente a partir do teleprompter aprovado. Conferir correspondência ouvindo o bruto; não usar Whisper, speech-to-text, transcrição ou captions automáticas. A proibição de transcrição automática não autoriza entregar sem legendas. Tratar divergências pontuais conforme a norma audiovisual.
+- **Legendas incorporadas obrigatórias em todos os Reels**, Montserrat, uma linha por vez, sincronizadas com a fala real. Usar cópia temporária de áudio, FFmpeg/FFprobe e ASR/alinhamento forçado (ex.: WhisperX) somente para timestamps; comparar com o teleprompter aprovado e revisar manualmente ouvindo o bruto. Nunca substituir ou processar a faixa original. Aplicar integralmente `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`.
 - Preservar faixa original do áudio sem limpeza, denoise, equalização, compressão, normalização, restauração, voiceover ou mixagem. Cortes visuais não podem alterar palavras ou sentido.
-- Preservar o rosto integralmente; motion nunca pode encobri-lo.
+- Preservar o rosto integralmente quando estiver em cena. Motion pode ocupar a tela inteira sem o apresentador; nunca cortar/mascarar o rosto para encaixar elementos.
 - Criar capa exclusiva independente e projeto-fonte editável em JavaScript/TypeScript, preferencialmente Remotion ou HyperFrames. Não entregar apenas render final.
 - Reproduzir cada vídeo integralmente em velocidade normal e revisar em celular. Talking head cru, ausência de legendas, motion decorativo, storyboard incompleto ou projeto-fonte ausente reprovam o Reel.
 - **Retrabalho obrigatório:** localizar e auditar quaisquer versões editadas anteriormente desses 22 IDs. Se uma versão tiver apenas cortes simples, não tiver legendas ou não cumprir a direção visual, classificá-la como REPROVADA e refazer a partir do RAW original. Preservar versões anteriores como histórico até validar a nova entrega; não pedir nova gravação se o RAW correspondente estiver íntegro e disponível.
@@ -60,3 +60,13 @@ Produzir as artes dos 11 carrosséis e 33 Stories, editar os 22 Reels após rece
 - RAW originais preservados; exports e projetos-fonte versionados conforme os limites do repositório.
 - Atualizar calendário, ledger, README, referências e auditoria por ID.
 - PR para main, sem editar main diretamente. Revisar diff e conferir a árvore final.
+
+
+## Atualização normativa | Pipeline audiovisual, legendas, motion e entrega plana
+
+A norma operacional detalhada está em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Ela resolve conflitos anteriores e prevalece sobre instruções antigas incompatíveis. Em especial:
+- reconhecimento de fala/alinhamento temporal é permitido exclusivamente para gerar timestamps de legendas, sem modificar a faixa original;
+- FFmpeg pode extrair cópias temporárias de análise, inspecionar mídia, compor vídeo e muxar áudio original sem filtros;
+- o apresentador não precisa permanecer visível durante sequências de motion em tela cheia;
+- todo o conteúdo elegível de Impressões Prontas deve ser inventariado e processado conforme o ledger;
+- a finalização do lote exige uma pasta plana no Drive, sem subpastas, contendo somente arquivos finais aprovados para transferência ao Postiz.

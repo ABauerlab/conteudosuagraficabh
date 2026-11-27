@@ -6,9 +6,9 @@ Claude atua como editor, diretor de pós-produção e motion designer. O respons
 ## Liberdade técnica
 Quando disponível no projeto e adequado à tarefa, Claude pode usar:
 - Remotion para motion graphics, composições, animações, templates e vídeos programáticos.
-- FFmpeg para montagem, cortes visuais, composição e exportação. Não usar para processamento ou melhoria de áudio.
+- FFmpeg para montagem, cortes visuais, composição e exportação. Não usar para processamento ou melhoria de áudio. É permitido extrair cópia temporária para análise de fala e alinhamento temporal de legendas, conforme `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`.
 - JavaScript/TypeScript e ferramentas instaladas para automatizar tarefas.
-- Ferramentas visuais já disponíveis para composição, tracking e recursos gráficos, respeitando licenças e privacidade. Não instalar ferramentas de transcrição ou áudio.
+- Ferramentas visuais já disponíveis para composição, tracking e recursos gráficos, respeitando licenças e privacidade. Não instalar ferramentas de processamento de áudio. Ferramentas de ASR/alinhamento podem ser instaladas apenas para análise local de timestamps de legendas, após auditoria de licença, dependências e privacidade; não podem alterar o áudio original.
 
 Não assumir que uma dependência está instalada. Verificar o ambiente e usar a solução estável mais simples. Não instalar pacotes, acessar serviços pagos ou enviar arquivos a serviços externos sem autorização quando isso implicar custo, credenciais ou exposição de dados.
 
@@ -80,7 +80,7 @@ Antes de editar qualquer vídeo, Claude deve auditar o ambiente, verificar vers�
    ```bash
    npx skills add Barty-Bart/motion-graphics
    ```
-   Inspecionar a lista de skills e selecionar apenas as adequadas. Não usar `motion-broll` quando depender de transcrição.
+   Inspecionar a lista de skills e selecionar apenas as adequadas. Usar `motion-broll` somente se o módulo puder receber transcrição textual derivada da análise temporária, sem modificar ou processar a faixa original; auditar scripts e dependências antes.
 
 4. **Remotion motion design especializado (opcional, após auditoria de sobreposição):**
    ```bash
@@ -104,7 +104,7 @@ Instalar apenas skills que tragam ganho prático claro, sejam compatíveis e nã
 
 ### Restrições obrigatórias
 
-Skills e ferramentas podem sugerir recursos de transcrição, captions automáticas, voiceover, limpeza de áudio, denoise, equalização, compressão, normalização, restauração ou mixagem. **Esses recursos estão proibidos neste projeto.** Não executar fluxos que exijam transcrição, Whisper ou geração automática de legendas. Não tratar nem modificar a faixa de áudio original. Preservar o áudio como recebido. Não usar skills que exijam essas etapas como dependência obrigatória; escolher somente módulos visuais/animação compatíveis.
+Skills e ferramentas podem sugerir recursos de transcrição, captions automáticas, voiceover, limpeza de áudio, denoise, equalização, compressão, normalização, restauração ou mixagem. **O processamento da faixa original continua proibido.** ASR e alinhamento forçado são permitidos somente em cópias temporárias para gerar timestamps de legendas, com conferência humana e texto final baseado no teleprompter aprovado. Não executar diarização sem necessidade, voiceover, limpeza, denoise, equalização, compressão, normalização, restauração, mixagem ou alteração de áudio. Não substituir a faixa original. Ver `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`.
 
 A instalação dessas skills não autoriza criar uma pipeline desnecessariamente pesada. Reutilizar componentes técnicos quando útil, mas não reduzir a direção criativa a cortes simples ou motion superficial. Cumprir o storyboard, a narrativa visual e o padrão de aceite de `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Toda saída de motion programático deve manter projeto-fonte editável e passar por inspeção visual real antes de ser aprovada.
 
@@ -129,7 +129,7 @@ A instalação dessas skills não autoriza criar uma pipeline desnecessariamente
 - Não mixar música, aplicar ducking ou inserir efeitos sonoros neste fluxo, pois isso exigiria alterar a faixa original. Música é opcional e só pode ser usada se a faixa original permanecer byte-for-byte/intacta no processo.
 
 ### Áudio: preservar e não processar
-Não executar transcrição, Whisper, diarização, limpeza, denoise, de-reverb, equalização, compressão, normalização, limiter, restauração ou qualquer melhoria/processamento da voz. Não instalar pacotes, baixar modelos ou iniciar serviços para essas tarefas. Manter a faixa original da gravação sem alterações. A edição pode cortar trechos visuais, mas não deve reconstruir, regravar, sintetizar ou alterar a fala. Se o áudio de um bruto estiver realmente incompreensível, sinalizar somente aquele ID e continuar os demais conteúdos.
+Não executar diarização sem necessidade, limpeza, denoise, de-reverb, equalização, compressão, normalização, limiter, restauração ou qualquer melhoria/processamento da faixa original. ASR/alinhamento forçado é permitido exclusivamente em cópia temporária para timestamps de legendas, conforme `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Não instalar ferramentas de áudio para outras finalidades. Manter a faixa original sem alterações. Se o áudio de um bruto estiver incompreensível, sinalizar somente aquele ID e continuar os demais conteúdos.
 
 ## Norma audiovisual complementar e obrigatória
 Para todo Reel/vídeo, ler primeiro `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Ele é a norma executável de produção e aceite: exige storyboard cobrindo o vídeo inteiro, motion graphics narrativo (incluindo ilustrações desenhadas/animadas quando pertinentes), B-roll contextual, legendas incorporadas obrigatórias, capa, projeto-fonte e QA integral. Em caso de divergência entre instruções de velocidade/edição simples deste arquivo e a norma audiovisual, prevalece `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. O `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` continua complementar para proteção do rosto, cinematografia, storytelling, identidade, distribuição e critérios gerais. **Nunca cortar ou encobrir o rosto do apresentador.**
@@ -227,3 +227,13 @@ Quando o motion gráfico for produzido programaticamente, a fonte principal deve
 
 ## Regra explícita de aceite audiovisual
 A ausência de legendas ou a entrega de talking head com cortes simples não pode ser tratada como conclusão. Todo Reel precisa cumprir o storyboard, motion narrativo, B-roll contextual, legendas e pacote de entrega descritos em `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. A restrição de não usar transcrição/Whisper/captions automáticas proíbe automação de áudio, não legendas manuais baseadas no teleprompter aprovado.
+
+
+## Atualização normativa | Pipeline audiovisual, legendas, motion e entrega plana
+
+A norma operacional detalhada está em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Ela resolve conflitos anteriores e prevalece sobre instruções antigas incompatíveis. Em especial:
+- reconhecimento de fala/alinhamento temporal é permitido exclusivamente para gerar timestamps de legendas, sem modificar a faixa original;
+- FFmpeg pode extrair cópias temporárias de análise, inspecionar mídia, compor vídeo e muxar áudio original sem filtros;
+- o apresentador não precisa permanecer visível durante sequências de motion em tela cheia;
+- todo o conteúdo elegível de Impressões Prontas deve ser inventariado e processado conforme o ledger;
+- a finalização do lote exige uma pasta plana no Drive, sem subpastas, contendo somente arquivos finais aprovados para transferência ao Postiz.

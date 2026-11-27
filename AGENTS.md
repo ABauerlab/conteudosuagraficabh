@@ -77,7 +77,7 @@ Para execução no Claude Code, seguir `PROMPT-UNICO-CLAUDE.md`.
 - A prancha é direção criativa, nunca arte final. Cada slide de carrossel e cada peça final deve ser exportado em arquivo próprio.
 - Antes de editar vídeos, seguir e verificar o stack de skills de HyperFrames, Remotion e motion graphics definido em `PADROES-DE-EDICAO.md`. Auditar o que já está instalado, instalar somente as skills recomendadas que estiverem ausentes e ler suas instruções antes do uso.
 - **Norma audiovisual obrigatória:** ler integralmente `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md` antes de produzir, editar, revisar ou aprovar qualquer Reel/vídeo. Esse documento define storyboard completo, motion graphics narrativo/desenhado, B-roll contextual, legendas obrigatórias, fonte textual permitida, stack, pacote de entrega e critérios de reprovação. Talking head com cortes simples, ausência de legendas ou motion decorativo não atende ao padrão e não pode ser aprovado.
-- Não executar skills ou fluxos que exijam transcrição, Whisper, captions automáticas ou processamento/mixagem de voz. Não usar `motion-broll` quando depender de transcrição. A instalação de qualquer biblioteca não revoga a regra de preservar integralmente o áudio original.
+- Aplicar `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`: ASR/alinhamento forçado são permitidos somente em cópias temporárias para timestamps de legendas, com revisão humana e teleprompter como fonte textual aprovada. É proibido alterar/processar a faixa original. Não usar diarização, voiceover, limpeza, mixagem ou efeitos de áudio. `motion-broll` só pode ser usado se sua entrada/transcrição e execução respeitarem essa separação e não processarem/substituírem o áudio original.
 - Execute os IDs indicados por João e, como exceção permanente e delimitada, os conteúdos adicionais gerados a partir de mídias novas e elegíveis da pasta 07 - IMPRESSÕES PRONTAS, conforme REGISTRO-IMPRESSOES-PRONTAS.md. Não criar outras peças fora do escopo. Preserve pesquisa, copy e roteiros completos e aprovados; se os gates identificarem lacuna real, corrija ou bloqueie o item antes da produção.
 
 
@@ -289,8 +289,18 @@ Localizar e ler o guia e os materiais aplicáveis dessa pasta em cada tarefa de 
 
 
 
-## Áudio e velocidade de produção
-Preservar o áudio original da gravação, sem transcrição automatizada ou processamento. A proibição de transcrição automática não elimina a obrigação de legendar: usar o teleprompter aprovado como fonte, sincronizar manualmente e conferir a correspondência conforme `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Não omitir legendas por conveniência. Se houver divergência real entre roteiro e fala, seguir o procedimento por trecho definido no padrão audiovisual.
+## Áudio, alinhamento e velocidade de produção
+Preservar a faixa original sem filtros, restauração, normalização, mixagem ou alteração de timbre/volume. Para sincronizar legendas, é permitido extrair uma cópia temporária de áudio e usar ASR/alinhamento forçado (por exemplo WhisperX) exclusivamente para localizar timestamps. O texto final deve ser validado contra o teleprompter aprovado e a gravação real; corrigir manualmente omissões, falsos reconhecimentos e pontuação. Não usar diarização quando não necessária. A faixa original nunca é substituída pela cópia de análise. Ver o procedimento executável em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`.
 
 ## Execução resiliente de edição e distribuição (obrigatório)
 Para qualquer finalização de lote, Claude deve seguir EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md. O fluxo padrão é: João grava e envia os brutos; Claude localiza, edita, produz artes, revisa e distribui pelo Postiz MCP conectado. Não exigir login manual no navegador, links públicos, upload manual repetido ou novas credenciais antes de verificar as integrações existentes. Usar alternativas autorizadas por etapa, persistir checkpoints e isolar falhas por ID/canal; nunca interromper o lote inteiro por uma falha localizada.
+
+
+## Atualização normativa | Pipeline audiovisual, legendas, motion e entrega plana
+
+A norma operacional detalhada está em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Ela resolve conflitos anteriores e prevalece sobre instruções antigas incompatíveis. Em especial:
+- reconhecimento de fala/alinhamento temporal é permitido exclusivamente para gerar timestamps de legendas, sem modificar a faixa original;
+- FFmpeg pode extrair cópias temporárias de análise, inspecionar mídia, compor vídeo e muxar áudio original sem filtros;
+- o apresentador não precisa permanecer visível durante sequências de motion em tela cheia;
+- todo o conteúdo elegível de Impressões Prontas deve ser inventariado e processado conforme o ledger;
+- a finalização do lote exige uma pasta plana no Drive, sem subpastas, contendo somente arquivos finais aprovados para transferência ao Postiz.
