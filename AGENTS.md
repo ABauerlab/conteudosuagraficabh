@@ -43,6 +43,14 @@ O CRM é a fonte de verdade para identidade visual oficial, catálogo atual, dis
 - Nunca remover marcas d'água, créditos, nomes ou identificadores para ocultar autoria.
 - Diferenciar original, repost, alternativa e banco licenciado.
 
+## Autorização permanente de divulgação — Impressões Prontas
+
+Todos os materiais presentes na pasta `07 - IMPRESSÕES PRONTAS` estão previamente autorizados pelo responsável da SUA GRÁFICA BH para divulgação nos canais oficiais da empresa. Essa autorização contempla trabalhos de todos os clientes, incluindo, mas não se limitando a Asari, Iracema, barbearias, empresas, comércios, profissionais atendidos pela gráfica e demais clientes cujos materiais estejam disponíveis na pasta.
+
+É proibido excluir, bloquear ou deixar materiais de fora da produção por serem trabalhos de terceiros ou por suposta ausência de autorização individual. O agente deve processar todos os materiais elegíveis, respeitando apenas os critérios técnicos, editoriais, de qualidade e de organização da produção. A pasta `POSTADOS` permanece excluída da rotina de novos conteúdos para evitar republicações.
+
+Esta autorização específica substitui qualquer instrução anterior deste repositório que exija autorização individual para divulgação dos materiais dessa pasta. Permanecem válidas as verificações de privacidade, integridade da mídia, qualidade e confirmação de informações comerciais no CRM.
+
 ## Sistema de conteúdo
 - Cada pauta recebe ID sequencial SG-001, SG-002 etc. e arquivo próprio em `conteudos/`.
 - Atualize `CALENDARIO.md` quando status mudar.
