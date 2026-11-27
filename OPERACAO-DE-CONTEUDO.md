@@ -7,8 +7,8 @@ Não criar etapas, serviços ou ferramentas adicionais quando as integrações j
 
 ## Papéis
 - **ChatGPT:** pesquisa, estratégia, roteiros, copy, briefings, direção visual e organização do repositório; também audita e corrige quando solicitado.
-- **João:** define escopo/etapas, grava e fornece materiais, e decide apenas questões comerciais, autorizações e acessos que dependam dele.
-- **Claude Code:** pesquisa e audita lacunas quando necessário; consulta este repositório, o CRM e o Brand Kit; localiza brutos e referências; corrige briefings incompletos dentro da autorização; produz, edita, revisa e distribui pelo Postiz.
+- **João:** grava os Reels, adiciona novos trabalhos a Impressões Prontas, faz upload em lote dos exports finais para Media do Postiz e dispara o agendamento com “Pode programar todos os conteúdos”.
+- **Claude Code:** pesquisa assuntos atuais e evergreen; planeja o pacote de gravação; consulta repositório, CRM e Brand Kit; processa Impressões Prontas; produz, edita, revisa e entrega exports na pasta plana; após o comando, localiza mídias já carregadas no Postiz e agenda.
 - **Google Drive:** armazenamento dos arquivos.
 - **Postiz:** distribuição nos canais configurados: Instagram, Facebook e Threads.
 
@@ -48,7 +48,8 @@ Não apagar nem sobrescrever brutos. Não alterar a estrutura de pastas sem auto
 7. **Correspondência:** Claude identifica cada briefing, prancha e bruto pelo ID. Itens ambíguos ou sem material essencial ficam pendentes.
 8. **Auditoria e correção:** antes da produção, Claude confere estratégia, originalidade, roteiro, briefing, catálogo, direitos e referências. Preserva material completo/aprovado; corrige lacunas reais dentro do escopo autorizado.
 9. **Produção e QA:** Claude produz as artes, carrosséis, Stories e capas; edita vídeos; reproduz cada vídeo e inspeciona cada arquivo em tamanho real e celular, corrigindo falhas.
-10. **Distribuição:** Claude executa pelo Postiz a distribuição de todos os formatos em todos os destinos conectados, autorizados e compatíveis, com confirmação individual por canal conforme AGENTS.md.
+10. **Entrega:** Claude cria a pasta plana 06 - PARA POSTIZ/LOTE-AAAA-MM-DD-a-AAAA-MM-DD/ com exports aprovados e manifesto. João faz upload em lote para Media do Postiz.
+11. **Agendamento:** somente após “Pode programar todos os conteúdos”, Claude localiza mídias já carregadas, agenda por canal e confirma cada destino conforme FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md.
 11. **Registro:** Claude registra status, data, canal, links/IDs e pendências no calendário e nos arquivos individuais, quando tiver acesso de escrita.
 
 ## Conteúdo a partir de dores reais
