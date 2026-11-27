@@ -23,7 +23,7 @@ No início de cada lote:
 1. Ler AGENTS.md, PROMPT-UNICO-CLAUDE.md, OPERACAO-DE-CONTEUDO.md, este documento e os padrões especializados do formato.
 2. Verificar ferramentas MCP realmente conectadas no ambiente atual. Descobrir as ações de:
    - Google Drive: listar pasta, obter metadados, baixar/exportar arquivo e, se aplicável, enviar arquivo.
-   - Postiz: listar publicações/fila, enviar mídia, criar/agendar publicação, consultar publicação e obter status/ID.
+   - Postiz: listar publicações/fila e biblioteca Media, pesquisar mídias existentes por nome/ID, criar/agendar publicação, consultar publicação e obter status/ID. O upload de mídia é manual por João no fluxo padrão.
 3. Verificar autenticação com uma operação somente de leitura e de baixo impacto. Nunca imprimir tokens, cookies, headers secretos ou valores de ambiente.
 4. Registrar no estado do lote quais integrações responderam, quais ações estão disponíveis e qual método será usado.
 5. Se uma ferramenta MCP estiver ausente, não fingir que está conectada. Procurar apenas alternativas já configuradas e autorizadas no ambiente. Não solicitar uma nova credencial antes de confirmar que a existente não pode ser reutilizada.
@@ -75,34 +75,13 @@ Antes do upload:
 - manter fontes editáveis e exports separados;
 - não incluir marcas de clientes sem autorização registrada.
 
-## 6. Distribuição obrigatória pelo Postiz MCP
+## 6. Distribuição e agendamento após upload manual
 
-A sequência padrão de distribuição é:
+Claude entrega a pasta plana de exports aprovados e o manifesto no Drive. João envia os arquivos em lote à biblioteca Media do Postiz e dispara “Pode programar todos os conteúdos”.
 
-1. Consultar a fila/histórico pelo Postiz MCP para detectar duplicidade por ID, conteúdo, canal e janela de publicação.
-2. Confirmar os destinos conectados e os formatos suportados em cada canal.
-3. Enviar os arquivos finais pelo recurso de upload de mídia do Postiz MCP, preferindo arquivo local/bytes ou file path quando suportado.
-4. Se o MCP aceitar somente URL, não presumir que o GitHub raw ou um link privado do Drive seja apropriado. Procurar o mecanismo oficial de upload de mídia do próprio Postiz ou a ação de upload exposta pela integração, autenticada pela sessão/credencial já conectada.
-5. Criar/agendar cada publicação com mídia, legenda, canal, data e horário definidos no calendário.
-6. Consultar novamente cada publicação e confirmar ID do Postiz, canal, formato, mídia, ordem, data/hora local e estado retornado.
-7. Registrar separadamente cada destino. Uma publicação no Instagram não confirma Facebook ou Threads.
+Após o comando, Claude consulta fila/histórico e biblioteca Media, encontra cada arquivo pelo nome/ID SG, confere correspondência com o manifesto, não reenvia mídia já carregada, cria/agendas publicações por canal e confirma cada resultado. Se faltar mídia ou houver correspondência ambígua, não agenda às cegas nem faz upload por conta própria. Se o MCP não oferecer busca/listagem de Media, registra a limitação específica.
 
-**Não usar como dependência:**
-- navegador logado manualmente;
-- ponte postMessage entre páginas;
-- endpoint interno descoberto por tentativa sem documentação/validação;
-- chave OpenAI de um agente de consulta como se fosse a chave da API de publicação;
-- URL pública temporária criada apenas para contornar upload;
-- upload por GitHub público de vídeos ou artes com dados de clientes.
-
-Se a consulta da fila falhar, diferenciar:
-- falha da ferramenta/agente de consulta;
-- falha de autenticação do MCP;
-- falha do endpoint de listagem;
-- falha de upload;
-- falha de criação/agendamento.
-
-Tentar outra ação de leitura do próprio Postiz MCP ou consultar publicação individual pelos IDs já conhecidos. Não concluir que a publicação falhou só porque a busca da fila falhou. Não agendar às cegas quando não for possível verificar duplicidade; primeiro recuperar leitura por outro método autorizado. Nunca pedir chave nova sem comprovar que a autenticação existente está ausente/inválida.
+Antes do comando, não agendar nem publicar. O processo detalhado está em FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md.
 
 ## 7. Compatibilidade por canal
 
@@ -171,7 +150,7 @@ O objetivo é entregar vídeos e artes bons, consistentes e prontos para publica
 - Reutilizar templates, componentes, fontes, presets visuais e estruturas já aprovados. Não reconstruir pipeline, motor de motion ou identidade a cada lote.
 - Priorizar cortes objetivos, ritmo, enquadramento, textos curtos na tela, imagens de apoio pertinentes e uma capa clara. Motion deve explicar ou valorizar a mensagem, sem animações complexas por obrigação.
 - Não criar storyboard técnico, mapa de transcrição, análise de waveform, render de teste excessivo ou etapas que não alterem materialmente a qualidade final.
-- Não executar transcrição, Whisper, geração automática de legendas ou revisão de fala por ferramenta. Usar o roteiro fornecido apenas se ele corresponder claramente ao vídeo; caso contrário, omitir legendas duvidosas.
+- ASR/alinhamento forçado é permitido somente em cópia temporária para timestamps de legendas, com revisão contra teleprompter e fala real. Nunca processar, substituir ou alterar o áudio original. Seguir PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md.
 - Não processar o áudio original em hipótese alguma. Preservar a faixa como recebida. Não denoise, EQ, compressão, normalização, limiter, restauração ou comparação antes/depois.
 - Não instalar dependências ou baixar modelos para tarefas de áudio. Não esperar downloads. Se uma ferramenta opcional falhar, substituí-la por uma solução visual simples já disponível e continuar.
 - Fazer uma revisão final objetiva: assistir ao vídeo, conferir cortes, texto, enquadramento, capa, formato e reprodução; corrigir erros evidentes sem transformar QA em uma nova etapa de produção.
