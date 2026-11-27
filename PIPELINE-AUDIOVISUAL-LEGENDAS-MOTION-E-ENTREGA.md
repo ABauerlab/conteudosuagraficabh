@@ -139,9 +139,9 @@ Se Drive não estiver conectado, não alegar inventário concluído. Registrar b
 
 ## 6. Pasta plana de entrega ao Postiz
 
-Ao concluir o lote, criar no Drive:
+Ao concluir cada lote, criar a pasta plana definida em FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md:
 
-`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/LOTE FINAL - SUA GRÁFICA BH - 27-11 A 07-12/`
+`Meu Drive/02 - SUA GRÁFICA BH/CONTEÚDOS/06 - PARA POSTIZ/LOTE-AAAA-MM-DD-a-AAAA-MM-DD/`
 
 **A pasta deve ser plana:** todos os arquivos finais ficam diretamente na raiz. Não criar subpastas de Reels, Feed, Stories ou Impressões Prontas.
 
@@ -190,7 +190,7 @@ Manter manifesto de entrega no lote/repositório com ID SG, título, canal, tipo
 - Confirmar que não há RAW/intermediário/duplicata.
 - Só então marcar como PACOTE FINAL PRONTO PARA TRANSFERÊNCIA.
 
-A pasta plana é um pacote de transferência, não autorização automática para publicar. O Postiz continua exigindo validação por canal e confirmação individual.
+A pasta plana é o pacote para João fazer upload manual em lote na biblioteca Media do Postiz. Esse upload não agenda nem autoriza publicação. Claude só inicia o agendamento depois do comando explícito “Pode programar todos os conteúdos”, conforme FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md.
 
 ## 7. Execução equilibrada
 

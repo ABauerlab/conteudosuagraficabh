@@ -75,3 +75,16 @@ Uma ideia com alto potencial de visualização, mas sem público relevante ou li
 
 ## Regra de honestidade
 Nunca chamar uma referência de "original" sem evidência. Nunca entregar URL inventada. Se a origem não for encontrada, dizer isso claramente e não apresentar o roteiro como pronto para gravar caso dependa daquele vídeo.
+
+
+## Módulo obrigatório de conteúdo reativo: notícias, assuntos do momento e vídeos em alta
+
+A pesquisa não pode se limitar a tendências evergreen, dores recorrentes ou referências antigas. Antes de cada lote e durante a janela de produção, procurar notícias recentes ligadas a pequenos negócios, varejo, consumo, marketing, publicidade, eventos, comportamento e comunicação visual; vídeos, memes, formatos e objetos ganhando atenção; campanhas, ativações, embalagens, vitrines e sinalização comentadas; e atualizações de plataformas sociais.
+
+Para cada oportunidade, registrar URL da fonte original, criador/veículo, data de publicação e consulta, evidência observável de relevância e por que importa ao público comprador. Separar fato, opinião, interpretação e hipótese. Não chamar um vídeo de viral nem uma ocorrência isolada de tendência consolidada sem evidência.
+
+Formatos possíveis: react/comentário de João; análise de campanha ou notícia; demonstração própria inspirada no mecanismo criativo; resposta a conversa relevante; recriação original com imagens próprias; conteúdo comercial ligado a produto confirmado no catálogo.
+
+Localizar e registrar a fonte original. Não baixar, republicar ou incorporar vídeos de terceiros sem base de uso adequada. Preferir recursos nativos de remix/dueto/citação quando disponíveis e permitidos, ou criar comentário com referência e imagens próprias. Não copiar roteiro, marca, edição distintiva ou identidade. A autorização permanente da pasta Impressões Prontas não vale para vídeos externos.
+
+Toda pauta reativa recebe validade editorial e data-limite recomendada. Se perder relevância antes da gravação/publicação, substituir ou descartar. A quantidade de pautas reativas varia conforme a qualidade das oportunidades; não inventar quota fixa.

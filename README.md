@@ -12,8 +12,10 @@ Os repositórios são complementares. Este repositório organiza estratégia, co
 1. ChatGPT pesquisa e cria roteiros, briefings de edição e legendas específicas por canal.
 2. João grava e envia os vídeos para a pasta de vídeos brutos no Google Drive.
 3. João envia um único comando ao Claude.
-4. Claude consulta este repositório, edita os vídeos, confere a qualidade e distribui os materiais aptos pelo Postiz.
-5. As publicações e os resultados são registrados.
+4. Claude pesquisa, planeja, produz, edita e revisa todos os materiais.
+5. Claude entrega exports aprovados em uma pasta plana no Drive.
+6. João faz upload em lote para Media do Postiz e envia “Pode programar todos os conteúdos”.
+7. Claude associa mídias existentes, agenda por canal e registra resultados.
 
 Canais orgânicos iniciais: Instagram, Facebook e Threads.
 
@@ -40,7 +42,8 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 - [DIRECAO-AUDIOVISUAL-PROFISSIONAL.md](DIRECAO-AUDIOVISUAL-PROFISSIONAL.md): norma obrigatória de ponta a ponta para storyboard, motion graphics narrativo/desenhado, B-roll contextual, legendas incorporadas, stack, pacote de entrega e critérios objetivos de reprovação/aceite.
 - [PADROES-DE-EDICAO.md](PADROES-DE-EDICAO.md): direção de edição, ferramentas e padrões complementares; deve ser aplicado junto da norma audiovisual.
 - [OPERACAO-DE-CONTEUDO.md](OPERACAO-DE-CONTEUDO.md): fluxo simples e comando para Claude.
-- [EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md](EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md): procedimento de fallback para Drive, edição rápida, upload e agendamento via Postiz MCP, com checkpoints e retomada.
+- [EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md](EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md): checkpoints e retomada resiliente.
+- [FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md](FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md): pasta plana, upload manual único para Media e comando de agendamento.
 - [ANALISE-DE-DESEMPENHO.md](ANALISE-DE-DESEMPENHO.md): métricas e melhoria contínua.
 - [REFERENCIAS.md](REFERENCIAS.md): fontes audiovisuais.
 - [CALENDARIO.md](CALENDARIO.md): fila e status.
@@ -54,6 +57,7 @@ Antes de qualquer tarefa, leia [AGENTS.md](AGENTS.md).
 ## Regras permanentes
 - Priorizar aquisição de clientes, não visualizações vazias.
 - Variar temas, formatos e ganchos.
+- Pesquisar notícias, vídeos em alta e assuntos do momento antes de cada lote.
 - Não inventar informações comerciais; consultar o CRM oficial.
 - Respeitar direitos de terceiros e créditos.
 - Não prometer viralização; trabalhar com hipóteses e testes.

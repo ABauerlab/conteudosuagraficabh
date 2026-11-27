@@ -57,7 +57,7 @@ Feed/carrossel/Stories: identidade oficial, texto revisado, sequência lógica, 
 Não confiar apenas no render ou no briefing. Reproduzir cada vídeo integralmente em velocidade normal; abrir cada slide, arte, capa e Story; simular leitura em celular; conferir texto, fala, rosto, motion, B-roll, direitos, marca, formato, CTA, links e destino. Corrigir e revisar novamente. Falha crítica mantém EM REVISÃO/BLOQUEADO.
 
 ## Gate 7 — Distribuição
-Aplicar integralmente a regra Postiz de AGENTS.md a todos os formatos. Consultar fila e calendário antes de enviar; evitar duplicidade; adaptar por canal; confirmar cada destino individualmente. Status só muda com evidência. Registrar bloqueio por ID/canal se houver falha ou formato incompatível.
+Aplicar FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md: Claude entrega exports e manifesto na pasta plana do Drive; João faz upload em lote para Media; somente após “Pode programar todos os conteúdos” Claude localiza as mídias existentes e agenda. Não fazer upload duplicado. Consultar fila e calendário, evitar duplicidade, adaptar por canal e confirmar cada destino individualmente.
 
 ## Gate 8 — Mensuração
 Após publicação, registrar link, data, canal e métricas disponíveis. Acompanhar alcance qualificado, retenção, compartilhamentos, salvamentos, visitas, cliques, conversas, leads, orçamentos e pedidos. Atribuição deve ser confirmada, declarada, estimada/assistida ou desconhecida. Nunca inferir causalidade. Usar aprendizados para o próximo lote.
@@ -68,7 +68,7 @@ IDEIA → PESQUISA → BRIEFING PRONTO → PRONTO PARA GRAVAR/PRODUZIR → GRAVA
 Bloqueios: PENDENTE DE CATÁLOGO, ARQUIVO, DIREITOS, ACESSO, LICENÇA, RECURSO DE PLATAFORMA ou ERRO DE DISTRIBUIÇÃO. Sempre informar motivo e próxima ação. Não usar “concluído” para estados diferentes.
 
 ## Encerramento
-Lote só é concluído quando todos os IDs autorizados têm briefings e arquivos conferidos, QA realizado, distribuição confirmada por canal ou bloqueio documentado, calendário atualizado e relatório factual. Não publicar fora do escopo, comprar serviços, inventar dados, usar assets sem direitos ou sobrescrever brutos.
+A etapa de produção é concluída quando todos os IDs autorizados têm briefings e arquivos conferidos, QA realizado, pasta plana e manifesto atualizados. A distribuição só começa após o comando de João e termina quando todos os destinos têm agendamento confirmado ou bloqueio documentado. Não publicar fora do escopo, comprar serviços, inventar dados, usar assets sem direitos ou sobrescrever brutos.
 
 
 ## Rotina adicional: impressões prontas

@@ -1,6 +1,6 @@
 ## Distribuição via Postiz: etapa obrigatória de todo lote
 
-A distribuição não é opcional nem uma tarefa que João precise solicitar separadamente. Aplicar integralmente a seção **“Regra operacional permanente: distribuição obrigatória de TODO conteúdo via Postiz”** do AGENTS.md a cada ID SG e a todos os formatos, incluindo Feed/carrosséis, Reels, posts estáticos e Stories. Produzir, revisar e aprovar não encerra o trabalho: depois do controle de qualidade, preparar as versões por canal, verificar agendamentos existentes e executar o envio/agendamento pelo Postiz em todos os destinos previstos, conectados, autorizados e compatíveis. Confirmar cada destino individualmente e atualizar o calendário somente com estados comprovados. Não duplicar agendamentos, não publicar fora do Postiz e não declarar concluído o que estiver pendente. Se houver limitação de canal/formato ou falha, registrar a pendência por ID e destino e informar o bloqueio. Todo prompt de execução deve herdar esta regra automaticamente; não exigir que João a repita.
+A distribuição segue FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md: Claude produz, revisa e entrega exports aprovados em uma pasta plana do Drive. João faz upload em lote para Media do Postiz. Somente após “Pode programar todos os conteúdos”, Claude localiza as mídias existentes, associa cada arquivo ao SG e agenda por canal. Não fazer upload duplicado nem agendar antes do comando.
 
 # Padrão mestre de conteúdo profissional e distribuição | SUA GRÁFICA BH
 
@@ -82,16 +82,16 @@ Preservar a identidade oficial: ciano, magenta, amarelo, preto e branco; símbol
 - Não encostar no rodapé ou nas laterais; não cortar letras.
 - Não cobrir rosto, boca, produtos ou informações importantes.
 - Destacar poucas palavras-chave, com parcimônia.
-- Não transcrever o áudio. Usar o roteiro/teleprompter fornecido apenas quando a fala corresponder claramente; se houver divergência, não inventar legendas.
+- ASR/alinhamento forçado pode ser usado somente em cópia temporária para obter timestamps de legendas. Validar o texto contra o teleprompter e a fala real; nunca alterar ou substituir o áudio original.
 - Se Montserrat não estiver acessível, procurar no Brand Kit. Não instalar fontes nem substituir sem autorização; sinalizar bloqueio.
 
 ## 6. Áudio, música e sound design
 - Preservar integralmente o áudio original do vídeo, sem qualquer processamento, mixagem ou alteração da voz.
-- Não executar transcrição, Whisper, diarização, limpeza, denoise, equalização, compressão, normalização, restauração ou melhoria de áudio.
+- Não usar diarização desnecessária, limpeza, denoise, equalização, compressão, normalização, restauração ou melhoria de áudio. ASR/alinhamento é permitido exclusivamente para timestamps, conforme PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md.
 - Não instalar ferramentas, baixar modelos ou contratar serviços para transcrição ou processamento de áudio.
 - Não alterar, sintetizar, clonar, substituir, reconstruir, acelerar, desacelerar ou regravar a voz.
 - Não adicionar efeitos sonoros, voiceover ou trilha se isso exigir mixagem ou processamento da faixa original. Música é opcional e só pode ser usada se for possível preservar a faixa original intacta.
-- Para legendar, usar o teleprompter aprovado e sincronizar manualmente, conforme `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Não usar speech-to-text ou captions automáticas. A proibição de transcrição automática não significa ausência de legendas.
+- Para legendar, usar ASR/alinhamento apenas como apoio de timestamps e revisar manualmente contra teleprompter e gravação real, conforme PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md.
 
 ## 7. Gancho, storytelling e retenção
 
