@@ -64,6 +64,12 @@ Antes de entregar um lote:
 
 **Critério de aprovação:** se duas peças puderem trocar de roteiro sem que o público perceba diferença relevante de valor, elas estão repetitivas e uma delas precisa ser refeita.
 
+## Conteúdo reativo e assuntos do momento
+
+A variedade editorial precisa incluir oportunidades que estejam acontecendo agora, e não apenas temas evergreen. Antes de fechar cada lote, consultar PESQUISA-DE-TENDENCIAS.md e pesquisar notícias, vídeos em alta, memes, campanhas, produtos/objetos que estejam gerando conversa e formatos que estejam aparecendo nas redes. Exemplos como totens de mão são pistas de pesquisa, não tendências presumidas: verificar sinais reais de interesse, público e conexão comercial.
+
+Reservar flexibilidade no calendário para reagir a oportunidades com prazo curto, sem impor quantidade fixa. Cada pauta reativa deve registrar fonte original, criador/veículo, data, evidência, validade editorial, ângulo original, público e formato sugerido. Pode virar react do João, comentário, análise de campanha, demonstração própria ou recriação original. Não usar vídeo externo sem avaliar direitos e recursos nativos permitidos. Se perder atualidade antes da gravação/publicação, substituir ou descartar.
+
 ## Aprendizado contínuo
 Usar comentários, perguntas recebidas, conversas comerciais, dúvidas frequentes e métricas de publicações para descobrir o que o público realmente quer ver. Priorizar sinais concretos da própria audiência. Tendências externas ajudam a levantar hipóteses, mas não substituem a resposta do público da SUA GRÁFICA BH.
 
