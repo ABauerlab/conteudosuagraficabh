@@ -1,6 +1,6 @@
 # Captação humana | SG-051 a SG-116
 
-**22 vídeos | 22 falas completas | 22 arquivos RAW.** Todos os Reels exigem João visível e falando no vídeo final. Não usar avatar, voz sintética, react com material de terceiros ou Reel apenas em motion.
+**22 vídeos | 22 falas completas | 22 arquivos RAW planejados.** João grava as falas originais. Na edição, sua presença pode alternar com B-roll e sequências de motion em tela cheia; não é obrigatório manter o rosto visível durante toda a peça. Não usar avatar ou voz sintética.
 
 ## Guia rápido para gravar sem retrabalho
 
@@ -33,7 +33,7 @@
 - Gravar vertical 9:16, câmera na altura dos olhos, plano médio/fechado, luz frontal suave e ambiente silencioso.
 - Teleprompter com ritmo de conversa, sem acelerar. Uma tomada integral por roteiro; repetir gancho e CTA isolados se necessário.
 - Objetos/demonstrações descritos em cada briefing individual. Não é necessário gravar B-roll adicional além do que está indicado.
-- Preservar os brutos. Áudio original intacto: não transcrever, não usar Whisper, não gerar legendas automáticas, não limpar, equalizar, comprimir, normalizar, restaurar, fazer voiceover ou mixar áudio.
+- Preservar os brutos. Áudio original intacto: não alterar a faixa original. É permitido usar cópia temporária de áudio com ASR/alinhamento forçado exclusivamente para localizar timestamps das legendas; revisar manualmente contra o teleprompter e a gravação. Não limpar, equalizar, comprimir, normalizar, restaurar, fazer voiceover ou mixar áudio.
 - Legendas incorporadas são obrigatórias no Reel final. Criá-las manualmente a partir do teleprompter aprovado e sincronizar com a fala. Se houver divergência pontual, não inventar: omitir apenas o trecho não confirmado e registrar; seguir `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`.
 - Arquivos RAW com o nome exato abaixo.
 
@@ -175,3 +175,13 @@ Para organizar os materiais gráficos de 2027, comece pelo objetivo. Você preci
 - Não gravar todos os takes como uma única sequência sem pausas; cada briefing individual contém instruções específicas de enquadramento e demonstração.
 - O áudio original deve permanecer intacto. Não transcrever, não processar, não gerar legendas automáticas.
 - Claude deve conferir cada RAW com o roteiro; se a fala divergir, não inventar palavras nem forçar legenda.
+
+
+## Atualização normativa | Pipeline audiovisual, legendas, motion e entrega plana
+
+A norma operacional detalhada está em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Ela resolve conflitos anteriores e prevalece sobre instruções antigas incompatíveis. Em especial:
+- reconhecimento de fala/alinhamento temporal é permitido exclusivamente para gerar timestamps de legendas, sem modificar a faixa original;
+- FFmpeg pode extrair cópias temporárias de análise, inspecionar mídia, compor vídeo e muxar áudio original sem filtros;
+- o apresentador não precisa permanecer visível durante sequências de motion em tela cheia;
+- todo o conteúdo elegível de Impressões Prontas deve ser inventariado e processado conforme o ledger;
+- a finalização do lote exige uma pasta plana no Drive, sem subpastas, contendo somente arquivos finais aprovados para transferência ao Postiz.

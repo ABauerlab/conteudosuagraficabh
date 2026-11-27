@@ -89,35 +89,46 @@ Registrar URL, autor, plataforma, licença, data e evidência. Preferir material
 
 ## 6. Legendas obrigatórias em todos os Reels
 
-**Todo Reel deve ter legendas incorporadas no vídeo final.** A ausência de legendas reprova o vídeo, salvo bloqueio específico documentado por falta de correspondência confiável entre roteiro e fala.
+Todo Reel deve ter legendas incorporadas, sincronizadas com a fala real. O teleprompter é a fonte de conteúdo, mas não fornece timestamps.
 
-Regras:
-- Usar Montserrat oficial do Brand Kit.
-- Uma linha por vez, em blocos curtos, sincronizados com a fala.
-- Tamanho confortável em celular, contraste alto, fundo/contorno apenas se necessário para legibilidade.
-- Destacar poucas palavras-chave com parcimônia e identidade da marca.
-- Respeitar safe zones e nunca cobrir rosto, boca, produto ou informação essencial.
-- Manter tempo suficiente para leitura; não animar a legenda para fora antes de terminar.
-- Revisar em velocidade normal e em tela de celular.
+Procedimento técnico obrigatório:
+1. Identificar o RAW correspondente e preservar o arquivo original.
+2. Inspecionar streams, duração, taxa de quadros e áudio com FFprobe/FFmpeg.
+3. Extrair uma cópia temporária de áudio para análise, sem sobrescrever nem alterar o RAW.
+4. Gerar timestamps por palavra/frase usando ASR e, preferencialmente, alinhamento forçado (ex.: WhisperX ou ferramenta equivalente com suporte validado ao português brasileiro).
+5. Comparar o texto reconhecido com o teleprompter aprovado. O teleprompter determina o texto final; o ASR serve para localizar tempos e detectar divergências.
+6. Corrigir manualmente palavras, pausas, omissões, falsos positivos, pontuação e limites de cada legenda ouvindo o trecho correspondente.
+7. Gerar SRT/ASS ou estrutura equivalente com timestamps reais e blocos curtos de uma linha.
+8. Incorporar as legendas e reproduzir o vídeo completo, conferindo início/fim e amostras ao longo de toda a duração.
 
-**Fonte do texto e restrição de áudio:**
-- Usar o teleprompter/roteiro aprovado como fonte textual.
-- Conferir a correspondência entre roteiro e gravação ouvindo o bruto manualmente; não criar transcrição, arquivo de transcrição ou transcrição automatizada.
-- Não usar Whisper, speech-to-text, diarização ou captions automáticas.
-- A sincronização pode ser feita manualmente a partir da fala e do roteiro.
-- Se uma frase divergir do roteiro e não puder ser confirmada com segurança, não inventar nem corrigir a fala: omitir somente o trecho duvidoso da legenda, registrar o ponto e manter legendadas as partes confirmadas. Se a divergência comprometer a compreensão, bloquear apenas aquele Reel e solicitar decisão.
-- Não substituir legendas incorporadas por legendas automáticas da plataforma.
+Regras visuais:
+- Montserrat oficial do Brand Kit.
+- Uma linha por vez, em blocos curtos e legíveis em celular.
+- Destaques pontuais, sem excesso de animação.
+- Safe zones respeitadas; legenda não pode cobrir boca, rosto, produto ou informação essencial.
+- Tempo de leitura natural; nenhuma legenda entra antes da fala ou permanece após ela.
+- Conferir sincronização em velocidade normal, não apenas no arquivo SRT.
 
-A restrição contra transcrição automática **não é uma autorização para omitir as legendas**. Legendas manuais baseadas no roteiro aprovado são o padrão.
+**Integridade do áudio:** ASR/alinhamento é permitido exclusivamente sobre uma cópia temporária para análise de timestamps. Não usar diarização sem necessidade. Não usar a cópia de análise como áudio de saída. Não limpar, denoise, equalizar, comprimir, normalizar, restaurar, sintetizar, clonar, mixar ou alterar a faixa original. O áudio original deve ser mantido no resultado sem filtros. Quando a montagem exigir cortes, preservar a fala integral e os segmentos originais sem alterar seu conteúdo; qualquer limitação de mux/codec deve ser registrada e resolvida sem processamento sonoro.
 
-## 7. Apresentador, áudio e integridade
+Se o ASR divergir do teleprompter, não aceitar cegamente nenhum dos dois: ouvir o trecho. Corrigir a legenda para refletir a fala confirmada, mantendo o sentido e sem inventar. Se uma palavra não puder ser confirmada, omitir somente o trecho duvidoso e registrar timecode. Bloquear apenas o Reel afetado se a divergência comprometer o sentido.
 
-João deve continuar sendo o protagonista quando o briefing exige sua presença. Preservar rosto, cabelo, testa, queixo e laterais da cabeça. Não colocar texto, motion ou máscara sobre olhos, nariz ou boca. Não usar crop, zoom ou auto-reframe que corte o rosto. Se necessário, usar fundo estendido, moldura, split screen, picture-in-picture ou B-roll com o apresentador em janela.
+## 7. Apresentador, motion e integridade
 
-**Áudio original:** preservar a faixa exatamente como recebida. Não transcrever, limpar, denoise, equalizar, comprimir, normalizar, restaurar, alterar, sintetizar, clonar, substituir, mixar ou reconstruir a voz. Não executar voiceover. Não instalar ferramentas/modelos para essas tarefas. Não usar efeitos sonoros ou trilha que exijam mixagem/processamento da voz. Não alterar velocidade da fala. A edição pode fazer cortes visuais, mantendo a fala e o áudio originais intactos, sem cortar palavras/sílabas ou alterar sentido.
+João deve aparecer quando isso contribuir para a narrativa e o briefing exigir sua presença em determinado trecho, mas **não existe obrigação de manter seu rosto visível durante todo o Reel**.
 
-Se houver música autorizada e licenciada, só utilizar se puder ser adicionada sem modificar a faixa original; se a ferramenta exigir mixagem/processamento da voz, não usar. Música é opcional, nunca requisito para aprovar.
+Em sequências de motion graphics, é permitido e recomendado fazer transição para uma composição gráfica independente em tela cheia. O vídeo pode deixar completamente de mostrar o apresentador durante a explicação visual e retornar a ele depois.
 
+- Nunca cortar, deformar ou encobrir o rosto para encaixar elementos.
+- Não usar crop/auto-reframe que corte testa, queixo ou laterais.
+- Não colocar textos ou elementos sobre olhos, nariz ou boca.
+- Não manter o rosto como fundo obrigatório de cenas gráficas.
+- Planejar transições claras entre apresentador, B-roll e motion full-screen.
+- Escolher o formato por bloco narrativo: apresentador, tela dividida, picture-in-picture, B-roll ou motion em tela cheia.
+- Preservar a aparência real do apresentador nos trechos em que aparece.
+
+**Áudio original:** preservar a faixa original sem filtros, limpeza, restauração, normalização, equalização, compressão, mixagem, voiceover ou efeitos sonoros. A cópia temporária de análise para alinhamento de legendas não altera essa regra.
+ 
 ## 8. Storytelling, gancho e retenção
 
 Cada Reel precisa apresentar:
@@ -204,3 +215,13 @@ Após publicação, registrar alcance, não seguidores, retenção/tempo médio,
 Produzir ≠ revisar ≠ aprovar ≠ agendar ≠ publicar. Atualizar cada status somente com evidência. Verificar fila e duplicidade no Postiz, adaptar os destinos elegíveis e confirmar individualmente cada canal conforme a regra permanente do AGENTS.md. Não declarar distribuição completa sem confirmação.
 
 Este documento é o padrão de aceite audiovisual. Uma peça que não atende aos critérios acima não está concluída, mesmo que esteja renderizada.
+
+
+## Atualização normativa | Pipeline audiovisual, legendas, motion e entrega plana
+
+A norma operacional detalhada está em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Ela resolve conflitos anteriores e prevalece sobre instruções antigas incompatíveis. Em especial:
+- reconhecimento de fala/alinhamento temporal é permitido exclusivamente para gerar timestamps de legendas, sem modificar a faixa original;
+- FFmpeg pode extrair cópias temporárias de análise, inspecionar mídia, compor vídeo e muxar áudio original sem filtros;
+- o apresentador não precisa permanecer visível durante sequências de motion em tela cheia;
+- todo o conteúdo elegível de Impressões Prontas deve ser inventariado e processado conforme o ledger;
+- a finalização do lote exige uma pasta plana no Drive, sem subpastas, contendo somente arquivos finais aprovados para transferência ao Postiz.

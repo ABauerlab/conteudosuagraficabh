@@ -128,7 +128,7 @@ Antes de editar, conferir a instalação e a versão das skills de HyperFrames, 
 
 Ler primeiro as instruções de cada skill selecionada. Claude deve pesquisar e avaliar novas skills úteis para edição, animação e motion graphics, seguindo os critérios de licença, manutenção, compatibilidade, dependências, sobreposição e velocidade descritos em `PADROES-DE-EDICAO.md`. Não instalar candidatos sem avaliação.
 
-Não executar transcrição, Whisper, captions automáticas, voiceover, limpeza, processamento ou mixagem de áudio. Não usar módulos que dependam dessas etapas. Preservar integralmente a faixa de áudio original.
+Não processar nem substituir a faixa original. ASR/alinhamento forçado é permitido exclusivamente em cópia temporária para timestamps de legendas, com revisão humana contra o teleprompter e a gravação. Proibidos diarização desnecessária, voiceover, limpeza, filtros, normalização, restauração e mixagem. Seguir `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`.
 
 ## Briefing para Claude
 Claude pode usar Remotion, FFmpeg, JavaScript/TypeScript, chroma key, split screen, picture-in-picture, tracking, máscaras, motion graphics, animações, legendas e efeitos, conforme disponibilidade e adequação. O briefing deste repositório define a direção criativa. Claude executa tecnicamente, sem reinventar o conceito nem substituir o formato indicado sem necessidade. Se houver limitação técnica real, deve informar e propor a alternativa mais próxima.
@@ -167,8 +167,18 @@ A SUA GRÁFICA BH é uma gráfica que vende produtos. Os roteiros devem, em part
 Antes de escrever roteiro, consultar `DORES-REAIS-CLIENTES.md` e pesquisar a situação concreta do público. Trabalhar dúvidas como economizar na impressão sem gerar desperdício, escolher tipos de papel, entender gramatura e aplicação, preparar sangria e margem de segurança, evitar erros de arquivo, compreender variações de cor e comparar acabamentos como fosco e brilho. São territórios de pesquisa, não afirmações prontas nem uma sequência para repetir. Validar toda orientação técnica em documentação confiável e especificações atuais do fornecedor/CRM quando depender do produto da gráfica. O roteiro precisa entregar um passo prático, critério de decisão, demonstração ou erro evitável; não apenas citar o problema. Comparar o ângulo e a informação entregue com o histórico para impedir repetição semântica.
 
 ## Áudio original
-Preservar a faixa de áudio exatamente como gravada. Não transcrever, limpar, melhorar, normalizar, equalizar, comprimir ou processar a voz. Não instalar ferramentas nem baixar modelos para essas tarefas. Priorizar cortes visuais, ritmo, motion e finalização rápida. Se um bruto estiver incompreensível, registrar somente o ID afetado e seguir com o restante do lote.
+Preservar a faixa de áudio exatamente como gravada. Não limpar, melhorar, normalizar, equalizar, comprimir ou processar a faixa de voz. É permitido analisar uma cópia temporária com ASR/alinhamento exclusivamente para timestamps de legendas. Não substituir nem alterar o áudio original. Priorizar cortes visuais, ritmo, motion e finalização rápida. Se um bruto estiver incompreensível, registrar somente o ID afetado e seguir com o restante do lote.
 
 
 ## Critério de produção e aceite
 O vídeo deve ser concebido como narrativa audiovisual, não como gravação de câmera com acabamento superficial. Para cada bloco de fala, Claude precisa definir o que será visto e como esse visual explica o assunto. Ilustrações desenhadas na tela, objetos construídos em camadas, diagramas, ícones em ação, comparações e B-roll contextual devem ser utilizados quando o roteiro os comportar. Todo Reel recebe legendas incorporadas e capa independente. O aceite depende da lista de verificação e das reprovações automáticas de `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`.
+
+
+## Atualização normativa | Pipeline audiovisual, legendas, motion e entrega plana
+
+A norma operacional detalhada está em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Ela resolve conflitos anteriores e prevalece sobre instruções antigas incompatíveis. Em especial:
+- reconhecimento de fala/alinhamento temporal é permitido exclusivamente para gerar timestamps de legendas, sem modificar a faixa original;
+- FFmpeg pode extrair cópias temporárias de análise, inspecionar mídia, compor vídeo e muxar áudio original sem filtros;
+- o apresentador não precisa permanecer visível durante sequências de motion em tela cheia;
+- todo o conteúdo elegível de Impressões Prontas deve ser inventariado e processado conforme o ledger;
+- a finalização do lote exige uma pasta plana no Drive, sem subpastas, contendo somente arquivos finais aprovados para transferência ao Postiz.
