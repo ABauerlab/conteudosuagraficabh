@@ -1,6 +1,6 @@
 # Produção de vídeos curtos | SUA GRÁFICA BH
 
-> **Norma obrigatória:** antes de planejar, editar ou revisar qualquer vídeo, ler integralmente [`DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`](DIRECAO-AUDIOVISUAL-PROFISSIONAL.md). O padrão exige direção visual por cena, storyboard completo, motion graphics narrativo/desenhado, B-roll contextual, legendas incorporadas obrigatórias, capa e projeto-fonte. Talking head com cortes simples não é entrega concluída. Legendas manuais devem ser baseadas no teleprompter aprovado; a proibição de Whisper/transcrição automática não autoriza omiti-las.
+> **Norma obrigatória:** antes de planejar, editar ou revisar qualquer vídeo, ler integralmente [`DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`](DIRECAO-AUDIOVISUAL-PROFISSIONAL.md). O padrão exige direção visual por cena, storyboard completo, motion graphics narrativo/desenhado, B-roll contextual, legendas incorporadas obrigatórias, capa e projeto-fonte. Talking head com cortes simples não é entrega concluída. Legendas devem refletir a fala real e usar timestamps obtidos por ASR/alinhamento em cópia temporária, revisados contra o teleprompter aprovado; nunca alterar o áudio original.
 
 
 ## Objetivo

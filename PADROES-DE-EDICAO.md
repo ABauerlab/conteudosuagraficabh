@@ -80,7 +80,7 @@ Antes de editar qualquer vídeo, Claude deve auditar o ambiente, verificar vers�
    ```bash
    npx skills add Barty-Bart/motion-graphics
    ```
-   Inspecionar a lista de skills e selecionar apenas as adequadas. Não usar `motion-broll` quando depender de transcrição.
+   Inspecionar a lista de skills e selecionar apenas as adequadas. Usar `motion-broll` somente se o módulo puder receber transcrição textual derivada da análise temporária, sem modificar ou processar a faixa original; auditar scripts e dependências antes.
 
 4. **Remotion motion design especializado (opcional, após auditoria de sobreposição):**
    ```bash
@@ -129,7 +129,7 @@ A instalação dessas skills não autoriza criar uma pipeline desnecessariamente
 - Não mixar música, aplicar ducking ou inserir efeitos sonoros neste fluxo, pois isso exigiria alterar a faixa original. Música é opcional e só pode ser usada se a faixa original permanecer byte-for-byte/intacta no processo.
 
 ### Áudio: preservar e não processar
-Não executar transcrição, Whisper, diarização, limpeza, denoise, de-reverb, equalização, compressão, normalização, limiter, restauração ou qualquer melhoria/processamento da voz. Não instalar pacotes, baixar modelos ou iniciar serviços para essas tarefas. Manter a faixa original da gravação sem alterações. A edição pode cortar trechos visuais, mas não deve reconstruir, regravar, sintetizar ou alterar a fala. Se o áudio de um bruto estiver realmente incompreensível, sinalizar somente aquele ID e continuar os demais conteúdos.
+Não executar diarização sem necessidade, limpeza, denoise, de-reverb, equalização, compressão, normalização, limiter, restauração ou qualquer melhoria/processamento da faixa original. ASR/alinhamento forçado é permitido exclusivamente em cópia temporária para timestamps de legendas, conforme `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`. Não instalar ferramentas de áudio para outras finalidades. Manter a faixa original sem alterações. Se o áudio de um bruto estiver incompreensível, sinalizar somente aquele ID e continuar os demais conteúdos.
 
 ## Norma audiovisual complementar e obrigatória
 Para todo Reel/vídeo, ler primeiro `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. Ele é a norma executável de produção e aceite: exige storyboard cobrindo o vídeo inteiro, motion graphics narrativo (incluindo ilustrações desenhadas/animadas quando pertinentes), B-roll contextual, legendas incorporadas obrigatórias, capa, projeto-fonte e QA integral. Em caso de divergência entre instruções de velocidade/edição simples deste arquivo e a norma audiovisual, prevalece `DIRECAO-AUDIOVISUAL-PROFISSIONAL.md`. O `PADRAO-MESTRE-CONTEUDO-PROFISSIONAL.md` continua complementar para proteção do rosto, cinematografia, storytelling, identidade, distribuição e critérios gerais. **Nunca cortar ou encobrir o rosto do apresentador.**
