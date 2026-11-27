@@ -29,6 +29,8 @@ O CRM é a fonte de verdade para identidade visual oficial, catálogo atual, dis
 - Não inventar preço, prazo, estoque, especificação, acabamento, gramatura, quantidade mínima ou diferencial.
 
 ## Regra de pesquisa antes de roteiro
+
+Todos os lotes devem incluir pesquisa atual de notícias, tendências e vídeos em alta, além de pautas evergreen. Usar fontes e datas verificáveis, avaliar a validade da pauta e propor react/comentário, análise ou demonstração original quando fizer sentido. Não copiar vídeos de terceiros nem presumir viralidade. Consultar PESQUISA-DE-TENDENCIAS.md.
 - Se o formato for react, comentário, tela dividida ou fundo verde baseado em vídeo externo, pesquisar e localizar primeiro a publicação original.
 - Preferir link direto do Instagram quando o original estiver publicado lá e puder ser verificado.
 - Entregar link, perfil/criador e plataforma. Confirmar que o conteúdo corresponde à descrição.
@@ -192,45 +194,23 @@ Ao concluir um lote, apresentar um relatório curto e factual: conteúdos e arqu
 
 **Esta seção é uma diretriz permanente e deve ser lida antes de qualquer planejamento, criação, edição, revisão ou distribuição de conteúdo. Em caso de conflito, prevalecem as regras de segurança do CRM, direitos autorais, permissões e integridade factual; dentro desses limites, a prioridade é construir uma audiência qualificada e gerar vendas de forma inteligente.**
 
-## Regra operacional permanente: distribuição obrigatória de TODO conteúdo via Postiz
+## Regra operacional permanente: central de conteúdo e entrega manual ao Postiz
 
-**Produção aprovada não significa trabalho concluído. Todo conteúdo de qualquer formato — Reel, Feed/carrossel, post estático e cada peça/sequência de Stories — deve passar pelo Postiz para distribuição, conforme o calendário, os canais conectados e as capacidades reais das integrações.** Esta regra é obrigatória para todos os lotes e etapas autorizados. Não depende de João repetir a instrução em cada prompt.
+O repositório é a central de conteúdo da SUA GRÁFICA BH. A participação de João deve ficar concentrada em gravar os Reels previstos, colocar novos trabalhos na pasta 07 - IMPRESSÕES PRONTAS, fazer upload em lote dos exports finais para a biblioteca Media do Postiz e disparar a programação com “Pode programar todos os conteúdos”.
 
-### Fluxo obrigatório por conteúdo
-A execução de cada ID SG deve seguir esta ordem, sem pular etapas:
+Claude executa pesquisa, planejamento, briefings, edição, design, QA, organização, manifesto e, após o comando, agendamento no Postiz. **Claude não deve fazer upload dos arquivos finais para o Media do Postiz** no fluxo padrão: essa etapa será realizada manualmente por João.
 
-1. Produzir e exportar os arquivos finais.
-2. Fazer o controle de qualidade completo exigido pelo briefing e pelos padrões do projeto.
-3. Corrigir os problemas encontrados e repetir a revisão. Somente materiais aprovados podem avançar.
-4. Preparar a publicação: legenda/copy, CTA, hashtags quando aplicáveis, links, mídia e adaptações específicas por plataforma.
-5. Consultar o calendário e o Postiz para identificar canais conectados/autorizados, horários definidos e publicações já existentes daquele ID. **Não criar agendamento duplicado.**
-6. Enviar/agendar o conteúdo pelo Postiz em cada canal previsto e tecnicamente compatível.
-7. Conferir no próprio Postiz o resultado de cada destino: conteúdo/mídia anexados, canal correto, data, horário e status retornado.
-8. Atualizar CALENDARIO.md, README/índice do lote e controles de produção somente com os estados efetivamente confirmados.
+1. Pesquisar oportunidades evergreen e atuais, incluindo notícias, trends, vídeos em alta e assuntos do momento.
+2. Planejar lote variado, sem repetição semântica, com pacote de gravação completo.
+3. João grava os Reels e envia RAWs; novos trabalhos são adicionados a Impressões Prontas.
+4. Claude produz, revisa e cria pasta plana por lote em 06 - PARA POSTIZ/LOTE-AAAA-MM-DD-a-AAAA-MM-DD/.
+5. Claude atualiza manifesto, calendário, briefings e estado. Não agenda antes do comando explícito.
+6. João faz upload em lote dos arquivos finais para Media do Postiz.
+7. João envia “Pode programar todos os conteúdos”.
+8. Claude localiza mídias existentes, confere correspondências, consulta duplicidade, agenda por canal e confirma cada resultado.
+9. Claude atualiza registros e entrega relatório factual.
 
-### Cobertura por formato e canal
-- Aplicar o fluxo a **todos os formatos**, inclusive Stories. Não presumir que Stories estejam dispensados da distribuição.
-- Para Feed e Reels, distribuir em todas as redes previstas no calendário que estejam conectadas, autorizadas e aceitem aquele formato.
-- Para carrosséis, conferir se a sequência completa de imagens foi enviada na ordem correta e se o canal/conector aceita a quantidade e o formato.
-- Para Stories, enviar pelo Postiz cada peça ou sequência conforme a estrutura e os recursos efetivamente suportados pela integração. Conferir ordem, mídia, destino e agendamento.
-- Adaptar copy, legenda, CTA, hashtags, proporção, mídia e sequência para cada rede. Não fazer publicação cruzada cega.
-- Não presumir suporte de um formato em um canal. Verificar a integração e a capacidade real no Postiz antes de agendar.
-
-### Confirmação, falhas e estados
-- A distribuição deve ser executada pelo Postiz. Não substituir silenciosamente o fluxo por publicação manual em outra ferramenta ou diretamente na rede social.
-- Se um canal não estiver conectado/autorizado, se o formato não for suportado ou se o Postiz retornar erro, registrar o bloqueio por ID e por canal, preservar o material aprovado e tentar resolver dentro das permissões disponíveis.
-- Quando o Postiz não oferecer suporte ao formato/canal, não alegar que o conteúdo foi distribuído. Marcar como **PENDENTE DE DISTRIBUIÇÃO VIA POSTIZ**, explicar a limitação e solicitar somente a intervenção necessária.
-- Diferenciar rigorosamente: **PRODUZIDO**, **EM REVISÃO**, **APROVADO**, **ENVIADO AO POSTIZ**, **AGENDADO/CONFIRMADO**, **PUBLICADO/CONFIRMADO** e **PENDENTE/BLOQUEADO**.
-- Só marcar como AGENDADO após confirmação visível no Postiz para aquele canal, com data e horário corretos. Só marcar como PUBLICADO após evidência de publicação.
-- Se houver falha parcial, manter o status separado por canal. O sucesso no Instagram, por exemplo, não confirma distribuição no Facebook, Threads ou Stories.
-- Antes de criar qualquer agendamento, verificar se já existe uma publicação correspondente para evitar duplicidade. Não alterar nem duplicar conteúdos previamente agendados sem autorização.
-- Não publicar imediatamente algo que o calendário determina agendar para outra data. Não inventar horários nem alterar o calendário sem autorização.
-- Não considerar um lote operacionalmente concluído enquanto houver conteúdo aprovado sem tentativa de distribuição ou pendência de Postiz não documentada.
-
-### Relatório obrigatório
-Ao concluir cada etapa/lote, apresentar uma matriz com ID SG, formato, canal, data/hora prevista e status confirmado no Postiz. Informar links/identificadores disponíveis, falhas e pendências. Distinguir claramente o que foi produzido, revisado, aprovado, enviado, agendado e publicado. Nunca declarar distribuição concluída sem confirmação por destino.
-
-Esta regra complementa as regras específicas de distribuição multicanal e hashtags abaixo. Em caso de conflito de execução, prevalecem as capacidades reais do Postiz, as permissões das contas, o calendário autorizado e a obrigação de reportar qualquer bloqueio sem inventar sucesso.
+O procedimento detalhado está em FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md e prevalece sobre instruções antigas que mandem Claude fazer upload de mídia para o Postiz.
 
 
 ## Auditoria de processo e resolução de conflitos
@@ -301,7 +281,7 @@ Localizar e ler o guia e os materiais aplicáveis dessa pasta em cada tarefa de 
 Preservar a faixa original sem filtros, restauração, normalização, mixagem ou alteração de timbre/volume. Para sincronizar legendas, é permitido extrair uma cópia temporária de áudio e usar ASR/alinhamento forçado (por exemplo WhisperX) exclusivamente para localizar timestamps. O texto final deve ser validado contra o teleprompter aprovado e a gravação real; corrigir manualmente omissões, falsos reconhecimentos e pontuação. Não usar diarização quando não necessária. A faixa original nunca é substituída pela cópia de análise. Ver o procedimento executável em `PIPELINE-AUDIOVISUAL-LEGENDAS-MOTION-E-ENTREGA.md`.
 
 ## Execução resiliente de edição e distribuição (obrigatório)
-Para qualquer finalização de lote, Claude deve seguir EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md. O fluxo padrão é: João grava e envia os brutos; Claude localiza, edita, produz artes, revisa e distribui pelo Postiz MCP conectado. Não exigir login manual no navegador, links públicos, upload manual repetido ou novas credenciais antes de verificar as integrações existentes. Usar alternativas autorizadas por etapa, persistir checkpoints e isolar falhas por ID/canal; nunca interromper o lote inteiro por uma falha localizada.
+Para qualquer finalização de lote, Claude deve seguir FLUXO-DE-ENTREGA-E-AGENDAMENTO-POSTIZ.md e EXECUCAO-RESILIENTE-MIDIA-POSTIZ.md. Claude produz e revisa, entrega exports em pasta plana no Drive; João faz upload em lote para Media; somente após “Pode programar todos os conteúdos”, Claude associa as mídias existentes e agenda. Claude não faz upload de mídia no fluxo padrão.
 
 
 ## Atualização normativa | Pipeline audiovisual, legendas, motion e entrega plana
